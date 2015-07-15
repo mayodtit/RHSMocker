@@ -1,14 +1,16 @@
 class Api::V1::UsersController < Api::V1::ABaseController
-  before_filter :load_user!, only: [:show, :update]
-  before_filter :convert_parameters!, only: [:update]
+  before_filter :load_user!, only: %i(show update)
+  before_filter :convert_parameters!, only: :update
 
   def show
-    show_resource @user.serializer(serializer_options)
+    render_success(user: @user.serializer(serializer_options),
+                   member: @user.serializer(serializer_options))
   end
 
   def update
-    if @user.update_attributes(permitted_params(@user).user)
-      render_success user: @user.serializer(serializer_options).as_json
+    if @user.update_attributes(update_params)
+      @user = User.find(@user.id) # force reload of CarrierWave image for correct URL
+      render_success(user: @user.serializer(serializer_options))
     else
       render_failure({reason: error_reason_string}, 422)
     end
@@ -23,33 +25,48 @@ class Api::V1::UsersController < Api::V1::ABaseController
 
   private
 
-  def load_user!
-    @user = User.find_by_id(params[:id]) || current_user
-    authorize! :manage, @user
-  end
-
   def user_params
     params.fetch(:user){params.require(:member)}
   end
 
-  def convert_parameters!
-    %i(user_information address insurance_policy provider emergency_contact).each do |key|
-      user_params["#{key}_attributes".to_sym] = user_params[key] if user_params[key]
+  def load_user!
+    @user = if params[:id] == 'current'
+              current_user
+            else
+              User.find_by_id(params[:id])
+            end
+    authorize! :manage, @user
+  end
+
+  def update_params
+    permitted_params(@member).user.tap do |attrs|
+      # decode images
+      attrs[:avatar] = decode_b64_image(user_params[:avatar]) if user_params[:avatar]
+
+      # rename hashes for nested_attributes
+      attrs[:user_information_attributes] = user_params[:user_information] if user_params[:user_information]
+      attrs[:insurance_policy_attributes] = user_params[:insurance_policy] if user_params[:insurance_policy]
+      attrs[:provider_attributes] = user_params[:provider] if user_params[:provider]
+      attrs[:emergency_contact_attributes] = user_params[:emergency_contact] if user_params[:emergency_contact]
+
+      # allow multiple ways to set addresses
+      attrs[:address_attributes] = user_params[:address] if user_params[:address]
+      attrs[:addresses_attributes] = [attrs[:address_attributes]] if attrs[:address_attributes]
+
+      # set attributes
+      attrs[:user_agreements_attributes] = user_agreements_attributes if user_params[:tos_checked] || user_params[:agreement_id]
+      attrs[:time_zone] = params[:device_properties].try(:[], :device_timezone)
+      attrs[:actor_id] = current_user.try(:id)
     end
-
-    user_params[:addresses_attributes] = [user_params[:address_attributes]]
-
-    # HACK - iOS and Care Portal are updating address in different places.  CONSOLIDATE ASAP
-    address = params[:address]
-    user_params[:addresses_attributes] = [address] if address
-
-    user_params[:avatar] = decode_b64_image(user_params[:avatar]) if user_params[:avatar]
-    user_params[:actor_id] = current_user.id
   end
 
   def serializer_options
     {}.tap do |options|
-      options.merge!(include_nested_information: true) if current_user.care_provider?
+      if current_user.care_provider? || current_user.admin?
+        options[:include_roles] = true
+        options[:include_nested_information] = true
+        options[:include_onboarding_information] = true
+      end
     end
   end
 
