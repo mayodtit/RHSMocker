@@ -67,9 +67,9 @@ RHSMocker::Application.routes.draw do
       delete :logout, to: 'sessions#destroy', as: :logout # TODO - deprecated!
       post :members, to: 'onboarding#sign_up' # TODO - deprecated!
       resources :members, only: [:index, :show, :update] do
-        get :current, on: :collection
         put :secure_update, on: :member
-        put :update_current, on: :collection # TODO - this should be deprecated in general, client should know the ID
+        get :current, on: :collection, to: 'members#show', id: 'current'
+        put :update_current, on: :collection, to: 'members#update', id: 'current'
         resources :tasks, only: [:index, :create], controller: 'member_tasks'
         resources :entries, only: :index
         resources :services, only: [:index, :create]
