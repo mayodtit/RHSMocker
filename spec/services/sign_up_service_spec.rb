@@ -44,7 +44,6 @@ describe SignUpService do
           },
           subscription: {
             payment_token: stripe_card_token,
-            coupon_code: stripe_coupon
           }
         }
       end
