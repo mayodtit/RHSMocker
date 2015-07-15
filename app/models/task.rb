@@ -26,7 +26,8 @@ class Task < ActiveRecord::Base
                   :state_event, :service_type_id, :service_type,
                   :task_template, :task_template_id, :service, :service_id, :service_ordinal,
                   :priority, :actor_id, :member_id, :member, :reason, :visible_in_queue,
-                  :day_priority, :time_estimate, :pubsub_client_id, :urgent, :unread, :follow_up, :task_template_set_id
+                  :day_priority, :time_estimate, :pubsub_client_id, :urgent, :unread, :follow_up,
+                  :task_template_set_id, :result
 
   validates :title, :state, :creator_id, :role_id, :due_at, :priority, presence: true
   validates :urgent, :unread, :follow_up, :inclusion => { :in => [true, false] }
@@ -203,7 +204,7 @@ class Task < ActiveRecord::Base
     end
 
     after_transition any - :completed => :completed  do |task|
-      task.service.create_next_task_template_set_tasks(task.task_template.task_template_set, task.due_at)
+      task.service.create_next_task_template_set_tasks(task.task_template.task_template_set, task.due_at) if task.service
     end
 
     before_transition any - :abandoned => :abandoned do |task|
