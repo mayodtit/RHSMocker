@@ -79,8 +79,9 @@ RHSMocker::Application.routes.draw do
       end
       resources :message_templates, except: %i(new edit)
       resources :onboarding, only: [] do
-        get :email_validation
-        post :sign_up
+        get :email_validation, on: :collection
+        post :sign_up, on: :collection
+        get :referral_code_validation, on: :collection
       end
       resources :onboarding_groups, only: %i(index show create update) do
         resources :users, only: %i(index create destroy), controller: 'onboarding_group_users'

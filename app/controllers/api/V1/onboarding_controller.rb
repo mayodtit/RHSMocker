@@ -22,6 +22,15 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
     end
   end
 
+  def referral_code_validation
+    @referral_code = ReferralCode.find_by_code!(params[:code])
+    if @referral_code.onboarding_group.try(:skip_credit_card?)
+      render_success(skip_credit_card: true)
+    else
+      render_success(skip_credit_card: false)
+    end
+  end
+
   private
 
   def onboarding_group_for_onboarding
