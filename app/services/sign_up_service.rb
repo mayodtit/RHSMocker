@@ -20,7 +20,7 @@ class SignUpService < Struct.new(:params, :options)
       {
         success: true,
         user: @member,
-        auth_token: @auth_token
+        session: @session
       }
    rescue ActiveRecord::RecordInvalid => e
      {
