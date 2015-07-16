@@ -178,6 +178,7 @@ class Service < ActiveRecord::Base
     self.assignor ||= creator
     self.actor_id ||= creator.try(:id)
     self.time_zone ||= member.try(:time_zone)
+    self.time_zone_offset = ActiveSupport::TimeZone.new(time_zone).try(:utc_offset) if time_zone
     true
   end
 

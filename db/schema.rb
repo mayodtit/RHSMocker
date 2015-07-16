@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150714194628) do
+ActiveRecord::Schema.define(:version => 20150716203652) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1050,6 +1050,7 @@ ActiveRecord::Schema.define(:version => 20150714194628) do
     t.text     "service_deliverable"
     t.text     "service_update"
     t.string   "time_zone"
+    t.integer  "time_zone_offset"
   end
 
   add_index "services", ["assignor_id"], :name => "index_services_on_assignor_id"
@@ -1273,6 +1274,7 @@ ActiveRecord::Schema.define(:version => 20150714194628) do
     t.datetime "unblocked_at"
     t.string   "queue"
     t.string   "time_zone"
+    t.integer  "time_zone_offset"
   end
 
   add_index "tasks", ["owner_id", "state", "role_id", "type"], :name => "queue_test"
