@@ -63,7 +63,7 @@ RHSMocker::Application.routes.draw do
       resources :ethnic_groups, :only => :index
       get 'factors/:symptom_id', to: 'factor_groups#index' # TODO - deprecated!
       resources :locations, :only => :create
-      post :login, to: 'sessions#create', as: :login # TODO - deprecated!
+      post :login, to: 'onboarding#log_in', as: :login # TODO - deprecated!
       delete :logout, to: 'sessions#destroy', as: :logout # TODO - deprecated!
       post :members, to: 'onboarding#sign_up' # TODO - deprecated!
       get 'members/:id', to: 'users#show'
@@ -82,6 +82,7 @@ RHSMocker::Application.routes.draw do
         get :email_validation, on: :collection
         get :referral_code_validation, on: :collection
         post :sign_up, on: :collection
+        post :log_in, on: :collection
       end
       resources :onboarding_groups, only: %i(index show create update) do
         resources :users, only: %i(index create destroy), controller: 'onboarding_group_users'

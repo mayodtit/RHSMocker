@@ -71,4 +71,54 @@ describe 'Onboarding' do
       end
     end
   end
+
+  describe '#log_in' do
+    def do_request(params={})
+      post '/api/v1/onboarding/log_in', params
+    end
+
+    context 'bad credentials' do
+      it 'returns 401' do
+        do_request(email: 'test@getbetter.com', password: 'baadbeef')
+        expect(response).to_not be_success
+        expect(response.code).to eq('401')
+        body = JSON.parse(response.body, symbolize_names: true)
+        expect(body[:reason]).to eq('Incorrect credentials')
+        expect(body[:user_message]).to eq('Email or password is invalid')
+      end
+    end
+
+    context 'good credentials' do
+      let(:email) { 'test@getbetter.com' }
+      let(:password) { 'password' }
+
+      context 'normal user' do
+        let!(:pha) { create(:pha) }
+        let!(:onboarding_group) { create(:onboarding_group, custom_welcome: 'lorem ipsum') }
+        let!(:user) { create(:member, :premium, email: email, password: password, pha: pha, onboarding_group: onboarding_group) }
+
+        it 'creates a new session and returns the log in information' do
+          expect{ do_request(email: email, password: password) }.to change(Session, :count).by(1)
+          expect(response).to be_success
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(body[:user].to_json).to eq(user.serializer(include_roles: true).as_json.to_json)
+          expect(body[:pha].to_json).to eq(pha.serializer.as_json.to_json)
+          expect(body[:auth_token]).to be_present
+          expect(body[:onboarding_custom_welcome]).to eq(onboarding_group.serializer(onboarding_custom_welcome: true).as_json)
+        end
+      end
+
+      context 'care portal user' do
+        let!(:user) { create(:pha, email: email, password: password) }
+
+        it 'creates a new care portal session and returns the log in information' do
+          expect{ do_request(email: email, password: password, care_portal: true) }.to change(CarePortalSession, :count).by(1)
+          expect(response).to be_success
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(body[:user].to_json).to eq(user.serializer(include_roles: true).as_json.to_json)
+          expect(body[:auth_token]).to be_present
+        end
+      end
+    end
+  end
 end

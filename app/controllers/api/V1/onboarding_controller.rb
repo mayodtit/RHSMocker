@@ -22,6 +22,21 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
     end
   end
 
+  def log_in
+    @user = login(email, password)
+    render_failure({reason:"Incorrect credentials", user_message: 'Email or password is invalid'}, 401) and return unless @user
+    @sessions = params[:care_portal] ? @user.care_portal_sessions : @user.sessions
+    @session = @sessions.create
+    if @session.errors.empty?
+      render_success(user: @user.serializer(include_roles: true),
+                     pha: @user.pha.try(:serializer),
+                     auth_token: @session.auth_token,
+                     onboarding_custom_welcome: onboarding_custom_welcome)
+    else
+      render_failure({reason: @session.errors.full_messages.to_sentence}, 422)
+    end
+  end
+
   def sign_up
     sign_up_response = SignUpService.new(sign_up_params, sign_up_options).call
     if sign_up_response[:success]
@@ -47,6 +62,14 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
 
   def onboarding_custom_welcome
     onboarding_group.try(:serializer, onboarding_custom_welcome: true)
+  end
+
+  def email
+    params[:user].try(:[], :email) || params[:email]
+  end
+
+  def password
+    params[:user].try(:[], :password) || params[:password]
   end
 
   def sign_up_params
