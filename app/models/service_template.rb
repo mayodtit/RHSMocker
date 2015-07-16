@@ -29,8 +29,8 @@ class ServiceTemplate < ActiveRecord::Base
 
   def create_deep_copy!
     new_service_template = self.class.create!(attributes.except('id', 'version', 'state', 'created_at', 'updated_at'))
-    task_templates.each do |tt|
-      tt.create_deep_copy!(new_service_template)
+    task_template_sets.each do |tts|
+      tts.create_deep_copy!(new_service_template)
     end
     new_service_template
   end

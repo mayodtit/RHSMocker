@@ -5,7 +5,7 @@ class TaskTemplate < ActiveRecord::Base
   has_many :tasks
   has_many :task_guides
 
-  attr_accessible :name, :title, :description, :time_estimate, :priority, :service_ordinal, :service_template, :service_template_id, :modal_template, :task_template_set_id
+  attr_accessible :name, :title, :description, :time_estimate, :priority, :service_ordinal, :service_template, :service_template_id, :modal_template, :task_template_set_id, :task_template_set
 
   before_validation :copy_title_to_name
   validates :name, :title, presence: true
@@ -40,9 +40,9 @@ class TaskTemplate < ActiveRecord::Base
     end
   end
 
-  def create_deep_copy!(override_service_template=nil)
+  def create_deep_copy!(override_task_template_set=nil)
     new_modal_template = modal_template.try(:create_copy!)
-    self.class.create!(attributes.except('id', 'service_template_id', 'created_at', 'updated_at', 'modal_template_id').merge(service_template: override_service_template || service_template, modal_template: new_modal_template || modal_template))
+    self.class.create!(attributes.except('id', 'created_at', 'updated_at', 'modal_template_id', 'task_template_set_id', 'service_template_id').merge(task_template_set: override_task_template_set || task_template_set, modal_template: new_modal_template || modal_template, service_template: override_task_template_set.service_template || service_template))
   end
 
   def no_placeholders_in_user_facing_attributes
