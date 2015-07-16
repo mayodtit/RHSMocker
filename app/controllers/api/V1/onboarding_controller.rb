@@ -4,10 +4,12 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
   def email_validation
     if @user = Member.find_by_email(params[:email])
       render_success(requires_sign_up: false,
-                     onboarding_customization: onboarding_customization)
+                     onboarding_customization: onboarding_customization,
+                     onboarding_custom_welcome: onboarding_custom_welcome)
     else
       render_success(requires_sign_up: true,
-                     onboarding_customization: onboarding_customization)
+                     onboarding_customization: onboarding_customization,
+                     onboarding_custom_welcome: onboarding_custom_welcome)
     end
   end
 
