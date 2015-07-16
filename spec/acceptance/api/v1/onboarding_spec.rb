@@ -9,7 +9,7 @@ resource 'Onboarding' do
     parameter :email, 'Email address to check'
     required_parameters :email
 
-    let(:onboarding_group) { create(:onboarding_group, custom_welcome: 'Welcome to Better! This is a custom message just for you!') }
+    let(:onboarding_group) { create(:onboarding_group, custom_welcome: 'Welcome to Better! This is a custom message just for you!', skip_credit_card: true) }
     let(:user) { create(:member, :premium, onboarding_group: onboarding_group) }
     let(:email) { user.email }
 
@@ -29,6 +29,7 @@ resource 'Onboarding' do
         expect(status).to eq(200)
         body = JSON.parse(response_body, symbolize_names: true)
         expect(body[:requires_sign_up]).to be_false
+        expect(body[:skip_credit_card]).to be_true
         expect(body[:onboarding_customization]).to eq(onboarding_group.serializer(onboarding_customization: true).as_json)
         expect(body[:onboarding_custom_welcome]).to eq([onboarding_group.serializer(onboarding_custom_welcome: true).as_json])
       end

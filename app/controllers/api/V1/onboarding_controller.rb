@@ -4,10 +4,12 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
   def email_validation
     if @user = Member.find_by_email(params[:email])
       render_success(requires_sign_up: false,
+                     skip_credit_card: onboarding_skip_credit_card?,
                      onboarding_customization: onboarding_customization,
                      onboarding_custom_welcome: onboarding_custom_welcome)
     else
       render_success(requires_sign_up: true,
+                     skip_credit_card: onboarding_skip_credit_card?,
                      onboarding_customization: onboarding_customization,
                      onboarding_custom_welcome: onboarding_custom_welcome)
     end
@@ -15,13 +17,8 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
 
   def referral_code_validation
     @referral_code = ReferralCode.find_by_code!(params[:code])
-    if onboarding_group.try(:skip_credit_card?)
-      render_success(skip_credit_card: true,
-                     onboarding_custom_welcome: onboarding_custom_welcome)
-    else
-      render_success(skip_credit_card: false,
-                     onboarding_custom_welcome: onboarding_custom_welcome)
-    end
+    render_success(skip_credit_card: onboarding_skip_credit_card?,
+                   onboarding_custom_welcome: onboarding_custom_welcome)
   end
 
   def log_in
@@ -56,6 +53,10 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
 
   def onboarding_group
     @onboarding_group ||= @referral_code.try(:onboarding_group) || @user.try(:onboarding_group)
+  end
+
+  def onboarding_skip_credit_card?
+    onboarding_group.try(:skip_credit_card?) ? true : false
   end
 
   def onboarding_customization
