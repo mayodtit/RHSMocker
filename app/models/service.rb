@@ -78,18 +78,20 @@ class Service < ActiveRecord::Base
     end
   end
 
-  def check_each_task(current_task_template_set)
-    Task.where(task_template_set_id: current_task_template_set.id).each do |t|
-      t.result? ? true : false
+  def check_each_task_result(current_task_template_set)
+    Task.where(task_template_set_id: current_task_template_set.id, service_id: self.id).each do |t|
+      @result = t.result?
+      break if !@result
     end
+    @result
   end
 
   def next_task_template_set(current_task_template_set)
     if current_task_template_set.nil?
       self.service_template.task_template_sets.first
-    elsif current_task_template_set.affirmative_child_id && check_each_task(current_task_template_set)
+    elsif current_task_template_set.affirmative_child_id && check_each_task_result(current_task_template_set)
       TaskTemplateSet.find(current_task_template_set.try(:affirmative_child_id))
-    elsif current_task_template_set.negative_child_id && !check_each_task(current_task_template_set)
+    elsif current_task_template_set.negative_child_id && !check_each_task_result(current_task_template_set)
       TaskTemplateSet.find(current_task_template_set.try(:negative_child_id))
     else
       nil
