@@ -30,7 +30,7 @@ resource 'Onboarding' do
         body = JSON.parse(response_body, symbolize_names: true)
         expect(body[:requires_sign_up]).to be_false
         expect(body[:onboarding_customization]).to eq(onboarding_group.serializer(onboarding_customization: true).as_json)
-        expect(body[:onboarding_custom_welcome]).to eq(onboarding_group.serializer(onboarding_custom_welcome: true).as_json)
+        expect(body[:onboarding_custom_welcome]).to eq([onboarding_group.serializer(onboarding_custom_welcome: true).as_json])
       end
     end
   end
@@ -49,7 +49,7 @@ resource 'Onboarding' do
         expect(status).to eq(200)
         body = JSON.parse(response_body, symbolize_names: true)
         expect(body[:skip_credit_card]).to be_true
-        expect(body[:onboarding_custom_welcome]).to eq(onboarding_group.serializer(onboarding_custom_welcome: true).as_json)
+        expect(body[:onboarding_custom_welcome]).to eq([onboarding_group.serializer(onboarding_custom_welcome: true).as_json])
       end
     end
   end
@@ -74,7 +74,7 @@ resource 'Onboarding' do
         expect(body[:user].to_json).to eq(user.serializer(include_roles: true).as_json.to_json)
         expect(body[:pha].to_json).to eq(pha.serializer.as_json.to_json)
         expect(body[:auth_token]).to be_present
-        expect(body[:onboarding_custom_welcome]).to eq(onboarding_group.serializer(onboarding_custom_welcome: true).as_json)
+        expect(body[:onboarding_custom_welcome]).to eq([onboarding_group.serializer(onboarding_custom_welcome: true).as_json])
       end
     end
   end

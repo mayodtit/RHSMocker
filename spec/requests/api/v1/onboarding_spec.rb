@@ -16,7 +16,7 @@ describe 'Onboarding' do
         body = JSON.parse(response.body, symbolize_names: true)
         expect(body[:requires_sign_up]).to be_false
         expect(body[:onboarding_customization]).to eq(onboarding_group.serializer(onboarding_customization: true).as_json)
-        expect(body[:onboarding_custom_welcome]).to eq(onboarding_group.serializer(onboarding_custom_welcome: true).as_json)
+        expect(body[:onboarding_custom_welcome]).to eq([onboarding_group.serializer(onboarding_custom_welcome: true).as_json])
       end
     end
 
@@ -27,7 +27,7 @@ describe 'Onboarding' do
         body = JSON.parse(response.body, symbolize_names: true)
         expect(body[:requires_sign_up]).to be_true
         expect(body[:onboarding_customization]).to be_nil # not currently supported
-        expect(body[:onboarding_custom_welcome]).to be_nil # not currently supported
+        expect(body[:onboarding_custom_welcome]).to be_empty # not currently supported
       end
     end
   end
@@ -55,7 +55,7 @@ describe 'Onboarding' do
           expect(response).to be_success
           body = JSON.parse(response.body, symbolize_names: true)
           expect(body[:skip_credit_card]).to be_true
-          expect(body[:onboarding_custom_welcome]).to eq(onboarding_group.serializer(onboarding_custom_welcome: true).as_json)
+          expect(body[:onboarding_custom_welcome]).to eq([onboarding_group.serializer(onboarding_custom_welcome: true).as_json])
         end
       end
 
@@ -106,7 +106,7 @@ describe 'Onboarding' do
           expect(body[:user].to_json).to eq(user.serializer(include_roles: true).as_json.to_json)
           expect(body[:pha].to_json).to eq(pha.serializer.as_json.to_json)
           expect(body[:auth_token]).to be_present
-          expect(body[:onboarding_custom_welcome]).to eq(onboarding_group.serializer(onboarding_custom_welcome: true).as_json)
+          expect(body[:onboarding_custom_welcome]).to eq([onboarding_group.serializer(onboarding_custom_welcome: true).as_json])
         end
       end
 

@@ -63,7 +63,11 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
   end
 
   def onboarding_custom_welcome
-    onboarding_group.try(:serializer, onboarding_custom_welcome: true)
+    if onboarding_group
+      [onboarding_group.serializer(onboarding_custom_welcome: true).as_json]
+    else
+      []
+    end
   end
 
   def email
