@@ -27,7 +27,8 @@ describe CreateStripeSubscriptionService do
         it 'creates a stripe customer with credit card' do
           Stripe::Customer.should_receive(:create).with(card: credit_card_token,
                                                         email: user.email,
-                                                        description: StripeExtension.customer_description(user.id))
+                                                        description: StripeExtension.customer_description(user.id),
+                                                        coupon: nil)
                                                   .and_call_original
           described_class.new(user: user, plan_id: plan_id, credit_card_token: credit_card_token).call
           expect(Stripe::Customer.retrieve(user.stripe_customer_id).cards.count).to eq(1)

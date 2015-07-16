@@ -13,6 +13,10 @@ describe Api::V1::UsersController do
       get :show
     end
 
+    before do
+      User.stub(find: user)
+    end
+
     it_behaves_like 'action requiring authentication and authorization'
 
     context 'authenticated and authorized', user: :authenticate_and_authorize! do

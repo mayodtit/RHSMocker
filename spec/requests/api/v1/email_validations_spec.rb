@@ -28,7 +28,7 @@ describe 'EmailValidations' do
           expect(response).to be_success
           body = JSON.parse(response.body, symbolize_names: true)
           expect(body[:requires_sign_up]).to be_false
-          expect(body[:onboarding_group].to_json).to eq(onboarding_group.serializer(for_onboarding: true).as_json.to_json)
+          expect(body[:onboarding_customization].to_json).to eq(onboarding_group.serializer(onboarding_customization: true).as_json.to_json)
         end
       end
     end
