@@ -191,7 +191,8 @@ describe Api::V1::TasksController do
                 'state_event' => 'abandon',
                 'abandoner' => user,
                 'reason' => 'poo',
-                'actor_id' => user.id
+                'actor_id' => user.id,
+                'pubsub_client_id' => nil
               )
 
               task.stub(:owner_id) { user.id }

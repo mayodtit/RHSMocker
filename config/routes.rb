@@ -56,7 +56,7 @@ RHSMocker::Application.routes.draw do
       end
       resources :data_fields, only: %i(show update)
       resources :diseases, :only => :index, :controller => :conditions
-      get :email_validations, to: 'email_validations#exists'
+      get :email_validations, to: 'onboarding#email_validation'
       resources :enrollments, only: %i(show create update) do
         get :on_board, on: :collection
       end
@@ -64,18 +64,27 @@ RHSMocker::Application.routes.draw do
       resources :ethnic_groups, :only => :index
       get 'factors/:symptom_id', to: 'factor_groups#index' # TODO - deprecated!
       resources :locations, :only => :create
-      post :login, to: 'sessions#create', as: :login # TODO - deprecated!
+      post :login, to: 'onboarding#log_in', as: :login # TODO - deprecated!
       delete :logout, to: 'sessions#destroy', as: :logout # TODO - deprecated!
-      resources :members, only: [:index, :show, :create, :update] do
-        get :current, on: :collection
+      post :members, to: 'onboarding#sign_up' # TODO - deprecated!
+      get 'members/:id', to: 'users#show'
+      put 'members/:id', to: 'users#update'
+      get 'members/current', to: 'users#show', id: 'current'
+      put 'members/update_current', to: 'users#update', id: 'current'
+      resources :members, only: :index do
         put :secure_update, on: :member
-        put :update_current, on: :collection # TODO - this should be deprecated in general, client should know the ID
         resources :tasks, only: [:index, :create], controller: 'member_tasks'
         resources :entries, only: :index
         resources :services, only: [:index, :create]
         resources :task_changes, only: :index
       end
       resources :message_templates, except: %i(new edit)
+      resources :onboarding, only: [] do
+        get :email_validation, on: :collection
+        get :referral_code_validation, on: :collection
+        post :sign_up, on: :collection
+        post :log_in, on: :collection
+      end
       resources :onboarding_groups, only: %i(index show create update) do
         resources :users, only: %i(index create destroy), controller: 'onboarding_group_users'
       end
@@ -101,7 +110,7 @@ RHSMocker::Application.routes.draw do
       get 'providers/:npi_number', to: 'providers#show'
       resources :provider_call_logs, only: :create
       resources :side_effects, :only => :index
-      post :signup, to: 'members#create', as: :signup # TODO - deprecated!
+      post :signup, to: 'onboarding#sign_up', as: :signup # TODO - deprecated
       resources :service_status, only: :index
       resources :sms_notifications, only: [] do
         post :download, on: :collection
@@ -113,9 +122,9 @@ RHSMocker::Application.routes.draw do
       end
       resources :task_steps, only: %i(show update)
       resources :treatments, :only => :index
-      get :user, to: 'members#current' # TODO - this should be deprecated in favor of members#current
-      put :user, to: 'members#update_current' # TODO - this should be deprecated in general, client should know the ID
-      put 'user/:id', to: 'users#update' # TODO - deprecated, use users#update
+      get :user, to: 'users#show', id: 'current' # TODO - deprecated
+      put :user, to: 'users#update', id: 'current' # TODO -deprecated
+      put 'user/:id', to: 'users#update' # TODO - deprecated
       post 'user/update_password', to: 'members#secure_update', as: :update_password # TODO - deprecated!
       post 'user/update_email', to: 'members#secure_update', as: :update_email # TODO - deprecated!
       resources :user_request_types, only: %i(index show create update)
@@ -139,7 +148,7 @@ RHSMocker::Application.routes.draw do
         resources :credits, :only => [:index, :show, :create] do
           get 'available', :on => :collection
         end
-        get :current, on: :collection, to: 'members#current'
+        get :current, on: :collection, to: 'users#show', id: 'current' # TODO - deprecated
         resources :conditions, except: [:new, :edit], controller: 'user_conditions' do
           resources :treatments, only: :destroy, controller: 'user_condition_user_treatments' do
             post ':id', to: 'user_condition_user_treatments#create', on: :collection

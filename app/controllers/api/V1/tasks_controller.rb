@@ -32,6 +32,7 @@ class Api::V1::TasksController < Api::V1::ABaseController
     authorize! :update, @task
 
     update_params = task_attributes
+    update_params[:pubsub_client_id] = params[:pubsub_client_id]
     update_params[:actor_id] = current_user.id
 
     # NOTE 11/17/14: Support CP until its migrated over

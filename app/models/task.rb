@@ -147,6 +147,10 @@ class Task < ActiveRecord::Base
     if owner_id_changed? && owner_id_was
       PubSub.publish "/users/#{owner_id_was}/tasks/owned/update", { id: id },  pubsub_client_id
     end
+
+    if queue.present?
+      PubSub.publish "/tasks/queue/#{queue}", { id: id }
+    end
   end
 
   def initial_state

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150710231404) do
+ActiveRecord::Schema.define(:version => 20150716001551) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -715,6 +715,7 @@ ActiveRecord::Schema.define(:version => 20150710231404) do
     t.integer  "welcome_message_template_id"
     t.string   "header_asset"
     t.string   "background_asset"
+    t.text     "custom_welcome"
   end
 
   add_index "onboarding_groups", ["pha_id"], :name => "index_onboarding_groups_on_pha_id"

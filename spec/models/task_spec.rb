@@ -483,7 +483,7 @@ describe Task do
   end
 
   describe '#publish' do
-    let(:task) { build(:task) }
+    let(:task) { build(:task, queue: :pha) }
 
     context 'is called after' do
       it 'create' do
@@ -501,6 +501,7 @@ describe Task do
     context 'new record' do
       before do
         task.stub(:id_changed?) { true }
+        task.stub(:queue) { nil }
       end
 
       it 'publishes that a new phone call was created' do
@@ -518,6 +519,7 @@ describe Task do
 
       before do
         task.stub(:id_changed?) { false }
+        task.stub(:queue) { nil }
       end
 
       it 'publishes that a phone call was updated' do
@@ -540,6 +542,7 @@ describe Task do
 
       before do
         task.stub(:owner_id) { 3 }
+        task.stub(:queue) { nil }
       end
 
       it 'published to the owners channel' do
@@ -558,6 +561,7 @@ describe Task do
 
       before do
         task.stub(:owner_id_changed?) { true }
+        task.stub(:queue) { nil }
       end
 
       context 'there was a previous owner' do
@@ -591,6 +595,20 @@ describe Task do
           task.publish
         end
       end
+    end
+
+    it 'should publish to the tasks queue channel' do
+      task.stub(:id_changed?) { true }
+      PubSub.should_receive(:publish).with(
+        "/tasks/new",
+        {id: task.id},
+        nil
+      )
+      PubSub.should_receive(:publish).with(
+      '/tasks/queue/pha',
+       { id: task.id }
+      )
+      task.publish
     end
   end
 
