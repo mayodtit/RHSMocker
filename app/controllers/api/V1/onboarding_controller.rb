@@ -3,18 +3,22 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
 
   def email_validation
     if @user = Member.find_by_email(params[:email])
-      render_success(requires_sign_up: false, onboarding_group: onboarding_group_for_onboarding)
+      render_success(requires_sign_up: false,
+                     onboarding_customization: onboarding_customization)
     else
-      render_success(requires_sign_up: true)
+      render_success(requires_sign_up: true,
+                     onboarding_customization: onboarding_customization)
     end
   end
 
   def referral_code_validation
     @referral_code = ReferralCode.find_by_code!(params[:code])
-    if @referral_code.onboarding_group.try(:skip_credit_card?)
-      render_success(skip_credit_card: true)
+    if onboarding_group.try(:skip_credit_card?)
+      render_success(skip_credit_card: true,
+                     onboarding_custom_welcome: onboarding_custom_welcome)
     else
-      render_success(skip_credit_card: false)
+      render_success(skip_credit_card: false,
+                     onboarding_custom_welcome: onboarding_custom_welcome)
     end
   end
 
@@ -33,12 +37,16 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
 
   private
 
-  def onboarding_group_for_onboarding
-    if onboarding_group = @user.onboarding_group
-      onboarding_group.serializer(for_onboarding: true).as_json
-    else
-      nil
-    end
+  def onboarding_group
+    @onboarding_group ||= @referral_code.try(:onboarding_group) || @user.try(:onboarding_group)
+  end
+
+  def onboarding_customization
+    onboarding_group.try(:serializer, onboarding_customization: true)
+  end
+
+  def onboarding_custom_welcome
+    onboarding_group.try(:serializer, onboarding_custom_welcome: true)
   end
 
   def sign_up_params
