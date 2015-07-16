@@ -5,7 +5,7 @@ class OnboardingGroupSerializer < ActiveModel::Serializer
              :absolute_free_trial_ends_at,
              :mayo_pilot, :provider_id, :provider,
              :subscription_days, :absolute_subscription_ends_at,
-             :skip_credit_card, :skip_emails, :custom_welcome
+             :skip_credit_card, :skip_emails
 
   delegate :header_asset_url, :background_asset_url, :custom_welcome, to: :object
 
