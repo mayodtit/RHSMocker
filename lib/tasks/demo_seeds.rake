@@ -98,7 +98,15 @@ namespace :seeds do
     CONFIRM_SCRIPT = <<-eof
 Confirm information included in the task
 
-> KC: In the future, I can template this out, but because it's loaded on page-load now, I can't dynamically refresh it. Yet.
+> Great! I'd like to confirm the details of this appointment. {Member full name} is scheduled for an appointment with {Provider full name} at {Booked appointment time}.
+
+Confirm cancellation policy
+
+> The cancellation policy for the appointment is "{Booked appointment cancellation policy}".
+
+Confirm other information
+
+> {Booked appointment other information}
     eof
 
     task_template_1.task_step_templates.create!(description: "Confirm appointment", details: CONFIRM_SCRIPT)
