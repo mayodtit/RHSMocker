@@ -90,6 +90,8 @@ class MessageSerializer < ActiveModel::Serializer
   def native_bridge_protocol
     if Rails.env.development? || Rails.env.devhosted?
       'better-dev'
+    elsif Rails.env.production?
+      'better'
     else
       "better-#{Rails.env}"
     end
