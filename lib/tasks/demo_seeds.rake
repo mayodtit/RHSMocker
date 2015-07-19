@@ -9,7 +9,8 @@ namespace :seeds do
                                                               title: "Book appointment with {provider}",
                                                               service_type: service_type,
                                                               description: "Book appointment with Dr. {First Last} for {reason} on {day/time}",
-                                                              user_facing: true)
+                                                              user_facing: true,
+                                                              time_estimate: 90)
 
     # create all task templates
     task_template_1 = service_template.task_templates.create!(name: 'Book appointment with provider',
