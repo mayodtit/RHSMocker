@@ -11,20 +11,9 @@ class ServiceTemplateSerializer < ActiveModel::Serializer
            to: :object
 
   def attributes
-    if options[:shallow]
-      {
-         id: id,
-         title: title,
-         description: description,
-         service_type_id: service_type_id,
-         time_estimate: time_estimate,
-         due_at: due_at
-      }
-    else
-      super.tap do |attrs|
-        attrs[:service_type] = service_type
-        attrs[:task_templates] = task_templates.try(:serializer, shallow: true)
-      end
+    super.tap do |attrs|
+      attrs[:service_type] = service_type
+      attrs[:task_templates] = task_templates.try(:serializer, options)
     end
   end
 
