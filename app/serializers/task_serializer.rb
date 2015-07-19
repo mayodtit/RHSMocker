@@ -4,7 +4,7 @@ class TaskSerializer < ActiveModel::Serializer
   attributes :id, :title, :state, :description, :due_at, :type, :created_at,
              :owner_id, :service_type_id, :triage_state, :member_id,
              :day_priority, :task_template_id, :urgent, :unread, :follow_up,
-             :modal_template, :service_title, :queue
+             :modal_template, :service_title, :queue, :service_bucket
 
   delegate :member, :owner, :service_type, :task_changes, :task_steps,
            :task_template, :input_data_fields, :output_data_fields,
@@ -37,5 +37,9 @@ class TaskSerializer < ActiveModel::Serializer
 
   def service_title
     service.try(:title)
+  end
+
+  def service_bucket
+    service_type.try(:bucket)
   end
 end
