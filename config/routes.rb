@@ -112,6 +112,11 @@ RHSMocker::Application.routes.draw do
       resources :side_effects, :only => :index
       post :signup, to: 'onboarding#sign_up', as: :signup # TODO - deprecated
       resources :service_status, only: :index
+      resources :service_templates, except: %i(new edit) do
+        resources :task_templates, except: %i(new edit) do
+          resources :task_step_templates, except: %i(new edit)
+        end
+      end
       resources :sms_notifications, only: [] do
         post :download, on: :collection
       end
@@ -121,6 +126,9 @@ RHSMocker::Application.routes.draw do
         post :check, on: :collection, to: 'symptom_contents#index'
       end
       resources :task_steps, only: %i(show update)
+      resources :task_templates, except: %i(new edit) do
+        resources :task_step_templates, except: %i(new edit)
+      end
       resources :treatments, :only => :index
       get :user, to: 'users#show', id: 'current' # TODO - deprecated
       put :user, to: 'users#update', id: 'current' # TODO -deprecated
@@ -217,8 +225,6 @@ RHSMocker::Application.routes.draw do
       resources :service_types, only: [:index] do
         get :buckets, on: :collection
       end
-      resources :service_templates, only: %i(index create show update destroy)
-      resources :task_templates, only: %i(index create show update destroy)
       resources :domains, only: :index do
         get :all_domains, on: :collection
         get :submit, on: :collection
