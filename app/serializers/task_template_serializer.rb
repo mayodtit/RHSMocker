@@ -11,7 +11,7 @@ class TaskTemplateSerializer < ActiveModel::Serializer
     super.tap do |attrs|
       attrs[:service_template] = service_template
       attrs[:modal_template] = modal_template
-      attrs[:task_step_templates] = task_step_templates
+      attrs[:task_step_templates] = task_step_templates.serializer(options)
       attrs[:task_data_field_templates] = task_data_field_templates
     end
   end
