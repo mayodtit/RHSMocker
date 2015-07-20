@@ -1,4 +1,5 @@
 class CalculatePriorityService
+  PST_HOUR_OFFSET = -8
   def initialize(options)
     @task = options[:task]
   end
@@ -22,7 +23,7 @@ class CalculatePriorityService
     @time_zone_score ||=  if @task.time_zone_score
                             @task.time_zone_offset/3600
                           else
-                            PST_HOUR_OFFSET = ActiveSupport::TimeZone.new("America/Los_Angeles").utc_offset/3600
+                            PST_HOUR_OFFSET
                           end
 
 end
