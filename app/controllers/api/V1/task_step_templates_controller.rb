@@ -46,11 +46,16 @@ class Api::V1::TaskStepTemplatesController < Api::V1::ABaseController
   end
 
   def load_task_step_template!
-    @task_step_template = @task_step_templates.find(params[:id])
+    @task_step_template = if @task_step_templates
+                            @task_step_templates.find(params[:id])
+                          else
+                            TaskStepTemplate.find(params[:id])
+                          end
     authorize! :manage, @task_step_template
   end
 
   def prevent_change_when_published!
+    @task_template ||= @task_step_template.task_template # protect against shallow route
     @service_template ||= @task_template.service_template # protect against shallow route
     if @service_template.try(:published?) || @service_template.try(:retired?)
       render_failure({reason: "TaskStepTemplate's associated ServiceTemplate is published or retired. You cannot update it!"}, 422)

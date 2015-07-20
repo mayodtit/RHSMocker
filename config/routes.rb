@@ -125,6 +125,7 @@ RHSMocker::Application.routes.draw do
         resources :contents, only: :index, controller: :symptom_contents
         post :check, on: :collection, to: 'symptom_contents#index'
       end
+      resources :task_step_templates, only: %i(show update destroy)
       resources :task_steps, only: %i(show update)
       resources :task_templates, except: %i(new edit) do
         resources :task_step_templates, except: %i(new edit)
