@@ -366,7 +366,7 @@ class Member < User
               when :pha
                 Task.pha_queue(self)
               when :specialist
-                Task.specialist_queue
+                Task.specialist_queue(self)
               else
                 Task.pha_queue(self)
               end

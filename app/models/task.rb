@@ -72,11 +72,11 @@ class Task < ActiveRecord::Base
   end
 
   def self.pha_queue(hcp)
-    where(queue: :pha, owner_id: hcp.id).open_state
+    where(owner_id: hcp.id).open_state
   end
 
-  def self.specialist_queue
-    where(queue: :specialist)
+  def self.specialist_queue(hcp)
+    where('queue = "specialist" OR owner_id = ?', hcp.id).open_state
   end
 
   def blocked?
@@ -108,6 +108,7 @@ class Task < ActiveRecord::Base
   end
 
   def set_priority
+    return unless queue == :specialist
     self.priority = CalculatePriorityService.new(task: self, service: self.service).call
   end
 
