@@ -1,6 +1,6 @@
 class Api::V1::TaskStepTemplatesController < Api::V1::ABaseController
-  before_filter :load_service_template!, if: -> { params[:service_template_id].present? }
-  before_filter :load_task_template!
+  before_filter :load_service_template!, if: -> { params[:service_template_id] }
+  before_filter :load_task_template!, if: -> { params[:task_template_id] }
   before_filter :load_task_step_templates!
   before_filter :load_task_step_template!, only: %i(show update destroy)
   before_filter :prevent_change_when_published!, only: %i(update destroy)
@@ -42,7 +42,7 @@ class Api::V1::TaskStepTemplatesController < Api::V1::ABaseController
   end
 
   def load_task_step_templates!
-    @task_step_templates = @task_template.task_step_templates
+    @task_step_templates = @task_template.try(:task_step_templates)
   end
 
   def load_task_step_template!
