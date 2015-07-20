@@ -54,6 +54,7 @@ RHSMocker::Application.routes.draw do
       resources :dashboard, only: :index do
         get :onboarding_calls, on: :collection
       end
+      resources :data_field_templates, except: %i(new edit)
       resources :data_fields, only: %i(show update)
       resources :diseases, :only => :index, :controller => :conditions
       get :email_validations, to: 'onboarding#email_validation'
@@ -116,6 +117,7 @@ RHSMocker::Application.routes.draw do
         resources :task_templates, except: %i(new edit) do
           resources :task_step_templates, except: %i(new edit)
         end
+        resources :data_field_templates, except: %i(new edit)
       end
       resources :sms_notifications, only: [] do
         post :download, on: :collection

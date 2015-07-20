@@ -143,6 +143,7 @@ class Ability
       can :manage, ServiceTemplate
       can :manage, TaskTemplate
       can :manage, TaskStepTemplate
+      can :manage, DataFieldTemplate
     end
 
     if user.pha_lead?
