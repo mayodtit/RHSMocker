@@ -334,9 +334,7 @@ class Member < User
   end
 
   def initial_state
-    if enrollment.present? && payment_token.present?
-      :premium
-    elsif password.present? || crypted_password.present?
+    if password.present? || crypted_password.present?
       next_state
     else
       :invited
@@ -348,6 +346,8 @@ class Member < User
        onboarding_group.try(:free_trial_ends_at)
       :trial
     elsif onboarding_group.try(:premium?)
+      :premium
+    elsif payment_token.present?
       :premium
     else
       :free
