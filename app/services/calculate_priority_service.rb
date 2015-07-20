@@ -25,5 +25,5 @@ class CalculatePriorityService
                           else
                             PST_HOUR_OFFSET
                           end
-
+  end
 end
