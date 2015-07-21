@@ -257,7 +257,7 @@ class Task < ActiveRecord::Base
       task.blocked_external_at = Time.now
     end
 
-    before_transition %i(blocked_internal blocked_external) => :any - [:blocked_internal, :blocked_external] do |task|
+    before_transition %i(blocked_internal blocked_external) => any - %i(blocked_internal blocked_external) do |task|
       task.unblocked_at = Time.now
     end
 
