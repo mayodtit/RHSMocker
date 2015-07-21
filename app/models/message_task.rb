@@ -21,6 +21,7 @@ class MessageTask < Task
   before_validation :set_consult, on: :create
   before_validation :set_owner, on: :create
   before_validation :set_member, on: :create
+  before_validation :set_priority, on: :create
 
   def default_queue
     :hcc

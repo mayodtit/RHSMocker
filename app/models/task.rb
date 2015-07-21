@@ -49,7 +49,7 @@ class Task < ActiveRecord::Base
   before_validation :set_time_zone, on: :create
   before_validation :set_assignor_id
   before_validation :mark_as_unread
-  before_validation :set_priority
+  before_validation :set_priority_score
 
   after_commit :publish
   after_save :notify
@@ -107,11 +107,11 @@ class Task < ActiveRecord::Base
     self.role_id = Role.find_by_name!(:pha).id if role_id.nil?
   end
 
-  def set_priority
+  def set_priority_score
     if queue == :hcc || type != 'MemberTask'
-      self.priority = CalculatePriorityService.new(task: self, service: self.service).call
-    else
       self.priority = 0 if priority.nil?
+    else
+      self.priority = CalculatePriorityService.new(task: self, service: self.service).call
     end
   end
 
