@@ -5,4 +5,5 @@ describe OnboardingGroupCandidate do
   it_validates 'presence of', :onboarding_group
   it_validates 'presence of', :email
   it_validates 'uniqueness of', :email
+  it_validates 'foreign key of', :user
 end
