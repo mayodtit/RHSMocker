@@ -23,7 +23,7 @@ class OnboardingGroup < ActiveRecord::Base
                   :skip_emails, :welcome_email_template, :welcome_email_template_id,
                   :welcome_message_template, :welcome_message_template_id,
                   :header_asset, :header_asset_url, :background_asset,
-                  :background_asset_url
+                  :background_asset_url, :custom_welcome
 
   validates :name, presence: true
   validates :provider, presence: true, if: ->(o){o.provider_id}

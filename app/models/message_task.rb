@@ -22,6 +22,10 @@ class MessageTask < Task
   before_validation :set_owner, on: :create
   before_validation :set_member, on: :create
 
+  def default_queue
+    :hcc
+  end
+
   def set_consult
     if consult.nil? && message.present?
       self.consult_id = message.consult_id
@@ -67,26 +71,6 @@ class MessageTask < Task
       self.owner = consult.initiator.pha
       self.assignor = Member.robot
       self.assigned_at = Time.now
-    end
-  end
-
-  state_machine do
-    event :flag do
-      transition any => :spam
-    end
-
-    before_transition any - [:unstarted] => :spam do |task|
-      task.assignor = task.owner
-      task.assigned_at = Time.now
-      task.owner = Member.geoff
-    end
-
-    after_transition :spam => :completed do |task|
-      task.member.smackdown!
-    end
-
-    after_transition any => [:abandoned, :completed] do |task|
-      task.consult.deactivate! unless task.consult.inactive?
     end
   end
 end

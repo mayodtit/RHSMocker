@@ -813,29 +813,6 @@ describe Member do
     end
   end
 
-  describe '#smackdown!' do
-    let(:member) { build :member }
-    let(:consult) { build :consult }
-    let(:message_template) { build :message_template }
-
-    before do
-      MessageTemplate.stub(:find_by_name).with('TOS Violation') { message_template }
-      message_template.stub :create_message
-      member.stub(:master_consult) { consult }
-      member.stub :downgrade!
-    end
-
-    it 'downgrades the user' do
-      member.should_receive :downgrade!
-      member.smackdown!
-    end
-
-    it 'creates the user' do
-      message_template.should_receive(:create_message).with(Member.robot, consult, false, true, true)
-      member.smackdown!
-    end
-  end
-
   describe '#queue' do
     let(:user) do
       member = build_stubbed :member
@@ -843,7 +820,7 @@ describe Member do
       member
     end
 
-    let(:tasks) { [build_stubbed(:task), build_stubbed(:task)] }
+    let!(:tasks) { [create(:task, queue: :nurse)] }
 
     let(:nurse_role) do
       Role.find_by_name! :nurse
@@ -856,11 +833,11 @@ describe Member do
       end
 
       it 'returns tasks for the current hcp' do
-        Task.should_receive(:owned).with(user) do
+        Task.should_receive(:nurse_queue) do
           o = Object.new
-          o.stub(:where).with(role_id: nurse_role.id, visible_in_queue: true, :unread=>false, :urgent=>false) do
+          o.stub(:where).with(visible_in_queue: true, :unread=>false, :urgent=>false) do
             o_o = Object.new
-            o_o.stub(:includes).with(:member) do
+            o_o.stub(:includes).with(:member, :member => :phone_numbers) do
               o_o_o = Object.new
               o_o_o.stub(:order).with('due_at DESC') { tasks }
               o_o_o
@@ -873,92 +850,37 @@ describe Member do
       end
     end
 
-    context 'on call' do
-      before do
-        described_class.any_instance.stub(:on_call?) { true }
-        described_class.any_instance.stub(:task_order){ 'due_at DESC' }
-      end
-
-      context 'metadata says only inbound and unassigned' do
-        before do
-          Metadata.stub(:on_call_queue_only_inbound_and_unassigned?) { true }
-        end
-
-        it 'returns tasks for the current hcp' do
-          Task.should_receive(:needs_triage).with(user) do
-            o_o = Object.new
-            o_o.stub(:where).with(role_id: nurse_role.id, visible_in_queue: true, :unread=>false, :urgent=>false) do
-              o_o_o = Object.new
-              o_o_o.stub(:includes).with(:member) do
-                o_o_o_o = Object.new
-                o_o_o_o.stub(:order).with('due_at DESC') { tasks }
-                o_o_o_o
-              end
-              o_o_o
-            end
-            o_o
-          end
-          expect(user.queue).to eq([tasks, 0, 0])
-        end
-      end
-
-      context 'metadata says everything' do
-        before do
-          Metadata.stub(:on_call_queue_only_inbound_and_unassigned?) { false }
-        end
-
-        it 'returns tasks for the current hcp' do
-          Task.should_receive(:needs_triage_or_owned).with(user) do
-            o_o = Object.new
-            o_o.stub(:where).with(role_id: nurse_role.id, visible_in_queue: true, :unread=>false, :urgent=>false) do
-              o_o_o = Object.new
-              o_o_o.stub(:includes).with(:member) do
-                o_o_o_o = Object.new
-                o_o_o_o.stub(:order).with('due_at DESC') { tasks }
-                o_o_o_o
-              end
-              o_o_o
-            end
-            o_o
-          end
-          expect(user.queue).to eq([tasks, 0, 0])
-        end
-      end
-    end
-
     context 'param tells select only today' do
       let!(:pha) { create(:pha) }
       let!(:assigned_task) { create(:member_task, :assigned, owner: pha, due_at: 3.days.ago) }
-      let!(:started_task) { create(:member_task, :started, owner: pha, due_at: 2.days.from_now) }
-      let!(:claimed_task) { create(:member_task, :claimed, owner: pha) }
+      let!(:claimed_task) { create(:member_task, :claimed, owner: pha, due_at: 2.days.from_now) }
 
       before do
-        [assigned_task, started_task, claimed_task].each do |task|
+        [assigned_task, claimed_task].each do |task|
           task.update_attribute('urgent', false)
           task.update_attribute('unread', false)
         end
       end
 
       it 'only return the tasks that due within today' do
-        expect(pha.queue(only_today: 'yes')).to eq([[assigned_task, claimed_task], 0, 1])
+        expect(pha.queue(only_today: 'yes')).to eq([[assigned_task], 0, 1])
       end
     end
 
     context 'param tells select till tomorrow' do
       let!(:pha) { create(:pha) }
       let!(:assigned_task) { create(:member_task, :assigned, owner: pha, due_at: 3.days.from_now) }
-      let!(:started_task) { create(:member_task, :started, owner: pha, due_at: 1.days.from_now) }
-      let!(:claimed_task) { create(:member_task, :claimed, owner: pha) }
+      let!(:claimed_task) { create(:member_task, :claimed, owner: pha, due_at: 1.days.from_now) }
 
       before do
-        [assigned_task, started_task, claimed_task].each do |task|
+        [assigned_task, claimed_task].each do |task|
           task.update_attribute('urgent', false)
           task.update_attribute('unread', false)
         end
       end
 
       it 'only return the tasks that due within today' do
-        expect(pha.queue(until_tomorrow: 'yes')).to eq([[claimed_task, started_task], 0, 1])
+        expect(pha.queue(until_tomorrow: 'yes')).to eq([[claimed_task], 0, 1])
       end
     end
   end

@@ -14,6 +14,10 @@ class MemberTask < Task
     self.priority = PRIORITY
   end
 
+  def default_queue
+    :pha
+  end
+
   def publish
     super
 

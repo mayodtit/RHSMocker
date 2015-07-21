@@ -191,68 +191,13 @@ describe Api::V1::TasksController do
                 'state_event' => 'abandon',
                 'abandoner' => user,
                 'reason' => 'poo',
-                'actor_id' => user.id
+                'actor_id' => user.id,
+                'pubsub_client_id' => nil
               )
 
               task.stub(:owner_id) { user.id }
               task.stub(:assignor_id) { user.id }
               put :update, id: task.id, task: {state_event: 'abandon', reason: 'poo'}
-            end
-          end
-
-          context 'task does not have an owner' do
-            before do
-              task.stub(:owner_id) { nil }
-            end
-
-            context 'owner id is not present' do
-              def do_request
-                put :update, id: task.id, task: {state_event: 'start'}
-              end
-
-              it 'sets owner id to current user' do
-                task.should_receive(:update_attributes).with hash_including('owner_id' => user.id)
-                do_request
-              end
-            end
-
-            context 'owner id is present' do
-              def do_request
-                put :update, id: task.id, task: {state_event: 'start', owner_id: 2}
-              end
-
-              it 'does nothing' do
-                task.should_receive(:update_attributes).with hash_including('owner_id' => '2')
-                do_request
-              end
-            end
-          end
-
-          context 'task has an owner' do
-            before do
-              task.stub(:owner_id) { 4 }
-            end
-
-            context 'owner id is not present' do
-              def do_request
-                put :update, id: task.id, task: {state_event: 'start'}
-              end
-
-              it 'does nothing' do
-                task.should_receive(:update_attributes).with hash_excluding('owner_id')
-                do_request
-              end
-            end
-
-            context 'owner id is present' do
-              def do_request
-                put :update, id: task.id, task: {state_event: 'start', owner_id: 2}
-              end
-
-              it 'does nothing' do
-                task.should_receive(:update_attributes).with hash_including('owner_id' => '2')
-                do_request
-              end
             end
           end
         end
