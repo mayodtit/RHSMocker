@@ -112,6 +112,7 @@ class Task < ActiveRecord::Base
       self.priority = CalculatePriorityService.new(task: self, service: self.service).call
     else
       self.priority = 0 if priority.nil?
+    end
   end
 
   def set_ordinal
