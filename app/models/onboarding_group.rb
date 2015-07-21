@@ -10,6 +10,7 @@ class OnboardingGroup < ActiveRecord::Base
   belongs_to :pha, class_name: 'Member'
   belongs_to :trial_nux_story, class_name: 'NuxStory'
   belongs_to :welcome_message_template, class_name: 'MessageTemplate'
+  has_many :onboarding_group_candidates, inverse_of: :onboarding_group_candidate
 
   accepts_nested_attributes_for :provider
 
