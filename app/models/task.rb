@@ -108,11 +108,8 @@ class Task < ActiveRecord::Base
   end
 
   def set_priority_score
-    if queue == :hcc || type != 'MemberTask'
-      self.priority = 0 if priority.nil?
-    else
-      self.priority = CalculatePriorityService.new(task: self, service: self.service).call
-    end
+    self.priority = CalculatePriorityService.new(task: self, service: self.service).call if queue != :hcc && type == 'MemberTask'
+    self.priority = 0 if priority.nil?
   end
 
   def set_ordinal
