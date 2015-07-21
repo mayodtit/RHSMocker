@@ -3,11 +3,13 @@ class ServiceTemplate < ActiveRecord::Base
   has_many :task_templates, dependent: :destroy
   has_many :suggested_service_templates
   has_many :task_template_sets
+  attr_accessor :skip_create_initial_task_template_set
 
   attr_accessible :name, :title, :description, :service_type_id,
                   :service_type, :time_estimate, :timed_service,
                   :user_facing, :service_update, :service_request,
-                  :unique_id, :version, :state_event, :task_template_sets
+                  :unique_id, :version, :state_event, :task_template_sets,
+                  :skip_create_initial_task_template_set
 
   validates :name, :title, :service_type, presence: true
   validates :user_facing, inclusion: {in: [true, false]}
@@ -21,17 +23,16 @@ class ServiceTemplate < ActiveRecord::Base
   before_validation :set_version, on: :create
 
   after_commit :publish
-  after_commit :create_initial_task_template_set, on: :create
+  after_commit :create_initial_task_template_set, on: :create, unless: :skip_create_initial_task_template_set
 
   def calculated_due_at(time=Time.now)
     time.business_minutes_from(time_estimate.to_i)
   end
 
   def create_deep_copy!
-    new_service_template = self.class.create!(attributes.except('id', 'version', 'state', 'created_at', 'updated_at'))
-    task_template_sets.each do |tts|
-      tts.create_deep_copy!(new_service_template)
-    end
+    new_service_template = self.class.create!(attributes.except('id', 'version', 'state', 'created_at', 'updated_at').merge(skip_create_initial_task_template_set: true))
+    first_task_template_set = task_template_sets.first
+    first_task_template_set.create_deep_copy!(new_service_template, first_task_template_set)
     new_service_template
   end
 
