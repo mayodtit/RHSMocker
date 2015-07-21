@@ -49,7 +49,7 @@ class Task < ActiveRecord::Base
   before_validation :set_time_zone, on: :create
   before_validation :set_assignor_id
   before_validation :mark_as_unread
-  before_validation :set_priority_score
+  before_validation :set_priority
 
   after_commit :publish
   after_save :notify
@@ -107,9 +107,11 @@ class Task < ActiveRecord::Base
     self.role_id = Role.find_by_name!(:pha).id if role_id.nil?
   end
 
-  def set_priority_score
-    return if queue == :hcc || type != 'MemberTask'
-    self.priority = CalculatePriorityService.new(task: self, service: self.service).call
+  def set_priority
+    if queue == :hcc || type != 'MemberTask'
+      self.priority = CalculatePriorityService.new(task: self, service: self.service).call
+    else
+      self.priority = 0 if priority.nil?
   end
 
   def set_ordinal
@@ -254,7 +256,7 @@ class Task < ActiveRecord::Base
       task.blocked_external_at = Time.now
     end
 
-    before_transition %i(blocked_internal blocked_external) => :any - %i(blocked_internal blocked_external) do |task|
+    before_transition %i(blocked_internal blocked_external) => :any - [:blocked_internal, :blocked_external] do |task|
       task.unblocked_at = Time.now
     end
 
