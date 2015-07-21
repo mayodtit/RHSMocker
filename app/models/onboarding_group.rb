@@ -10,6 +10,7 @@ class OnboardingGroup < ActiveRecord::Base
   belongs_to :pha, class_name: 'Member'
   belongs_to :trial_nux_story, class_name: 'NuxStory'
   belongs_to :welcome_message_template, class_name: 'MessageTemplate'
+  has_many :onboarding_group_candidates, inverse_of: :onboarding_group_candidate
 
   accepts_nested_attributes_for :provider
 
@@ -22,8 +23,9 @@ class OnboardingGroup < ActiveRecord::Base
                   :skip_credit_card, :skip_automated_communications,
                   :skip_emails, :welcome_email_template, :welcome_email_template_id,
                   :welcome_message_template, :welcome_message_template_id,
-                  :header_asset, :header_asset_url, :background_asset,
-                  :background_asset_url, :custom_welcome
+                  :header_asset, :header_asset_url, :remote_header_asset_url,
+                  :background_asset, :background_asset_url, :remote_background_asset_url,
+                  :custom_welcome
 
   validates :name, presence: true
   validates :provider, presence: true, if: ->(o){o.provider_id}

@@ -28,8 +28,23 @@ describe 'Onboarding' do
         body = JSON.parse(response.body, symbolize_names: true)
         expect(body[:requires_sign_up]).to be_true
         expect(body[:skip_credit_card]).to be_false
-        expect(body[:onboarding_customization]).to be_nil # not currently supported
-        expect(body[:onboarding_custom_welcome]).to be_empty # not currently supported
+        expect(body[:onboarding_customization]).to be_nil
+        expect(body[:onboarding_custom_welcome]).to be_empty
+      end
+
+      context 'with customizations' do
+        let!(:onboarding_group) { create(:onboarding_group, custom_welcome: 'lorem ipsum', skip_credit_card: true) }
+        let!(:onboarding_group_candidate) { create(:onboarding_group_candidate, onboarding_group: onboarding_group) }
+
+        it 'returns requires_sign_up=true and customizations' do
+          do_request(email: onboarding_group_candidate.email)
+          expect(response).to be_success
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(body[:requires_sign_up]).to be_true
+          expect(body[:skip_credit_card]).to be_true
+          expect(body[:onboarding_customization]).to eq(onboarding_group.serializer(onboarding_customization: true).as_json)
+          expect(body[:onboarding_custom_welcome]).to eq([onboarding_group.serializer(onboarding_custom_welcome: true).as_json])
+        end
       end
     end
   end

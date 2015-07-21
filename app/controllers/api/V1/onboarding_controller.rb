@@ -51,8 +51,12 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
 
   private
 
+  def onboarding_group_candidate
+    @onboarding_group_candidate ||= OnboardingGroupCandidate.find_by_email(params[:email])
+  end
+
   def onboarding_group
-    @onboarding_group ||= @referral_code.try(:onboarding_group) || @user.try(:onboarding_group)
+    @onboarding_group ||= @referral_code.try(:onboarding_group) || @user.try(:onboarding_group) || onboarding_group_candidate.try(:onboarding_group)
   end
 
   def onboarding_skip_credit_card?
