@@ -108,7 +108,7 @@ class Task < ActiveRecord::Base
   end
 
   def set_priority_score
-    return if queue == :hcc || type == 'MessageTask'
+    return if queue == :hcc || type != 'MemberTask'
     self.priority = CalculatePriorityService.new(task: self, service: self.service).call
   end
 
@@ -243,14 +243,18 @@ class Task < ActiveRecord::Base
     end
 
     before_transition any - :blocked_internal => :blocked_internal do |task|
+      task.owner_id = task.member && task.member.pha_id
+      task.queue = :pha
       task.blocked_internal_at = Time.now
     end
 
     before_transition any - :blocked_external => :blocked_external do |task|
+      task.owner_id = task.member && task.member.pha_id
+      task.queue = :pha
       task.blocked_external_at = Time.now
     end
 
-    before_transition %i(blocked_internal blocked_external) => :unclaimed do |task|
+    before_transition %i(blocked_internal blocked_external) => :any - %i(blocked_internal blocked_external) do |task|
       task.unblocked_at = Time.now
     end
 
