@@ -7,9 +7,7 @@ class CalculatePriorityService
 
   def call
     raise "Task not included in options" unless (@task)
-    {
-      priority: priority
-    }
+    priority
   end
 
   private

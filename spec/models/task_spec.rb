@@ -13,7 +13,6 @@ describe Task do
     it_validates 'presence of', :role_id
     it_validates 'presence of', :creator_id
     it_validates 'presence of', :due_at
-    it_validates 'presence of', :priority
     it_validates 'inclusion of', :urgent
     it_validates 'inclusion of', :unread
     it_validates 'inclusion of', :follow_up
@@ -22,6 +21,13 @@ describe Task do
     it_validates 'foreign key of', :service_type
     it_validates 'foreign key of', :task_template
     it_validates 'foreign key of', :member
+
+    describe 'validate priority' do
+      before do
+        described_class.any_instance.stub(:set_priority_score)
+      end
+      it_validates 'presence of', :priority
+    end
 
     describe '#service' do
       let!(:task) { create :task }
