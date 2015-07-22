@@ -20,7 +20,7 @@ class TaskStepDataFieldTemplate < ActiveRecord::Base
   private
 
   def set_defaults
-    self.ordinal = task_step_template.try(:task_step_data_field_templates).try(:max_by, &:ordinal).try(:ordinal).try(:+, 1) || 0
+    self.ordinal = task_step_template.try(:task_step_data_field_templates).try(:select, &:ordinal).try(:max_by, &:ordinal).try(:ordinal).try(:+, 1) || 0
     self.required_for_task_step_completion = false if required_for_task_step_completion.nil?
     true
   end
