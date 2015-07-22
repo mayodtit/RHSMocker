@@ -29,7 +29,6 @@ class Appointment < ActiveRecord::Base
   end
 
   def track_update
-    # If audit_trail tells us it's already logged change, do nothing.
     _data = data
     AppointmentChange.create! appointment: self, actor_id: self.actor_id, event: 'update', data: _data, reason: reason
   end
