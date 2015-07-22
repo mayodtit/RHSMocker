@@ -191,6 +191,7 @@ RHSMocker::Application.routes.draw do
       end
       resources :tasks, only: [:index, :show, :update] do
         get 'queue', on: :collection
+        get 'next_tasks', on: :collection
         get 'current', on: :collection
       end
       resources :services, only: [:index, :show, :update] do

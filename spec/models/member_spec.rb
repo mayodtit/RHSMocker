@@ -813,6 +813,18 @@ describe Member do
     end
   end
 
+  describe '#next_tasks' do
+    let(:user) {build_stubbed :specialist}
+    let!(:tasks) { [create(:task, queue: :specialist)] }
+
+    before do
+      Task.stub(:next_tasks).with(user) { tasks }
+    end
+    it 'should return an array of the next tasks for that user' do
+      expect(user.next_tasks).to eq tasks
+    end
+  end
+
   describe '#queue' do
     let(:user) do
       member = build_stubbed :member

@@ -79,6 +79,10 @@ class Task < ActiveRecord::Base
     where('queue = "specialist" OR owner_id = ?', hcp.id).open_state
   end
 
+  def self.next_tasks(hcp)
+    [Task.specialist_queue(hcp).includes(:member, :member => :phone_numbers).order('priority DESC').first]
+  end
+
   def blocked?
     %w(blocked_internal blocked_external).include? state
   end

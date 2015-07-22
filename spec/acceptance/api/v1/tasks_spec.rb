@@ -48,6 +48,23 @@ resource "Tasks" do
       end
     end
 
+  describe 'next_tasks' do
+    context 'get the nexts tasks of the current user' do
+      let!(:assigned_task) { create(:member_task, :assigned, owner: pha, due_at: 3.days.ago, queue: :specialist) }
+      parameter :auth_token, 'Performing hcp\'s auth_token'
+
+      required_parameters :auth_token
+      get '/api/v1/tasks/next_tasks' do
+        example_request '[GET] Get the next tasks for the current user' do
+          explanation 'Get the next tasks for the current user. Accessible only by HCPs in specialist queue mode'
+          status.should == 200
+          response = JSON.parse response_body, symbolize_names: true
+          response[:tasks].to_json.should == [assigned_task].serializer(shallow: true).to_json
+        end
+      end
+    end
+  end
+
     context 'get the queue of the user with passed in id'do
       let(:another_pha) {create(:pha)}
       let!(:pha_id) {another_pha.id}

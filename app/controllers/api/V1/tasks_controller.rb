@@ -1,6 +1,6 @@
 class Api::V1::TasksController < Api::V1::ABaseController
   before_filter :load_user!
-  before_filter :load_task!, except: [:index, :queue, :current]
+  before_filter :load_task!, except: [:index, :queue, :current, :next_tasks]
 
   def index
     authorize! :read, Task
@@ -15,6 +15,13 @@ class Api::V1::TasksController < Api::V1::ABaseController
     user = params[:pha_id] && User.find_by_id(params[:pha_id]) ? User.find(params[:pha_id]) : current_user
     tasks, tomorrow_count, future_count = user.queue(params)
     render_success tasks: tasks.serializer(shallow: true), tomorrow_count: tomorrow_count, future_count: future_count
+  end
+
+  def next_tasks
+    authorize! :read, Task
+    user = params[:pha_id] && User.find_by_id(params[:pha_id]) ? User.find(params[:pha_id]) : current_user
+    tasks = user.next_tasks(params)
+    render_success tasks: tasks.serializer(shallow: true)
   end
 
   def show
