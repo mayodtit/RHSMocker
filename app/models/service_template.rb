@@ -32,7 +32,7 @@ class ServiceTemplate < ActiveRecord::Base
   def create_deep_copy!
     new_service_template = self.class.create!(attributes.except('id', 'version', 'state', 'created_at', 'updated_at').merge(skip_create_initial_task_template_set: true))
     first_task_template_set = task_template_sets.first
-    first_task_template_set.create_deep_copy!(new_service_template, first_task_template_set)
+    first_task_template_set.create_deep_copy!(new_service_template)
     new_service_template
   end
 
