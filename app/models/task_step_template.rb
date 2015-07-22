@@ -18,9 +18,30 @@ class TaskStepTemplate < ActiveRecord::Base
 
   before_validation :set_defaults, on: :create
 
+  def add_data_field_template!(data_field_template)
+    if d = data_field_templates.find_by_id(data_field_template.id)
+      return d
+    end
+
+    if tdft = task_template.output_task_data_field_templates.find_by_data_field_template_id(data_field_template.id)
+      task_step_data_field_templates.create!(task_data_field_template: tdft)
+    else
+      task_data_field_templates.create!(data_field_template: data_field_template,
+                                        task_template: task_template,
+                                        type: :output)
+    end
+    data_field_templates.find_by_id!(data_field_template.id)
+  end
+
+  def remove_data_field_template!(data_field_template)
+    task_data_field_template = task_data_field_templates.find_by_data_field_template_id!(data_field_template.id)
+    task_step_data_field_templates.find_by_task_data_field_template_id!(task_data_field_template).destroy
+    task_data_field_template.destroy if task_data_field_template.reload.task_step_data_field_templates.empty?
+  end
+
   private
 
   def set_defaults
-    self.ordinal = task_template.try(:task_step_templates).try(:max_by, &:ordinal).try(:ordinal).try(:+, 1) || 0
+    self.ordinal ||= task_template.try(:task_step_templates).try(:select, &:ordinal).try(:max_by, &:ordinal).try(:ordinal).try(:+, 1) || 0
   end
 end
