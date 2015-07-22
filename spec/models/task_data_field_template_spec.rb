@@ -14,7 +14,7 @@ describe TaskDataFieldTemplate do
       end
 
       it_validates 'presence of', :ordinal
-      it_validates 'uniqueness of', :ordinal, :task_template_id
+      it_validates 'uniqueness of', :ordinal, :task_template_id, :type
       it_validates 'numericality of', :ordinal
       it_validates 'integer numericality of', :ordinal
     end

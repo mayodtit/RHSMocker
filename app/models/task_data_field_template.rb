@@ -17,7 +17,7 @@ class TaskDataFieldTemplate < ActiveRecord::Base
                   :data_field_template_id, :ordinal, :section, :type
 
   validates :task_template, :data_field_template, presence: true
-  validates :data_field_template_id, uniqueness: {scope: :task_template_id}
+  validates :data_field_template_id, uniqueness: {scope: %i(task_template_id type)}
   validates :ordinal, presence: true,
                       uniqueness: {scope: :task_template_id},
                       numericality: {only_integer: true, greater_than_or_equal_to: 0}
