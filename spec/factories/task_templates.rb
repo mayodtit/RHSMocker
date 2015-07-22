@@ -4,5 +4,9 @@ FactoryGirl.define do
     title "Title"
     description "Description"
     time_estimate 6 * 60
+
+    trait :with_service_template do
+      service_template
+    end
   end
 end

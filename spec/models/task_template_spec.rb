@@ -2,6 +2,7 @@ require 'spec_helper'
 
 describe TaskTemplate do
   it_has_a 'valid factory'
+  it_has_a 'valid factory', :with_service_template
 
   describe 'validations' do
     before do
