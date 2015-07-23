@@ -70,6 +70,9 @@ class Member < User
   belongs_to :impersonated_user, class_name: 'Member'
   has_one :enrollment, foreign_key: :user_id, inverse_of: :user, autosave: true
   has_many :entries
+  has_one :onboarding_group_candidate, foreign_key: :user_id,
+                                       inverse_of: :user,
+                                       autosave: true
 
   attr_accessible :password, :password_confirmation,
                   :invitation_token, :units,

@@ -51,8 +51,12 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
 
   private
 
+  def onboarding_group_candidate
+    @onboarding_group_candidate ||= OnboardingGroupCandidate.find_by_email(params[:email])
+  end
+
   def onboarding_group
-    @onboarding_group ||= @referral_code.try(:onboarding_group) || @user.try(:onboarding_group)
+    @onboarding_group ||= @referral_code.try(:onboarding_group) || @user.try(:onboarding_group) || onboarding_group_candidate.try(:onboarding_group)
   end
 
   def onboarding_skip_credit_card?
@@ -60,11 +64,15 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
   end
 
   def onboarding_customization
-    onboarding_group.try(:serializer, onboarding_customization: true)
+    if onboarding_group.try(:onboarding_customization?)
+      onboarding_group.try(:serializer, onboarding_customization: true)
+    else
+      nil
+    end
   end
 
   def onboarding_custom_welcome
-    if onboarding_group
+    if onboarding_group.try(:onboarding_custom_welcome?)
       [onboarding_group.serializer(onboarding_custom_welcome: true).as_json]
     else
       []
@@ -116,7 +124,8 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
       # set sign up attributes
       attrs[:user_agreements_attributes] = user_agreements_attributes if user_params[:tos_checked] || user_params[:agreement_id]
       attrs[:referral_code] = ReferralCode.find_by_code(user_params[:code]) if user_params[:code]
-      attrs[:onboarding_group] = attrs[:referral_code].try(:onboarding_group)
+      attrs[:onboarding_group_candidate] = OnboardingGroupCandidate.find_by_email(user_params[:email])
+      attrs[:onboarding_group] = attrs[:referral_code].try(:onboarding_group) || attrs[:onboarding_group_candidate].try(:onboarding_group)
       attrs[:enrollment] = Enrollment.find_by_token(user_params[:enrollment_token]) if user_params[:enrollment_token]
 
       # set device attributes
