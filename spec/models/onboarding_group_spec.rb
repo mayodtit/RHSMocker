@@ -92,4 +92,47 @@ describe OnboardingGroup do
       end
     end
   end
+
+  describe '#onboarding_customization?' do
+    let(:onboarding_group) { build_stubbed(:onboarding_group) }
+
+    context 'missing prerequisites' do
+      it 'returns false' do
+        expect(onboarding_group.onboarding_customization?).to be_false
+      end
+    end
+
+    context 'all prerequisites satisified' do
+      before do
+        onboarding_group.stub(background_asset_url: true,
+                              header_asset_url: true)
+      end
+
+      it 'returns true' do
+        expect(onboarding_group.onboarding_customization?).to be_true
+      end
+    end
+  end
+
+  describe '#onboarding_custom_welcome?' do
+    let(:onboarding_group) { build_stubbed(:onboarding_group) }
+
+    context 'missing prerequisites' do
+      it 'returns false' do
+        expect(onboarding_group.onboarding_custom_welcome?).to be_false
+      end
+    end
+
+    context 'all prerequisites satisified' do
+      before do
+        onboarding_group.stub(background_asset_url: true,
+                              header_asset_url: true,
+                              custom_welcome: true)
+      end
+
+      it 'returns true' do
+        expect(onboarding_group.onboarding_custom_welcome?).to be_true
+      end
+    end
+  end
 end

@@ -111,6 +111,14 @@ class OnboardingGroup < ActiveRecord::Base
     end
   end
 
+  def onboarding_customization?
+    background_asset_url && header_asset_url
+  end
+
+  def onboarding_custom_welcome?
+    background_asset_url && header_asset_url && custom_welcome
+  end
+
   private
 
   def set_defaults

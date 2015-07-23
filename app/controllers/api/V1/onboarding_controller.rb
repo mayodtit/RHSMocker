@@ -64,11 +64,15 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
   end
 
   def onboarding_customization
-    onboarding_group.try(:serializer, onboarding_customization: true)
+    if onboarding_group.try(:onboarding_customization?)
+      onboarding_group.try(:serializer, onboarding_customization: true)
+    else
+      nil
+    end
   end
 
   def onboarding_custom_welcome
-    if onboarding_group
+    if onboarding_group.try(:onboarding_custom_welcome?)
       [onboarding_group.serializer(onboarding_custom_welcome: true).as_json]
     else
       []
