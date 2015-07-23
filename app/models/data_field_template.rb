@@ -12,7 +12,8 @@ class DataFieldTemplate < ActiveRecord::Base
   attr_accessible :service_template, :service_template_id, :name, :type,
                   :required_for_service_start
 
-  validates :service_template, :name, presence: true
+  validates :service_template, presence: true
+  validates :name, presence: true, uniqueness: {scope: :service_template_id}
   validates :type, presence: true, inclusion: {in: TYPES}
   validates :required_for_service_start, inclusion: {in: [true, false]}
 
