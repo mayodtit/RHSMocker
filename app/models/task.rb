@@ -15,6 +15,7 @@ class Task < ActiveRecord::Base
   belongs_to :service
   belongs_to :service_type
   belongs_to :task_template
+  belongs_to :task_category
   has_many :task_changes, class_name: 'TaskChange', order: 'created_at DESC'
   has_many :task_guides, class_name: 'TaskGuide', through: :task_template
   has_many :task_requirements
@@ -25,7 +26,7 @@ class Task < ActiveRecord::Base
                   :owner, :owner_id, :member, :member_id,
                   :subject, :subject_id, :creator, :creator_id, :assignor, :assignor_id,
                   :abandoner, :abandoner_id, :role, :role_id,
-                  :state_event, :service_type_id, :service_type,
+                  :state_event, :service_type_id, :service_type, :task_category, :task_category_id,
                   :task_template, :task_template_id, :service, :service_id, :service_ordinal,
                   :priority, :actor_id, :member_id, :member, :reason, :visible_in_queue,
                   :day_priority, :time_estimate, :pubsub_client_id, :urgent, :unread, :follow_up

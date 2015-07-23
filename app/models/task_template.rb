@@ -1,10 +1,11 @@
 class TaskTemplate < ActiveRecord::Base
   belongs_to :service_template
   belongs_to :modal_template
+  belongs_to :task_category
   has_many :tasks
   has_many :task_guides
 
-  attr_accessible :name, :title, :description, :time_estimate, :priority, :service_ordinal, :service_template, :service_template_id, :modal_template, :queue
+  attr_accessible :name, :title, :description, :time_estimate, :priority, :service_ordinal, :service_template, :service_template_id, :modal_template, :queue, :task_category, :task_category_id
 
   before_validation :copy_title_to_name
   validates :name, :title, presence: true
@@ -12,7 +13,15 @@ class TaskTemplate < ActiveRecord::Base
 
   def create_task!(attributes = {})
     creator = attributes[:service] ? attributes[:service].creator : attributes[:creator]
-    owner = attributes[:owner] || (attributes[:service] && attributes[:service].owner)
+    member = attributes[:service] ? attributes[:service].member : attributes[:member]
+
+    if queue == 'pha'
+      owner = member.try(:pha) || attributes[:owner] || (attributes[:service] && attributes[:service].owner)
+    elsif queue == 'specialist' || queue == 'hcc'
+      owner = nil
+    else
+      owner = attributes[:owner] || (attributes[:service] && attributes[:service].owner)
+    end
 
     MemberTask.create!(
       title: attributes[:title] || title,
@@ -20,15 +29,15 @@ class TaskTemplate < ActiveRecord::Base
       due_at: (attributes[:start_at] || Time.now).business_minutes_from(time_estimate.to_i),
       time_estimate: time_estimate,
       task_template: self,
+      task_category: task_category,
       service: attributes[:service],
       service_type: attributes[:service] ? attributes[:service].service_type : attributes[:service_type],
       service_ordinal: service_ordinal,
-      member: attributes[:service] ? attributes[:service].member : attributes[:member],
+      member:  member,
       subject: attributes[:service] ? attributes[:service].subject : attributes[:subject],
       creator: creator,
       owner: owner,
       assignor: owner.present? ? (attributes[:assignor] || creator) : nil,
-      priority: priority || 0,
       queue: queue || :pha,
       time_zone: attributes[:service] ? attributes[:service].time_zone : attributes[:subject].try(:time_zone)
     )

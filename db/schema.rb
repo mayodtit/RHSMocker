@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150716203652) do
+ActiveRecord::Schema.define(:version => 20150723231316) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1168,6 +1168,12 @@ ActiveRecord::Schema.define(:version => 20150716203652) do
     t.string   "gender"
   end
 
+  create_table "task_categories", :force => true do |t|
+    t.string  "title"
+    t.text    "description"
+    t.integer "priority_weight"
+  end
+
   create_table "task_changes", :force => true do |t|
     t.integer  "task_id",    :null => false
     t.string   "event"
@@ -1225,6 +1231,7 @@ ActiveRecord::Schema.define(:version => 20150716203652) do
     t.integer  "priority"
     t.integer  "modal_template_id"
     t.string   "queue"
+    t.integer  "task_category_id"
   end
 
   add_index "task_templates", ["service_template_id"], :name => "index_task_templates_on_service_template_id"
@@ -1276,6 +1283,7 @@ ActiveRecord::Schema.define(:version => 20150716203652) do
     t.string   "queue"
     t.string   "time_zone"
     t.integer  "time_zone_offset"
+    t.integer  "task_category_id"
   end
 
   add_index "tasks", ["owner_id", "state", "role_id", "type"], :name => "queue_test"
