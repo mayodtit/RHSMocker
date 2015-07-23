@@ -6,17 +6,11 @@ class ServiceTemplateSerializer < ActiveModel::Serializer
               :service_update, :version, :unique_id, :state, :state_events,
               :created_at, :unpublished_version_id, :timed_service
 
-  delegate :id, :title, :description, :service_type, :service_type_id,
-           :time_estimate, :unique_id, :published?, :task_templates,
-           :data_field_templates, to: :object
+  has_one :service_type
+  has_many :task_templates
+  has_many :data_field_templates
 
-  def attributes
-    super.tap do |attrs|
-      attrs[:service_type] = service_type
-      attrs[:task_templates] = task_templates.serializer(options)
-      attrs[:data_field_templates] = data_field_templates.serializer(options)
-    end
-  end
+  delegate :time_estimate, :unique_id, :published?, to: :object
 
   private
 
