@@ -18,7 +18,7 @@ class TaskDataField < ActiveRecord::Base
 
   before_validation :set_defaults, on: :create
 
-  delegate :ordinal, :section, to: :task_data_field_template
+  delegate :section, to: :task_data_field_template
 
   def input?
     type == :input

@@ -14,17 +14,12 @@ class TaskDataFieldTemplate < ActiveRecord::Base
   symbolize :type, in: TYPES
 
   attr_accessible :task_template, :task_template_id, :data_field_template,
-                  :data_field_template_id, :ordinal, :section, :type
+                  :data_field_template_id, :section, :type
 
   validates :task_template, :data_field_template, presence: true
   validates :data_field_template_id, uniqueness: {scope: %i(task_template_id type)}
-  validates :ordinal, presence: true,
-                      uniqueness: {scope: :task_template_id},
-                      numericality: {only_integer: true, greater_than_or_equal_to: 0}
   validates :type, presence: true, inclusion: {in: TYPES}
   validate :associations_have_same_service_template
-
-  before_validation :set_defaults, on: :create
 
   def input?
     type == :input
@@ -40,9 +35,5 @@ class TaskDataFieldTemplate < ActiveRecord::Base
     unless task_template.try(:service_template) == data_field_template.try(:service_template)
       errors.add(:base, 'associations must have same service template')
     end
-  end
-
-  def set_defaults
-    self.ordinal = task_template.try(:task_data_field_templates).try(:max_by, &:ordinal).try(:ordinal).try(:+, 1) || 0
   end
 end
