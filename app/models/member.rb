@@ -70,6 +70,9 @@ class Member < User
   belongs_to :impersonated_user, class_name: 'Member'
   has_one :enrollment, foreign_key: :user_id, inverse_of: :user, autosave: true
   has_many :entries
+  has_one :onboarding_group_candidate, foreign_key: :user_id,
+                                       inverse_of: :user,
+                                       autosave: true
 
   attr_accessible :password, :password_confirmation,
                   :invitation_token, :units,
@@ -334,9 +337,7 @@ class Member < User
   end
 
   def initial_state
-    if enrollment.present? && payment_token.present?
-      :premium
-    elsif password.present? || crypted_password.present?
+    if password.present? || crypted_password.present?
       next_state
     else
       :invited
@@ -348,6 +349,8 @@ class Member < User
        onboarding_group.try(:free_trial_ends_at)
       :trial
     elsif onboarding_group.try(:premium?)
+      :premium
+    elsif payment_token.present?
       :premium
     else
       :free

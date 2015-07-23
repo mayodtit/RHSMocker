@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150716001551) do
+ActiveRecord::Schema.define(:version => 20150721223403) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -672,6 +672,14 @@ ActiveRecord::Schema.define(:version => 20150716001551) do
   end
 
   add_index "nux_story_changes", ["nux_story_id"], :name => "index_nux_story_changes_on_nux_story_id"
+
+  create_table "onboarding_group_candidates", :force => true do |t|
+    t.integer  "onboarding_group_id"
+    t.string   "email"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+    t.integer  "user_id"
+  end
 
   create_table "onboarding_group_cards", :force => true do |t|
     t.integer  "onboarding_group_id"
