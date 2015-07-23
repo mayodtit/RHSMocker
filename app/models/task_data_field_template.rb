@@ -14,7 +14,7 @@ class TaskDataFieldTemplate < ActiveRecord::Base
   symbolize :type, in: TYPES
 
   attr_accessible :task_template, :task_template_id, :data_field_template,
-                  :data_field_template_id, :section, :type
+                  :data_field_template_id, :type
 
   validates :task_template, :data_field_template, presence: true
   validates :data_field_template_id, uniqueness: {scope: %i(task_template_id type)}

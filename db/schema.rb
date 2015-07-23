@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150723225523) do
+ActiveRecord::Schema.define(:version => 20150723230139) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1216,7 +1216,6 @@ ActiveRecord::Schema.define(:version => 20150723225523) do
   create_table "task_data_field_templates", :force => true do |t|
     t.integer  "task_template_id"
     t.integer  "data_field_template_id"
-    t.string   "section"
     t.datetime "created_at",             :null => false
     t.datetime "updated_at",             :null => false
     t.string   "type"
