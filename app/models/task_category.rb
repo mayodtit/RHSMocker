@@ -4,5 +4,5 @@ class TaskCategory < ActiveRecord::Base
 
   attr_accessible :task_template_id, :task_id, :title, :description, :priority_weight
 
-  validates :title, :priority_weight presence: true
+  validates :title, :priority_weight, presence: true
 end
