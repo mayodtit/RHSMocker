@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'stripe_mock'
 require 'rspec_api_documentation/dsl'
 
 resource 'Onboarding' do
@@ -97,6 +98,53 @@ resource 'Onboarding' do
         expect(body[:pha].to_json).to eq(pha.serializer.as_json.to_json)
         expect(body[:auth_token]).to be_present
         expect(body[:onboarding_custom_welcome]).to eq([reloaded_onboarding_group.serializer(onboarding_custom_welcome: true).as_json])
+      end
+    end
+  end
+
+  describe '#sign_up' do
+    parameter :email, 'User email address'
+    parameter :password, 'User password'
+    parameter :agreement_id, 'TOS and Privacy Policy agreement_id'
+    parameter :payment_token, 'Stripe credit card token'
+    parameter :code, 'Referral code'
+    required_parameters :email, :password
+    scope_parameters :user, %i(email password agreement_id payment_token code)
+
+    let!(:pha_profile) { create(:pha_profile) }
+    let!(:agreement) { create(:agreement) }
+    let!(:onboarding_group) { create(:onboarding_group) }
+    let!(:referral_code) { create(:referral_code, onboarding_group: onboarding_group, creator: nil) }
+    let(:stripe_helper) { StripeMock.create_test_helper }
+    let(:plan_id) { 'bp20' }
+    let(:email) { 'test+signup@getbetter.com' }
+    let(:password) { 'password' }
+    let(:payment_token) { stripe_helper.generate_card_token }
+    let(:raw_post) { params.to_json }
+
+    before do
+      StripeMock.start
+      Stripe::Plan.create(amount: 1999,
+                          interval: :month,
+                          name: 'Single Membership',
+                          currency: :usd,
+                          id: plan_id)
+    end
+
+    after do
+      StripeMock.stop
+    end
+
+    post '/api/v1/onboarding/sign_up' do
+      example_request '[POST] Sign Up' do
+        explanation 'Create a new session and log in'
+        expect(status).to eq(200)
+        body = JSON.parse(response_body, symbolize_names: true)
+        user = Member.find(body[:user][:id])
+        expect(body[:user].to_json).to eq(user.serializer.as_json.to_json)
+        expect(body[:member].to_json).to eq(user.serializer.as_json.to_json)
+        expect(body[:pha_profile].to_json).to eq(pha_profile.serializer.as_json.to_json)
+        expect(body[:auth_token]).to be_present
       end
     end
   end
