@@ -8,5 +8,6 @@ FactoryGirl.define do
     time_estimate 6*60
     service_ordinal 2
     service_template_id 1
+    queue nil
   end
 end
