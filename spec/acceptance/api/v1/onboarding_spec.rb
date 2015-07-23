@@ -103,23 +103,26 @@ resource 'Onboarding' do
   end
 
   describe '#sign_up' do
+    header 'User-Agent', 'test'
     parameter :email, 'User email address'
     parameter :password, 'User password'
     parameter :agreement_id, 'TOS and Privacy Policy agreement_id'
     parameter :payment_token, 'Stripe credit card token'
     parameter :code, 'Referral code'
-    required_parameters :email, :password
+    required_parameters :email, :password, :agreement_id
     scope_parameters :user, %i(email password agreement_id payment_token code)
 
     let!(:pha_profile) { create(:pha_profile) }
-    let!(:agreement) { create(:agreement) }
+    let!(:agreement) { create(:agreement, :active) }
     let!(:onboarding_group) { create(:onboarding_group) }
     let!(:referral_code) { create(:referral_code, onboarding_group: onboarding_group, creator: nil) }
     let(:stripe_helper) { StripeMock.create_test_helper }
     let(:plan_id) { 'bp20' }
     let(:email) { 'test+signup@getbetter.com' }
     let(:password) { 'password' }
+    let(:agreement_id) { agreement.id }
     let(:payment_token) { stripe_helper.generate_card_token }
+    let(:code) { referral_code.code }
     let(:raw_post) { params.to_json }
 
     before do
