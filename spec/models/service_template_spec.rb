@@ -39,4 +39,14 @@ describe ServiceTemplate do
       service_template.create_deep_copy!.should == service_template
     end
   end
+
+  describe 'create_initial_task_template_set' do
+    let(:task_template_set) { build_stubbed(:task_template_set) }
+
+    it 'creates an initial task with the current ServiceTemplate' do
+      task_template_set.should_receive(:create_initial_task_template_set) { task_template_set }
+
+      task_template_set.create_initial_task_template_set.should == task_template_set
+    end
+  end
 end
