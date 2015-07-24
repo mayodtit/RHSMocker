@@ -1,4 +1,5 @@
-namespace :seeds do
+namespace :demo do
+  desc 'Demo seed for onboarding testing'
   task onboarding: :environment do |t, args|
     o = OnboardingGroup.find_or_create_by_name(name: 'Premium, No Credit Card',
                                                premium: true,
@@ -28,8 +29,8 @@ namespace :seeds do
                                         onboarding_group: o)
   end
 
-  desc 'Demo seed'
-  task kyle: :environment do
+  desc 'Demo Service Template seed with deeply-nested models'
+  task service_template: :environment do
     # legacy ServiceType, ServiceTemplates require it for now
     service_type = ServiceType.upsert_attributes!({name: 'appointment booking'}, {bucket: 'care coordination'})
 
