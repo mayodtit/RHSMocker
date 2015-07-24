@@ -92,7 +92,8 @@ class Member < User
                   :impersonated_user, :impersonated_user_id,:delinquent,
                   :enrollment, :payment_token, :coupon_count, :unique_on_boarding_user_token,
                   :kinsights_token, :kinsights_patient_url,
-                  :kinsights_profile_url
+                  :kinsights_profile_url,
+                  :onboarding_group_candidate
 
   validates :unique_on_boarding_user_token, uniqueness: true, allow_nil: true
   validates :signed_up_at, presence: true, if: ->(m){m.signed_up?}

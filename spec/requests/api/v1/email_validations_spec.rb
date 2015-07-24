@@ -21,14 +21,18 @@ describe 'EmailValidations' do
 
         before do
           member.update_attributes(onboarding_group: onboarding_group)
+          CarrierWave::Mount::Mounter.any_instance.stub(:store!)
+          onboarding_group.update_attributes!(header_asset: File.new(Rails.root.join('spec','support','kbcat.jpg')),
+                                              background_asset: File.new(Rails.root.join('spec','support','kbcat.jpg')))
         end
 
         it 'returns requires_sign_up=false and the onboarding group' do
           do_request(email: member.email)
           expect(response).to be_success
           body = JSON.parse(response.body, symbolize_names: true)
+          reloaded_onboarding_group = OnboardingGroup.find(onboarding_group.id)
           expect(body[:requires_sign_up]).to be_false
-          expect(body[:onboarding_customization].to_json).to eq(onboarding_group.serializer(onboarding_customization: true).as_json.to_json)
+          expect(body[:onboarding_customization].to_json).to eq(reloaded_onboarding_group.serializer(onboarding_customization: true).as_json.to_json)
         end
       end
     end
