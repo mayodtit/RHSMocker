@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150721223403) do
+ActiveRecord::Schema.define(:version => 20150723173334) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1173,6 +1173,17 @@ ActiveRecord::Schema.define(:version => 20150721223403) do
     t.string   "patient_type"
     t.string   "description"
     t.string   "gender"
+  end
+
+  create_table "system_event_templates", :force => true do |t|
+    t.string   "name",                       :null => false
+    t.string   "title",                      :null => false
+    t.text     "description"
+    t.string   "unique_id",                  :null => false
+    t.integer  "version",     :default => 0, :null => false
+    t.string   "state"
+    t.datetime "created_at",                 :null => false
+    t.datetime "updated_at",                 :null => false
   end
 
   create_table "task_changes", :force => true do |t|
