@@ -19,6 +19,12 @@ class DataFieldTemplate < ActiveRecord::Base
 
   before_validation :set_defaults, on: :create
 
+  def create_deep_copy!(new_service_template)
+    transaction do
+      new_service_template.data_field_templates.create!(attributes.slice(*%w(name type required_for_service_start)))
+    end
+  end
+
   private
 
   def set_defaults

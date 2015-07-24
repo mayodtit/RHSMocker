@@ -117,4 +117,32 @@ describe TaskStepTemplate do
       end
     end
   end
+
+  describe '#create_deep_copy!' do
+    let!(:origin_task_step_data_field_template) { create(:task_step_data_field_template) }
+    let!(:origin_data_field_template) { origin_task_step_data_field_template.data_field_template }
+    let!(:origin_task_step_template) { origin_task_step_data_field_template.task_step_template }
+    let!(:origin_task_template) { origin_task_step_template.task_template }
+    let!(:origin_service_template) { origin_task_template.service_template }
+    let(:origin_task_step_template_attributes) { origin_task_step_template.attributes.slice(*%w(description ordinal details template)) }
+
+    let!(:new_service_template) { create(:service_template) }
+    let!(:new_task_template) { create(:task_template, service_template: new_service_template) }
+    let!(:new_data_field_template) do
+      create(:data_field_template, service_template: new_service_template,
+                                   name: origin_data_field_template.name,
+                                   type: origin_data_field_template.type,
+                                   required_for_service_start: origin_data_field_template.required_for_service_start)
+    end
+
+    it 'creates a deep copy including nested templates' do
+      new_task_step_template = origin_task_step_template.create_deep_copy!(new_service_template, new_task_template)
+      expect(new_task_step_template).to be_valid
+      expect(new_task_step_template).to be_persisted
+      expect(new_task_step_template.task_template).to eq(new_task_template)
+      expect(new_task_step_template.data_field_templates).to include(new_data_field_template)
+      new_task_step_template_attributes = new_task_step_template.attributes.slice(*%w(description ordinal details template))
+      expect(new_task_step_template_attributes).to eq(origin_task_step_template_attributes)
+    end
+  end
 end

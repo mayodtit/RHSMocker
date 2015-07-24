@@ -39,6 +39,16 @@ class TaskStepTemplate < ActiveRecord::Base
     task_data_field_template.destroy if task_data_field_template.reload.task_step_data_field_templates.empty?
   end
 
+  def create_deep_copy!(new_service_template, new_task_template)
+    transaction do
+      new_task_template.task_step_templates.create!(attributes.slice(*%w(description ordinal details template))).tap do |new_task_step_template|
+        data_field_templates.each do |data_field_template|
+          new_task_step_template.add_data_field_template!(new_service_template.data_field_templates.find_by_name!(data_field_template.name))
+        end
+      end
+    end
+  end
+
   private
 
   def set_defaults

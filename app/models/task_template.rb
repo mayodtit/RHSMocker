@@ -30,9 +30,15 @@ class TaskTemplate < ActiveRecord::Base
     time.business_minutes_from(time_estimate.to_i)
   end
 
-  def create_deep_copy!(override_service_template=nil)
-    new_modal_template = modal_template.try(:create_copy!)
-    self.class.create!(attributes.except('id', 'service_template_id', 'created_at', 'updated_at', 'modal_template_id').merge(service_template: override_service_template || service_template, modal_template: new_modal_template || modal_template))
+  def create_deep_copy!(new_service_template)
+    transaction do
+      new_service_template.task_templates.create!(attributes.slice(*%w(name title description time_estimate priority service_ordinal))).tap do |new_task_template|
+        new_task_template.update_attributes!(modal_template: modal_template.create_copy!) if modal_template
+        task_step_templates.each do |task_step_template|
+          task_step_template.create_deep_copy!(new_service_template, new_task_template)
+        end
+      end
+    end
   end
 
   private
