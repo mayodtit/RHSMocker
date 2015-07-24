@@ -141,4 +141,16 @@ describe TaskTemplate do
       task_template.create_deep_copy!.should == task_template
     end
   end
+
+  describe '#no_placeholders_in_user_facing_attributes' do
+    let(:task_template) { build(:task_template) }
+
+    context 'with square brackets' do
+      it 'prevents brackets the title' do
+        task_template.title = "This has a [placeholder]"
+        expect(task_template).to_not be_valid
+        expect(task_template.errors[:title]).to include("shouldn't contain any brackets other than markdown")
+      end
+    end
+  end
 end
