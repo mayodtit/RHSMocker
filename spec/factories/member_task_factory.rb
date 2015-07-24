@@ -6,5 +6,6 @@ FactoryGirl.define do
     association :subject, factory: :user
     association :service_type
     unread false
+    result true
   end
 end
