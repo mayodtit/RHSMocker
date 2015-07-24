@@ -29,7 +29,7 @@ describe NewMemberTask do
         it 'sets due_at to 6PM today' do
           expect(task.due_at).to be_nil
           task.valid?
-          expect(task.due_at).to eq(Time.now.change(hour: 18))
+          expect(task.due_at).to eq(Time.now.pacific.change(hour: 18))
         end
       end
 
