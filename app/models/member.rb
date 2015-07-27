@@ -354,10 +354,6 @@ class Member < User
     end
   end
 
-  def next_tasks(options = Hash.new)
-    tasks = Task.next_tasks(self)
-  end
-
   def queue(options = Hash.new)
     return if role.nil?
 

@@ -77,11 +77,26 @@ class Task < ActiveRecord::Base
   end
 
   def self.specialist_queue(hcp)
-    where('queue = "specialist" OR owner_id = ?', hcp.id).open_state
+    where('queue = "specialist" AND owner_id = ? AND state = "claimed"', hcp.id)
   end
 
-  def self.next_tasks(hcp)
-    [Task.specialist_queue(hcp).includes(:member, :member => :phone_numbers).order('priority DESC').first]
+  def self.next_tasks
+    task = Task.where(queue: :specialist).where(state: :unclaimed).includes(:member, :member => :phone_numbers).order('priority DESC').first
+    if task
+      [task]
+    else
+      []
+    end
+  end
+
+  def self.claim_next_tasks!(hcp)
+    transaction do
+      next_tasks.each do |t|
+        t.owner = hcp
+        t.actor_id = hcp.id
+        t.claim!
+      end
+    end
   end
 
   def blocked?
@@ -267,7 +282,6 @@ class Task < ActiveRecord::Base
     end
 
     before_transition any - :claimed => :claimed do |task|
-      task.unread = false
       task.claimed_at = Time.now
     end
 

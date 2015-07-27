@@ -19,8 +19,13 @@ class Api::V1::TasksController < Api::V1::ABaseController
 
   def next_tasks
     authorize! :read, Task
-    user = params[:pha_id] && User.find_by_id(params[:pha_id]) ? User.find(params[:pha_id]) : current_user
-    tasks = user.next_tasks(params)
+    queue_tasks, tomorrow_count, future_count = current_user.queue(params)
+    tasks = if queue_tasks.any?
+      queue_tasks
+    else
+      Task.claim_next_tasks!(current_user)
+    end
+
     render_success tasks: tasks.serializer(shallow: true)
   end
 
