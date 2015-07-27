@@ -31,12 +31,29 @@ describe ServiceTemplate do
   end
 
   describe '#create_deep_copy!' do
-    let(:service_template) { build_stubbed(:service_template)}
+    let!(:origin_service_template) { create(:service_template, :published) }
+    let!(:origin_task_template) { create(:task_template, service_template: origin_service_template) }
+    let!(:origin_task_step_template) { create(:task_step_template, task_template: origin_task_template) }
+    let!(:origin_data_field_template) { create(:data_field_template, service_template: origin_service_template) }
+    let(:origin_service_template_attributes) { origin_service_template.attributes.slice(*%w(name title description service_type_id time_estimate timed_service user_facing service_update service_request unique_id)) }
 
-    it 'creates a deep copy of the current service template' do
-      service_template.should_receive(:create_deep_copy!) { service_template }
+    before do
+      origin_task_step_template.add_data_field_template!(origin_data_field_template)
+    end
 
-      service_template.create_deep_copy!.should == service_template
+    it 'creates a deep copy including nested templates' do
+      new_service_template = origin_service_template.create_deep_copy!
+      expect(new_service_template).to be_valid
+      expect(new_service_template).to be_persisted
+      expect(new_service_template.data_field_templates.count).to eq(1)
+      new_data_field_template = new_service_template.data_field_templates.first
+      expect(new_service_template.task_templates.count).to eq(1)
+      new_task_template = new_service_template.task_templates.first
+      expect(new_task_template.task_step_templates.count).to eq(1)
+      new_task_step_template = new_task_template.task_step_templates.first
+      expect(new_task_step_template.data_field_templates).to include(new_data_field_template)
+      new_service_template_attributes = new_service_template.attributes.slice(*%w(name title description service_type_id time_estimate timed_service user_facing service_update service_request unique_id))
+      expect(new_service_template_attributes).to eq(origin_service_template_attributes)
     end
   end
 

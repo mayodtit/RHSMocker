@@ -1,6 +1,5 @@
 class InsurancePolicyTask < Task
   include ActiveModel::ForbiddenAttributesProtection
-  PRIORITY = 7
 
   belongs_to :subject, class_name: 'User'
 
@@ -8,13 +7,11 @@ class InsurancePolicyTask < Task
 
   validates :member, :subject, presence: true
 
-  before_validation :set_defaults, on: :create
-
-  def set_priority
-    self.priority = PRIORITY
-  end
-
   private
+
+  def default_queue
+    :hcc
+  end
 
   TASK_DESCRIPTION = <<-eof
 1. Verify new insurance policy is in their profile.
@@ -27,6 +24,7 @@ class InsurancePolicyTask < Task
     self.description ||= TASK_DESCRIPTION
     self.creator ||= Member.robot
     self.due_at ||= Time.now + 5.minutes
-    true
+    self.priority ||= 7
+    super
   end
 end

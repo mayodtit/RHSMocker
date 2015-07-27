@@ -27,7 +27,7 @@ describe 'Users' do
         do_request
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:user].to_json).to eq(user.serializer(include_roles: true).as_json.to_json)
+        expect(body[:user].to_json).to eq(user.serializer.as_json.to_json)
       end
     end
 
@@ -40,7 +40,7 @@ describe 'Users' do
         do_request
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:user].to_json).to eq(user.serializer(include_roles: true).as_json.to_json)
+        expect(body[:user].to_json).to eq(user.serializer.as_json.to_json)
       end
     end
 
@@ -57,6 +57,46 @@ describe 'Users' do
         body = JSON.parse(response.body, symbolize_names: true)
         expect(body[:user].to_json).to eq(user.reload.serializer.as_json.to_json)
         expect(body[:user][:first_name]).to eq(new_name)
+      end
+
+      describe 'phone numbers' do
+        def do_request(user_id, params={})
+          put "/api/v1/users/#{user_id}", params.merge!(auth_token: session.auth_token)
+        end
+
+        context 'with a family association' do
+          let!(:association_type) { create(:association_type, relationship_type: 'family') }
+          let!(:association) { create(:association, user: user, association_type: association_type) }
+
+          it "returns family member error when there's a family association" do
+            do_request(association.associate_id, user: {phone: '555'})
+            expect(response).to_not be_success
+            body = JSON.parse(response.body, symbolize_names: true)
+            expect(response.code).to eq('422')
+            expect(body[:reason]).to eq("Family Member's phone number is invalid")
+          end
+        end
+
+        context 'with a care team association' do
+          let!(:association_type) { create(:association_type, relationship_type: 'hcp') }
+          let!(:association) { create(:association, user: user, association_type: association_type) }
+
+          it 'returns care team error' do
+            do_request(association.associate_id, user: {phone: '555'})
+            expect(response).to_not be_success
+            body = JSON.parse(response.body, symbolize_names: true)
+            expect(response.code).to eq('422')
+            expect(body[:reason]).to eq("Care Team Member's phone number is invalid")
+          end
+        end
+
+        it "returns phone number error" do
+          do_request(user.id, user: {phone: '555'})
+          expect(response).to_not be_success
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(response.code).to eq('422')
+          expect(body[:reason]).to eq("Phone number is invalid")
+        end
       end
     end
 

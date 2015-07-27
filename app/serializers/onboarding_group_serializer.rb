@@ -7,15 +7,19 @@ class OnboardingGroupSerializer < ActiveModel::Serializer
              :subscription_days, :absolute_subscription_ends_at,
              :skip_credit_card, :skip_emails
 
-  delegate :id, :name, :header_asset_url, :background_asset_url, to: :object
+  delegate :header_asset_url, :background_asset_url, :custom_welcome, to: :object
 
   def attributes
-    if for_onboarding?
+    if onboarding_customization?
       {
-        id: id,
-        name: name,
+        background_asset_url: background_asset_url,
         header_asset_url: header_asset_url,
-        background_asset_url: background_asset_url
+      }
+    elsif onboarding_custom_welcome?
+      {
+        background_asset_url: background_asset_url,
+        header_asset_url: header_asset_url,
+        custom_welcome: custom_welcome
       }
     else
       super
@@ -30,7 +34,11 @@ class OnboardingGroupSerializer < ActiveModel::Serializer
 
   private
 
-  def for_onboarding?
-    options[:for_onboarding]
+  def onboarding_customization?
+    options[:onboarding_customization]
+  end
+
+  def onboarding_custom_welcome?
+    options[:onboarding_custom_welcome]
   end
 end

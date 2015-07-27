@@ -32,6 +32,10 @@ class Ability
       user.id == p.subject.user_id
     end
 
+    can :manage, PhoneNumber do |p|
+      user.id == p.phoneable_id && p.phoneable_type == "User"
+    end
+
     can :manage, Permission do |p|
       user.id == p.subject.associate_id || user.id == p.subject.associate.owner_id
     end
@@ -123,6 +127,7 @@ class Ability
 
       can :manage, ScheduledPhoneCall
       can :index, ScheduledPhoneCall
+      can :manage, PhoneNumber
       can :create, Card
       can :manage, ScheduledMessage
       can :manage, ScheduledCommunication
@@ -130,12 +135,16 @@ class Ability
       can :manage, Entry
       can :read, ServiceTemplate
       can :read, TaskTemplate
+      can :manage, DataField
+      can :manage, TaskStep
     end
 
     if user.service_admin?
       can :manage, ServiceTemplate
       can :manage, TaskTemplate
       can :manage, TaskTemplateSet
+      can :manage, TaskStepTemplate
+      can :manage, DataFieldTemplate
     end
 
     if user.pha_lead?

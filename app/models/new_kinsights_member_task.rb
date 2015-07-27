@@ -1,6 +1,5 @@
 class NewKinsightsMemberTask < Task
   include ActiveModel::ForbiddenAttributesProtection
-  PRIORITY = 7
 
   belongs_to :subject, class_name: 'User'
 
@@ -8,20 +7,19 @@ class NewKinsightsMemberTask < Task
 
   validates :member, :subject, presence: true
 
-  before_validation :set_defaults, on: :create
-
-  def set_priority
-    self.priority = PRIORITY
-  end
-
   private
+
+  def default_queue
+    :hcc
+  end
 
   def set_defaults
     self.title ||= "PHA Introduction - Kinsights"
     self.description ||= default_description
     self.creator ||= Member.robot
     self.due_at ||= Time.now + 5.minutes
-    true
+    self.priority ||= 7
+    super
   end
 
   def default_description

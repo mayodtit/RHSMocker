@@ -1,9 +1,11 @@
 class ServiceTemplate < ActiveRecord::Base
   belongs_to :service_type
   has_many :task_templates, dependent: :destroy
-  has_many :suggested_service_templates
   has_many :task_template_sets
   attr_accessor :skip_create_initial_task_template_set
+  has_many :suggested_service_templates, dependent: :destroy
+  has_many :data_field_templates, inverse_of: :service_template,
+                                  dependent: :destroy
 
   attr_accessible :name, :title, :description, :service_type_id,
                   :service_type, :time_estimate, :timed_service,
@@ -30,10 +32,15 @@ class ServiceTemplate < ActiveRecord::Base
   end
 
   def create_deep_copy!
-    new_service_template = self.class.create!(attributes.except('id', 'version', 'state', 'created_at', 'updated_at').merge(skip_create_initial_task_template_set: true))
-    first_task_template_set = task_template_sets.order('created_at').first
-    first_task_template_set.create_deep_copy!(new_service_template)
-    new_service_template
+    transaction do
+      new_service_template = self.class.create!(attributes.except('id', 'version', 'state', 'created_at', 'updated_at').merge(skip_create_initial_task_template_set: true))
+      data_field_templates.each do |data_field_template|
+        data_field_template.create_deep_copy!(new_service_template)
+      end
+      first_task_template_set = task_template_sets.order('created_at').first
+      first_task_template_set.create_deep_copy!(new_service_template)
+      new_service_template
+    end
   end
 
   def self.title_search(string)

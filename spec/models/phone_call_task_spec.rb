@@ -1,105 +1,31 @@
 require 'spec_helper'
 
 describe PhoneCallTask do
-  before do
-    @pha_id = Role.find_or_create_by_name!(:pha).id
-  end
+  let!(:pha_role) { Role.find_by_name(:pha) || create(:role, name: :pha) }
+
+  it_has_a 'valid factory'
 
   describe '#validations' do
     it_validates 'presence of', :phone_call
 
-    describe '#one_message_per_consult' do
-      let(:phone_call) { build_stubbed :phone_call }
-      let(:task) { build :phone_call_task, phone_call: phone_call }
+    describe '#one_open_per_phone_call' do
+      let!(:consult) { create(:consult) }
+      let!(:phone_call) { create(:phone_call, consult: consult) }
 
-      context 'and open' do
-        context 'and phone call task for phone_call exists' do
-          it 'should not be valid if task is different' do
-            other_task = build_stubbed :phone_call_task
-            PhoneCallTask.stub(:open) do
-              o = Object.new
-              o.stub(:where).with(phone_call_id: phone_call.id) do
-                o = Object.new
-                o.stub(:first) { other_task }
-                o
-              end
-              o
-            end
-            task.should_not be_valid
-          end
+      context 'with an already open task' do
+        let!(:other_task) { create(:phone_call_task, phone_call: phone_call, role: pha_role) }
 
-          it 'should be valid if task is the same' do
-            task = build_stubbed :phone_call_task, :claimed, phone_call: phone_call, role: phone_call.to_role
-            PhoneCallTask.stub(:open) do
-              o = Object.new
-              o.stub(:where).with(phone_call_id: phone_call.id) do
-                o = Object.new
-                o.stub(:first) { task }
-                o
-              end
-              o
-            end
-            task.should be_valid
-          end
-        end
-
-        context 'and phone call task for phone_call DNE' do
-          it 'should be valid' do
-            PhoneCallTask.stub(:open) do
-              o = Object.new
-              o.stub(:where).with(phone_call_id: phone_call.id) do
-                o = Object.new
-                o.stub(:first) { nil }
-                o
-              end
-              o
-            end
-            task.should be_valid
-          end
+        it 'adds an error if there are any other open phone call tasks' do
+          task = build(:phone_call_task, phone_call: phone_call, role: pha_role)
+          expect(task).to_not be_valid
+          expect(task.errors[:phone_call_id]).to include("open PhoneCallTask already exists for #{phone_call.id}")
         end
       end
 
-      context 'and not open' do
-        before do
-          task.stub(:open?) { false }
-        end
-
-        it 'should be valid' do
-          task.should be_valid
-        end
-      end
-    end
-  end
-
-  describe '#set_role' do
-    let(:task) { build :phone_call_task }
-
-    context 'role_id is nil' do
-      before do
-        task.role_id = nil
-      end
-
-      context 'phone_call exists' do
-        before do
-          task.phone_call.stub(:to_role_id) { 5 }
-        end
-
-        it 'sets it to the phone calls role' do
-          task.set_role
-          task.role_id.should == 5
-        end
-      end
-    end
-
-    context 'role_id is present' do
-
-      before do
-        task.stub(:role_id) { 2 }
-      end
-
-      it 'does nothing' do
-        task.should_not_receive(:role_id=)
-        task.set_role
+      it 'does not add an error when the message task is the only task' do
+        expect(described_class.where(phone_call_id: phone_call.id)).to be_empty
+        task = create(:phone_call_task, phone_call: phone_call, role: pha_role)
+        expect(task).to be_valid
       end
     end
   end
@@ -179,12 +105,12 @@ describe PhoneCallTask do
       end
     end
 
-    describe '#unstart' do
-      let(:task) { build :phone_call_task, :started }
+    describe '#unclaim' do
+      let(:task) { build :phone_call_task, :claimed }
 
       it 'unclaims a call' do
         task.phone_call.should_receive(:update_attributes!).with(state_event: :unclaim)
-        task.unstart!
+        task.unclaim!
       end
     end
 
@@ -209,15 +135,6 @@ describe PhoneCallTask do
         task.phone_call.should_receive(:update_attributes!).with(state_event: :end, ender: pha)
         task.abandon!
       end
-    end
-  end
-
-  describe '#set_priority' do
-    let(:task) { build :phone_call_task }
-
-    it 'sets it to zero' do
-      task.set_priority
-      task.priority.should == PhoneCallTask::PRIORITY
     end
   end
 
@@ -321,17 +238,6 @@ describe PhoneCallTask do
           task.notify
         end
       end
-    end
-  end
-
-  describe '#set_member' do
-    let(:phone_call) { build_stubbed :phone_call }
-    let(:phone_call_task) { build_stubbed :phone_call_task, phone_call: phone_call }
-
-    it 'sets the member to the consult initiator' do
-      phone_call_task.member = nil
-      phone_call_task.set_member
-      phone_call_task.member.should == phone_call.user
     end
   end
 end

@@ -2,143 +2,45 @@ require 'spec_helper'
 
 describe TaskTemplate do
   it_has_a 'valid factory'
+  it_has_a 'valid factory', :with_service_template
 
   describe 'validations' do
-    it_validates 'presence of', :title
-  end
-
-  describe '#create_task!' do
-    let(:task_template) { build_stubbed :task_template }
-    let(:task) { build :member_task }
-    let(:pha) { build_stubbed :pha }
-    let(:other_pha) { build_stubbed :pha }
-
     before do
-      Timecop.freeze
+      described_class.any_instance.stub(:copy_title_to_name)
     end
 
-    after do
-      Timecop.return
-    end
-
-    it 'creates a member task from it\'s own attributes' do
-      MemberTask.should_receive(:create!).with(hash_including(
-        title: task_template.title,
-        description: task_template.description,
-        due_at: Time.now.business_minutes_from(task_template.time_estimate.to_i),
-        service_ordinal: task_template.service_ordinal
-      )) { task }
-
-      task_template.create_task!.should == task
-    end
-
-    it 'has the task reference back to the task template' do
-      MemberTask.should_receive(:create!).with(hash_including(
-        task_template: task_template
-      )) { task }
-
-      task_template.create_task!.should == task
-    end
-
-    context 'owner is set' do
-      it 'sets the assignor to creator if missing' do
-        MemberTask.should_receive(:create!).with(hash_including(
-          assignor: other_pha
-        )) { task }
-
-        task_template.create_task!(owner: pha, creator: other_pha).should == task
-      end
-
-      it 'sets the assignor' do
-        MemberTask.should_receive(:create!).with(hash_including(
-          assignor: other_pha
-        )) { task }
-
-        task_template.create_task!(owner: pha, creator: pha, assignor: other_pha).should == task
-      end
-    end
-
-    context 'owner is not set' do
-      it 'sets the assignor to nil' do
-        MemberTask.should_receive(:create!).with(hash_including(
-          assignor: nil
-        )) { task }
-
-        task_template.create_task!(creator: pha, assignor: other_pha).should == task
-      end
-    end
-
-    context 'service is in attributes' do
-      let(:service) { build_stubbed :service }
-
-      it 'sets the service from attributes' do
-        MemberTask.should_receive(:create!).with(hash_including(
-          service: service
-        )) { task }
-
-        task_template.create_task!(service: service).should == task
-      end
-
-      it 'sets other attributes from the service' do
-        MemberTask.should_receive(:create!).with(hash_including(
-          service_type: service.service_type,
-          member: service.member,
-          subject: service.subject
-        )) { task }
-
-        task_template.create_task!(service: service).should == task
-      end
-    end
-
-    context 'no service is added' do
-      let(:service_type) { build_stubbed :service_type }
-      let(:member) { build_stubbed :member }
-      let(:subject) { build_stubbed :user }
-
-      it 'sets attributes from those passed in' do
-        MemberTask.should_receive(:create!).with(hash_including(
-          service_type: service_type,
-          member: member,
-          subject: subject
-        )) { task }
-
-        task_template.create_task!(service_type: service_type, member: member, subject: subject).should == task
-      end
-    end
-
-    it 'uses attributes passed in first before it\'s own' do
-      attributes = {
-        title: task_template.title + ' B',
-        description: task_template.description + ' B',
-        start_at: 4.days.ago
-      }
-
-      MemberTask.should_receive(:create!).with(hash_including(
-        title: attributes[:title],
-        description: attributes[:description],
-        due_at: 4.days.ago.business_minutes_from(task_template.time_estimate.to_i)
-      )) { task }
-
-      task_template.create_task!(attributes).should == task
-    end
-
-    it 'creates a valid task' do
-      task_template = create :task_template
-      service = create :service
-
-      task = task_template.create_task! service: service
-      task.should be_valid
-      task.id.should be_present
-    end
+    it_validates 'presence of', :name
+    it_validates 'presence of', :title
+    it_validates 'foreign key of', :service_template
+    it_validates 'foreign key of', :modal_template
   end
 
   describe '#create_deep_copy!' do
-    let(:task_template) { build_stubbed(:task_template)}
+    let!(:origin_task_step_data_field_template) { create(:task_step_data_field_template) }
+    let!(:origin_data_field_template) { origin_task_step_data_field_template.data_field_template }
+    let!(:origin_task_step_template) { origin_task_step_data_field_template.task_step_template }
+    let!(:origin_task_template) { origin_task_step_template.task_template }
+    let!(:origin_service_template) { origin_task_template.service_template }
+    let(:origin_task_template_attributes) { origin_task_template.attributes.slice(*%w(name title description time_estimate priority service_ordinal)) }
 
-    it 'creates a deep copy of the current task template' do
-      task_template.should_receive(:create_deep_copy!) { task_template }
+    let!(:new_service_template) { create(:service_template) }
+    let!(:new_data_field_template) do
+      create(:data_field_template, service_template: new_service_template,
+                                   name: origin_data_field_template.name,
+                                   type: origin_data_field_template.type,
+                                   required_for_service_start: origin_data_field_template.required_for_service_start)
+    end
 
-      task_template.create_deep_copy!.should == task_template
+    it 'creates a deep copy including nested templates' do
+      new_task_template = origin_task_template.create_deep_copy!(new_service_template)
+      expect(new_task_template).to be_valid
+      expect(new_task_template).to be_persisted
+      expect(new_task_template.service_template).to eq(new_service_template)
+      expect(new_task_template.data_field_templates).to include(new_data_field_template)
+      expect(new_task_template.task_step_templates.count).to eq(1)
+      expect(new_task_template.task_step_templates.first.data_field_templates).to include(new_data_field_template)
+      new_task_template_attributes = new_task_template.attributes.slice(*%w(name title description time_estimate priority service_ordinal))
+      expect(new_task_template_attributes).to eq(origin_task_template_attributes)
     end
   end
 

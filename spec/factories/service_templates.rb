@@ -1,5 +1,3 @@
-# Read about factories at https://github.com/thoughtbot/factory_girl
-
 FactoryGirl.define do
   factory :service_template do
     name "Template"
@@ -11,5 +9,9 @@ FactoryGirl.define do
     user_facing false
     service_update "Service update"
     service_request "Service request"
+
+    trait :published do
+      state :published
+    end
   end
 end

@@ -25,13 +25,14 @@ class Api::V1::TasksController < Api::V1::ABaseController
   def current
     task = Task.find_by_owner_id_and_state(current_user.id, 'claimed')
     authorize!(:read, task) if task
-    show_resource task && task.serializer
+    show_resource task.try(:serializer)
   end
 
   def update
     authorize! :update, @task
 
     update_params = task_attributes
+    update_params[:pubsub_client_id] = params[:pubsub_client_id]
     update_params[:actor_id] = current_user.id
 
     # NOTE 11/17/14: Support CP until its migrated over
@@ -48,7 +49,7 @@ class Api::V1::TasksController < Api::V1::ABaseController
       update_params[update_params[:state_event].event_actor.to_sym] = current_user
     end
 
-    if %w(start claim abandon complete flag).include?(update_params[:state_event]) && !@task.owner_id && !update_params[:owner_id]
+    if %w(claim abandon complete).include?(update_params[:state_event]) && !@task.owner_id && !update_params[:owner_id]
       update_params[:owner_id] = current_user.id
     end
 
@@ -56,12 +57,8 @@ class Api::V1::TasksController < Api::V1::ABaseController
       update_params[:assignor_id] = current_user.id
     end
 
-    if update_params[:state_event] == 'claim'
-      @updated_tasks = Task.claimed.where(owner_id: current_user.id).each do |t|
-        t.actor_id = current_user.id
-        t.pubsub_client_id = update_params[:pubsub_client_id]
-        t.start!
-      end
+    if update_params[:owner_id] && !update_params[:state_event] && @task.state == 'unclaimed'
+      update_params[:state_event] = 'claim'
     end
 
     if ( update_params[:state_event] == 'complete' || update_params[:state_event] == 'abandon' ) && @task.service

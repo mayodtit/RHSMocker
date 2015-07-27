@@ -88,20 +88,20 @@ end
 
 shared_examples 'numericality of' do |property|
   its "#{property}" do
-    model = build_stubbed(described_class.name.underscore.to_sym)
+    model = build(described_class.name.underscore.to_sym)
     model.should be_valid
-    model.send(:"#{property}=", 'BAADBEEF')
-    model.should_not be_valid
+    model.save
+    expect(model.update_attributes(property.to_sym => 'BAADBEEF')).to be_false
     model.errors[property.to_sym].should include('is not a number')
   end
 end
 
 shared_examples 'integer numericality of' do |property|
   its "#{property}" do
-    model = build_stubbed(described_class.name.underscore.to_sym)
+    model = build(described_class.name.underscore.to_sym)
     model.should be_valid
-    model.send(:"#{property}=", 1.1)
-    model.should_not be_valid
+    model.save
+    expect(model.update_attributes(property.to_sym => 1.1)).to be_false
     model.errors[property.to_sym].should include('must be an integer')
   end
 end

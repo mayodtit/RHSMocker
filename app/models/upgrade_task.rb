@@ -1,10 +1,16 @@
 class UpgradeTask < Task
   include ActiveModel::ForbiddenAttributesProtection
-  PRIORITY = 6
 
   validates :member, presence: true
 
-  def set_priority
-    self.priority = PRIORITY
+  private
+
+  def default_queue
+    :hcc
+  end
+
+  def set_defaults
+    self.priority ||= 6
+    super
   end
 end

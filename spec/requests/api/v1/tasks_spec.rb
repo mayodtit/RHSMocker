@@ -15,6 +15,10 @@ describe 'Tasks' do
       end
 
       context 'claiming a task' do
+        before do
+          task.unclaim!
+        end
+
         it 'claims the task' do
           expect(task).to_not be_claimed
           do_request(task: {state_event: :claim})
@@ -22,22 +26,6 @@ describe 'Tasks' do
           body = JSON.parse(response.body, symbolize_names: true)
           expect(body[:task].to_json).to eq(task.reload.serializer.as_json.to_json)
           expect(task).to be_claimed
-        end
-
-        context 'with a claimed task' do
-          let!(:claimed_task) { create(:task, :claimed, owner: pha) }
-
-          it 'unclaims other claimed tasks' do
-            expect(task).to_not be_claimed
-            expect(claimed_task).to be_claimed
-            do_request(task: {state_event: :claim})
-            expect(response).to be_success
-            body = JSON.parse(response.body, symbolize_names: true)
-            expect(body[:task].to_json).to eq(task.reload.serializer.as_json.to_json)
-            expect(body[:updated_tasks].to_json).to eq([claimed_task.reload].serializer(shallow: true).as_json.to_json)
-            expect(task).to be_claimed
-            expect(claimed_task).to_not be_claimed
-          end
         end
       end
 
