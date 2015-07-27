@@ -15,6 +15,20 @@ describe RegularExpressions do
     end
   end
 
+  describe '::capture_braces' do
+    it 'matches placeholder text' do
+      expect("This has a {placeholder}".match(described_class.capture_braces)).to_not be_nil
+    end
+
+    it 'captures the values inside' do
+      expect("This has a {placeholder}".match(described_class.capture_braces).to_s).to eq('{placeholder}')
+    end
+
+    it 'evaluates lazily' do
+      expect("This {one} has two {placeholders}".match(described_class.capture_braces).to_s).to eq('{one}')
+    end
+  end
+
   describe '::brackets' do
     it 'matches placeholder text' do
       expect("This has a [placeholder]".match(described_class.brackets)).to_not be_nil

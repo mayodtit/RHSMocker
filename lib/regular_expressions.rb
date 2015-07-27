@@ -3,6 +3,10 @@ module RegularExpressions
     /{|}/
   end
 
+  def self.capture_braces
+    /{[^}]+}/
+  end
+
   def self.brackets
     /\[(?!.*\]\()|\][^\(]|\]$/
   end

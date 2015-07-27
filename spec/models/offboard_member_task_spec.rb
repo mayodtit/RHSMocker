@@ -1,40 +1,11 @@
 require 'spec_helper'
 
 describe OffboardMemberTask do
-  before do
-    @service_type = ServiceType.find_or_create_by_name! name: 'member offboarding', bucket: 'engagement'
-  end
+  let!(:service_type) { create(:service_type, name: 'member offboarding', bucket: 'engagement') }
 
   it_has_a 'valid factory'
-
-  describe 'validations' do
-    it_validates 'foreign key of', :member
-    it_validates 'foreign key of', :service_type
-  end
-
-  describe '#set_required_attrs' do
-    let(:task) { build :offboard_member_task }
-
-    it 'sets title' do
-      task.set_required_attrs
-      task.title.should == "Offboard engaged free trial member"
-    end
-
-    it 'sets due_at to one hour before a person\'s free trial ends' do
-      task.set_required_attrs
-      task.due_at = 1.business_day.before(task.member.free_trial_ends_at.pacific)
-    end
-
-    it 'sets service type' do
-      task.set_required_attrs
-      task.service_type.should == @service_type
-    end
-
-    it 'sets the creator to the robot' do
-      task.set_required_attrs
-      task.creator.should == Member.robot
-    end
-  end
+  it_validates 'foreign key of', :member
+  it_validates 'foreign key of', :service_type
 
   describe '#create_if_only_for_current_free_trial' do
     let!(:pha) { create :pha }

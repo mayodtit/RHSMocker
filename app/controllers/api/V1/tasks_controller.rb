@@ -25,7 +25,7 @@ class Api::V1::TasksController < Api::V1::ABaseController
   def current
     task = Task.find_by_owner_id_and_state(current_user.id, 'claimed')
     authorize!(:read, task) if task
-    show_resource task && task.serializer
+    show_resource task.try(:serializer)
   end
 
   def update

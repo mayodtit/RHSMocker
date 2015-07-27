@@ -54,6 +54,8 @@ RHSMocker::Application.routes.draw do
       resources :dashboard, only: :index do
         get :onboarding_calls, on: :collection
       end
+      resources :data_field_templates, except: %i(new edit)
+      resources :data_fields, only: %i(show update)
       resources :diseases, :only => :index, :controller => :conditions
       get :email_validations, to: 'onboarding#email_validation'
       resources :enrollments, only: %i(show create update) do
@@ -111,6 +113,16 @@ RHSMocker::Application.routes.draw do
       resources :side_effects, :only => :index
       post :signup, to: 'onboarding#sign_up', as: :signup # TODO - deprecated
       resources :service_status, only: :index
+      resources :service_templates, except: %i(new edit) do
+        resources :task_templates, except: %i(new edit) do
+          resources :task_step_templates, except: %i(new edit) do
+            resources :data_field_templates, only: :destroy, controller: :task_step_data_field_templates do
+              post ':id', on: :collection, to: 'task_step_data_field_templates#create'
+            end
+          end
+        end
+        resources :data_field_templates, except: %i(new edit)
+      end
       resources :sms_notifications, only: [] do
         post :download, on: :collection
       end
@@ -118,6 +130,19 @@ RHSMocker::Application.routes.draw do
         resources :factor_groups, only: :index
         resources :contents, only: :index, controller: :symptom_contents
         post :check, on: :collection, to: 'symptom_contents#index'
+      end
+      resources :task_step_templates, only: %i(show update destroy) do
+        resources :data_field_templates, only: :destroy, controller: :task_step_data_field_templates do
+          post ':id', on: :collection, to: 'task_step_data_field_templates#create'
+        end
+      end
+      resources :task_steps, only: %i(show update)
+      resources :task_templates, except: %i(new edit) do
+        resources :task_step_templates, except: %i(new edit) do
+          resources :data_field_templates, only: :destroy, controller: :task_step_data_field_templates do
+            post ':id', on: :collection, to: 'task_step_data_field_templates#create'
+          end
+        end
       end
       resources :treatments, :only => :index
       get :user, to: 'users#show', id: 'current' # TODO - deprecated
@@ -215,8 +240,6 @@ RHSMocker::Application.routes.draw do
       resources :service_types, only: [:index] do
         get :buckets, on: :collection
       end
-      resources :service_templates, only: %i(index create show update destroy)
-      resources :task_templates, only: %i(index create show update destroy)
       resources :domains, only: :index do
         get :all_domains, on: :collection
         get :submit, on: :collection

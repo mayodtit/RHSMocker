@@ -1,6 +1,5 @@
 class MemberTask < Task
   include ActiveModel::ForbiddenAttributesProtection
-  PRIORITY = 3
 
   belongs_to :subject, class_name: 'User'
 
@@ -10,14 +9,6 @@ class MemberTask < Task
   validates :subject, presence: true
   validates :service_type, presence: true
 
-  def set_priority
-    self.priority = PRIORITY
-  end
-
-  def default_queue
-    :pha
-  end
-
   def publish
     super
 
@@ -26,5 +17,16 @@ class MemberTask < Task
     else
       PubSub.publish "/members/#{member_id}/subjects/#{subject_id}/tasks/update", {id: id}, pubsub_client_id
     end
+  end
+
+  private
+
+  def default_queue
+    :pha
+  end
+
+  def set_defaults
+    self.priority ||= 3
+    super
   end
 end

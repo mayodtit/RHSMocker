@@ -135,11 +135,15 @@ class Ability
       can :manage, Entry
       can :read, ServiceTemplate
       can :read, TaskTemplate
+      can :manage, DataField
+      can :manage, TaskStep
     end
 
     if user.service_admin?
       can :manage, ServiceTemplate
       can :manage, TaskTemplate
+      can :manage, TaskStepTemplate
+      can :manage, DataFieldTemplate
     end
 
     if user.pha_lead?

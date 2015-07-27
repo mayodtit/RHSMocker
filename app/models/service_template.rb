@@ -1,7 +1,9 @@
 class ServiceTemplate < ActiveRecord::Base
   belongs_to :service_type
   has_many :task_templates, dependent: :destroy
-  has_many :suggested_service_templates
+  has_many :suggested_service_templates, dependent: :destroy
+  has_many :data_field_templates, inverse_of: :service_template,
+                                  dependent: :destroy
 
   attr_accessible :name, :title, :description, :service_type_id,
                   :service_type, :time_estimate, :timed_service,
@@ -26,11 +28,16 @@ class ServiceTemplate < ActiveRecord::Base
   end
 
   def create_deep_copy!
-    new_service_template = self.class.create!(attributes.except('id', 'version', 'state', 'created_at', 'updated_at'))
-    task_templates.each do |tt|
-      tt.create_deep_copy!(new_service_template)
+    transaction do
+      self.class.create!(attributes.except('id', 'version', 'state', 'created_at', 'updated_at')).tap do |new_service_template|
+        data_field_templates.each do |data_field_template|
+          data_field_template.create_deep_copy!(new_service_template)
+        end
+        task_templates.each do |task_template|
+          task_template.create_deep_copy!(new_service_template)
+        end
+      end
     end
-    new_service_template
   end
 
   def self.title_search(string)
