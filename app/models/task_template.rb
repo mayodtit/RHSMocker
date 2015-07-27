@@ -18,7 +18,7 @@ class TaskTemplate < ActiveRecord::Base
                                          source: :data_field_template
 
   attr_accessible :name, :title, :description, :time_estimate, :priority,
-                  :service_template, :service_template_id,
+                  :service_template, :service_template_id, :service_ordinal,
                   :modal_template, :task_template_set_id, :task_template_set
 
   validates :name, :title, presence: true
@@ -33,7 +33,7 @@ class TaskTemplate < ActiveRecord::Base
 
   def create_deep_copy!(override_task_template_set=nil)
     transaction do
-      new_task_template = self.class.create!(attributes.except('id', 'created_at', 'updated_at', 'modal_template_id', 'task_template_set_id', 'service_template_id').merge(task_template_set: override_task_template_set || task_template_set, modal_template: new_modal_template || modal_template, service_template: override_task_template_set.service_template || service_template))
+      new_task_template = self.class.create!(attributes.except('id', 'created_at', 'updated_at', 'modal_template_id', 'task_template_set_id', 'service_template_id').merge(task_template_set: override_task_template_set || task_template_set, service_template: override_task_template_set.service_template || service_template))
       new_task_template.update_attributes!(modal_template: modal_template.create_copy!) if modal_template
       task_step_templates.each do |task_step_template|
         task_step_template.create_deep_copy!(override_task_template_set.service_template, new_task_template)
