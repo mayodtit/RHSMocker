@@ -109,8 +109,10 @@ resource 'Onboarding' do
     parameter :agreement_id, 'TOS and Privacy Policy agreement_id'
     parameter :payment_token, 'Stripe credit card token'
     parameter :code, 'Referral code'
+    parameter :first_name, 'First name'
+    parameter :birth_date, 'User date of birth'
     required_parameters :email, :password, :agreement_id
-    scope_parameters :user, %i(email password agreement_id payment_token code)
+    scope_parameters :user, %i(email password agreement_id payment_token code first_name birth_date)
 
     let!(:pha_profile) { create(:pha_profile) }
     let!(:agreement) { create(:agreement, :active) }
@@ -123,6 +125,8 @@ resource 'Onboarding' do
     let(:agreement_id) { agreement.id }
     let(:payment_token) { stripe_helper.generate_card_token }
     let(:code) { referral_code.code }
+    let(:first_name) { 'Kyle' }
+    let(:birth_date) { Date.today - 30.years }
     let(:raw_post) { params.to_json }
 
     before do
