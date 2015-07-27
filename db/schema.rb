@@ -1348,13 +1348,13 @@ ActiveRecord::Schema.define(:version => 20150723230139) do
     t.boolean  "urgent",                     :default => false, :null => false
     t.boolean  "unread",                     :default => false, :null => false
     t.boolean  "follow_up",                  :default => false, :null => false
+    t.boolean  "result"
+    t.integer  "task_template_set_id"
     t.datetime "unclaimed_at"
     t.datetime "blocked_internal_at"
     t.datetime "blocked_external_at"
     t.datetime "unblocked_at"
     t.string   "queue"
-    t.boolean  "result"
-    t.integer  "task_template_set_id"
   end
 
   add_index "tasks", ["owner_id", "state", "role_id", "type"], :name => "queue_test"
