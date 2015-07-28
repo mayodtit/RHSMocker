@@ -34,6 +34,7 @@ resource "Messages" do
         expect(status).to eq(200)
         body = JSON.parse(response_body, symbolize_names: true)
         expect(body[:messages].to_json).to eq([message].serializer(shallow: true).as_json.to_json)
+        expect(body[:messaging_tutorial]).to_not be_nil
       end
     end
   end
@@ -66,6 +67,7 @@ resource "Messages" do
         expect(body[:messages].map {|i| i[:id]}).to include(sixth_message.id, fourth_message.id, second_message.id)
         expect(body[:messages].map {|i| i[:id]}).not_to include(fifth_message.id, third_message.id)
         expect(body[:messages].size).to eql(3)
+        expect(body[:messaging_tutorial]).to_not be_nil
       end
     end
   end
