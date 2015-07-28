@@ -137,6 +137,7 @@ describe 'Onboarding' do
         let!(:pha) { create(:pha) }
         let!(:onboarding_group) { create(:onboarding_group, custom_welcome: 'lorem ipsum') }
         let!(:user) { create(:member, :premium, email: email, password: password, pha: pha, onboarding_group: onboarding_group) }
+        let!(:suggested_service) { create(:suggested_service, user: user) }
 
         before do
           CarrierWave::Mount::Mounter.any_instance.stub(:store!)
@@ -154,6 +155,18 @@ describe 'Onboarding' do
           expect(body[:pha].to_json).to eq(pha.serializer.as_json.to_json)
           expect(body[:auth_token]).to be_present
           expect(body[:onboarding_custom_welcome]).to eq([reloaded_onboarding_group.serializer(onboarding_custom_welcome: true).as_json])
+          expect(body[:suggested_services].to_json).to eq([suggested_service.serializer.as_json].to_json)
+        end
+
+        context 'the user has sent a message' do
+          let!(:message) { create(:message, user: user, consult: user.master_consult) }
+
+          it "doesn't return an onboarding group" do
+            expect{ do_request(email: email, password: password) }.to change(Session, :count).by(1)
+            expect(response).to be_success
+            body = JSON.parse(response.body, symbolize_names: true)
+            expect(body[:suggested_services]).to be_empty
+          end
         end
       end
 
@@ -200,6 +213,8 @@ describe 'Onboarding' do
 
     context 'with (allthethings)' do
       let!(:onboarding_group) { create(:onboarding_group) }
+      let!(:onboarding_group_suggested_service_template) { create(:onboarding_group_suggested_service_template, onboarding_group: onboarding_group) }
+      let!(:suggested_service_template) { onboarding_group_suggested_service_template.suggested_service_template }
       let!(:referral_code) { create(:referral_code, onboarding_group: onboarding_group, creator: nil) }
       let(:stripe_helper) { StripeMock.create_test_helper }
       let(:token) { stripe_helper.generate_card_token }
@@ -227,6 +242,9 @@ describe 'Onboarding' do
         expect(user).to be_premium
         expect(user.onboarding_group).to eq(onboarding_group)
         expect(user.referral_code).to eq(referral_code)
+        expect(user.suggested_services.count).to eq(1)
+        expect(user.suggested_services.first.suggested_service_template).to eq(suggested_service_template)
+        expect(body[:suggested_services].to_json).to eq([user.suggested_services.first.serializer.as_json].to_json)
         expect(Stripe::Customer.all.count).to eq(1)
         expect(Stripe::Customer.all[0].subscriptions.count).to eq(1)
         expect(Stripe::Customer.all[0].cards.count).to eq(1)

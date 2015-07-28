@@ -1,6 +1,4 @@
 class SuggestedService < ActiveRecord::Base
-  include ActiveModel::ForbiddenAttributesProtection
-
   belongs_to :user, class_name: 'Member'
   belongs_to :suggested_service_template
 

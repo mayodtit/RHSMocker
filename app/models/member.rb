@@ -132,6 +132,7 @@ class Member < User
   after_create :add_onboarding_group_provider
   after_create :add_onboarding_group_cards
   after_create :add_onboarding_group_programs
+  after_create :add_onboarding_group_suggested_services
   after_save :alert_stakeholders_on_call_status
   after_save :update_referring_scheduled_communications, if: ->(m){m.free_trial_ends_at_changed?}
   after_commit :create_kinsights_job, on: :create
@@ -616,6 +617,12 @@ class Member < User
   def add_onboarding_group_programs
     (onboarding_group.try(:programs) || []).each do |program|
       user_programs.create(program: program, subject: self)
+    end
+  end
+
+  def add_onboarding_group_suggested_services
+    (onboarding_group.try(:suggested_service_templates) || []).each do |suggested_service_template|
+      suggested_services.create(suggested_service_template: suggested_service_template)
     end
   end
 
