@@ -200,6 +200,8 @@ describe 'Onboarding' do
 
     context 'with (allthethings)' do
       let!(:onboarding_group) { create(:onboarding_group) }
+      let!(:onboarding_group_suggested_service_template) { create(:onboarding_group_suggested_service_template, onboarding_group: onboarding_group) }
+      let!(:suggested_service_template) { onboarding_group_suggested_service_template.suggested_service_template }
       let!(:referral_code) { create(:referral_code, onboarding_group: onboarding_group, creator: nil) }
       let(:stripe_helper) { StripeMock.create_test_helper }
       let(:token) { stripe_helper.generate_card_token }
@@ -227,6 +229,8 @@ describe 'Onboarding' do
         expect(user).to be_premium
         expect(user.onboarding_group).to eq(onboarding_group)
         expect(user.referral_code).to eq(referral_code)
+        expect(user.suggested_services.count).to eq(1)
+        expect(user.suggested_services.first.suggested_service_template).to eq(suggested_service_template)
         expect(Stripe::Customer.all.count).to eq(1)
         expect(Stripe::Customer.all[0].subscriptions.count).to eq(1)
         expect(Stripe::Customer.all[0].cards.count).to eq(1)
