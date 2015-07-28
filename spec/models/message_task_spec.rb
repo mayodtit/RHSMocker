@@ -92,4 +92,24 @@ describe MessageTask do
       end
     end
   end
+
+  describe '#update_member_service_status!' do
+    context 'with a draft service' do
+      before do
+        Service.any_instance.stub(:reinitialize_state_machine)
+      end
+
+      let!(:pha) { create(:pha) }
+      let!(:user) { create(:member, :premium, pha: pha) }
+      let!(:service) { create(:service, :draft, member: user) }
+      let!(:task) { create(:message_task, consult: service.member.master_consult, owner: pha) }
+
+      it 'auto transitions the service' do
+        task.should_receive(:update_member_service_states!).and_call_original
+        expect(service.reload).to be_draft
+        task.complete!
+        expect(service.reload).to be_open
+      end
+    end
+  end
 end

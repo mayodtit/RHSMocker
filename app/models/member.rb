@@ -47,7 +47,8 @@ class Member < User
   has_many :request_tasks, class_name: 'Task', conditions: {type: %w(UserRequestTask ParsedNurselineRecordTask)}
   has_many :service_tasks, class_name: 'MemberTask',
                            conditions: proc{ {service_type_id: ServiceType.non_engagement_ids} }
-  has_many :services
+  has_many :message_tasks, class_name: 'MessageTask'
+  has_many :services, inverse_of: :member
   belongs_to :onboarding_group, inverse_of: :users
   belongs_to :referral_code, inverse_of: :users
   has_many :user_requests, foreign_key: :user_id
