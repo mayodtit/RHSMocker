@@ -66,6 +66,54 @@ describe Service do
     end
   end
 
+  describe 'state machine' do
+    let!(:pha) { create(:pha) }
+    let!(:user) { create(:member, :premium, pha: pha) }
+
+    describe 'initial state' do
+      context 'with required data fields' do
+        let!(:service_template) { create(:service_template) }
+        let!(:data_field_template) { create(:data_field_template, service_template: service_template, required_for_service_start: true) }
+        let!(:task_template) { create(:task_template, service_template: service_template, service_ordinal: 0) }
+        let!(:task_step_template) { create(:task_step_template, task_template: task_template) }
+
+        before do
+          task_step_template.add_data_field_template!(data_field_template)
+        end
+
+        it 'creates a service in :waiting state' do
+          service = user.services.create!(service_template: service_template, creator: pha)
+          expect(service).to be_valid
+          expect(service).to be_persisted
+          expect(service).to be_waiting
+        end
+
+        context 'in a conversation with a PHA' do
+          let!(:message_task) { create(:message_task, consult: user.master_consult) }
+
+          it 'creates a service in :draft state' do
+            service = user.services.create!(service_template: service_template, creator: pha)
+            expect(service).to be_valid
+            expect(service).to be_persisted
+            expect(service).to be_draft
+          end
+        end
+      end
+
+      context 'without required data fields' do
+        let!(:service_template) { create(:service_template) }
+        let!(:task_template) { create(:task_template, service_template: service_template, service_ordinal: 0) }
+
+        it 'creates a service in :open state' do
+          service = user.services.create!(service_template: service_template, creator: pha)
+          expect(service).to be_valid
+          expect(service).to be_persisted
+          expect(service).to be_open
+        end
+      end
+    end
+  end
+
   describe '#set_defaults' do
     let(:service_template) { create(:service_template) }
     let(:pha) { create(:pha) }
@@ -306,6 +354,59 @@ describe Service do
         it 'uses the defined actor id' do
           ServiceChange.should_receive(:create!).with hash_including(actor_id: pha.id)
           service.send(:track_update)
+        end
+      end
+    end
+  end
+
+  describe '#auto_transition!' do
+    before do
+      Service.any_instance.stub(:reinitialize_state_machine)
+    end
+
+    context 'draft?' do
+      let!(:pha) { create(:pha) }
+      let!(:user) { create(:member, :premium, pha: pha) }
+      let!(:service_template) { create(:service_template) }
+      let!(:task_template) { create(:task_template, service_template: service_template, service_ordinal: 0) }
+      let!(:service) { create(:service, :draft, service_template: service_template, member: user, creator: pha) }
+
+      context 'with message tasks' do
+        let!(:message_task) { create(:message_task, consult: user.master_consult) }
+
+        it 'stays in draft' do
+          expect(service.reload).to be_draft
+          service.auto_transition!
+          expect(service.reload).to be_draft
+        end
+      end
+
+      context 'without message tasks' do
+        context 'without all prerequisites' do
+          let!(:data_field_template) { create(:data_field_template, service_template: service_template, required_for_service_start: true) }
+          let!(:task_step_template) { create(:task_step_template, task_template: task_template) }
+
+          before do
+            task_step_template.add_data_field_template!(data_field_template)
+          end
+
+          it 'transitions to waiting' do
+            expect(service.reload).to be_draft
+            service.auto_transition!
+            expect(service.reload).to be_waiting
+          end
+
+          it 'creates a service blocked task' do
+            expect{ service.reload.auto_transition! }.to change(ServiceBlockedTask, :count).by(1)
+          end
+        end
+
+        context 'with all prerequisites' do
+          it 'transitions to open' do
+            expect(service.reload).to be_draft
+            service.auto_transition!
+            expect(service.reload).to be_open
+          end
         end
       end
     end

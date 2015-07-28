@@ -15,6 +15,8 @@ class MessageTask < Task
   validates :consult, :message, presence: true
   validate :one_open_per_consult, if: :open?
 
+  after_commit :update_member_service_states!
+
   delegate :subject, to: :consult
 
   def self.create_if_only_opened_for_consult!(consult, message = nil)
@@ -65,5 +67,14 @@ class MessageTask < Task
                     end
 
     super
+  end
+
+  def update_member_service_states!
+    return if unclaimed? || claimed?
+    transaction do
+      member.services.where(state: :draft).each do |service|
+        service.auto_transition!
+      end
+    end
   end
 end

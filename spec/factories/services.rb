@@ -10,6 +10,18 @@ FactoryGirl.define do
     association :assignor, factory: :pha
     assigned_at Time.now
 
+    trait :draft do
+      state 'draft'
+    end
+
+    trait 'waiting' do
+      state 'waiting'
+    end
+
+    trait :open do
+      state 'open'
+    end
+
     trait :completed do
       state 'completed'
     end
