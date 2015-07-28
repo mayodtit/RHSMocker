@@ -80,6 +80,7 @@ resource 'Onboarding' do
     let!(:onboarding_group) { create(:onboarding_group, custom_welcome: 'Welcome to Better! This is a custom message just for you!') }
     let!(:pha) { create(:pha) }
     let!(:user) { create(:member, :premium, email: email, password: password, onboarding_group: onboarding_group, pha: pha) }
+    let!(:suggested_service) { create(:suggested_service, user: user) }
     let(:raw_post) { params.to_json }
 
     before do
@@ -98,6 +99,7 @@ resource 'Onboarding' do
         expect(body[:pha].to_json).to eq(pha.serializer.as_json.to_json)
         expect(body[:auth_token]).to be_present
         expect(body[:onboarding_custom_welcome]).to eq([reloaded_onboarding_group.serializer(onboarding_custom_welcome: true).as_json])
+        expect(body[:suggested_services].to_json).to eq([suggested_service.serializer.as_json].to_json)
       end
     end
   end
@@ -118,6 +120,7 @@ resource 'Onboarding' do
     let!(:agreement) { create(:agreement, :active) }
     let!(:onboarding_group) { create(:onboarding_group) }
     let!(:referral_code) { create(:referral_code, onboarding_group: onboarding_group, creator: nil) }
+    let!(:onboarding_group_suggested_service_template) { create(:onboarding_group_suggested_service_template, onboarding_group: onboarding_group) }
     let(:stripe_helper) { StripeMock.create_test_helper }
     let(:plan_id) { 'bp20' }
     let(:email) { 'test+signup@getbetter.com' }
@@ -152,6 +155,8 @@ resource 'Onboarding' do
         expect(body[:member].to_json).to eq(user.serializer.as_json.to_json)
         expect(body[:pha_profile].to_json).to eq(pha_profile.serializer.as_json.to_json)
         expect(body[:auth_token]).to be_present
+        expect(body[:suggested_services]).to_not be_empty
+        expect(body[:suggested_services].to_json).to eq(user.suggested_services.serializer.as_json.to_json)
       end
     end
   end

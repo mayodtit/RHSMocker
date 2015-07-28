@@ -30,7 +30,8 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
       render_success(user: @user.serializer(include_roles: true),
                      pha: @user.pha.try(:serializer),
                      auth_token: @session.auth_token,
-                     onboarding_custom_welcome: onboarding_custom_welcome)
+                     onboarding_custom_welcome: onboarding_custom_welcome,
+                     suggested_services: onboarding_suggested_services)
     else
       render_failure({reason: @session.errors.full_messages.to_sentence}, 422)
     end
@@ -39,10 +40,13 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
   def sign_up
     sign_up_response = SignUpService.new(sign_up_params, sign_up_options).call
     if sign_up_response[:success]
-      render_success(user: sign_up_response[:user].serializer,
-                     member: sign_up_response[:user].serializer,
-                     pha_profile: sign_up_response[:user].pha.try(:pha_profile).try(:serializer),
-                     auth_token: sign_up_response[:session].auth_token)
+      @user = sign_up_response[:user]
+      @session = sign_up_response[:session]
+      render_success(user: @user.serializer,
+                     member: @user.serializer,
+                     pha_profile: @user.pha.try(:pha_profile).try(:serializer),
+                     auth_token: @session.auth_token,
+                     suggested_services: onboarding_suggested_services)
     else
       render_failure({reason: sign_up_response[:reason],
                       user_message: sign_up_response[:reason]}, 422)
@@ -74,6 +78,16 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
   def onboarding_custom_welcome
     if onboarding_group.try(:onboarding_custom_welcome?)
       [onboarding_group.serializer(onboarding_custom_welcome: true).as_json]
+    else
+      []
+    end
+  end
+
+  def onboarding_suggested_services
+    if @user.messages.any?
+      []
+    elsif @user.suggested_services.any?
+      @user.suggested_services.serializer.as_json
     else
       []
     end
