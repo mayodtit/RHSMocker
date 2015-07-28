@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150723230139) do
+ActiveRecord::Schema.define(:version => 20150728182553) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -701,6 +701,13 @@ ActiveRecord::Schema.define(:version => 20150723230139) do
 
   add_index "onboarding_group_programs", ["onboarding_group_id"], :name => "index_onboarding_group_programs_on_onboarding_group_id"
   add_index "onboarding_group_programs", ["program_id"], :name => "index_onboarding_group_programs_on_program_id"
+
+  create_table "onboarding_group_suggested_service_templates", :force => true do |t|
+    t.integer  "onboarding_group_id"
+    t.integer  "suggested_service_template_id"
+    t.datetime "created_at",                    :null => false
+    t.datetime "updated_at",                    :null => false
+  end
 
   create_table "onboarding_groups", :force => true do |t|
     t.string   "name"
