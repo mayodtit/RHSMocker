@@ -53,6 +53,10 @@ class Api::V1::TasksController < Api::V1::ABaseController
       update_params.delete :reason_abandoned
     end
 
+    if update_params[:state_event] == 'report_blocked_by_internal' || update_params[:state_event] == 'report_blocked_by_external'
+      update_params[:reason_blocked] = update_params[:reason]
+    end
+
     if update_params.has_key?(:due_at) && update_params[:reason].blank?
       update_params[:reason] = 'no_reason_pre_cp_support'
     end

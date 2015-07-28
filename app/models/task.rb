@@ -28,7 +28,7 @@ class Task < ActiveRecord::Base
                   :abandoner, :abandoner_id, :role, :role_id,
                   :state_event, :service_type_id, :service_type, :task_category, :task_category_id,
                   :task_template, :task_template_id, :service, :service_id, :service_ordinal,
-                  :priority, :actor_id, :member_id, :member, :reason, :visible_in_queue,
+                  :priority, :actor_id, :member_id, :member, :reason, :reason_blocked, :visible_in_queue,
                   :day_priority, :time_estimate, :pubsub_client_id, :urgent, :unread, :follow_up
 
   validates :title, :state, :creator_id, :role_id, :due_at, :priority, presence: true
@@ -268,12 +268,14 @@ class Task < ActiveRecord::Base
     before_transition any - :blocked_internal => :blocked_internal do |task|
       task.owner_id = task.member && task.member.pha_id
       task.queue = :pha
+      task.service.wait! if task.service
       task.blocked_internal_at = Time.now
     end
 
     before_transition any - :blocked_external => :blocked_external do |task|
       task.owner_id = task.member && task.member.pha_id
       task.queue = :pha
+      task.service.wait! if task.service
       task.blocked_external_at = Time.now
     end
 

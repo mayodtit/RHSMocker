@@ -1,7 +1,7 @@
 class TaskSerializer < ActiveModel::Serializer
   self.root = false
 
-  attributes :id, :title, :state, :description, :due_at, :type, :created_at, :queue, :time_zone,
+  attributes :id, :title, :state, :description, :due_at, :type, :created_at, :queue, :time_zone, :reason_blocked,
              :owner_id, :service_type_id, :triage_state, :member_id, :day_priority, :task_template_id, :urgent, :unread, :follow_up, :modal_template
 
   def attributes
@@ -21,7 +21,8 @@ class TaskSerializer < ActiveModel::Serializer
         unread: object.unread,
         follow_up: object.follow_up,
         day_priority: object.day_priority,
-        modal_template: modal_template
+        modal_template: modal_template,
+        reason_blocked: object.reason_blocked
       }
       attributes[:member] = object.member.try(:serializer, options) if object.respond_to? :member
       attributes

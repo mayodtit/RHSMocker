@@ -374,8 +374,8 @@ class Member < User
               Task.pha_queue(self)
             end
 
-    tasks = query.where(visible_in_queue: true, unread: false, urgent: false).includes(:member, :member => :phone_numbers).order(task_order)
-    immediate_tasks = query.where(role_id: role.id, visible_in_queue: true).where('unread IS TRUE OR urgent IS TRUE').includes(:member, :member => :phone_numbers).order(task_order) if pha?
+    tasks = query.where(visible_in_queue: true, unread: false, urgent: false).where('state <> "blocked_external" AND state <> "blocked_internal"').includes(:member, :member => :phone_numbers).order(task_order)
+    immediate_tasks = query.where(role_id: role.id, visible_in_queue: true).where('unread IS TRUE OR urgent IS TRUE OR state = "blocked_external" OR state = "blocked_internal"').includes(:member, :member => :phone_numbers).order(task_order) if pha?
     tomorrow_count = 0
     future_count = 0
 
