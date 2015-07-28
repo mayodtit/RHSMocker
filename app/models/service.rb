@@ -223,7 +223,6 @@ class Service < ActiveRecord::Base
 
   # call initialize twice to make sure dynamic initial state is set correctly
   def reinitialize_state_machine
-    byebug
     initialize_state_machines(dynamic: :force)
   end
 
