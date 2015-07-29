@@ -133,7 +133,7 @@ class Task < ActiveRecord::Base
   end
 
   def update_priority_score
-    self.priority = priority_score
+    self.priority = calculate_priority
   end
 
 
@@ -348,7 +348,7 @@ class Task < ActiveRecord::Base
     :pha
   end
 
-  def priority_score
+  def calculate_priority
     if queue == :hcc || type != 'MemberTask'
       priority ? priority : 0
     else
@@ -357,12 +357,10 @@ class Task < ActiveRecord::Base
   end
 
   def calculate_owner
-    if queue == :pha
-      member.try(:pha) || service.try(:owner)
-    elsif queue == :specialist || queue == :hcc
+    if queue == :specialist || queue == :hcc
       nil
     else
-      service.try(:owner)
+      service.try(:owner) || member.try(:pha)
     end
   end
 
@@ -380,7 +378,7 @@ class Task < ActiveRecord::Base
     self.owner ||= calculate_owner
     self.assignor ||= owner
     self.role ||= Role.find_by_name(:pha)
-    self.priority = priority_score
+    self.priority = calculate_priority
     self.service_ordinal ||= task_template.try(:service_ordinal) || service_ordinal_for_one_off
     self.time_zone ||= service.try(:time_zone) || member.try(:time_zone)
     self.time_zone_offset = ActiveSupport::TimeZone.new(time_zone).try(:utc_offset) if time_zone

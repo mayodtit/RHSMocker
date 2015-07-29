@@ -823,6 +823,75 @@ describe Task do
     end
   end
 
+  describe '#calculate_owner' do
+    let(:pha) { build_stubbed :pha }
+    let(:member) { build_stubbed :member, pha: pha }
+    let(:service) {build_stubbed :service, owner: pha }
+    let(:task) { build_stubbed :task, service: service, member: member }
+
+    context 'if the queue is pha' do
+      before do
+        task.queue = :pha
+      end
+
+      it 'should return the service owner' do
+        task.send(:calculate_owner).should == pha
+      end
+    end
+
+    context 'if the queue is specialist or hcc' do
+      before do
+        task.queue = :specialist
+      end
+
+      it 'should return nil' do
+        task.send(:calculate_owner).should be_nil
+      end
+    end
+  end
+
+  describe '#calculate_priority' do
+    let(:task) { build_stubbed :task, time_zone: "America/Los_Angeles"}
+
+    context 'if the queue is hcc' do
+      before do
+        task.queue = :hcc
+      end
+
+      context 'if the priority is nil' do
+        before do
+          task.priority = nil
+        end
+
+        it 'should return 0' do
+          task.send(:calculate_priority).should == 0
+        end
+      end
+
+      context 'if there is already a priority' do
+        before do
+          task.priority = 10
+        end
+
+        it 'should return the original priority' do
+          task.send(:calculate_priority).should == 10
+        end
+      end
+    end
+
+    context 'if the queue is specialist or pha' do
+      before do
+        task.queue = :specialist
+        task.type = 'MemberTask'
+        CalculatePriorityService.stub_chain(:new, :call) { -8 }
+      end
+
+      it 'should return the priority from the CalculatePriorityService' do
+        task.send(:calculate_priority).should == -8
+      end
+    end
+  end
+
   describe '#track_update' do
     let!(:task) { create :member_task }
 
