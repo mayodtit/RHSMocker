@@ -176,6 +176,17 @@ PHA_ATTRIBUTES = [
     arrow_image: 'mnorton-arrow.png',
     avatar_image: 'mnorton-avatar.jpg',
     bio_image: 'mnorton-bio_image.png'
+  },
+  {
+    email: 'nicole@getbetter.com',
+    first_name: 'Nicole',
+    last_name: 'N',
+    gender: 'female',
+    bio: "Nicole is an EMT with a public health background. She has volunteered and interned at hospitals in LA and SF, and assisted in mental health and Latino culture/health research at UCLA. She loves advocating for human rights, weightlifting, traveling, eating, and doing photography in her free time.",
+    first_person_bio: "I’m an EMT with a public health background. I’ve volunteered and interned at hospitals in LA and SF, and assisted in mental health and Latino culture/health research at UCLA. I love advocating for human rights, weightlifting, traveling, eating, and doing photography in my free time.",
+    arrow_image: 'nicole-bio_image.png', # yes, I know this is not right, she is an HCC
+    avatar_image: 'nicole-avatar.jpg',
+    bio_image: 'nicole-bio_image.png'
   }
 ]
 
@@ -215,3 +226,4 @@ Member.upsert_attributes({email: 'geoff@getbetter.com'}, {first_name: 'Geoff', l
 end
 
 Member.find_by_email('caitlin@getbetter.com').pha_profile.update_attributes(:weekly_capacity => 0)
+Member.find_by_email('nicole@getbetter.com').pha_profile.update_attributes(:weekly_capacity => 0)
