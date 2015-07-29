@@ -7,8 +7,8 @@ class TimeOffset < ActiveRecord::Base
   validates :direction, :offset_type, presence: true
   validates :direction, inclusion: { in: VALID_DIRECTIONS, message: "Direction must be either 'before' or 'after'" }
   validates :offset_type, inclusion: { in: VALID_OFFSET_TYPES, message: "Offset_type must be either 'fixed' or 'relative'"}
-  validate :fixed_offsets_require_fixed_time_and_num_days
-  validate :relative_offsets_require_relative_time
+  validate :fixed_offsets_require_fixed_time
+  validate :relative_offsets_require_relative_time_and_num_days
 
   def calculate(base_time_with_zone)
     raise "Invalid offset_type #{offset_type} - cannot calculate" unless VALID_OFFSET_TYPES.include?(offset_type)
@@ -41,22 +41,22 @@ class TimeOffset < ActiveRecord::Base
     end
   end
 
-  def fixed_offsets_require_fixed_time_and_num_days
+  def fixed_offsets_require_fixed_time
     return unless offset_type == :fixed
-    unless (fixed_time.present? && num_days.present?)
-      if fixed_time.nil?
-        errors.add(:fixed_time, "must be provided when offset_type == :fixed")
+    if fixed_time.nil?
+      errors.add(:fixed_time, "must be provided when offset_type == :fixed")
+    end
+  end
+
+  def relative_offsets_require_relative_time_and_num_days
+    return unless offset_type == :relative
+    unless (relative_time.present? && num_days.present?)
+      if relative_time.nil?
+        errors.add(:relative_time, "must be provided when offset_type == :relative")
       end
       if num_days.nil?
         errors.add(:num_days, "must be provided when offset_type == :fixed")
       end
-    end
-  end
-
-  def relative_offsets_require_relative_time
-    return unless offset_type == :relative
-    if relative_time.nil?
-      errors.add(:relative_time, "must be provided when offset_type == :relative")
     end
   end
 end

@@ -22,29 +22,23 @@ describe TimeOffset do
       end
     end
 
-    describe "#fixed_offsets_require_fixed_time_and_num_days" do
+    describe "#fixed_offsets_require_fixed_time" do
       context "valid data" do
-        let(:valid_offset) { build_stubbed(:time_offset, offset_type: :fixed, num_days: 2, fixed_time: ten_am) }
+        let(:valid_offset) { build_stubbed(:time_offset, offset_type: :fixed, fixed_time: three_hours) }
         it "is valid" do
           expect(valid_offset).to be_valid
         end
-        it "has a num_days" do
-          expect(valid_offset.num_days).to eq 2
-        end
         it "has a fixed_time" do
-          expect(valid_offset.fixed_time).to eq ten_am
+          expect(valid_offset.fixed_time).to eq three_hours
         end
       end
 
       context "invalid cases" do
         let(:invalid_offset) do
-          build_stubbed(:time_offset, offset_type: :fixed, num_days: nil, fixed_time: nil).tap{|io| io.valid?}
+          build_stubbed(:time_offset, offset_type: :fixed, fixed_time: nil).tap{|io| io.valid?}
         end
         it "is invalid" do
           expect(invalid_offset).to_not be_valid
-        end
-        it "has an error message for num_days" do
-          expect(invalid_offset.errors[:num_days]).to eq ["must be provided when offset_type == :fixed"]
         end
         it "has an error message for fixed_time" do
           expect(invalid_offset.errors[:fixed_time]).to eq ["must be provided when offset_type == :fixed"]
@@ -52,23 +46,29 @@ describe TimeOffset do
       end
     end
 
-    describe "#relative_offsets_require_relative_time" do
+    describe "#relative_offsets_require_relative_time_and_num_days" do
       context "valid data" do
-        let(:valid_offset) { build_stubbed(:time_offset, offset_type: :relative, relative_time: three_hours) }
+        let(:valid_offset) { build_stubbed(:time_offset, offset_type: :relative, num_days: 3, relative_time: three_hours) }
         it "is valid" do
           expect(valid_offset).to be_valid
         end
         it "has a relative_time" do
           expect(valid_offset.relative_time).to eq three_hours
         end
+        it "has a num_days" do
+          expect(valid_offset.num_days).to eq 3
+        end
       end
 
       context "invalid cases" do
         let(:invalid_offset) do
-          build_stubbed(:time_offset, offset_type: :relative, relative_time: nil).tap{|io| io.valid?}
+          build_stubbed(:time_offset, offset_type: :relative, relative_time: nil, num_days: nil).tap{|io| io.valid?}
         end
         it "is invalid" do
           expect(invalid_offset).to_not be_valid
+        end
+        it "has an error message for num_days" do
+          expect(invalid_offset.errors[:num_days]).to eq ["must be provided when offset_type == :fixed"]
         end
         it "has an error message for relative_time" do
           expect(invalid_offset.errors[:relative_time]).to eq ["must be provided when offset_type == :relative"]
