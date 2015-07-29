@@ -5,8 +5,8 @@ class Appointment < ActiveRecord::Base
   belongs_to :creator, class_name: 'Member'
   has_many :appointment_changes, order: 'created_at DESC'
 
-  attr_accessor :actor_id, :reason
-  attr_accessible :user, :user_id, :provider, :provider_id, :scheduled_at, :actor_id, :creator, :creator_id, :reason
+  attr_accessor :actor_id
+  attr_accessible :user, :user_id, :provider, :provider_id, :scheduled_at, :actor_id, :creator, :creator_id
 
   validates :user, :provider, :scheduled_at, :creator, presence: true
   after_commit :track_update, on: :update
@@ -21,6 +21,6 @@ class Appointment < ActiveRecord::Base
 
   def track_update
     _data = data
-    appointment_changes.create!(actor_id: actor_id, event: 'update', data: _data, reason: reason)
+    appointment_changes.create!(actor_id: actor_id, event: 'update', data: _data)
   end
 end
