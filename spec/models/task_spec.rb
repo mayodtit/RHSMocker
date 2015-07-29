@@ -30,7 +30,7 @@ describe Task do
     end
 
     describe '#service' do
-      let!(:task) { create :task }
+      let(:task) { build :task }
 
       context 'service id exists' do
         before do
@@ -50,7 +50,7 @@ describe Task do
           task.role = build_stubbed :role
         end
 
-        it 'doesn\'t validate presence' do
+        it "doesn't validate presence" do
           task.stub(:service) { nil }
           task.should be_valid
         end
@@ -58,7 +58,7 @@ describe Task do
     end
 
     describe '#service_ordinal' do
-      let!(:task) { create :task }
+      let(:task) { build :task }
 
       context 'service id exists' do
         before do
@@ -78,7 +78,7 @@ describe Task do
           task.role = build_stubbed :role
         end
 
-        it 'doesn\'t validate presence' do
+        it "doesn't validate presence" do
           task.service_ordinal = 1
           task.should be_valid
         end
@@ -239,51 +239,6 @@ describe Task do
       open_tasks.should be_include(blocked_external_task)
       open_tasks.should_not be_include(completed_task)
       open_tasks.should_not be_include(abandoned_task)
-    end
-  end
-
-  describe '#set_role' do
-    let(:task) { build :task }
-
-    context 'role_id is nil' do
-      it 'sets it to pha' do
-        task.set_role
-        task.role_id.should == @pha_id
-      end
-    end
-
-    context' role_id is present' do
-      before do
-        task.stub(:role_id) { 2 }
-      end
-
-      it 'does nothing' do
-        task.should_not_receive(:role_id=)
-        task.set_role
-      end
-    end
-  end
-
-  describe '#set_ordinal' do
-    context 'the service has existing tasks' do
-      let!(:service) { create :service}
-      let!(:service_task) {create :task, service: service, service_ordinal: 1}
-      let(:task) { build :task, service: service }
-
-      it 'sets it to zero' do
-        task.set_ordinal
-        task.service_ordinal.should == 1
-      end
-    end
-
-    context 'the service has no tasks' do
-      let!(:empty_service) { create :service}
-      let(:task) { build :task, service: empty_service }
-
-      it 'sets it to zero' do
-        task.set_ordinal
-        task.service_ordinal.should == 0
-      end
     end
   end
 
@@ -806,74 +761,6 @@ describe Task do
         task.reason = 'pooed'
         task.abandon!
         expect(task.change_tracked).to be_true
-      end
-    end
-  end
-
-  describe '#set_owner' do
-    let(:task) { build :task }
-
-    before do
-      Timecop.freeze
-    end
-
-    after do
-      Timecop.return
-    end
-
-    context 'member doesn\'t exist' do
-      before do
-        task.stub(:member) { nil }
-      end
-
-      it 'does nothing' do
-        task.set_owner
-        task.owner.should be_nil
-        task.assignor.should be_nil
-        task.assigned_at.should be_nil
-      end
-    end
-
-    context 'member exists' do
-      let(:member) { build :member }
-
-      before do
-        task.stub(:member) { member }
-      end
-
-      context 'member doesn\'t have a pha' do
-        before do
-          member.stub(:pha) { nil }
-        end
-
-        it 'does nothing' do
-          task.set_owner
-          task.owner.should be_nil
-          task.assignor.should be_nil
-          task.assigned_at.should be_nil
-        end
-      end
-
-      context 'member has a pha' do
-        let(:pha) { build :pha }
-        before do
-          member.stub(:pha) { pha }
-        end
-
-        it 'sets owner to pha' do
-          task.set_owner
-          task.owner.should == pha
-        end
-
-        it 'sets the assignor to the robot' do
-          task.set_owner
-          task.assignor.should == Member.robot
-        end
-
-        it 'sets the assigned at' do
-          task.set_owner
-          task.assigned_at.should == Time.now
-        end
       end
     end
   end

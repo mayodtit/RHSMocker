@@ -220,6 +220,19 @@ describe Member do
       end
     end
 
+    describe '#add_onboarding_group_suggested_services' do
+      let!(:onboarding_group_suggested_service_template) { create(:onboarding_group_suggested_service_template) }
+      let(:onboarding_group) { onboarding_group_suggested_service_template.onboarding_group }
+      let(:suggested_service_template) { onboarding_group_suggested_service_template.suggested_service_template }
+      let!(:member) { create(:member, onboarding_group: onboarding_group) }
+
+      it 'adds programs to the new member' do
+        expect(member.suggested_services.count).to eq(1)
+        suggested_service = member.suggested_services.first
+        expect(suggested_service.suggested_service_template).to eq(suggested_service_template)
+      end
+    end
+
     describe '#update_referring_scheduled_communications' do
       let!(:member) { create(:member, :trial) }
 

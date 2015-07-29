@@ -225,7 +225,7 @@ resource 'Users' do
         explanation 'Get the current user\'s info'
         status.should == 200
         response = JSON.parse(response_body, :symbolize_names => true)
-        response[:user].to_json.should == user.serializer(include_roles: true).as_json.to_json
+        response[:user].to_json.should == user.serializer.as_json.to_json
       end
     end
   end

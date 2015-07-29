@@ -11,7 +11,8 @@ class Message < ActiveRecord::Base
   belongs_to :user_image, inverse_of: :messages
   has_many :message_statuses
   has_one :entry, as: :resource
-  attr_accessor :no_notification, :pubsub_client_id
+  has_one :message_task, inverse_of: :message
+  attr_accessor :no_notification, :pubsub_client_id, :skip_message_task_creation
 
   attr_accessible :user, :user_id, :consult, :consult_id, :content,
                   :content_id, :phone_call, :phone_call_id,
@@ -65,6 +66,12 @@ class Message < ActiveRecord::Base
     self.text = text.try(:gsub, RegularExpressions.markdown_link, '(\1\2)')
   end
 
+  def first_message_from_user_in_consult?
+    search_scope = consult.messages.where(user_id: user_id)
+    search_scope = search_scope.where('id != ?', id) if id
+    search_scope.empty?
+  end
+
   def publish
     PubSub.publish "/users/#{consult.initiator_id}/consults/#{consult_id}/messages/new", {id: id}, pubsub_client_id
     if consult.master?
@@ -78,6 +85,7 @@ class Message < ActiveRecord::Base
   end
 
   def create_task
+    return if skip_message_task_creation
     return if scheduled_phone_call_id.present? || phone_call_id.present? || note?
     MessageTask.create_if_only_opened_for_consult! consult, self
   end

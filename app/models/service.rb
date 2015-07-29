@@ -1,13 +1,14 @@
 class Service < ActiveRecord::Base
-  include ActiveModel::ForbiddenAttributesProtection
-
-  OPEN_STATES = %w(open waiting)
+  OPEN_STATES = %w(open waiting draft)
   CLOSED_STATES = %w(completed abandoned)
 
   belongs_to :service_type
   belongs_to :service_template
+  has_many :data_fields, inverse_of: :service,
+                         include: :data_field_template,
+                         dependent: :destroy
 
-  belongs_to :member
+  belongs_to :member, inverse_of: :services
   belongs_to :subject, class_name: 'User'
 
   belongs_to :creator, class_name: 'Member'
@@ -16,7 +17,8 @@ class Service < ActiveRecord::Base
   belongs_to :abandoner, class_name: 'Member'
 
   has_many :service_state_transitions
-  has_many :tasks, order: 'service_ordinal ASC, priority DESC, due_at ASC, created_at ASC'
+  has_many :tasks, order: 'service_ordinal ASC, priority DESC, due_at ASC, created_at ASC',
+                   dependent: :destroy
   has_many :service_changes, order: 'created_at DESC'
   has_one :entry, as: :resource
 
@@ -34,9 +36,12 @@ class Service < ActiveRecord::Base
   validates :service_template, presence: true, if: lambda { |s| s.service_template_id.present? }
   validate :no_placeholders_in_user_facing_attributes
 
+  before_validation :reinitialize_state_machine, on: :create
   before_validation :set_defaults, on: :create
   before_validation :set_assigned_at
+  after_create :create_data_fields!, if: :service_template
   after_create :create_next_ordinal_tasks
+  after_save :create_service_blocked_task!, if: :waiting?
   after_commit :track_update, on: :update
   after_commit :publish
 
@@ -67,11 +72,12 @@ class Service < ActiveRecord::Base
   end
 
   def create_next_ordinal_tasks(current_ordinal=-1, last_due_at=Time.now)
+    return if waiting? || draft?
     return unless open? && service_template && tasks.open_state.empty?
     return if tasks.empty? && service_template.task_templates.empty?
     if next_ordinal = next_ordinal(current_ordinal)
       service_template.task_templates.where(service_ordinal: next_ordinal).each do |task_template|
-        task_template.create_task!(service: self, start_at: service_template.timed_service? ? last_due_at : Time.now, assignor: assignor)
+        tasks.create!(task_template: task_template, start_at: service_template.timed_service? ? last_due_at : Time.now)
       end
     else
       self.complete!
@@ -83,8 +89,63 @@ class Service < ActiveRecord::Base
     service_template.task_templates.where('service_ordinal > ?', current_ordinal).minimum(:service_ordinal)
   end
 
-  state_machine :initial => :open do
+  def calculated_next_state
+    if completed? || abandoned?
+      state.to_sym
+    elsif open_conversations_with_member?
+      :draft
+    elsif missing_prerequisite_data?
+      :waiting
+    else
+      :open
+    end
+  end
+
+  def open_conversations_with_member?
+    member.try(:message_tasks).try(:select, &:open?).try(:any?) || false
+  end
+
+  def missing_prerequisite_data?
+    required_data_fields = data_fields.select(&:required_for_service_start)
+    if required_data_fields.reject(&:data).any?
+      true
+    elsif service_template.nil?
+      false
+    elsif service_template.data_field_templates.select(&:required_for_service_start).count > required_data_fields.count
+      true
+    else
+      false
+    end
+  end
+
+  def calculated_state_event(next_state)
+    case next_state
+    when :open
+      :reopen
+    when :waiting
+      :wait
+    when :completed
+      :complete
+    when :abandoned
+      :abandon
+    else
+      nil
+    end
+  end
+
+  def auto_transition!
+    next_state = calculated_next_state
+    return if state?(next_state)
+    state_event = calculated_state_event(next_state)
+    update_attributes!(state_event: state_event) if state_event
+  end
+
+  state_machine initial: ->(s) { s.calculated_next_state } do
     store_audit_trail to: 'ServiceChange', context_to_log: %i(actor_id data reason)
+
+    event :reset do
+      transition any => :draft
+    end
 
     event :wait do
       transition any => :waiting
@@ -108,12 +169,6 @@ class Service < ActiveRecord::Base
 
     before_transition any - :abandoned => :abandoned do |service|
       service.abandoned_at = Time.now
-    end
-
-    after_transition any - :completed => :completed do |service|
-      Task.where(service_id: service.id).each do |task|
-        task.complete!
-      end
     end
 
     after_transition any - :abandoned => :abandoned do |service|
@@ -166,6 +221,11 @@ class Service < ActiveRecord::Base
 
   private
 
+  # call initialize twice to make sure dynamic initial state is set correctly
+  def reinitialize_state_machine
+    initialize_state_machines(dynamic: :force)
+  end
+
   def set_defaults
     self.title ||= service_template.try(:title)
     self.description ||= service_template.try(:description)
@@ -190,5 +250,20 @@ class Service < ActiveRecord::Base
         errors.add(attribute, "shouldn't contain placeholder text")
       end
     end
+  end
+
+  def create_data_fields!
+    service_template.data_field_templates.each do |data_field_template|
+      data_fields.create!(data_field_template: data_field_template)
+    end
+  end
+
+  def create_service_requirements_task!
+    return if service_requirements_task
+  end
+
+  def create_service_blocked_task!
+    return if ServiceBlockedTask.where(service_id: id).open_state.any?
+    ServiceBlockedTask.create!(service: self, title: 'Unblock service', due_at: Time.now)
   end
 end

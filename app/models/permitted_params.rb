@@ -129,8 +129,24 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     params.require(:task_template).permit(:name, :title, :service_template, :service_template_id, :description, :time_estimate, :service_ordinal, :modal_template_id, :queue)
   end
 
+  def task_step_template
+    params.require(:task_step_template).permit(:description, :ordinal, :details, :template)
+  end
+
+  def data_field_template
+    params.require(:data_field_template).permit(:name, :type, :required_for_service_start)
+  end
+
   def feature_flag
     params.require(:feature_flag).permit(:enabled)
+  end
+
+  def task_step
+    params.require(:task_step).permit(:completed)
+  end
+
+  def data_field
+    params.require(:data_field).permit(:data)
   end
 
   private

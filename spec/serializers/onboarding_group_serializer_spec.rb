@@ -25,15 +25,26 @@ describe OnboardingGroupSerializer do
     end
   end
 
-  describe 'for_onboarding' do
+  describe 'onboarding_customization' do
     it 'renders the lighter version for onboarding' do
-      result = onboarding_group.serializer(for_onboarding: true).as_json
+      result = onboarding_group.serializer(onboarding_customization: true).as_json
       expect(result).to eq(
         {
-          id: onboarding_group.id,
-          name: onboarding_group.name,
           header_asset_url: nil,
           background_asset_url: nil
+        }
+      )
+    end
+  end
+
+  describe 'onboarding_custom_welcome' do
+    it 'renders the lighter version for onboarding' do
+      result = onboarding_group.serializer(onboarding_custom_welcome: true).as_json
+      expect(result).to eq(
+        {
+          header_asset_url: nil,
+          background_asset_url: nil,
+          custom_welcome: nil
         }
       )
     end

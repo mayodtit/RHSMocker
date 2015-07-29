@@ -47,7 +47,8 @@ class Member < User
   has_many :request_tasks, class_name: 'Task', conditions: {type: %w(UserRequestTask ParsedNurselineRecordTask)}
   has_many :service_tasks, class_name: 'MemberTask',
                            conditions: proc{ {service_type_id: ServiceType.non_engagement_ids} }
-  has_many :services
+  has_many :message_tasks, class_name: 'MessageTask'
+  has_many :services, inverse_of: :member
   belongs_to :onboarding_group, inverse_of: :users
   belongs_to :referral_code, inverse_of: :users
   has_many :user_requests, foreign_key: :user_id
@@ -70,6 +71,9 @@ class Member < User
   belongs_to :impersonated_user, class_name: 'Member'
   has_one :enrollment, foreign_key: :user_id, inverse_of: :user, autosave: true
   has_many :entries
+  has_one :onboarding_group_candidate, foreign_key: :user_id,
+                                       inverse_of: :user,
+                                       autosave: true
 
   attr_accessible :password, :password_confirmation,
                   :invitation_token, :units,
@@ -89,7 +93,8 @@ class Member < User
                   :impersonated_user, :impersonated_user_id,:delinquent,
                   :enrollment, :payment_token, :coupon_count, :unique_on_boarding_user_token,
                   :kinsights_token, :kinsights_patient_url,
-                  :kinsights_profile_url
+                  :kinsights_profile_url,
+                  :onboarding_group_candidate
 
   validates :unique_on_boarding_user_token, uniqueness: true, allow_nil: true
   validates :signed_up_at, presence: true, if: ->(m){m.signed_up?}
@@ -128,6 +133,7 @@ class Member < User
   after_create :add_onboarding_group_provider
   after_create :add_onboarding_group_cards
   after_create :add_onboarding_group_programs
+  after_create :add_onboarding_group_suggested_services
   after_save :alert_stakeholders_on_call_status
   after_save :update_referring_scheduled_communications, if: ->(m){m.free_trial_ends_at_changed?}
   after_commit :create_kinsights_job, on: :create
@@ -334,9 +340,7 @@ class Member < User
   end
 
   def initial_state
-    if enrollment.present? && payment_token.present?
-      :premium
-    elsif password.present? || crypted_password.present?
+    if password.present? || crypted_password.present?
       next_state
     else
       :invited
@@ -348,6 +352,8 @@ class Member < User
        onboarding_group.try(:free_trial_ends_at)
       :trial
     elsif onboarding_group.try(:premium?)
+      :premium
+    elsif payment_token.present?
       :premium
     else
       :free
@@ -612,6 +618,12 @@ class Member < User
   def add_onboarding_group_programs
     (onboarding_group.try(:programs) || []).each do |program|
       user_programs.create(program: program, subject: self)
+    end
+  end
+
+  def add_onboarding_group_suggested_services
+    (onboarding_group.try(:suggested_service_templates) || []).each do |suggested_service_template|
+      suggested_services.create(suggested_service_template: suggested_service_template)
     end
   end
 

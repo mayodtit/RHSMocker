@@ -30,6 +30,20 @@ describe 'Messages' do
         body = JSON.parse(response.body, symbolize_names: true)
         expect(body[:messages].to_json).to eq([message].serializer(shallow: true).as_json.to_json)
         expect(body[:total_count]).to eq(total_count_for_pha)
+        expect(body[:messaging_tutorial]).to eq({text: "Tell us how we can help you by sending a message to a Personal Health Assistant."})
+      end
+
+      context 'user has sent a message' do
+        let!(:user_message) { create(:message, user: user, consult: user.master_consult) }
+
+        it 'does not return messaging_tutorial' do
+          do_request
+          expect(response).to be_success
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(body[:messages].to_json).to eq([message].serializer(shallow: true).as_json.to_json)
+          expect(body[:total_count]).to eq(total_count_for_pha)
+          expect(body[:messaging_tutorial]).to be_nil
+        end
       end
     end
 

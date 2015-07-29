@@ -1,12 +1,9 @@
 class Task < ActiveRecord::Base
-  include ActiveModel::ForbiddenAttributesProtection
-  PRIORITY = 0
-  URGENT_PRIORITY = 12
-
   QUEUE_TYPES = %i(hcc pha nurse specialist)
   symbolize :queue, in: QUEUE_TYPES
 
   belongs_to :member
+  belongs_to :subject, class_name: 'User'
   belongs_to :role, class_name: 'Role'
   belongs_to :owner, class_name: 'Member'
   belongs_to :creator, class_name: 'Member'
@@ -17,11 +14,25 @@ class Task < ActiveRecord::Base
   belongs_to :task_template
   belongs_to :task_category
   has_many :task_changes, class_name: 'TaskChange', order: 'created_at DESC'
-  has_many :task_guides, class_name: 'TaskGuide', through: :task_template
-  has_many :task_requirements
+  has_many :task_steps, inverse_of: :task,
+                        dependent: :destroy
+  has_many :task_data_fields, inverse_of: :task,
+                              dependent: :destroy
+  has_many :data_fields, through: :task_data_fields,
+                         include: :data_field_template
+  has_many :input_task_data_fields, class_name: 'TaskDataField',
+                                    conditions: {type: :input}
+  has_many :input_data_fields, through: :input_task_data_fields,
+                               source: :data_field,
+                               include: :data_field_template
+  has_many :output_task_data_fields, class_name: 'TaskDataField',
+                                    conditions: {type: :output}
+  has_many :output_data_fields, through: :output_task_data_fields,
+                                source: :data_field,
+                                include: :data_field_template
   has_one :entry, as: :resource
 
-  attr_accessor :actor_id, :change_tracked, :reason, :pubsub_client_id
+  attr_accessor :actor_id, :change_tracked, :reason, :pubsub_client_id, :start_at
   attr_accessible :title, :description, :due_at, :queue, :time_zone, :time_zone_offset,
                   :owner, :owner_id, :member, :member_id,
                   :subject, :subject_id, :creator, :creator_id, :assignor, :assignor_id,
@@ -29,7 +40,7 @@ class Task < ActiveRecord::Base
                   :state_event, :service_type_id, :service_type, :task_category, :task_category_id,
                   :task_template, :task_template_id, :service, :service_id, :service_ordinal,
                   :priority, :actor_id, :member_id, :member, :reason, :reason_blocked, :visible_in_queue,
-                  :day_priority, :time_estimate, :pubsub_client_id, :urgent, :unread, :follow_up
+                  :day_priority, :time_estimate, :pubsub_client_id, :urgent, :unread, :follow_up, :start_at
 
   validates :title, :state, :creator_id, :role_id, :due_at, :priority, presence: true
   validates :urgent, :unread, :follow_up, :inclusion => { :in => [true, false] }
@@ -43,17 +54,15 @@ class Task < ActiveRecord::Base
   validates :reason, presence: true, if: lambda { |t| (t.due_at_changed? && t.due_at_was.present?) || (t.state_changed? && t.abandoned?) }
   validate :attrs_for_states
 
-
-  before_validation :set_role, on: :create
-  before_validation :set_queue, on: :create
-  before_validation :set_ordinal, on: :create
-  before_validation :set_time_zone, on: :create
-  before_validation :set_assignor_id
+  before_validation :set_defaults, on: :create
+  before_validation :set_assignor
   before_validation :mark_as_unread
-  before_validation :set_priority_score
+  before_validation :update_priority_score, on: :update
+  after_create :create_task_data_fields!, if: :task_template
+  after_create :create_task_steps!, if: :task_template
 
-  after_commit :publish
   after_save :notify
+  after_commit :publish
   after_commit :track_update, on: :update
 
   def self.open_state
@@ -123,52 +132,10 @@ class Task < ActiveRecord::Base
     where('state NOT IN (?)', ['completed', 'abandoned'])
   end
 
-  def set_role
-    self.role_id = Role.find_by_name!(:pha).id if role_id.nil?
+  def update_priority_score
+    self.priority = priority_score
   end
 
-  def set_priority_score
-    if queue == :hcc || type != 'MemberTask'
-      self.priority = 0 if priority.nil?
-    else
-      self.priority = CalculatePriorityService.new(task: self, service: self.service).call
-    end
-  end
-
-  def set_ordinal
-    if service_id && task_template_id.nil? && service_ordinal.nil?
-      self.service_ordinal = service.tasks.empty? ? 0 : service.tasks.maximum("service_ordinal")
-    end
-  end
-
-  def set_assignor_id
-    if owner_id_changed?
-      self.assigned_at = Time.now
-      self.assignor_id = actor_id
-    end
-  end
-
-  # Descendants can use this in a before validation on create.
-  def set_owner
-    self.owner = member && member.pha
-    if self.owner
-      self.assignor = Member.robot
-      self.assigned_at = Time.now
-    end
-  end
-
-  def default_queue
-    :pha
-  end
-
-  def set_queue
-    self.queue ||= default_queue
-  end
-
-  def set_time_zone
-    self.time_zone ||= service.try(:time_zone) || member.try(:time_zone)
-    self.time_zone_offset = ActiveSupport::TimeZone.new(time_zone).try(:utc_offset) if time_zone
-  end
 
   def mark_as_unread
     if urgent? || (owner && owner.has_role?('specialist'))
@@ -177,20 +144,6 @@ class Task < ActiveRecord::Base
       self.unread = true
     end
     true
-  end
-
-  def notify
-    return unless for_pha?
-
-    if owner_id_changed? || id_changed?
-      if unassigned?
-        Role.pha.users.where(on_call: true).each do |m|
-          UserMailer.delay.notify_of_unassigned_task self, m
-        end
-      elsif assignor_id != owner_id
-        UserMailer.delay.notify_of_assigned_task self, owner
-      end
-    end
   end
 
   def unassigned?
@@ -228,9 +181,12 @@ class Task < ActiveRecord::Base
     end
   end
 
-
   state_machine initial: -> (t){t.initial_state} do
     store_audit_trail to: 'TaskChange', context_to_log: [:actor_id, :data, :reason]
+
+    state :completed do
+      validate :task_steps_completed
+    end
 
     event :unclaim do
       transition any => :unclaimed
@@ -333,6 +289,12 @@ class Task < ActiveRecord::Base
     end
   end
 
+  def task_steps_completed
+    unless task_steps.incomplete.empty?
+      errors.add(:task_steps, 'must be completed before completing task')
+    end
+  end
+
   def actor_id
     @actor_id || Member.robot.id
   end
@@ -363,6 +325,95 @@ class Task < ActiveRecord::Base
       self.change_tracked = false
     elsif _data = data
       TaskChange.create! task: self, actor_id: self.actor_id, event: 'update', data: _data, reason: reason
+    end
+  end
+
+  def notify
+    return unless for_pha?
+
+    if owner_id_changed? || id_changed?
+      if unassigned?
+        Role.pha.users.where(on_call: true).each do |m|
+          UserMailer.delay.notify_of_unassigned_task self, m
+        end
+      elsif assignor_id != owner_id
+        UserMailer.delay.notify_of_assigned_task self, owner
+      end
+    end
+  end
+
+  protected
+
+  def default_queue
+    :pha
+  end
+
+  def priority_score
+    if queue == :hcc || type != 'MemberTask'
+      0 if priority.nil?
+    else
+      CalculatePriorityService.new(task: self, service: self.service).call
+    end
+  end
+
+  def calculate_owner
+    if queue == :pha
+      member.try(:pha) || service.try(:owner)
+    elsif queue == :specialist || queue == :hcc
+      nil
+    else
+      service.try(:owner)
+    end
+  end
+
+  def set_defaults
+    self.queue ||= task_template.try(:queue) || default_queue
+    self.title ||= task_template.try(:title)
+    self.description ||= task_template.try(:description)
+    self.due_at ||= task_template.try(:calculated_due_at, start_at)
+    self.time_estimate ||= task_template.try(:time_estimate)
+    self.service_type ||= service.try(:service_type)
+    self.task_category ||= task_template.try(:task_category)
+    self.member ||= service.try(:member)
+    self.subject ||= service.try(:subject)
+    self.creator ||= service.try(:creator)
+    self.owner ||= calculate_owner
+    self.assignor ||= owner
+    self.role ||= Role.find_by_name(:pha)
+    self.priority = priority_score
+    self.service_ordinal ||= task_template.try(:service_ordinal) || service_ordinal_for_one_off
+    self.time_zone ||= service.try(:time_zone) || member.try(:time_zone)
+    self.time_zone_offset = ActiveSupport::TimeZone.new(time_zone).try(:utc_offset) if time_zone
+    true
+  end
+
+  private
+
+  def set_assignor
+    if owner_id_changed?
+      self.assigned_at = Time.now
+      self.assignor_id = actor_id
+    end
+  end
+
+  def service_ordinal_for_one_off
+    if service
+      service.tasks.maximum(:service_ordinal) || 0
+    else
+      nil
+    end
+  end
+
+  def create_task_data_fields!
+    task_template.task_data_field_templates.each do |task_data_field_template|
+      task_data_fields.create!(task_data_field_template: task_data_field_template,
+                               data_field: service.data_fields.find_by_data_field_template_id!(task_data_field_template.data_field_template_id))
+    end
+  end
+
+  def create_task_steps!
+    task_template.task_step_templates.each do |task_step_template|
+      task_steps.create!(task_step_template: task_step_template)
     end
   end
 end

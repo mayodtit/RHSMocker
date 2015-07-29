@@ -298,6 +298,31 @@ ActiveRecord::Schema.define(:version => 20150728191520) do
 
   add_index "custom_cards", ["content_id"], :name => "index_custom_cards_on_content_id"
 
+  create_table "data_field_changes", :force => true do |t|
+    t.integer  "data_field_id"
+    t.integer  "actor_id"
+    t.text     "data"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+  end
+
+  create_table "data_field_templates", :force => true do |t|
+    t.integer  "service_template_id"
+    t.string   "name"
+    t.string   "type"
+    t.boolean  "required_for_service_start"
+    t.datetime "created_at",                 :null => false
+    t.datetime "updated_at",                 :null => false
+  end
+
+  create_table "data_fields", :force => true do |t|
+    t.integer  "service_id"
+    t.integer  "data_field_template_id"
+    t.text     "data"
+    t.datetime "created_at",             :null => false
+    t.datetime "updated_at",             :null => false
+  end
+
   create_table "delayed_jobs", :force => true do |t|
     t.integer  "priority",   :default => 0
     t.integer  "attempts",   :default => 0
@@ -648,6 +673,14 @@ ActiveRecord::Schema.define(:version => 20150728191520) do
 
   add_index "nux_story_changes", ["nux_story_id"], :name => "index_nux_story_changes_on_nux_story_id"
 
+  create_table "onboarding_group_candidates", :force => true do |t|
+    t.integer  "onboarding_group_id"
+    t.string   "email"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+    t.integer  "user_id"
+  end
+
   create_table "onboarding_group_cards", :force => true do |t|
     t.integer  "onboarding_group_id"
     t.integer  "resource_id"
@@ -668,6 +701,13 @@ ActiveRecord::Schema.define(:version => 20150728191520) do
 
   add_index "onboarding_group_programs", ["onboarding_group_id"], :name => "index_onboarding_group_programs_on_onboarding_group_id"
   add_index "onboarding_group_programs", ["program_id"], :name => "index_onboarding_group_programs_on_program_id"
+
+  create_table "onboarding_group_suggested_service_templates", :force => true do |t|
+    t.integer  "onboarding_group_id"
+    t.integer  "suggested_service_template_id"
+    t.datetime "created_at",                    :null => false
+    t.datetime "updated_at",                    :null => false
+  end
 
   create_table "onboarding_groups", :force => true do |t|
     t.string   "name"
@@ -690,6 +730,7 @@ ActiveRecord::Schema.define(:version => 20150728191520) do
     t.integer  "welcome_message_template_id"
     t.string   "header_asset"
     t.string   "background_asset"
+    t.text     "custom_welcome"
   end
 
   add_index "onboarding_groups", ["pha_id"], :name => "index_onboarding_groups_on_pha_id"
@@ -1174,6 +1215,17 @@ ActiveRecord::Schema.define(:version => 20150728191520) do
     t.integer "priority_weight"
   end
 
+  create_table "system_event_templates", :force => true do |t|
+    t.string   "name",                       :null => false
+    t.string   "title",                      :null => false
+    t.text     "description"
+    t.string   "unique_id",                  :null => false
+    t.integer  "version",     :default => 0, :null => false
+    t.string   "state"
+    t.datetime "created_at",                 :null => false
+    t.datetime "updated_at",                 :null => false
+  end
+
   create_table "task_changes", :force => true do |t|
     t.integer  "task_id",    :null => false
     t.string   "event"
@@ -1187,37 +1239,65 @@ ActiveRecord::Schema.define(:version => 20150728191520) do
 
   add_index "task_changes", ["task_id"], :name => "index_task_changes_on_task_id"
 
-  create_table "task_guides", :force => true do |t|
-    t.text     "description"
+  create_table "task_data_field_templates", :force => true do |t|
     t.integer  "task_template_id"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
-    t.string   "title"
+    t.integer  "data_field_template_id"
+    t.datetime "created_at",             :null => false
+    t.datetime "updated_at",             :null => false
+    t.string   "type"
   end
 
-  add_index "task_guides", ["task_template_id"], :name => "index_task_guides_on_task_template_id"
-
-  create_table "task_requirement_templates", :force => true do |t|
-    t.string   "title",            :null => false
-    t.text     "description"
-    t.integer  "task_template_id"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
-  end
-
-  add_index "task_requirement_templates", ["task_template_id"], :name => "index_task_requirement_templates_on_task_template_id"
-
-  create_table "task_requirements", :force => true do |t|
-    t.string   "title",                                          :null => false
-    t.text     "description"
-    t.integer  "task_requirement_template_id"
+  create_table "task_data_fields", :force => true do |t|
     t.integer  "task_id"
-    t.boolean  "completed",                    :default => true
-    t.datetime "created_at",                                     :null => false
-    t.datetime "updated_at",                                     :null => false
+    t.integer  "data_field_id"
+    t.integer  "task_data_field_template_id"
+    t.datetime "created_at",                  :null => false
+    t.datetime "updated_at",                  :null => false
+    t.string   "type"
   end
 
-  add_index "task_requirements", ["task_requirement_template_id"], :name => "index_task_requirements_on_task_requirement_template_id"
+  create_table "task_step_changes", :force => true do |t|
+    t.integer  "task_step_id"
+    t.integer  "actor_id"
+    t.text     "data"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
+
+  create_table "task_step_data_field_templates", :force => true do |t|
+    t.integer  "task_step_template_id"
+    t.integer  "task_data_field_template_id"
+    t.integer  "ordinal"
+    t.datetime "created_at",                        :null => false
+    t.datetime "updated_at",                        :null => false
+    t.boolean  "required_for_task_step_completion"
+  end
+
+  create_table "task_step_data_fields", :force => true do |t|
+    t.integer  "task_step_id"
+    t.integer  "task_data_field_id"
+    t.integer  "task_step_data_field_template_id"
+    t.datetime "created_at",                       :null => false
+    t.datetime "updated_at",                       :null => false
+  end
+
+  create_table "task_step_templates", :force => true do |t|
+    t.integer  "task_template_id"
+    t.text     "description"
+    t.integer  "ordinal"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+    t.text     "details"
+    t.text     "template"
+  end
+
+  create_table "task_steps", :force => true do |t|
+    t.integer  "task_id"
+    t.integer  "task_step_template_id"
+    t.datetime "created_at",            :null => false
+    t.datetime "updated_at",            :null => false
+    t.datetime "completed_at"
+  end
 
   create_table "task_templates", :force => true do |t|
     t.string   "name",                :null => false
@@ -1263,7 +1343,7 @@ ActiveRecord::Schema.define(:version => 20150728191520) do
     t.string   "type"
     t.integer  "parsed_nurseline_record_id"
     t.integer  "service_type_id"
-    t.integer  "priority",                   :default => 0,     :null => false
+    t.integer  "priority"
     t.integer  "service_id"
     t.integer  "service_ordinal"
     t.integer  "task_template_id"

@@ -8,34 +8,16 @@ class MessageTask < Task
   ACTIVE_CONVERSATION_PRIORITY = 9
 
   belongs_to :consult
-  belongs_to :message
-  delegate :subject, to: :consult
+  belongs_to :message, inverse_of: :message_task
 
   attr_accessible :consult, :consult_id, :message, :message_id
 
-  validates :consult_id, presence: true
-  validates :consult, presence: true, if: lambda { |t| t.consult_id }
-  validates :message, presence: true, if: lambda { |t| t.message_id }
-  validate :one_open_per_consult
+  validates :consult, :message, presence: true
+  validate :one_open_per_consult, if: :open?
 
-  before_validation :set_consult, on: :create
-  before_validation :set_owner, on: :create
-  before_validation :set_member, on: :create
-  before_validation :set_priority, on: :create
+  after_commit :update_member_service_states!
 
-  def default_queue
-    :hcc
-  end
-
-  def set_consult
-    if consult.nil? && message.present?
-      self.consult_id = message.consult_id
-    end
-  end
-
-  def set_member
-    self.member = consult.initiator if consult
-  end
+  delegate :subject, to: :consult
 
   def self.create_if_only_opened_for_consult!(consult, message = nil)
     if (!message || message.user == consult.initiator) && open.where(consult_id: consult.id).count == 0
@@ -48,30 +30,51 @@ class MessageTask < Task
     end
   end
 
+  private
+
+  def default_queue
+    :hcc
+  end
+
   def one_open_per_consult
-    return unless open?
-    task = self.class.open.where(consult_id: consult_id).first
-    if task && task.id != id
+    if open_message_tasks_for_consult?
       errors.add(:consult_id, "open MessageTask already exists for Consult #{consult_id}")
     end
   end
 
-  def set_priority
-    if role.on_call?
-      self.priority = NTH_MESSAGE_PRIORITY
-      if message_id.nil? || consult.messages.where('user_id = ? AND created_at < ?', message.user.id, message.created_at).count == 0
-        self.priority = FIRST_MESSAGE_PRIORITY
-      end
-    else
-      self.priority = AFTER_HOURS_MESSAGE_PRIORITY
-    end
+  def open_message_tasks_for_consult?
+    search_scope = self.class.open.where(consult_id: consult_id)
+    search_scope = search_scope.where('id != ?', id) if id
+    search_scope.any?
   end
 
-  def set_owner
-    if !Metadata.triage_off_hours_message? && !role.on_call? && consult.initiator && self.owner.nil?
-      self.owner = consult.initiator.pha
+  def set_defaults
+    self.consult ||= message.try(:consult)
+    self.member ||= consult.try(:initiator)
+
+    unless role.try(:on_call?)
+      self.owner ||= consult.try(:initiator).try(:pha)
       self.assignor = Member.robot
       self.assigned_at = Time.now
+    end
+
+    self.priority = if role.try(:on_call?) && message.try(:first_message_from_user_in_consult?)
+                      FIRST_MESSAGE_PRIORITY
+                    elsif role.try(:on_call?)
+                      NTH_MESSAGE_PRIORITY
+                    else
+                      AFTER_HOURS_MESSAGE_PRIORITY
+                    end
+
+    super
+  end
+
+  def update_member_service_states!
+    return if unclaimed? || claimed?
+    transaction do
+      member.services.where(state: :draft).each do |service|
+        service.auto_transition!
+      end
     end
   end
 end

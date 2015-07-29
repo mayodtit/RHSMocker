@@ -5,23 +5,25 @@ class NewMemberTask < Task
 
   validates :member, presence: true
 
-  before_validation :set_owner, on: :create
-  before_validation :set_due_at, on: :create
+  private
 
-  def set_due_at
-    return if due_at.present?
+  def set_defaults
+    self.owner ||= member.try(:pha)
+    self.due_at ||= calculate_due_at
+    super
+  end
 
-    now = Time.now.in_time_zone('Pacific Time (US & Canada)')
+  def calculate_due_at
+    now = Time.now.pacific
+
     if Role.pha.during_on_call? now
-      self.due_at = now.change hour: 18
-    else
-      if now.wday == 0 || now.wday == 6
-        self.due_at = now.change(hour: ON_CALL_START_HOUR).next_wday 1
-      elsif now.hour > (ON_CALL_END_HOUR - 1)
-        self.due_at = (now + 1.day).change hour: 12
-      else
-        self.due_at = now.change hour: 18
-      end
+      return now.change hour: 18
+    elsif now.wday == 0 || now.wday == 6
+      return now.change(hour: ON_CALL_START_HOUR).next_wday 1
+    elsif now.hour > (ON_CALL_END_HOUR - 1)
+      return (now + 1.day).change hour: 12
     end
+
+    now.change hour: 18
   end
 end
