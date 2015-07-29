@@ -380,7 +380,7 @@ class Task < ActiveRecord::Base
     self.owner ||= calculate_owner
     self.assignor ||= owner
     self.role ||= Role.find_by_name(:pha)
-    self.priority = priority_score
+    self.priority = priority_score || 0
     self.service_ordinal ||= task_template.try(:service_ordinal) || service_ordinal_for_one_off
     self.time_zone ||= service.try(:time_zone) || member.try(:time_zone)
     self.time_zone_offset = ActiveSupport::TimeZone.new(time_zone).try(:utc_offset) if time_zone

@@ -4,6 +4,7 @@ FactoryGirl.define do
     title "Title"
     description "Description"
     time_estimate 6 * 60
+    queue :pha
 
     trait :with_service_template do
       service_template

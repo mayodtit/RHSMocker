@@ -1209,12 +1209,6 @@ ActiveRecord::Schema.define(:version => 20150728191520) do
     t.string   "gender"
   end
 
-  create_table "task_categories", :force => true do |t|
-    t.string  "title"
-    t.text    "description"
-    t.integer "priority_weight"
-  end
-
   create_table "system_event_templates", :force => true do |t|
     t.string   "name",                       :null => false
     t.string   "title",                      :null => false
@@ -1224,6 +1218,12 @@ ActiveRecord::Schema.define(:version => 20150728191520) do
     t.string   "state"
     t.datetime "created_at",                 :null => false
     t.datetime "updated_at",                 :null => false
+  end
+
+  create_table "task_categories", :force => true do |t|
+    t.string  "title"
+    t.text    "description"
+    t.integer "priority_weight"
   end
 
   create_table "task_changes", :force => true do |t|
