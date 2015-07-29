@@ -2,18 +2,21 @@ require "spec_helper"
 
 describe TimeOffset do
   it_has_a "valid factory"
+  let(:ten_am) { Time.at(60*60*10) }
+  let(:three_hours) { Time.at(60*60*3) }
+  let(:base_time) { Time.zone.local(2015, 7, 25, 12, 0) }
 
   describe "valdations" do
     it_validates "presence of", :direction
     it_validates "presence of", :offset_type
 
-    [:before, :after].each do |dir|
+    TimeOffset::VALID_DIRECTIONS.each do |dir|
       it "#{dir} is a valid direction" do
         expect(build_stubbed(:time_offset, direction: dir)).to be_valid
       end
     end
 
-    [:fixed, :relative].each do |type|
+    TimeOffset::VALID_OFFSET_TYPES.each do |type|
       it "#{type} is a valid offset_type" do
         expect(build_stubbed(:time_offset, offset_type: type)).to be_valid
       end
@@ -21,7 +24,6 @@ describe TimeOffset do
 
     describe "#fixed_offsets_require_fixed_time_and_num_days" do
       context "valid data" do
-        let(:ten_am) { Time.at(60*60*10) }
         let(:valid_offset) { build_stubbed(:time_offset, offset_type: :fixed, num_days: 2, fixed_time: ten_am) }
         it "is valid" do
           expect(valid_offset).to be_valid
@@ -52,7 +54,6 @@ describe TimeOffset do
 
     describe "#relative_offsets_require_relative_time" do
       context "valid data" do
-        let(:three_hours) { Time.at(60*60*3) }
         let(:valid_offset) { build_stubbed(:time_offset, offset_type: :relative, relative_time: three_hours) }
         it "is valid" do
           expect(valid_offset).to be_valid
@@ -76,4 +77,31 @@ describe TimeOffset do
     end
   end
 
+  describe "#calculate" do
+    context "fixed offset_types" do
+      let(:fixed_offset_params) { { offset_type: :fixed, fixed_time: three_hours } }
+      let(:three_hours_before) { build_stubbed(:time_offset, fixed_offset_params.merge({direction: :before})) }
+      let(:three_hours_after) { build_stubbed(:time_offset, fixed_offset_params.merge({direction: :after})) }
+
+      it "works for before directions" do
+        expect(three_hours_before.calculate(base_time)).to eq Time.zone.local(2015,7,25,9,0)
+      end
+      it "works for after directions" do
+        expect(three_hours_after.calculate(base_time)).to eq Time.zone.local(2015,7,25,15,0)
+      end
+    end
+
+    context "relative offset_types" do
+      let(:relative_offset_params) { { offset_type: :relative, relative_time: ten_am, num_days: 2 } }
+      let(:two_days_before) { build_stubbed(:time_offset, relative_offset_params.merge({direction: :before})) }
+      let(:two_days_after)  { build_stubbed(:time_offset, relative_offset_params.merge({direction: :after})) }
+
+      it "works for before directions" do
+        expect(two_days_before.calculate(base_time)).to eq Time.zone.local(2015, 7, 23, 10, 0)
+      end
+      it "works for after directions" do
+        expect(two_days_after.calculate(base_time)).to eq Time.zone.local(2015, 7, 27, 10, 0)
+      end
+    end
+  end
 end
