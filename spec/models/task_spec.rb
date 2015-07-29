@@ -24,7 +24,7 @@ describe Task do
 
     describe 'validate priority' do
       before do
-        described_class.any_instance.stub(:set_priority_score)
+        described_class.any_instance.stub(:update_priority_score)
       end
       it_validates 'presence of', :priority
     end

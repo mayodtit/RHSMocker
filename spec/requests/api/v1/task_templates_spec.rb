@@ -83,7 +83,7 @@ describe 'TaskTemplates' do
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
         task_template = TaskTemplate.find(body[:task_template][:id])
-        expect(body[:task_template]).to eq(task_template.serializer.as_json)
+        expect(body[:task_template].to_json).to eq(task_template.serializer.as_json.to_json)
       end
     end
   end
