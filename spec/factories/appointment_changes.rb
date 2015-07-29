@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :appointment_change do
-    association :appointment
+    appointment
     association :actor, factory: :member
     event 'update'
     from 'open'
