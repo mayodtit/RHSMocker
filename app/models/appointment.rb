@@ -21,6 +21,6 @@ class Appointment < ActiveRecord::Base
 
   def track_update
     _data = data
-    appointment_changes.create!(actor_id: actor_id, event: 'update', data: _data)
+    appointment_changes.create!(actor_id: actor_id, data: _data)
   end
 end
