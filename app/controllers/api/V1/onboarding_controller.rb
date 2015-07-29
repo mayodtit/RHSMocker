@@ -31,7 +31,7 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
                      pha: @user.pha.try(:serializer),
                      auth_token: @session.auth_token,
                      onboarding_custom_welcome: onboarding_custom_welcome,
-                     suggested_services: onboarding_suggested_services)
+                     suggested_services_modal: onboarding_suggested_services_modal)
     else
       render_failure({reason: @session.errors.full_messages.to_sentence}, 422)
     end
@@ -46,7 +46,7 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
                      member: @user.serializer,
                      pha_profile: @user.pha.try(:pha_profile).try(:serializer),
                      auth_token: @session.auth_token,
-                     suggested_services: onboarding_suggested_services)
+                     suggested_services_modal: onboarding_suggested_services_modal)
     else
       render_failure({reason: sign_up_response[:reason],
                       user_message: sign_up_response[:reason]}, 422)
@@ -83,13 +83,17 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
     end
   end
 
-  def onboarding_suggested_services
+  def onboarding_suggested_services_modal
     if @user.messages.any?
-      []
+      nil
     elsif @user.suggested_services.any?
-      @user.suggested_services.serializer.as_json
+      {
+        header_text: 'To get started with a Personal Health Assistant, please select a Service.',
+        suggested_services: @user.suggested_services.serializer.as_json,
+        action_button_text: "LET'S GO!"
+      }
     else
-      []
+      nil
     end
   end
 

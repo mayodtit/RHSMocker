@@ -138,6 +138,13 @@ describe 'Onboarding' do
         let!(:onboarding_group) { create(:onboarding_group, custom_welcome: 'lorem ipsum') }
         let!(:user) { create(:member, :premium, email: email, password: password, pha: pha, onboarding_group: onboarding_group) }
         let!(:suggested_service) { create(:suggested_service, user: user) }
+        let(:suggested_services_modal) do
+          {
+            header_text: 'To get started with a Personal Health Assistant, please select a Service.',
+            suggested_services: [suggested_service.serializer.as_json],
+            action_button_text: "LET'S GO!"
+          }
+        end
 
         before do
           CarrierWave::Mount::Mounter.any_instance.stub(:store!)
@@ -155,7 +162,7 @@ describe 'Onboarding' do
           expect(body[:pha].to_json).to eq(pha.serializer.as_json.to_json)
           expect(body[:auth_token]).to be_present
           expect(body[:onboarding_custom_welcome]).to eq([reloaded_onboarding_group.serializer(onboarding_custom_welcome: true).as_json])
-          expect(body[:suggested_services].to_json).to eq([suggested_service.serializer.as_json].to_json)
+          expect(body[:suggested_services_modal].to_json).to eq(suggested_services_modal.to_json)
         end
 
         context 'the user has sent a message' do
@@ -165,7 +172,7 @@ describe 'Onboarding' do
             expect{ do_request(email: email, password: password) }.to change(Session, :count).by(1)
             expect(response).to be_success
             body = JSON.parse(response.body, symbolize_names: true)
-            expect(body[:suggested_services]).to be_empty
+            expect(body[:suggested_services_modal]).to be_nil
           end
         end
       end
@@ -244,7 +251,12 @@ describe 'Onboarding' do
         expect(user.referral_code).to eq(referral_code)
         expect(user.suggested_services.count).to eq(1)
         expect(user.suggested_services.first.suggested_service_template).to eq(suggested_service_template)
-        expect(body[:suggested_services].to_json).to eq([user.suggested_services.first.serializer.as_json].to_json)
+        suggested_services_modal = {
+          header_text: 'To get started with a Personal Health Assistant, please select a Service.',
+          suggested_services: [user.suggested_services.first.serializer.as_json],
+          action_button_text: "LET'S GO!"
+        }
+        expect(body[:suggested_services_modal].to_json).to eq(suggested_services_modal.to_json)
         expect(Stripe::Customer.all.count).to eq(1)
         expect(Stripe::Customer.all[0].subscriptions.count).to eq(1)
         expect(Stripe::Customer.all[0].cards.count).to eq(1)
