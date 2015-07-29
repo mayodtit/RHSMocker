@@ -8,7 +8,7 @@ class Appointment < ActiveRecord::Base
   attr_accessor :actor_id, :reason
   attr_accessible :user, :user_id, :provider, :provider_id, :scheduled_at, :actor_id, :creator, :creator_id, :reason
 
-  validates :user, :provider, :scheduled_at, :creator_id, presence: true
+  validates :user, :provider, :scheduled_at, :creator, presence: true
   after_commit :track_update, on: :update
 
   def data

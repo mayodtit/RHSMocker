@@ -5,5 +5,5 @@ describe Appointment do
   it_validates 'presence of', :user
   it_validates 'presence of', :provider
   it_validates 'presence of', :scheduled_at
-  it_validates 'presence of', :creator_id
+  it_validates 'presence of', :creator
 end
