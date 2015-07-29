@@ -242,6 +242,34 @@ describe Task do
     end
   end
 
+  describe '#next_tasks' do
+    let!(:specialist_task) { create :task, :unclaimed, queue: :specialist}
+
+    it 'should return the first unclaimed task in the specialist queue' do
+      Task.next_tasks.should == [specialist_task]
+    end
+  end
+
+  describe '#claim_next_tasks' do
+    let!(:task) { create :task, :unclaimed }
+    let!(:pha) { create :pha }
+
+    before do
+      Task.stub(:next_tasks) { [task] }
+    end
+
+     it 'should claim the task' do
+      Task.claim_next_tasks!(pha)
+      task.claimed?.should be_true
+     end
+
+     it 'should set the owner to the hcp' do |variable|
+       Task.claim_next_tasks!(pha)
+       task.owner.should == pha
+       task.actor_id.should == pha.id
+     end
+   end
+
   describe '#mark_as_unread' do
     let(:task) { build :task, type: 'MemberTask' }
     let(:pha) { build :pha}
