@@ -12,7 +12,7 @@ class Appointment < ActiveRecord::Base
   after_commit :track_update, on: :update
 
   def data
-    changes = previous_changes.except(
+    changes = previous_changes.slice(
       :creator_id,
       :created_at
     )
