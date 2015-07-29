@@ -73,7 +73,7 @@ resource "TaskTemplates" do
       parameter :title, "title of the task template"
       parameter :description, "description of the task template"
       parameter :time_estimate, "Estimate in minutes for length of service"
-      arameter :queue, "queue to assign the generated tasks to"
+      parameter :queue, "queue to assign the generated tasks to"
       scope_parameters :task_template, [:name, :title, :description, :service_type_id, :time_estimat, :queue]
 
       let(:title) { 'New Task Template Title' }
