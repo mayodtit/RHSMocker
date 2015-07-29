@@ -789,6 +789,40 @@ describe Task do
     end
   end
 
+  describe '#set_defaults' do
+    let(:task_template) { build_stubbed :task_template }
+    let(:service) { build_stubbed :service, time_zone: 'America/Los_Angeles' }
+    let(:task) { build_stubbed :task, task_template: task_template, service: service }
+    let(:owner) { build_stubbed :pha}
+    let(:role) { build_stubbed :role }
+    context 'when the task is created' do
+      before do
+        task_template.stub(:calculated_due_at) { Time.now.nine_oclock }
+        task.stub(:calculate_owner) { owner }
+        Role.stub(:find_by_name).with(:pha) { role }
+        task.stub(:priority_score) { 5 }
+        ActiveSupport::TimeZone.stub_chain(:new, :utc_offset) { 0 }
+      end
+
+      #ommiting the factory set variables
+      it 'should set the default values' do
+        task.send(:set_defaults)
+        task.queue.should == :pha
+        task.time_estimate.should == task_template.time_estimate
+        task.service_type.should == service.service_type
+        task.task_category.should == task_template.task_category
+        task.subject.should == service.subject
+        task.owner.should == owner
+        task.assignor.should == owner
+        task.role.should == role
+        task.priority.should == 5
+        task.service_ordinal.should == 0
+        task.time_zone.should == service.time_zone
+        task.time_zone_offset.should == 0
+      end
+    end
+  end
+
   describe '#track_update' do
     let!(:task) { create :member_task }
 
