@@ -2,6 +2,7 @@ require 'spec_helper'
 
 describe 'Appointments' do
   let!(:user) { create(:member) }
+  let!(:creator) { build_stubbed(:pha) }
   let!(:session) { user.sessions.create }
 
   before do
@@ -13,7 +14,7 @@ describe 'Appointments' do
   end
 
   context 'existing record' do
-    let!(:appointment) { create(:appointment, user: user) }
+    let!(:appointment) { create(:appointment, user: user, creator: creator) }
 
     describe 'GET /api/v1/users/:user_id/appointments' do
       def do_request
@@ -76,7 +77,7 @@ describe 'Appointments' do
     end
 
     let!(:provider) { create(:member) }
-    let(:appointment_attributes) { attributes_for(:appointment, provider_id: provider.id) }
+    let(:appointment_attributes) { attributes_for(:appointment, provider_id: provider.id, creator_id: creator.id ) }
 
     it 'creates a appointment' do
       expect{ do_request(appointment: appointment_attributes) }.to change(Appointment, :count).by(1)
