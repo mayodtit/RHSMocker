@@ -2,7 +2,8 @@ require 'spec_helper'
 
 describe 'Appointments' do
   let!(:user) { create(:member) }
-  let!(:creator) { build_stubbed(:pha) }
+  let!(:creator) { create(:pha) }
+  let!(:actor) { create(:pha) }
   let!(:session) { user.sessions.create }
 
   before do
@@ -77,7 +78,7 @@ describe 'Appointments' do
     end
 
     let!(:provider) { create(:member) }
-    let(:appointment_attributes) { attributes_for(:appointment, provider_id: provider.id, creator_id: creator.id ) }
+    let(:appointment_attributes) { attributes_for(:appointment, user_id: user.id, provider_id: provider.id, creator_id: creator.id ) }
 
     it 'creates a appointment' do
       expect{ do_request(appointment: appointment_attributes) }.to change(Appointment, :count).by(1)
