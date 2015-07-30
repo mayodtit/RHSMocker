@@ -28,7 +28,7 @@ class Service < ActiveRecord::Base
   attr_accessor :actor_id, :change_tracked, :reason, :pubsub_client_id
   attr_accessible :description, :title, :service_type_id, :service_type, :user_facing, :service_request, :service_deliverable,
                   :member_id, :member, :subject_id, :subject, :reason_abandoned, :reason, :abandoner, :abandoner_id,
-                  :creator_id, :creator, :owner_id, :owner, :assignor_id, :assignor, :service_update,
+                  :creator_id, :creator, :owner_id, :owner, :assignor_id, :assignor, :service_update, :time_zone,
                   :actor_id, :due_at, :state_event, :service_template, :service_template_id, :pubsub_client_id
 
   validates :title, :service_type, :state, :member, :creator, :owner, :assignor, :assigned_at, presence: true
@@ -237,6 +237,8 @@ class Service < ActiveRecord::Base
     self.owner ||= member.try(:pha)
     self.assignor ||= creator
     self.actor_id ||= creator.try(:id)
+    self.time_zone ||= member.try(:time_zone)
+    self.time_zone_offset = ActiveSupport::TimeZone.new(time_zone).try(:utc_offset) if time_zone
     true
   end
 

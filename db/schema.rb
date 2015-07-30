@@ -1099,6 +1099,8 @@ ActiveRecord::Schema.define(:version => 20150729235356) do
     t.text     "service_request"
     t.text     "service_deliverable"
     t.text     "service_update"
+    t.string   "time_zone"
+    t.integer  "time_zone_offset"
   end
 
   add_index "services", ["assignor_id"], :name => "index_services_on_assignor_id"
@@ -1236,6 +1238,12 @@ ActiveRecord::Schema.define(:version => 20150729235356) do
     t.datetime "updated_at",                 :null => false
   end
 
+  create_table "task_categories", :force => true do |t|
+    t.string  "title"
+    t.text    "description"
+    t.integer "priority_weight"
+  end
+
   create_table "task_changes", :force => true do |t|
     t.integer  "task_id",    :null => false
     t.string   "event"
@@ -1320,6 +1328,8 @@ ActiveRecord::Schema.define(:version => 20150729235356) do
     t.datetime "updated_at",          :null => false
     t.integer  "priority"
     t.integer  "modal_template_id"
+    t.string   "queue"
+    t.integer  "task_category_id"
   end
 
   add_index "task_templates", ["service_template_id"], :name => "index_task_templates_on_service_template_id"
@@ -1369,6 +1379,10 @@ ActiveRecord::Schema.define(:version => 20150729235356) do
     t.datetime "blocked_external_at"
     t.datetime "unblocked_at"
     t.string   "queue"
+    t.string   "time_zone"
+    t.integer  "time_zone_offset"
+    t.integer  "task_category_id"
+    t.text     "reason_blocked"
   end
 
   add_index "tasks", ["owner_id", "state", "role_id", "type"], :name => "queue_test"

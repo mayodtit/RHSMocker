@@ -5,7 +5,7 @@ class ServiceSerializer < ActiveModel::Serializer
              :service_type_id, :state, :title, :description, :due_at,
              :created_at, :updated_at, :user_facing, :service_request,
              :service_deliverable, :service_update, :owner_full_name,
-             :service_type_name
+             :service_type_name, :time_zone
 
   delegate :member, :owner, :subject, :service_type, :tasks,
            :data_fields, to: :object

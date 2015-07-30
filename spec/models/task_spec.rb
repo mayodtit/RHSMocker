@@ -13,7 +13,6 @@ describe Task do
     it_validates 'presence of', :role_id
     it_validates 'presence of', :creator_id
     it_validates 'presence of', :due_at
-    it_validates 'presence of', :priority
     it_validates 'inclusion of', :urgent
     it_validates 'inclusion of', :unread
     it_validates 'inclusion of', :follow_up
@@ -22,6 +21,13 @@ describe Task do
     it_validates 'foreign key of', :service_type
     it_validates 'foreign key of', :task_template
     it_validates 'foreign key of', :member
+
+    describe 'validate priority' do
+      before do
+        described_class.any_instance.stub(:update_priority_score)
+      end
+      it_validates 'presence of', :priority
+    end
 
     describe '#service' do
       let(:task) { build :task }
@@ -236,48 +242,33 @@ describe Task do
     end
   end
 
-  describe '#reset_day_priority' do
-    let(:task) { build :task, day_priority: 11 }
+  describe '#next_tasks' do
+    let!(:specialist_task) { create :task, :unclaimed, queue: :specialist}
 
-    context 'owner_id changed' do
-      before do
-        task.stub(:owner_id_changed?) { true }
-      end
-
-      context 'owner_id existed' do
-        before do
-          task.stub(:owner_id_was) { 1 }
-        end
-
-        it 'resets day priority to 0' do
-          task.reset_day_priority
-          task.day_priority.should == 0
-        end
-      end
-
-      context 'owner_id didn\'t exist' do
-        before do
-          task.stub(:owner_id_was) { nil }
-        end
-
-        it 'resets day priority to 0' do
-          task.reset_day_priority
-          task.day_priority.should == 11
-        end
-      end
-    end
-
-    context 'owner_id did not change' do
-      before do
-        task.stub(:owner_id_changed?) { false }
-      end
-
-      it 'doesn\'t reset day priority' do
-        task.reset_day_priority
-        task.day_priority.should == 11
-      end
+    it 'should return the first unclaimed task in the specialist queue' do
+      Task.next_tasks.should == [specialist_task]
     end
   end
+
+  describe '#claim_next_tasks' do
+    let!(:task) { create :task, :unclaimed }
+    let!(:pha) { create :pha }
+
+    before do
+      Task.stub(:next_tasks) { [task] }
+    end
+
+     it 'should claim the task' do
+      Task.claim_next_tasks!(pha)
+      task.claimed?.should be_true
+     end
+
+     it 'should set the owner to the hcp' do |variable|
+       Task.claim_next_tasks!(pha)
+       task.owner.should == pha
+       task.actor_id.should == pha.id
+     end
+   end
 
   describe '#mark_as_unread' do
     let(:task) { build :task, type: 'MemberTask' }
@@ -822,6 +813,109 @@ describe Task do
 
       it 'returns @actor_id' do
         task.actor_id.should == Member.robot.id
+      end
+    end
+  end
+
+  describe '#set_defaults' do
+    let(:task_template) { build_stubbed :task_template }
+    let(:service) { build_stubbed :service, time_zone: 'America/Los_Angeles' }
+    let(:task) { build_stubbed :task, task_template: task_template, service: service }
+    let(:owner) { build_stubbed :pha}
+    let(:role) { build_stubbed :role }
+    context 'when the task is created' do
+      before do
+        task_template.stub(:calculated_due_at) { Time.now.nine_oclock }
+        task.stub(:calculate_owner) { owner }
+        Role.stub(:find_by_name).with(:pha) { role }
+        task.stub(:calculate_priority) { 5 }
+        ActiveSupport::TimeZone.stub_chain(:new, :utc_offset) { 0 }
+      end
+
+      #ommiting the factory set variables
+      it 'should set the default values' do
+        task.send(:set_defaults)
+        task.queue.should == :pha
+        task.time_estimate.should == task_template.time_estimate
+        task.service_type.should == service.service_type
+        task.task_category.should == task_template.task_category
+        task.subject.should == service.subject
+        task.owner.should == owner
+        task.assignor.should == owner
+        task.role.should == role
+        task.priority.should == 5
+        task.service_ordinal.should == 0
+        task.time_zone.should == service.time_zone
+        task.time_zone_offset.should == 0
+      end
+    end
+  end
+
+  describe '#calculate_owner' do
+    let(:pha) { build_stubbed :pha }
+    let(:member) { build_stubbed :member, pha: pha }
+    let(:service) {build_stubbed :service, owner: pha }
+    let(:task) { build_stubbed :task, service: service, member: member }
+
+    context 'if the queue is pha' do
+      before do
+        task.queue = :pha
+      end
+
+      it 'should return the service owner' do
+        task.send(:calculate_owner).should == pha
+      end
+    end
+
+    context 'if the queue is specialist or hcc' do
+      before do
+        task.queue = :specialist
+      end
+
+      it 'should return nil' do
+        task.send(:calculate_owner).should be_nil
+      end
+    end
+  end
+
+  describe '#calculate_priority' do
+    let(:task) { build_stubbed :task, time_zone: "America/Los_Angeles"}
+
+    context 'if the queue is hcc' do
+      before do
+        task.queue = :hcc
+      end
+
+      context 'if the priority is nil' do
+        before do
+          task.priority = nil
+        end
+
+        it 'should return 0' do
+          task.send(:calculate_priority).should == 0
+        end
+      end
+
+      context 'if there is already a priority' do
+        before do
+          task.priority = 10
+        end
+
+        it 'should return the original priority' do
+          task.send(:calculate_priority).should == 10
+        end
+      end
+    end
+
+    context 'if the queue is specialist or pha' do
+      before do
+        task.queue = :specialist
+        task.type = 'MemberTask'
+        CalculatePriorityService.stub_chain(:new, :call) { -8 }
+      end
+
+      it 'should return the priority from the CalculatePriorityService' do
+        task.send(:calculate_priority).should == -8
       end
     end
   end

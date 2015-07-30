@@ -1,6 +1,10 @@
 class TaskTemplate < ActiveRecord::Base
+  QUEUE_TYPES = %i(hcc pha nurse specialist)
+  symbolize :queue, in: QUEUE_TYPES
+
   belongs_to :service_template
   belongs_to :modal_template
+  belongs_to :task_category
   has_many :tasks
   has_many :task_step_templates, inverse_of: :task_template,
                                  dependent: :destroy
@@ -16,9 +20,7 @@ class TaskTemplate < ActiveRecord::Base
   has_many :output_data_field_templates, through: :output_task_data_field_templates,
                                          source: :data_field_template
 
-  attr_accessible :name, :title, :description, :time_estimate, :priority,
-                  :service_ordinal, :service_template, :service_template_id,
-                  :modal_template
+  attr_accessible :name, :title, :description, :time_estimate, :priority, :service_ordinal, :service_template, :service_template_id, :modal_template, :queue, :task_category, :task_category_id
 
   validates :name, :title, presence: true
   validates :service_template, presence: true, if: :service_template_id
@@ -32,7 +34,7 @@ class TaskTemplate < ActiveRecord::Base
 
   def create_deep_copy!(new_service_template)
     transaction do
-      new_service_template.task_templates.create!(attributes.slice(*%w(name title description time_estimate priority service_ordinal))).tap do |new_task_template|
+      new_service_template.task_templates.create!(attributes.slice(*%w(name title description time_estimate priority service_ordinal queue task_category))).tap do |new_task_template|
         new_task_template.update_attributes!(modal_template: modal_template.create_copy!) if modal_template
         task_step_templates.each do |task_step_template|
           task_step_template.create_deep_copy!(new_service_template, new_task_template)
