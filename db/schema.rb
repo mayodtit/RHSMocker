@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150728182553) do
+ActiveRecord::Schema.define(:version => 20150729044449) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1358,6 +1358,16 @@ ActiveRecord::Schema.define(:version => 20150728182553) do
   add_index "tasks", ["state", "due_at", "created_at"], :name => "index_tasks_on_state_and_due_at_and_created_at"
   add_index "tasks", ["state"], :name => "index_tasks_on_state"
   add_index "tasks", ["type", "consult_id", "state"], :name => "index_tasks_on_type_and_consult_id_and_state"
+
+  create_table "time_offsets", :force => true do |t|
+    t.string   "offset_type",   :null => false
+    t.string   "direction",     :null => false
+    t.time     "fixed_time"
+    t.integer  "num_days"
+    t.time     "relative_time"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+  end
 
   create_table "treatment_side_effects", :force => true do |t|
     t.integer  "treatment_id"
