@@ -6,12 +6,25 @@ class SuggestedService < ActiveRecord::Base
                   :suggested_service_template_id
 
   validates :user, :suggested_service_template, presence: true
+  validates :user_facing, inclusion: {in: [true, false]}
+
+  before_validation :set_defaults, on: :create
 
   delegate :title, :description, :message, to: :suggested_service_template
+
+  protected
+
+  def user_facing_is_false
+    errors.add(:user_facing, 'must be false') if user_facing
+  end
 
   private
 
   state_machine initial: :unoffered do
+    state :unoffered, :accepted, :rejected, :expired do
+      validate ->(s) { s.user_facing_is_false }
+    end
+
     event :offer do
       transition :unoffered => :offered
     end
@@ -27,5 +40,10 @@ class SuggestedService < ActiveRecord::Base
     event :expire do
       transition %i(unoffered offered) => :expired
     end
+  end
+
+  def set_defaults
+    self.user_facing = false if user_facing.nil?
+    true
   end
 end
