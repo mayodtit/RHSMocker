@@ -12,11 +12,11 @@ class Api::V1::AppointmentsController < Api::V1::ABaseController
   end
 
   def create
-    create_resource @appointments, appointment_attributes
+    create_resource @appointments, create_params
   end
 
   def update
-    update_resource @appointment, appointment_attributes
+    update_resource @appointment, update_params
   end
 
   def destroy
@@ -35,5 +35,17 @@ class Api::V1::AppointmentsController < Api::V1::ABaseController
 
   def appointment_attributes
     params.require(:appointment).permit(:user_id, :provider_id, :scheduled_at)
+  end
+
+  def create_params
+    appointment_attributes.tap do |attrs|
+      attrs[:creator] = current_user
+    end
+  end
+
+  def update_params
+    appointment_attributes.tap do |attrs|
+      attrs[:actor_id] = current_user.id
+    end
   end
 end
