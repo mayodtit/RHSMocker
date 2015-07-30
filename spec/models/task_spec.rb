@@ -828,7 +828,7 @@ describe Task do
         task_template.stub(:calculated_due_at) { Time.now.nine_oclock }
         task.stub(:calculate_owner) { owner }
         Role.stub(:find_by_name).with(:pha) { role }
-        task.stub(:priority_score) { 5 }
+        task.stub(:calculate_priority) { 5 }
         ActiveSupport::TimeZone.stub_chain(:new, :utc_offset) { 0 }
       end
 
