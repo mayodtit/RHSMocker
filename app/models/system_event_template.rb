@@ -1,4 +1,6 @@
 class SystemEventTemplate < ActiveRecord::Base
+  has_one :system_action_template, inverse_of: :system_event_template
+
   attr_accessible :name, :description, :title, :state, :unique_id, :version
 
   validates :name, :title, presence: true
