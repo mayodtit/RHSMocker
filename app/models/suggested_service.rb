@@ -20,6 +20,11 @@ class SuggestedService < ActiveRecord::Base
     errors.add(:user_facing, 'must be false') if user_facing
   end
 
+  def unset_user_facing
+    self.user_facing = false if user_facing
+    true
+  end
+
   private
 
   state_machine initial: :unoffered do
@@ -44,6 +49,8 @@ class SuggestedService < ActiveRecord::Base
     event :expire do
       transition %i(unoffered offered) => :expired
     end
+
+    before_transition any => any - :offered, do: :unset_user_facing
   end
 
   def set_defaults
