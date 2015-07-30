@@ -12,27 +12,11 @@ class Api::V1::AppointmentsController < Api::V1::ABaseController
   end
 
   def create
-    attributes = appointment_attributes
-    attributes[:creator_id] = current_user.id
-
-    @appointment = Appointment.create(attributes)
-
-    if @appointment.errors.empty?
-      render_success(appointment: @appointment.serializer)
-    else
-      render_failure({reason: @appointment.errors.full_messages.to_sentence}, 422)
-    end
+    create_resource @appointments, create_params
   end
 
   def update
-    update_params = appointment_attributes
-    update_params[:actor_id] = current_user.id
-
-    if @appointment.update_attributes(update_params)
-      render_success(appointment: @appointment.serializer)
-    else
-      render_failure({reason: @appointment.errors.full_messages.to_sentence}, 422)
-    end
+    update_resource @appointment, update_params
   end
 
   def destroy
@@ -51,5 +35,17 @@ class Api::V1::AppointmentsController < Api::V1::ABaseController
 
   def appointment_attributes
     params.require(:appointment).permit(:user_id, :provider_id, :scheduled_at)
+  end
+
+  def create_params
+    appointment_attributes.tap do |attrs|
+      attrs[:creator] = current_user
+    end
+  end
+
+  def update_params
+    appointment_attributes.tap do |attrs|
+      attrs[:actor_id] = current_user.id
+    end
   end
 end
