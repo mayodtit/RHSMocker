@@ -27,6 +27,17 @@ describe 'Onboarding' do
         expect(body[:onboarding_customization]).to eq(reloaded_onboarding_group.serializer(onboarding_customization: true).as_json)
         expect(body[:onboarding_custom_welcome]).to eq([reloaded_onboarding_group.serializer(onboarding_custom_welcome: true).as_json])
       end
+
+      context 'user has logged in previously' do
+        let!(:previous_session) { create(:session, member: user) }
+
+        it "doesn't return the onboarding_custom_welcome" do
+          do_request(email: user.email)
+          expect(response).to be_success
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(body[:onboarding_custom_welcome]).to be_empty
+        end
+      end
     end
 
     context 'user does not exist' do
@@ -172,6 +183,17 @@ describe 'Onboarding' do
             expect(response).to be_success
             body = JSON.parse(response.body, symbolize_names: true)
             expect(body[:suggested_services_modal]).to be_nil
+          end
+        end
+
+        context 'the user has logged in previously' do
+          let!(:other_session) { create(:session, member: user) }
+
+          it "doesn't return the onboarding_custom_welcome" do
+            expect{ do_request(email: email, password: password) }.to change(Session, :count).by(1)
+            expect(response).to be_success
+            body = JSON.parse(response.body, symbolize_names: true)
+            expect(body[:onboarding_custom_welcome]).to be_empty
           end
         end
       end
