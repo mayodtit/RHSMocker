@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150729235356) do
+ActiveRecord::Schema.define(:version => 20150730044936) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1228,14 +1228,16 @@ ActiveRecord::Schema.define(:version => 20150729235356) do
   end
 
   create_table "system_event_templates", :force => true do |t|
-    t.string   "name",                       :null => false
-    t.string   "title",                      :null => false
+    t.string   "name",                                  :null => false
+    t.string   "title",                                 :null => false
     t.text     "description"
-    t.string   "unique_id",                  :null => false
-    t.integer  "version",     :default => 0, :null => false
+    t.string   "unique_id",                             :null => false
+    t.integer  "version",                :default => 0, :null => false
     t.string   "state"
-    t.datetime "created_at",                 :null => false
-    t.datetime "updated_at",                 :null => false
+    t.datetime "created_at",                            :null => false
+    t.datetime "updated_at",                            :null => false
+    t.string   "type"
+    t.integer  "root_event_template_id"
   end
 
   create_table "task_categories", :force => true do |t|
@@ -1392,13 +1394,14 @@ ActiveRecord::Schema.define(:version => 20150729235356) do
   add_index "tasks", ["type", "consult_id", "state"], :name => "index_tasks_on_type_and_consult_id_and_state"
 
   create_table "time_offsets", :force => true do |t|
-    t.string   "offset_type",   :null => false
-    t.string   "direction",     :null => false
+    t.string   "offset_type",                       :null => false
+    t.string   "direction",                         :null => false
     t.time     "fixed_time"
     t.integer  "num_days"
     t.time     "relative_time"
-    t.datetime "created_at",    :null => false
-    t.datetime "updated_at",    :null => false
+    t.datetime "created_at",                        :null => false
+    t.datetime "updated_at",                        :null => false
+    t.integer  "system_relative_event_template_id"
   end
 
   create_table "treatment_side_effects", :force => true do |t|

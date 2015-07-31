@@ -3,6 +3,8 @@ class SystemEventTemplate < ActiveRecord::Base
 
   attr_accessible :name, :description, :title, :state, :unique_id, :version
 
+  has_many :system_relative_event_templates, inverse_of: :root_event_template
+
   validates :name, :title, presence: true
   validates :version, presence: true
   validates :version, uniqueness: { scope: :unique_id }
