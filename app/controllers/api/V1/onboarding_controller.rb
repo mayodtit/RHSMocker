@@ -77,11 +77,19 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
   end
 
   def onboarding_custom_welcome
-    if onboarding_group.try(:onboarding_custom_welcome?)
+    if @user && past_sessions.any?
+      []
+    elsif onboarding_group.try(:onboarding_custom_welcome?)
       [onboarding_group.serializer(onboarding_custom_welcome: true).as_json]
     else
       []
     end
+  end
+
+  def past_sessions
+    sessions = Session.unscoped.where(member_id: @user.id)
+    sessions = sessions.where('id != ?', @session.id) if @session
+    sessions
   end
 
   def onboarding_suggested_services_modal
