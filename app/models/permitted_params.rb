@@ -121,16 +121,36 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def service_attributes
-    params.require(:service).permit(:title, :description, :due_at, :state_event, :owner_id, :reason, :reason_abandoned, :member_id,
+    params.require(:service).permit(:title, :description, :due_at, :time_zone, :state_event, :owner_id, :reason, :reason_abandoned, :member_id,
                                     :subject_id, :service_type_id, :user_facing, :service_request, :service_deliverable, :service_update)
   end
 
   def task_template
-    params.require(:task_template).permit(:name, :title, :service_template, :service_template_id, :description, :time_estimate, :service_ordinal, :modal_template_id)
+    params.require(:task_template).permit(:name, :title, :service_template, :service_template_id, :description, :time_estimate, :service_ordinal, :modal_template_id, :queue)
+  end
+
+  def task_step_template
+    params.require(:task_step_template).permit(:description, :ordinal, :details, :template)
+  end
+
+  def data_field_template
+    params.require(:data_field_template).permit(:name, :type, :required_for_service_start)
   end
 
   def feature_flag
     params.require(:feature_flag).permit(:enabled)
+  end
+
+  def task_step
+    params.require(:task_step).permit(:completed)
+  end
+
+  def data_field
+    params.require(:data_field).permit(:data)
+  end
+
+  def suggested_service
+    params.require(:suggested_service).permit(:state_event, :user_facing)
   end
 
   private

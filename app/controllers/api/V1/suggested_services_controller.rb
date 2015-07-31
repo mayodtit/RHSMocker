@@ -1,7 +1,7 @@
 class Api::V1::SuggestedServicesController < Api::V1::ABaseController
   before_filter :load_user!
   before_filter :load_suggested_services!
-  before_filter :load_suggested_service!, only: :show
+  before_filter :load_suggested_service!, only: %i(show update)
 
   def index
     index_resource @suggested_services.serializer(include_nested: true)
@@ -9,6 +9,11 @@ class Api::V1::SuggestedServicesController < Api::V1::ABaseController
 
   def show
     show_resource @suggested_service.serializer(include_nested: true)
+  end
+
+  def update
+    authorize! :update, @suggested_service
+    update_resource @suggested_service, update_params
   end
 
   private
@@ -29,5 +34,11 @@ class Api::V1::SuggestedServicesController < Api::V1::ABaseController
   def load_suggested_service!
     @suggested_service = @suggested_services.find(params[:id])
     authorize! :read, @suggested_service
+  end
+
+  def update_params
+    permitted_params.suggested_service.tap do |attrs|
+      attrs[:actor] = current_user
+    end
   end
 end

@@ -36,5 +36,25 @@ resource 'SuggestedService' do
         expect(body[:suggested_service].to_json).to eq(suggested_service.serializer(include_nested: true).as_json.to_json)
       end
     end
+
+    put '/api/v1/users/:user_id/suggested_services/:id' do
+      parameter :state_event, 'State machine event to transition suggested service'
+      parameter :user_facing, 'Whether the suggested service should be patient-facing (PHA only)'
+      scope_parameters :suggested_service, %i(state_event user_facing)
+
+      let(:state_event) { :offer }
+      let(:id) { suggested_service.id }
+      let(:raw_post) { params.to_json }
+
+      example_request '[PUT] Get SuggestedService details' do
+        explanation 'Returns the SuggestedService'
+        expect(suggested_service).to be_unoffered
+        expect(status).to eq(200)
+        body = JSON.parse(response_body, symbolize_names: true)
+        expect(body[:suggested_service].to_json).to eq(suggested_service.reload.serializer.as_json.to_json)
+        expect(suggested_service).to_not be_unoffered
+        expect(suggested_service).to be_offered
+      end
+    end
   end
 end

@@ -1,6 +1,6 @@
 class Api::V1::TasksController < Api::V1::ABaseController
   before_filter :load_user!
-  before_filter :load_task!, except: [:index, :queue, :current]
+  before_filter :load_task!, except: [:index, :queue, :current, :next_tasks]
 
   def index
     authorize! :read, Task
@@ -17,6 +17,18 @@ class Api::V1::TasksController < Api::V1::ABaseController
     render_success tasks: tasks.serializer(shallow: true), tomorrow_count: tomorrow_count, future_count: future_count
   end
 
+  def next_tasks
+    authorize! :read, Task
+    queue_tasks, tomorrow_count, future_count = current_user.queue(params)
+    tasks = if queue_tasks.any?
+      queue_tasks
+    else
+      Task.claim_next_tasks!(current_user)
+    end
+
+    render_success tasks: tasks.serializer(shallow: true)
+  end
+
   def show
     authorize! :read, @task
     show_resource @task.serializer
@@ -25,7 +37,7 @@ class Api::V1::TasksController < Api::V1::ABaseController
   def current
     task = Task.find_by_owner_id_and_state(current_user.id, 'claimed')
     authorize!(:read, task) if task
-    show_resource task && task.serializer
+    show_resource task.try(:serializer)
   end
 
   def update
@@ -39,6 +51,10 @@ class Api::V1::TasksController < Api::V1::ABaseController
     if update_params.has_key? :reason_abandoned
       update_params[:reason] = update_params[:reason_abandoned]
       update_params.delete :reason_abandoned
+    end
+
+    if update_params[:state_event] == 'report_blocked_by_internal' || update_params[:state_event] == 'report_blocked_by_external'
+      update_params[:reason_blocked] = update_params[:reason]
     end
 
     if update_params.has_key?(:due_at) && update_params[:reason].blank?
@@ -93,6 +109,6 @@ class Api::V1::TasksController < Api::V1::ABaseController
   end
 
   def task_attributes
-    params.require(:task).permit(:title, :description, :due_at, :state_event, :owner_id, :reason, :reason_abandoned, :member_id, :subject_id, :service_type_id, :day_priority, :pubsub_client_id, :urgent, :follow_up)
+    params.require(:task).permit(:title, :description, :due_at, :state_event, :owner_id, :reason, :reason_abandoned, :member_id, :subject_id, :service_type_id, :day_priority, :pubsub_client_id, :urgent, :follow_up, :unread)
   end
 end

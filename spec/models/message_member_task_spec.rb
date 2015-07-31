@@ -1,58 +1,26 @@
 require 'spec_helper'
 
 describe MessageMemberTask do
-  before do
-    @service_type = ServiceType.find_or_create_by_name! name: 're-engagement', bucket: 'engagement'
-  end
+  let!(:service_type) { create(:service_type, name: 're-engagement', bucket: 'engagement') }
 
   it_has_a 'valid factory'
+  it_validates 'foreign key of', :member
+  it_validates 'foreign key of', :service_type
 
-  describe 'validations' do
-    it_validates 'foreign key of', :member
-    it_validates 'foreign key of', :service_type
-  end
+  describe '#set_defaults' do
+    let(:task) { build(:message_member_task) }
 
-  describe '#set_required_attrs' do
-    let(:task) { build :message_member_task }
-
-    it 'sets title' do
-      task.set_required_attrs
-      task.title.should == "Message member"
+    it 'creates a valid object and sets defaults' do
+      expect(task).to be_valid
+      expect(task.title).to eq("Message member")
+      expect(task.description).to eq("Member has not been messages in a week. Please send them a message.")
+      expect(task.service_type).to eq(service_type)
+      expect(task.owner).to eq(task.member.pha)
     end
 
-    it 'sets due_at to end of workday' do
-      task.set_required_attrs
-      task.due_at = Time.now.eighteen_oclock
-    end
-
-    it 'sets service type' do
-      task.set_required_attrs
-      task.service_type.should == @service_type
-    end
-
-    it 'sets the creator to the robot' do
-      task.set_required_attrs
-      task.creator.should == Member.robot
-    end
-
-    it 'sets the assignor  to the robot' do
-      task.set_required_attrs
-      task.assignor.should == Member.robot
-    end
-
-    it 'sets the owner to the members pha' do
-      task.set_required_attrs
-      task.owner.should == task.member.pha
-    end
-
-    it 'sets the description' do
-      task.set_required_attrs
-      task.description.should == "Member has not been messages in a week. Please send them a message."
-    end
-
-    it 'sets the priority' do
-      task.set_required_attrs
-      task.priority.should == 0
+    it 'sets priority to 0' do
+      task.valid?
+      expect(task.priority).to eq(0)
     end
   end
 
@@ -63,5 +31,4 @@ describe MessageMemberTask do
       MessageMemberTask.create_task_for_member(member)
     end
   end
-
 end

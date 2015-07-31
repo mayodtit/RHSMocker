@@ -70,6 +70,10 @@ class Ability
       user.id == o.user_id
     end
 
+    can :update, SuggestedService do |o|
+      user.id == o.user_id
+    end
+
     cannot :manage, Program
     cannot :manage, CustomCard
     cannot :index, Member
@@ -135,11 +139,16 @@ class Ability
       can :manage, Entry
       can :read, ServiceTemplate
       can :read, TaskTemplate
+      can :manage, DataField
+      can :manage, TaskStep
+      can :manage, SuggestedService
     end
 
     if user.service_admin?
       can :manage, ServiceTemplate
       can :manage, TaskTemplate
+      can :manage, TaskStepTemplate
+      can :manage, DataFieldTemplate
     end
 
     if user.pha_lead?

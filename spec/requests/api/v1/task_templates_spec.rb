@@ -76,14 +76,14 @@ describe 'TaskTemplates' do
         post "/api/v1/task_templates", params.merge!(auth_token: session.auth_token)
       end
 
-      let!(:task_template) { create :task_template}
       let(:task_template_attributes) { attributes_for(:task_template) }
 
       it 'creates a task template' do
         expect{ do_request(task_template: task_template_attributes) }.to change(TaskTemplate, :count).by(1)
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:task_template]).to eq(task_template_attributes.merge!(id: body[:task_template][:id]))
+        task_template = TaskTemplate.find(body[:task_template][:id])
+        expect(body[:task_template].to_json).to eq(task_template.serializer.as_json.to_json)
       end
     end
   end

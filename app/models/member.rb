@@ -47,7 +47,8 @@ class Member < User
   has_many :request_tasks, class_name: 'Task', conditions: {type: %w(UserRequestTask ParsedNurselineRecordTask)}
   has_many :service_tasks, class_name: 'MemberTask',
                            conditions: proc{ {service_type_id: ServiceType.non_engagement_ids} }
-  has_many :services
+  has_many :message_tasks, class_name: 'MessageTask'
+  has_many :services, inverse_of: :member
   belongs_to :onboarding_group, inverse_of: :users
   belongs_to :referral_code, inverse_of: :users
   has_many :user_requests, foreign_key: :user_id
@@ -92,7 +93,8 @@ class Member < User
                   :impersonated_user, :impersonated_user_id,:delinquent,
                   :enrollment, :payment_token, :coupon_count, :unique_on_boarding_user_token,
                   :kinsights_token, :kinsights_patient_url,
-                  :kinsights_profile_url
+                  :kinsights_profile_url,
+                  :onboarding_group_candidate
 
   validates :unique_on_boarding_user_token, uniqueness: true, allow_nil: true
   validates :signed_up_at, presence: true, if: ->(m){m.signed_up?}
@@ -131,6 +133,7 @@ class Member < User
   after_create :add_onboarding_group_provider
   after_create :add_onboarding_group_cards
   after_create :add_onboarding_group_programs
+  after_create :add_onboarding_group_suggested_services
   after_save :alert_stakeholders_on_call_status
   after_save :update_referring_scheduled_communications, if: ->(m){m.free_trial_ends_at_changed?}
   after_commit :create_kinsights_job, on: :create
@@ -369,7 +372,7 @@ class Member < User
               when :pha
                 Task.pha_queue(self)
               when :specialist
-                Task.specialist_queue
+                Task.specialist_queue(self)
               else
                 Task.pha_queue(self)
               end
@@ -377,8 +380,8 @@ class Member < User
               Task.pha_queue(self)
             end
 
-    tasks = query.where(visible_in_queue: true, unread: false, urgent: false).includes(:member, :member => :phone_numbers).order(task_order)
-    immediate_tasks = query.where(role_id: role.id, visible_in_queue: true).where('unread IS TRUE OR urgent IS TRUE').includes(:member, :member => :phone_numbers).order(task_order) if pha?
+    tasks = query.where(visible_in_queue: true, unread: false, urgent: false).where('state <> "blocked_external" AND state <> "blocked_internal"').includes(:member, :member => :phone_numbers).order(task_order)
+    immediate_tasks = query.where(role_id: role.id, visible_in_queue: true).where('unread IS TRUE OR urgent IS TRUE OR state = "blocked_external" OR state = "blocked_internal"').includes(:member, :member => :phone_numbers).order(task_order) if pha?
     tomorrow_count = 0
     future_count = 0
 
@@ -615,6 +618,12 @@ class Member < User
   def add_onboarding_group_programs
     (onboarding_group.try(:programs) || []).each do |program|
       user_programs.create(program: program, subject: self)
+    end
+  end
+
+  def add_onboarding_group_suggested_services
+    (onboarding_group.try(:suggested_service_templates) || []).each do |suggested_service_template|
+      suggested_services.create(suggested_service_template: suggested_service_template)
     end
   end
 
