@@ -46,6 +46,7 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
                      member: @user.serializer,
                      pha_profile: @user.pha.try(:pha_profile).try(:serializer),
                      auth_token: @session.auth_token,
+                     onboarding_custom_welcome: onboarding_custom_welcome,
                      suggested_services_modal: onboarding_suggested_services_modal)
     else
       render_failure({reason: sign_up_response[:reason],
