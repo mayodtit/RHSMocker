@@ -149,6 +149,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     params.require(:data_field).permit(:data)
   end
 
+  def suggested_service
+    params.require(:suggested_service).permit(:state_event, :user_facing)
+  end
+
   private
 
   def user_request_attributes

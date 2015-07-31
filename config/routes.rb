@@ -200,7 +200,7 @@ RHSMocker::Application.routes.draw do
           delete :destroy, :on => :collection
           put :update, :on => :collection
         end
-        resources :suggested_services, only: %i(index show)
+        resources :suggested_services, only: %i(index show update)
         resources :treatments, :except => [:new, :edit], :controller => 'user_treatments' do
           resources :conditions, only: :destroy, controller: 'user_condition_user_treatments' do
             post ':id', to: 'user_condition_user_treatments#create', on: :collection
