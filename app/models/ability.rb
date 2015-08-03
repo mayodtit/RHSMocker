@@ -149,6 +149,7 @@ class Ability
       can :manage, TaskTemplate
       can :manage, TaskStepTemplate
       can :manage, DataFieldTemplate
+      can :manage, AppointmentTemplate
     end
 
     if user.pha_lead?

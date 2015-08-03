@@ -51,6 +51,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     params.require(:address).permit(*address_attributes)
   end
 
+  def appointment_template
+    params.require(:appointment_template).permit(:name, :title, :description, :scheduled_at)
+  end
+
   def user_request
     params.require(:user_request)
           .permit(*user_request_attributes).tap do |attributes|
