@@ -7,6 +7,12 @@ class SystemEvent < ActiveRecord::Base
 
   validates :user, :system_event_template, :trigger_at, presence: true
 
+  protected
+
+  def trigger_system_event!
+    TriggerSystemEventService.new(system_event: self).call
+  end
+
   private
 
   state_machine initial: :scheduled do
@@ -17,5 +23,7 @@ class SystemEvent < ActiveRecord::Base
     event :cancel do
       transition :scheduled => :canceled
     end
+
+    after_transition on: :trigger, do: :trigger_system_event!
   end
 end

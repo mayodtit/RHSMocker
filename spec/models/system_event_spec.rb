@@ -15,5 +15,17 @@ describe SystemEvent do
         expect(described_class.new).to be_scheduled
       end
     end
+
+    describe '#trigger' do
+      let!(:system_action_template) { create(:system_action_template) }
+      let!(:system_event_template) { system_action_template.system_event_template }
+      let!(:system_event) { create(:system_event, system_event_template: system_event_template) }
+
+      it 'calls the trigger service on event' do
+        TriggerSystemEventService.should_receive(:new).once.and_call_original
+        expect{ system_event.trigger! }.to change(SystemAction, :count).by(1)
+        expect(system_event.reload).to be_triggered
+      end
+    end
   end
 end
