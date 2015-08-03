@@ -1,9 +1,9 @@
 class SystemEventTemplate < ActiveRecord::Base
   has_one :system_action_template, inverse_of: :system_event_template
+  has_many :system_relative_event_templates, inverse_of: :root_event_template
+  has_many :system_events, inverse_of: :system_event_template
 
   attr_accessible :name, :description, :title, :state, :unique_id, :version
-
-  has_many :system_relative_event_templates, inverse_of: :root_event_template
 
   validates :name, :title, presence: true
   validates :version, presence: true

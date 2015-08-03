@@ -4,6 +4,7 @@ class SystemActionTemplate < ActiveRecord::Base
 
   belongs_to :system_event_template, inverse_of: :system_action_template
   belongs_to :content
+  has_many :system_actions, inverse_of: :system_action_template
   symbolize :type, in: TYPES
 
   attr_accessible :system_event_template, :system_event_template_id, :type, :message_text, :content, :content_id
