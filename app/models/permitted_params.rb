@@ -52,7 +52,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def appointment_template
-    params.require(:appointment_template).permit(:name, :title, :description, :scheduled_at)
+    params.require(:appointment_template).permit(:name, :title, :description, :scheduled_at, :state_event)
   end
 
   def user_request

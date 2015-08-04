@@ -31,7 +31,19 @@ class Api::V1::AppointmentTemplatesController < Api::V1::ABaseController
   end
 
   def load_appointment_templates!
+    authorize! :index, AppointmentTemplate
+
     @appointment_templates = AppointmentTemplate.order('id DESC')
+
+    case params[:state]
+    when 'unpublished'
+      @appointment_templates = @appointment_templates.unpublished
+    when 'published'
+      @appointment_templates = @appointment_templates.published
+    when 'retired'
+      @appointment_templates = @appointment_templates.retired
+    end
+
     @appointment_templates = @appointment_templates.title_search(params[:title]) if params[:title]
   end
 end
