@@ -132,7 +132,7 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
   end
 
   def user_params
-    params.fetch(:user){params.require(:member)}
+    params.fetch(:member){params.require(:user)}
   end
 
   def sign_up_user_params

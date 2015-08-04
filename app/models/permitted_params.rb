@@ -160,7 +160,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def user_params
-    params.fetch(:user){params.require(:member)}
+    params.fetch(:member){params.require(:user)}
   end
 
   def user_attributes
