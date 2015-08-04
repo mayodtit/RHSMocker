@@ -126,6 +126,7 @@ RHSMocker::Application.routes.draw do
       resources :sms_notifications, only: [] do
         post :download, on: :collection
       end
+      resources :suggested_services, only: :update
       resources :symptoms, only: :index do
         resources :factor_groups, only: :index
         resources :contents, only: :index, controller: :symptom_contents
