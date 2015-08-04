@@ -7,11 +7,13 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
                      skip_credit_card: onboarding_skip_credit_card?,
                      onboarding_customization: onboarding_customization,
                      onboarding_custom_welcome: onboarding_custom_welcome)
-    else
+    elsif email_valid?
       render_success(requires_sign_up: true,
                      skip_credit_card: onboarding_skip_credit_card?,
                      onboarding_customization: onboarding_customization,
                      onboarding_custom_welcome: onboarding_custom_welcome)
+    else
+      render_failure({reason: 'Email is invalid'}, 422)
     end
   end
 
@@ -180,5 +182,9 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
         }
       ]
     end
+  end
+
+  def email_valid?
+    ValidateEmail.valid?(params[:email]) && ValidateEmail.mx_valid?(params[:email])
   end
 end
