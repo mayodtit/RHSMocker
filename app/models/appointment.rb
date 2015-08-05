@@ -4,6 +4,7 @@ class Appointment < ActiveRecord::Base
   belongs_to :creator, class_name: 'Member'
   belongs_to :appointment_template
   has_many :appointment_changes
+  has_many :system_events
 
   attr_accessor :actor_id
   attr_accessible :user, :user_id, :provider, :provider_id, :scheduled_at, :actor_id, :creator, :creator_id, :arrival_time, :departure_time, :appointment_template_id, :appointment_template
@@ -25,9 +26,9 @@ class Appointment < ActiveRecord::Base
   end
 
   def create_events
-    if self.appointment_template
+    if appointment_template
       appointment_template.system_event_templates.each do |system_event_template|
-        SystemEvent.create!(user: user, system_event_template: system_event_template, trigger_at: appointment_template.scheduled_at)
+        SystemEvent.create!(user: user, system_event_template: system_event_template, appointment_id: self.id, trigger_at: appointment_template.scheduled_at)
       end
     end
   end
