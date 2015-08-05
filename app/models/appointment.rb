@@ -9,6 +9,7 @@ class Appointment < ActiveRecord::Base
   attr_accessible :user, :user_id, :provider, :provider_id, :scheduled_at, :actor_id, :creator, :creator_id, :arrival_time, :departure_time, :appointment_template_id, :appointment_template
 
   validates :user, :provider, :scheduled_at, :creator, presence: true
+  after_create :create_events
   after_commit :track_update, on: :update
 
   def data
@@ -21,5 +22,13 @@ class Appointment < ActiveRecord::Base
 
   def track_update
     appointment_changes.create!(actor_id: actor_id, data: data)
+  end
+
+  def create_events
+    if self.appointment_template
+      appointment_template.system_event_templates.each do |system_event_template|
+        SystemEvent.create!(user: user, system_event_template: system_event_template, trigger_at: appointment_template.scheduled_at)
+      end
+    end
   end
 end
