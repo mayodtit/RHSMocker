@@ -28,7 +28,7 @@ class Api::V1::UsersController < Api::V1::ABaseController
   private
 
   def user_params
-    params.fetch(:user){params.require(:member)}
+    params.fetch(:member){params.require(:user)}
   end
 
   def load_user!

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150730211656) do
+ActiveRecord::Schema.define(:version => 20150805192133) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -688,6 +688,7 @@ ActiveRecord::Schema.define(:version => 20150730211656) do
     t.datetime "created_at",          :null => false
     t.datetime "updated_at",          :null => false
     t.integer  "user_id"
+    t.string   "first_name"
   end
 
   create_table "onboarding_group_cards", :force => true do |t|
@@ -1240,6 +1241,15 @@ ActiveRecord::Schema.define(:version => 20150730211656) do
     t.datetime "updated_at",               :null => false
   end
 
+  create_table "system_actions", :force => true do |t|
+    t.integer  "system_event_id"
+    t.integer  "system_action_template_id"
+    t.integer  "result_id"
+    t.string   "result_type"
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
+  end
+
   create_table "system_event_templates", :force => true do |t|
     t.string   "name",                                  :null => false
     t.string   "title",                                 :null => false
@@ -1251,6 +1261,15 @@ ActiveRecord::Schema.define(:version => 20150730211656) do
     t.datetime "updated_at",                            :null => false
     t.string   "type"
     t.integer  "root_event_template_id"
+  end
+
+  create_table "system_events", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "system_event_template_id"
+    t.datetime "trigger_at"
+    t.string   "state"
+    t.datetime "created_at",               :null => false
+    t.datetime "updated_at",               :null => false
   end
 
   create_table "task_categories", :force => true do |t|

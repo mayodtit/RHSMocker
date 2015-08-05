@@ -1,6 +1,6 @@
 class Api::V1::ServiceStatusController < Api::V1::ABaseController
   skip_before_filter :authentication_check
-  
+
   def index
     if !Rails.env.production? && (params[:force_status] == 'online')
       render_success(service_status: online_hash)
