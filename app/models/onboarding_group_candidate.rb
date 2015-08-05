@@ -4,9 +4,17 @@ class OnboardingGroupCandidate < ActiveRecord::Base
                     inverse_of: :onboarding_group_candidate
 
   attr_accessible :onboarding_group, :onboarding_group_id, :email, :user,
-                  :user_id
+                  :user_id, :first_name
 
   validates :onboarding_group, :email, presence: true
   validates :email, uniqueness: true
   validates :user, presence: true, if: :user_id
+
+  before_validation :strip_attributes
+
+  private
+
+  def strip_attributes
+    self.first_name = first_name.try(:strip)
+  end
 end
