@@ -160,7 +160,11 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def user_params
-    params.fetch(:member){params.require(:user)}
+    if params[:member].try(:present?)
+      params.fetch(:member){params.require(:user)} # only prefer member when not empty
+    else
+      params.fetch(:user){params.require(:member)}
+    end
   end
 
   def user_attributes
