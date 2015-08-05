@@ -5,11 +5,13 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
     if @user = Member.find_by_email(params[:email])
       render_success(requires_sign_up: false,
                      skip_credit_card: onboarding_skip_credit_card?,
+                     user: onboarding_user_attributes,
                      onboarding_customization: onboarding_customization,
                      onboarding_custom_welcome: onboarding_custom_welcome)
     elsif email_valid?
       render_success(requires_sign_up: true,
                      skip_credit_card: onboarding_skip_credit_card?,
+                     user: onboarding_user_attributes,
                      onboarding_customization: onboarding_customization,
                      onboarding_custom_welcome: onboarding_custom_welcome)
     else
@@ -68,6 +70,16 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
 
   def onboarding_skip_credit_card?
     onboarding_group.try(:skip_credit_card?) ? true : false
+  end
+
+  def onboarding_user_attributes
+    if @user
+      {first_name: @user.first_name}
+    elsif onboarding_group_candidate
+      {first_name: onboarding_group_candidate.first_name}
+    else
+      nil
+    end
   end
 
   def onboarding_customization
