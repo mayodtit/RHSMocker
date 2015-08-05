@@ -12,6 +12,13 @@ class AppointmentTemplate < ActiveRecord::Base
   before_validation :set_unique_id, on: :create
   before_validation :set_version, on: :create
 
+
+  def create_deep_copy!
+    transaction do
+      self.class.create!(attributes.except('id', 'version', 'state', 'created_at', 'updated_at'))
+    end
+  end
+
   def self.title_search(string)
     wildcard = "%#{string}%"
     where("appointment_templates.title LIKE ?", wildcard)
