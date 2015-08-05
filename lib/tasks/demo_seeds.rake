@@ -137,12 +137,14 @@ Take 1 minute to share your preferences and we'll take care of the rest.
                                                              title: 'Book appointment with provider',
                                                              description: 'description',
                                                              time_estimate: 60,
-                                                             service_ordinal: 0)
+                                                             service_ordinal: 0,
+                                                             queue: :specialist)
     task_template_2 = service_template.task_templates.create!(name: 'Send member update',
                                                              title: 'Send member update',
                                                              description: 'description',
                                                              time_estimate: 60,
-                                                             service_ordinal: 1)
+                                                             service_ordinal: 1,
+                                                             queue: :pha)
 
     # create all data fields used in the service
     dft_member_full_name = service_template.data_field_templates.create!(name: 'Member full name', type: :text, required_for_service_start: true)
