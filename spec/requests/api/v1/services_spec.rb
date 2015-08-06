@@ -23,7 +23,7 @@ describe 'Services' do
       expect(response).to be_success
       body = JSON.parse(response.body, symbolize_names: true)
       service = Service.find(body[:service][:id])
-      expect(body[:service].to_json).to eq(service.serializer.as_json.to_json)
+      expect(body[:service].to_json).to eq(service.serializer(include_nested: true).as_json.to_json)
     end
   end
 
@@ -68,7 +68,7 @@ describe 'Services' do
           do_request
           expect(response).to be_success
           body = JSON.parse(response.body, symbolize_names: true)
-          expect(body[:service].to_json).to eq(service.serializer.as_json.to_json)
+          expect(body[:service].to_json).to eq(service.serializer(include_nested: true).as_json.to_json)
         end
       end
 
@@ -81,7 +81,7 @@ describe 'Services' do
           do_request
           expect(response).to be_success
           body = JSON.parse(response.body, symbolize_names: true)
-          expect(body[:service].to_json).to eq(service.serializer.as_json.to_json)
+          expect(body[:service].to_json).to eq(service.serializer(include_nested: true).as_json.to_json)
         end
       end
     end
