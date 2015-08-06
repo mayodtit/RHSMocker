@@ -27,7 +27,7 @@ class SuggestedService < ActiveRecord::Base
   end
 
   def create_accepted_service
-    create_service!(actor: actor)
+    create_service!(actor: actor) unless service
   end
 
   private
