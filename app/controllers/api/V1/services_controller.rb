@@ -12,18 +12,18 @@ class Api::V1::ServicesController < Api::V1::ABaseController
                  @services.where(params.permit(:subject_id, :state))
                           .order("field(state, 'open', 'waiting', 'completed', 'abandoned'), due_at DESC, created_at DESC")
                end
-    index_resource services.includes(:owner, :service_type).serializer
+    index_resource services.includes(:service_type, owner: :phone_numbers, member: :phone_numbers, subject: :phone_numbers).serializer
   end
 
   def show
-    show_resource @service.serializer
+    show_resource @service.serializer(include_nested: true)
   end
 
   def create
     authorize! :create, Service
     @service = Service.create(create_params)
     if @service.errors.empty?
-      render_success(service: @service.serializer, entry: @service.entry.serializer)
+      render_success(service: @service.serializer(include_nested: true), entry: @service.entry.serializer)
     else
       render_failure({reason: @service.errors.full_messages.to_sentence}, 422)
     end

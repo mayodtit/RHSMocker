@@ -16,8 +16,11 @@ class ServiceSerializer < ActiveModel::Serializer
       attrs[:owner] = owner.try(:serializer, shallow: true)
       attrs[:member] = member.try(:serializer, shallow: true)
       attrs[:subject] = subject.try(:serializer, shallow: true)
-      attrs[:tasks] = tasks.order('service_ordinal ASC, due_at DESC, created_at DESC').serializer(for_subject: true)
-      attrs[:data_fields] = data_fields.serializer
+
+      if options[:include_nested]
+        attrs[:tasks] = tasks.serializer
+        attrs[:data_fields] = data_fields.serializer
+      end
     end
   end
 
