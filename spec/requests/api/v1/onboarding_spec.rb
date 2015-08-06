@@ -9,7 +9,7 @@ describe 'Onboarding' do
 
     context 'user exists' do
       let!(:onboarding_group) { create(:onboarding_group, skip_credit_card: true, custom_welcome: 'lorem ipsum') }
-      let!(:user) { create(:member, :premium, email: 'test@getbetter.com', onboarding_group: onboarding_group) }
+      let!(:user) { create(:member, :premium, email: 'test@getbetter.com', onboarding_group: onboarding_group, first_name: 'Kyle') }
 
       before do
         CarrierWave::Mount::Mounter.any_instance.stub(:store!)
@@ -24,6 +24,7 @@ describe 'Onboarding' do
         reloaded_onboarding_group = OnboardingGroup.find(onboarding_group.id)
         expect(body[:requires_sign_up]).to be_false
         expect(body[:skip_credit_card]).to be_true
+        expect(body[:user]).to eq({first_name: user.first_name})
         expect(body[:onboarding_customization]).to eq(reloaded_onboarding_group.serializer(onboarding_customization: true).as_json)
         expect(body[:onboarding_custom_welcome]).to eq([reloaded_onboarding_group.serializer(onboarding_custom_welcome: true).as_json])
       end
@@ -41,35 +42,53 @@ describe 'Onboarding' do
     end
 
     context 'user does not exist' do
-      it 'returns requires_sign_up=true and customizations' do
-        do_request(email: 'test@getbetter.com')
-        expect(response).to be_success
-        body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:requires_sign_up]).to be_true
-        expect(body[:skip_credit_card]).to be_false
-        expect(body[:onboarding_customization]).to be_nil
-        expect(body[:onboarding_custom_welcome]).to be_empty
+      context 'email is invalid' do
+        let(:email) { 'bademail@g3t.b3**3%.com' }
+
+        it 'returns 422 and an error response' do
+          do_request(email: email)
+          expect(response).to_not be_success
+          expect(response.code).to eq('422')
+          body = JSON.parse(response.body, symbolize_names: true)
+          expect(body[:reason]).to eq('Email is invalid')
+        end
       end
 
-      context 'with customizations' do
-        let!(:onboarding_group) { create(:onboarding_group, custom_welcome: 'lorem ipsum', skip_credit_card: true) }
-        let!(:onboarding_group_candidate) { create(:onboarding_group_candidate, onboarding_group: onboarding_group) }
-
-        before do
-          CarrierWave::Mount::Mounter.any_instance.stub(:store!)
-          onboarding_group.update_attributes!(header_asset: File.new(Rails.root.join('spec','support','kbcat.jpg')),
-                                              background_asset: File.new(Rails.root.join('spec','support','kbcat.jpg')))
-        end
+      context 'email is valid' do
+        let(:email) { 'test@getbetter.com' }
 
         it 'returns requires_sign_up=true and customizations' do
-          do_request(email: onboarding_group_candidate.email)
+          do_request(email: email)
           expect(response).to be_success
           body = JSON.parse(response.body, symbolize_names: true)
-          reloaded_onboarding_group = OnboardingGroup.find(onboarding_group.id)
           expect(body[:requires_sign_up]).to be_true
-          expect(body[:skip_credit_card]).to be_true
-          expect(body[:onboarding_customization]).to eq(reloaded_onboarding_group.serializer(onboarding_customization: true).as_json)
-          expect(body[:onboarding_custom_welcome]).to eq([reloaded_onboarding_group.serializer(onboarding_custom_welcome: true).as_json])
+          expect(body[:skip_credit_card]).to be_false
+          expect(body[:user]).to be_nil
+          expect(body[:onboarding_customization]).to be_nil
+          expect(body[:onboarding_custom_welcome]).to be_empty
+        end
+
+        context 'with customizations' do
+          let!(:onboarding_group) { create(:onboarding_group, custom_welcome: 'lorem ipsum', skip_credit_card: true) }
+          let!(:onboarding_group_candidate) { create(:onboarding_group_candidate, onboarding_group: onboarding_group, first_name: 'Kyle') }
+
+          before do
+            CarrierWave::Mount::Mounter.any_instance.stub(:store!)
+            onboarding_group.update_attributes!(header_asset: File.new(Rails.root.join('spec','support','kbcat.jpg')),
+                                                background_asset: File.new(Rails.root.join('spec','support','kbcat.jpg')))
+          end
+
+          it 'returns requires_sign_up=true and customizations' do
+            do_request(email: onboarding_group_candidate.email)
+            expect(response).to be_success
+            body = JSON.parse(response.body, symbolize_names: true)
+            reloaded_onboarding_group = OnboardingGroup.find(onboarding_group.id)
+            expect(body[:requires_sign_up]).to be_true
+            expect(body[:skip_credit_card]).to be_true
+            expect(body[:user]).to eq({first_name: onboarding_group_candidate.first_name})
+            expect(body[:onboarding_customization]).to eq(reloaded_onboarding_group.serializer(onboarding_customization: true).as_json)
+            expect(body[:onboarding_custom_welcome]).to eq([reloaded_onboarding_group.serializer(onboarding_custom_welcome: true).as_json])
+          end
         end
       end
     end

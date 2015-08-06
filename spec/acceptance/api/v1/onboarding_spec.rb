@@ -11,7 +11,7 @@ resource 'Onboarding' do
     required_parameters :email
 
     let(:onboarding_group) { create(:onboarding_group, custom_welcome: 'Welcome to Better! This is a custom message just for you!', skip_credit_card: true) }
-    let(:user) { create(:member, :premium, onboarding_group: onboarding_group) }
+    let(:user) { create(:member, :premium, onboarding_group: onboarding_group, first_name: 'Kyle') }
     let(:email) { user.email }
 
     before do
@@ -38,6 +38,7 @@ resource 'Onboarding' do
         reloaded_onboarding_group = OnboardingGroup.find(onboarding_group.id)
         expect(body[:requires_sign_up]).to be_false
         expect(body[:skip_credit_card]).to be_true
+        expect(body[:user]).to eq({first_name: user.first_name})
         expect(body[:onboarding_customization]).to eq(reloaded_onboarding_group.serializer(onboarding_customization: true).as_json)
         expect(body[:onboarding_custom_welcome]).to eq([reloaded_onboarding_group.serializer(onboarding_custom_welcome: true).as_json])
       end

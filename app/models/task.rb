@@ -30,6 +30,9 @@ class Task < ActiveRecord::Base
   has_many :output_data_fields, through: :output_task_data_fields,
                                 source: :data_field,
                                 include: :data_field_template
+  has_many :service_data_fields, through: :service,
+                                 source: :data_fields,
+                                 include: :data_field_template
   has_one :entry, as: :resource
 
   attr_accessor :actor_id, :change_tracked, :reason, :pubsub_client_id, :start_at
