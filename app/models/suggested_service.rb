@@ -1,6 +1,7 @@
 class SuggestedService < ActiveRecord::Base
   belongs_to :user, class_name: 'Member'
   belongs_to :suggested_service_template
+  has_one :service, inverse_of: :suggested_service
   has_many :suggested_service_changes, inverse_of: :suggested_service
   attr_accessor :actor
 
@@ -23,6 +24,10 @@ class SuggestedService < ActiveRecord::Base
   def unset_user_facing
     self.user_facing = false if user_facing
     true
+  end
+
+  def create_accepted_service
+    create_service!(actor: actor)
   end
 
   private
@@ -51,6 +56,7 @@ class SuggestedService < ActiveRecord::Base
     end
 
     before_transition any => any - :offered, do: :unset_user_facing
+    after_transition any - :accepted => :accepted, do: :create_accepted_service
   end
 
   def set_defaults

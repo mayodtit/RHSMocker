@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150805192133) do
+ActiveRecord::Schema.define(:version => 20150806224321) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1078,30 +1078,31 @@ ActiveRecord::Schema.define(:version => 20150805192133) do
   add_index "service_types", ["name"], :name => "index_service_types_on_name", :unique => true
 
   create_table "services", :force => true do |t|
-    t.string   "title",                                  :null => false
+    t.string   "title",                                   :null => false
     t.text     "description"
-    t.integer  "service_type_id",                        :null => false
-    t.string   "state",                                  :null => false
-    t.integer  "member_id",                              :null => false
+    t.integer  "service_type_id",                         :null => false
+    t.string   "state",                                   :null => false
+    t.integer  "member_id",                               :null => false
     t.integer  "subject_id"
     t.string   "reason_abandoned"
-    t.integer  "creator_id",                             :null => false
-    t.integer  "owner_id",                               :null => false
-    t.integer  "assignor_id",                            :null => false
+    t.integer  "creator_id",                              :null => false
+    t.integer  "owner_id",                                :null => false
+    t.integer  "assignor_id",                             :null => false
     t.datetime "due_at"
     t.datetime "assigned_at"
-    t.datetime "created_at",                             :null => false
-    t.datetime "updated_at",                             :null => false
+    t.datetime "created_at",                              :null => false
+    t.datetime "updated_at",                              :null => false
     t.integer  "service_template_id"
     t.datetime "completed_at"
     t.datetime "abandoned_at"
     t.integer  "abandoner_id"
-    t.boolean  "user_facing",         :default => false, :null => false
+    t.boolean  "user_facing",          :default => false, :null => false
     t.text     "service_request"
     t.text     "service_deliverable"
     t.text     "service_update"
     t.string   "time_zone"
     t.integer  "time_zone_offset"
+    t.integer  "suggested_service_id"
   end
 
   add_index "services", ["assignor_id"], :name => "index_services_on_assignor_id"
