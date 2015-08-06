@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150805232029) do
+ActiveRecord::Schema.define(:version => 20150806000119) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -87,6 +87,8 @@ ActiveRecord::Schema.define(:version => 20150805232029) do
     t.datetime "arrived_at"
     t.datetime "departed_at"
     t.integer  "appointment_template_id"
+    t.text     "reason_for_visit"
+    t.text     "special_instructions"
   end
 
   add_index "appointments", ["user_id"], :name => "index_appointments_on_user_id"
