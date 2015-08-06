@@ -41,7 +41,7 @@ class Api::V1::DataFieldTemplatesController < Api::V1::ABaseController
                            else
                              DataFieldTemplate.find(params[:id])
                            end
-    authorize! :maange, @data_field_template
+    authorize! :manage, @data_field_template
   end
 
   def prevent_change_when_published!
