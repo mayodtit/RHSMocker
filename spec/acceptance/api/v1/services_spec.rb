@@ -24,9 +24,9 @@ resource "Services" do
     get '/api/v1/services/:id' do
       example_request '[GET] Get a service' do
         explanation 'Get a service (along with the member\'s information). Accessible only by HCPs'
-        status.should == 200
+        expect(status).to eq(200)
         response = JSON.parse response_body, symbolize_names: true
-        response[:service].to_json.should == service.serializer.to_json
+        expect(response[:service].to_json).to eq(service.serializer(include_nested: true).as_json.to_json)
       end
     end
   end
@@ -154,14 +154,14 @@ resource "Services" do
     post '/api/v1/members/:member_id/services/' do
       example_request '[POST] Create a service' do
         explanation 'Create a new service for a member from a service template.'
-        status.should == 200
-        response = JSON.parse response_body, symbolize_names: true
-        response[:service].to_json.should == Service.last.serializer.to_json
-        service = Service.last
-        service.member.should == member
-        service.title.should == 'Title'
-        service.description.should == 'Description'
-        service.service_template.should == service_template
+        expect(status).to eq(200)
+        body = JSON.parse response_body, symbolize_names: true
+        new_service = Service.find(body[:service][:id])
+        expect(body[:service].to_json).to eq(new_service.serializer(include_nested: true).as_json.to_json)
+        expect(new_service.member).to eq(member)
+        expect(new_service.title).to eq(title)
+        expect(new_service.description).to eq(description)
+        expect(new_service.service_template).to eq(service_template)
       end
     end
   end

@@ -4,6 +4,7 @@ RHSMocker::Application.routes.draw do
 
   namespace :api do
     namespace :v1 do
+      resources :activities, only: :index
       resources :agreements, only: [:index, :show] do
         get :current, on: :collection
       end
@@ -77,7 +78,7 @@ RHSMocker::Application.routes.draw do
         put :secure_update, on: :member
         resources :tasks, only: [:index, :create], controller: 'member_tasks'
         resources :entries, only: :index
-        resources :services, only: [:index, :create]
+        resources :services, only: %i(index show create update)
         resources :task_changes, only: :index
       end
       resources :message_templates, except: %i(new edit)
@@ -197,7 +198,7 @@ RHSMocker::Application.routes.draw do
         resources :scheduled_communications, only: %i(index show update destroy)
         resources :scheduled_messages, except: %i(new edit)
         put :secure_update, on: :member, to: 'members#secure_update'
-        resources :services, only: %i(index create)
+        resources :services, only: %i(index show create update)
         resources :subscriptions, only: [:index, :create] do
           delete :destroy, :on => :collection
           put :update, :on => :collection
@@ -230,8 +231,8 @@ RHSMocker::Application.routes.draw do
         get 'next_tasks', on: :collection
         get 'current', on: :collection
       end
-      resources :services, only: [:index, :show, :update] do
-        get 'activities', on: :collection
+      resources :services, only: %i(index show create update) do
+        get 'activities', on: :collection, to: 'activities#index'
       end
       resources :metrics, only: [:index] do
         get :inbound, on: :collection

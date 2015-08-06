@@ -31,7 +31,7 @@ class Service < ActiveRecord::Base
                   :creator_id, :creator, :owner_id, :owner, :assignor_id, :assignor, :service_update, :time_zone,
                   :actor_id, :due_at, :state_event, :service_template, :service_template_id, :pubsub_client_id
 
-  validates :title, :service_type, :state, :member, :creator, :owner, :assignor, :assigned_at, presence: true
+  validates :title, :service_type, :state, :member, :subject, :creator, :owner, :assignor, :assigned_at, presence: true
   validates :user_facing, :inclusion => { :in => [true, false] }
   validates :service_template, presence: true, if: lambda { |s| s.service_template_id.present? }
   validate :no_placeholders_in_user_facing_attributes

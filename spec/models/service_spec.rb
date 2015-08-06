@@ -8,6 +8,7 @@ describe Service do
     it_validates 'presence of', :service_type
     it_validates 'presence of', :state
     it_validates 'presence of', :member
+    it_validates 'presence of', :subject
     it_validates 'presence of', :creator
     it_validates 'presence of', :owner
     it_validates 'presence of', :assignor
