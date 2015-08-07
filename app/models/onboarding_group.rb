@@ -133,7 +133,7 @@ class OnboardingGroup < ActiveRecord::Base
   end
 
   def add_content
-    cards.create(resource: Content.mayo_pilot, priority: 30) if (self.try(:mayo_pilot?)) && (Content.mayo_pilot)
+    #cards.create(resource: Content.mayo_pilot, priority: 30) if (self.try(:mayo_pilot?)) && (Content.mayo_pilot)
   end
-  
+
 end

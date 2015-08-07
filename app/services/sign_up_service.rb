@@ -75,7 +75,7 @@ class SignUpService < Struct.new(:params, :options)
   end
 
   def create_content!
-    @member.onboarding_group.try(:add_content)
+    #@member.onboarding_group.try(:add_content)
 
     if (5..9).include?(Date.today.month)
       @member.cards.create(resource: heat_exhaustion_content, priority: 1) if heat_exhaustion_content = Content.find_by_document_id('DS01046')

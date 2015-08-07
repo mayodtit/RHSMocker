@@ -133,7 +133,6 @@ describe SignUpService do
         end
 
         it 'creates default content' do
-
           response = described_class.new(params, options).call
           user = response[:user]
           if (5..9).include?(Date.today.month)
@@ -141,8 +140,6 @@ describe SignUpService do
           else
             expect(user.contents.count).to eq(4)
           end
-
-          fail
         end
 
         it 'notifies stakeholders' do
