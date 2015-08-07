@@ -132,16 +132,6 @@ describe SignUpService do
           described_class.new(params, options).call
         end
 
-        it 'creates default content' do
-          response = described_class.new(params, options).call
-          user = response[:user]
-          if (5..9).include?(Date.today.month)
-            expect(user.cards.count).to eq(5)
-          else
-            expect(user.cards.count).to eq(4)
-          end
-        end
-
         it 'notifies stakeholders' do
           SendEmailToStakeholdersService.stub(new: send_email_to_stakeholders_service)
           send_email_to_stakeholders_service.should_receive(:call).once
@@ -152,6 +142,30 @@ describe SignUpService do
           NotifyReferrerWhenRefereeSignUpService.stub(new: notify_referrer_when_referee_sign_up_service)
           notify_referrer_when_referee_sign_up_service.should_receive(:call).once
           described_class.new(params, options).call
+        end
+      end
+
+      describe 'creates correct default content' do
+        before do
+          create(:content, document_id: 'DS01046')
+          create(:content, document_id: 'MY01350')
+          create(:content, document_id: 'HQ01681')
+          create(:content, document_id: 'MY01357')
+          create(:custom_card, unique_id: 'RHS-SWIPE_EXPLAINER')
+          create(:custom_card, unique_id: 'RHS-GENDER')
+          create(:custom_card, unique_id: 'DEADBEEF')
+          create(:onboarding_group_card, onboarding_group: onboarding_group, resource_type: 'CustomCard', resource: CustomCard.find_by_unique_id('DEADBEEF'))
+        end
+
+        it 'creates onboarding_group_card content' do
+          byebug
+          response = described_class.new(params, options).call
+          user = response[:user]
+          if (5..9).include?(Date.today.month)
+            expect(user.cards.count).to eq(6)
+          else
+            expect(user.cards.count).to eq(5)
+          end
         end
       end
 

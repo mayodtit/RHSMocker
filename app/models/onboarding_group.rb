@@ -132,8 +132,11 @@ class OnboardingGroup < ActiveRecord::Base
     Search::Service.new.find(npi_number: npi_number)
   end
 
-  def add_content
-    #cards.create(resource: Content.mayo_pilot, priority: 30) if (self.try(:mayo_pilot?)) && (Content.mayo_pilot)
+
+  def add_onboarding_cards
+    (self.try(:onboarding_group_cards) || []).each do |card|
+      cards.create(resource: card.resource, priority: card.priority)
+    end
   end
 
 end
