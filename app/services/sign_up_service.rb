@@ -78,16 +78,15 @@ class SignUpService < Struct.new(:params, :options)
     @member.onboarding_group.try(:add_content)
 
     if (5..9).include?(Date.today.month)
-      cards.create(resource: @heat_exhaustion_content, priority: 1) if @heat_exhaustion_content = Content.find_by_document_id('DS01046')
-      cards.create(resource: @sunscreen_content, priority: 1) if @sunscreen_content = Content.find_by_document_id('MY01350')
+      @member.cards.create(resource: heat_exhaustion_content, priority: 1) if heat_exhaustion_content = Content.find_by_document_id('DS01046')
+      @member.cards.create(resource: sunscreen_content, priority: 1) if sunscreen_content = Content.find_by_document_id('MY01350')
     else
-      cards.create(resource: @cold_weather_content, priority: 1) if @cold_weather_content = Content.find_by_document_id('HQ01681')
+      @member.cards.create(resource: cold_weather_content, priority: 1) if cold_weather_content = Content.find_by_document_id('HQ01681')
     end
 
-    cards.create(resource: @happiness_content, priority: 1) if @happiness_content = Content.find_by_document_id('MY01357')
-    cards.create(resource: CustomCard.gender, priority: 20) if CustomCard.gender
-    cards.create(resource: CustomCard.swipe_explainer, priority: 0) if CustomCard.swipe_explainer
-    
+    @member.cards.create(resource: happiness_content, priority: 1) if happiness_content = Content.find_by_document_id('MY01357')
+    @member.cards.create(resource: CustomCard.gender, priority: 20) if CustomCard.gender
+    @member.cards.create(resource: CustomCard.swipe_explainer, priority: 0) if CustomCard.swipe_explainer
   end
 
 

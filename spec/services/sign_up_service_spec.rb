@@ -132,6 +132,19 @@ describe SignUpService do
           described_class.new(params, options).call
         end
 
+        it 'creates default content' do
+
+          response = described_class.new(params, options).call
+          user = response[:user]
+          if (5..9).include?(Date.today.month)
+            expect(user.contents.count).to eq(5)
+          else
+            expect(user.contents.count).to eq(4)
+          end
+
+          fail
+        end
+
         it 'notifies stakeholders' do
           SendEmailToStakeholdersService.stub(new: send_email_to_stakeholders_service)
           send_email_to_stakeholders_service.should_receive(:call).once
