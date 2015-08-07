@@ -130,7 +130,6 @@ class Member < User
   before_validation :set_master_consult, if: ->(m){m.signed_up? && m.status_changed?}
   after_create :add_owned_referral_code
   after_create :add_onboarding_group_provider
-  after_create :add_onboarding_group_cards
   after_create :add_onboarding_group_programs
   after_create :add_onboarding_group_suggested_services
   after_save :alert_stakeholders_on_call_status
@@ -570,12 +569,6 @@ class Member < User
       associations.create(associate: onboarding_group.provider,
                           association_type_id: AssociationType.hcp_default_id,
                           creator: self)
-    end
-  end
-
-  def add_onboarding_group_cards
-    (onboarding_group.try(:onboarding_group_cards) || []).each do |card|
-      cards.create(resource: card.resource, priority: card.priority)
     end
   end
 
