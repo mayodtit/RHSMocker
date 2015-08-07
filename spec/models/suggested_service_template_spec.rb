@@ -5,5 +5,5 @@ describe SuggestedServiceTemplate do
   it_validates 'presence of', :title
   it_validates 'presence of', :description
   it_validates 'presence of', :message
-  it_validates 'foreign key of', :service_template
+  it_validates 'presence of', :service_template
 end

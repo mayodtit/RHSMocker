@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150806230120) do
+ActiveRecord::Schema.define(:version => 20150807180854) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1175,6 +1175,10 @@ ActiveRecord::Schema.define(:version => 20150806230120) do
     t.integer  "suggested_service_template_id"
     t.string   "state"
     t.boolean  "user_facing"
+    t.integer  "service_type_id"
+    t.string   "title"
+    t.text     "description"
+    t.text     "message"
   end
 
   create_table "symptom_medical_advice_items", :force => true do |t|

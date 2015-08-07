@@ -220,7 +220,7 @@ class Service < ActiveRecord::Base
     self.member ||= suggested_service.try(:user)
     self.title ||= suggested_service.try(:title) || service_template.try(:title)
     self.description ||= service_template.try(:description)
-    self.service_type ||= service_template.try(:service_type)
+    self.service_type ||= service_template.try(:service_type) || suggested_service.try(:service_type)
     self.due_at ||= service_template.try(:calculated_due_at)
     self.service_update ||= service_template.try(:service_update)
     self.user_facing = service_template.try(:user_facing) if user_facing.nil?

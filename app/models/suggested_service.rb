@@ -1,19 +1,32 @@
 class SuggestedService < ActiveRecord::Base
   belongs_to :user, class_name: 'Member'
-  belongs_to :suggested_service_template
+  belongs_to :suggested_service_template, inverse_of: :suggested_services
+  belongs_to :service_type, inverse_of: :suggested_services
   has_one :service, inverse_of: :suggested_service
   has_many :suggested_service_changes, inverse_of: :suggested_service
   attr_accessor :actor
 
-  attr_accessible :user, :user_id, :suggested_service_template, :suggested_service_template_id, :user_facing, :actor, :state_event
+  attr_accessible :user, :user_id, :suggested_service_template, :suggested_service_template_id, :service_type, :service_type_id, :user_facing, :actor, :state_event, :title, :description, :message
 
-  validates :user, :suggested_service_template, presence: true
+  validates :user, :title, :description, presence: true
+  validates :message, presence: true, if: :user_facing
   validates :user_facing, inclusion: {in: [true, false]}
+  validate :suggested_service_template_or_service_type
 
   before_validation :set_defaults, on: :create
   after_update :track_changes!
 
-  delegate :title, :description, :message, to: :suggested_service_template
+  def title
+    read_attribute(:title) || suggested_service_template.try(:title)
+  end
+
+  def description
+    read_attribute(:description) || suggested_service_template.try(:description)
+  end
+
+  def message
+    read_attribute(:message) || suggested_service_template.try(:message)
+  end
 
   protected
 
@@ -57,6 +70,14 @@ class SuggestedService < ActiveRecord::Base
 
     before_transition any => any - :offered, do: :unset_user_facing
     after_transition any - :accepted => :accepted, do: :create_accepted_service
+  end
+
+  def suggested_service_template_or_service_type
+    if suggested_service_template && service_type
+      errors.add(:base, 'only one of suggested service template or service type may be present')
+    elsif !suggested_service_template && !service_type
+      errors.add(:base, 'suggested service template or service type must be present')
+    end
   end
 
   def set_defaults
