@@ -19,6 +19,7 @@ class Service < ActiveRecord::Base
   has_many :service_state_transitions
   has_many :tasks, order: 'service_ordinal ASC, priority DESC, due_at ASC, created_at ASC',
                    dependent: :destroy
+  has_many :member_tasks
   has_many :service_changes, order: 'created_at DESC'
   has_one :entry, as: :resource
 
@@ -77,7 +78,7 @@ class Service < ActiveRecord::Base
     return if tasks.empty? && service_template.task_templates.empty?
     if next_ordinal = next_ordinal(current_ordinal)
       service_template.task_templates.where(service_ordinal: next_ordinal).each do |task_template|
-        tasks.create!(task_template: task_template, start_at: service_template.timed_service? ? last_due_at : Time.now)
+        member_tasks.create!(task_template: task_template, start_at: service_template.timed_service? ? last_due_at : Time.now)
       end
     else
       self.complete!
