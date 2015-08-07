@@ -127,8 +127,6 @@ class Member < User
   before_validation :set_invitation_token
   before_validation :unset_invitation_token
   before_validation :set_pha, if: ->(m){m.signed_up? && m.status_changed?}
-  before_validation :set_master_consult, if: ->(m){m.signed_up? && m.status_changed?}
-  after_create :add_new_member_content
   after_create :add_owned_referral_code
   after_create :add_onboarding_group_provider
   after_create :add_onboarding_group_cards
@@ -560,41 +558,6 @@ class Member < User
                                            title: 'Direct messaging with your Better PHA',
                                            skip_tasks: true)
   end
-
-  def add_new_member_content
-    add_mayo_pilot_content
-    cards.create(resource: CustomCard.gender, priority: 20) if CustomCard.gender
-    add_weather_content
-    add_happiness_content
-    cards.create(resource: CustomCard.swipe_explainer, priority: 0) if CustomCard.swipe_explainer
-  end
-
-  def add_weather_content
-    if (5..9).include?(Date.today.month)
-      add_hot_weather_content
-    else
-      add_cold_weather_content
-    end
-  end
-
-  def add_mayo_pilot_content
-    cards.create(resource: Content.mayo_pilot, priority: 30) if (onboarding_group.try(:mayo_pilot?)) && (Content.mayo_pilot)
-  end
-
-  def add_cold_weather_content
-    cards.create(resource: @cold_weather_content, priority: 1) if @cold_weather_content = Content.find_by_document_id('HQ01681')
-  end
-
-   def add_hot_weather_content
-    cards.create(resource: @heat_exhaustion_content, priority: 1) if @heat_exhaustion_content = Content.find_by_document_id('DS01046')
-    cards.create(resource: @sunscreen_content, priority: 1) if @sunscreen_content = Content.find_by_document_id('MY01350')
-  end
-
-  def add_happiness_content
-    cards.create(resource: @happiness_content, priority: 1) if @happiness_content = Content.find_by_document_id('MY01357')
-  end
-
-
 
   def add_owned_referral_code
     return if owned_referral_code

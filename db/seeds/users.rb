@@ -190,6 +190,9 @@ PHA_ATTRIBUTES = [
   }
 ]
 
+puts 'Creating PHA Users...'
+
+
 PHA_ATTRIBUTES.each do |attributes|
   create_attributes = {
     email: attributes[:email],
@@ -227,3 +230,16 @@ end
 
 Member.find_by_email('caitlin@getbetter.com').pha_profile.update_attributes(:weekly_capacity => 0)
 Member.find_by_email('nicole@getbetter.com').pha_profile.update_attributes(:weekly_capacity => 0)
+
+# Sibley
+puts 'Creating Sibley Users...'
+m = Member.find_or_create_by_email('shoncha1@betterprovider.jhmi.edu')
+m.update_attributes(owner: m, first_name: 'Suzanne', last_name: 'Honchalk', gender: "female", avatar_url_override: 'https://s3-us-west-2.amazonaws.com/btr-static/npi_avatars/sibley_suzanne.png', expertise: 'R.N.', provider_taxonomy_code:'364S00000X')
+
+
+
+
+
+
+
+
