@@ -136,9 +136,9 @@ describe SignUpService do
           response = described_class.new(params, options).call
           user = response[:user]
           if (5..9).include?(Date.today.month)
-            expect(user.contents.count).to eq(5)
+            expect(user.cards.count).to eq(5)
           else
-            expect(user.contents.count).to eq(4)
+            expect(user.cards.count).to eq(4)
           end
         end
 
