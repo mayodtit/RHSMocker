@@ -40,6 +40,62 @@ describe 'Contacts' do
           status: 'online',
           image_url: root_url + ActionController::Base.helpers.asset_path('Contacts-Mayo@2x.png'),
           show_border: true
+        },
+        {
+          name: 'Better PHA 2',
+          phone: Metadata.pha_phone_number,
+          status: '',
+          image_url: root_url + ActionController::Base.helpers.asset_path('Contacts-PHA@2x.png'),
+          show_border: false
+        },
+        {
+          name: 'Mayo Clinic Nurse Line 2',
+          phone: Metadata.nurse_phone_number,
+          status: 'online',
+          image_url: root_url + ActionController::Base.helpers.asset_path('Contacts-Mayo@2x.png'),
+          show_border: false
+        },
+        {
+          name: 'Better PHA 3',
+          phone: Metadata.pha_phone_number,
+          status: 'online',
+          image_url: root_url + ActionController::Base.helpers.asset_path('Contacts-PHA@2x.png'),
+          show_border: true
+        },
+        {
+          name: 'Mayo Clinic Nurse Line 3',
+          phone: Metadata.nurse_phone_number,
+          status: 'online',
+          image_url: root_url + ActionController::Base.helpers.asset_path('Contacts-Mayo@2x.png'),
+          show_border: true
+        },
+        {
+          name: 'Better PHA 4 (Super Long Name Requiring Ellipsis)',
+          phone: Metadata.pha_phone_number,
+          status: 'online',
+          image_url: root_url + ActionController::Base.helpers.asset_path('Contacts-PHA@2x.png'),
+          show_border: true
+        },
+        {
+          name: 'Mayo Clinic Nurse Line 4 (Super Long Name Requiring Ellipsis)',
+          phone: Metadata.nurse_phone_number,
+          status: 'online',
+          image_url: root_url + ActionController::Base.helpers.asset_path('Contacts-Mayo@2x.png'),
+          show_border: true
+        },
+        {
+          name: 'Better PHA 5',
+          phone: Metadata.pha_phone_number,
+          status: 'online',
+          image_url: root_url + ActionController::Base.helpers.asset_path('Contacts-PHA@2x.png'),
+          show_border: true
+        },
+        {
+          name: 'Mayo Clinic Nurse Line 5',
+          phone: Metadata.nurse_phone_number,
+          status: 'online',
+          image_url: root_url + ActionController::Base.helpers.asset_path('Contacts-Mayo@2x.png'),
+          show_border: false
         }
       ]
     end
