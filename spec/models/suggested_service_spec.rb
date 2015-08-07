@@ -24,6 +24,44 @@ describe SuggestedService do
       end
     end
 
+    describe 'events' do
+      describe '#accept' do
+        let!(:pha) { create(:pha) }
+        let!(:user) { create(:member, :premium, pha: pha) }
+        let(:suggested_service) { create(:suggested_service, :offered, user_facing: true, user: user) }
+
+        describe '#unset_user_facing' do
+          context 'transitioning from user_facing = true' do
+            it 'sets user_facing to false for accept event' do
+              expect(suggested_service.user_facing).to be_true
+              suggested_service.update_attributes!(state_event: :accept, actor: suggested_service.user)
+              expect(suggested_service.user_facing).to be_false
+            end
+
+            it 'sets user_facing to false for reject event' do
+              expect(suggested_service.user_facing).to be_true
+              suggested_service.update_attributes!(state_event: :accept, actor: suggested_service.user)
+              expect(suggested_service.user_facing).to be_false
+            end
+
+            it 'sets user_facing to false for expire event' do
+              expect(suggested_service.user_facing).to be_true
+              suggested_service.update_attributes!(state_event: :expire, actor: suggested_service.user)
+              expect(suggested_service.user_facing).to be_false
+            end
+          end
+        end
+
+        describe '#create_accepted_service' do
+          it 'creates a service from the suggested service' do
+            expect(suggested_service.service).to be_nil
+            expect{ suggested_service.update_attributes!(state_event: :expire, actor: suggested_service.user) }.to change(Service, :count).by(1)
+            expect(suggested_service.reload.service).to eq(Service.last)
+          end
+        end
+      end
+    end
+
     describe 'audit trail' do
       let!(:suggested_service) { create(:suggested_service, :unoffered) }
       let!(:actor) { create(:pha) }
@@ -57,27 +95,4 @@ describe SuggestedService do
     end
   end
 
-  describe '#unset_user_facing' do
-    context 'transitioning from user_facing = true' do
-      let(:suggested_service) { create(:suggested_service, :offered, user_facing: true) }
-
-      it 'sets user_facing to false for accept event' do
-        expect(suggested_service.user_facing).to be_true
-        suggested_service.update_attributes!(state_event: :accept, actor: suggested_service.user)
-        expect(suggested_service.user_facing).to be_false
-      end
-
-      it 'sets user_facing to false for reject event' do
-        expect(suggested_service.user_facing).to be_true
-        suggested_service.update_attributes!(state_event: :accept, actor: suggested_service.user)
-        expect(suggested_service.user_facing).to be_false
-      end
-
-      it 'sets user_facing to false for expire event' do
-        expect(suggested_service.user_facing).to be_true
-        suggested_service.update_attributes!(state_event: :expire, actor: suggested_service.user)
-        expect(suggested_service.user_facing).to be_false
-      end
-    end
-  end
 end

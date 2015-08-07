@@ -227,7 +227,7 @@ class Service < ActiveRecord::Base
     self.subject ||= member
     self.owner ||= member.try(:pha)
     self.creator ||= actor
-    self.assignor ||= actor
+    self.assignor ||= creator
     self.time_zone ||= member.try(:time_zone)
     self.time_zone_offset = ActiveSupport::TimeZone.new(time_zone).try(:utc_offset) if time_zone
     true
