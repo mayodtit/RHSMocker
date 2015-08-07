@@ -131,5 +131,4 @@ class OnboardingGroup < ActiveRecord::Base
   def provider_attributes(npi_number)
     Search::Service.new.find(npi_number: npi_number)
   end
-
 end
