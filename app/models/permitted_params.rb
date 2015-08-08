@@ -134,7 +134,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def system_event_template_attributes
-    params.require(:system_event_template).permit(:name, :title, :description, :unique_id, :state)
+    params.require(:system_event_template).permit(:name, :title, :description, :state)
   end
 
   def data_field_template

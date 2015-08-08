@@ -5,6 +5,8 @@ class SystemEventTemplate < ActiveRecord::Base
 
   attr_accessible :name, :description, :title, :state, :unique_id, :version
 
+  VALID_STATES = [:unpublished, :published, :retired]
+
   validates :name, :title, presence: true
   validates :version, presence: true
   validates :version, uniqueness: { scope: :unique_id }
@@ -14,7 +16,19 @@ class SystemEventTemplate < ActiveRecord::Base
   before_validation :set_unique_id, on: :create
   before_validation :set_version, on: :create
 
+  VALID_STATES.each do |state|
+    self.singleton_class.send(:define_method, state.to_s) do
+      where(state: state)
+    end
+  end
+
+  def self.title_search(string)
+    wildcard = "%#{string}%"
+    where("system_event_templates.title LIKE ?", wildcard)
+  end
+
   private
+
   def set_unique_id
     self.unique_id ||= loop do
       new_unique_id = Base64.urlsafe_encode64(SecureRandom.base64(36))

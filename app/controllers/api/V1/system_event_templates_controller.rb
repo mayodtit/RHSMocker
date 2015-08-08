@@ -40,7 +40,11 @@ class Api::V1::SystemEventTemplatesController < Api::V1::ABaseController
 
     @system_event_templates = SystemEventTemplate.order('id DESC')
 
-    ## param filtering a la service_template_controller?
+    if SystemEventTemplate::VALID_STATES.include?(params[:state])
+      @system_event_templates = @system_event_templates.send(params[:state])
+    end
+
+    @system_event_templates = @system_event_templates.title_search(params[:title]) if params[:title]
   end
 
   def load_system_event_template!
