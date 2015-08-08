@@ -12,7 +12,8 @@ class SignUpService < Struct.new(:params, :options)
         create_member!
         create_session!
         create_subscription! if params[:subscription].try(:[], :payment_token)
-        create_content!
+        add_content!
+        add_providers!
         send_welcome_emails!
         send_download_link! if options[:send_download_link]
         notify_other_users!
@@ -74,7 +75,7 @@ class SignUpService < Struct.new(:params, :options)
     NotifyReferrerWhenRefereeSignUpService.new(@member.referral_code, @member).call if @member.referral_code.try(:user)
   end
 
-  def create_content!
+  def add_content!
     (@member.onboarding_group.try(:onboarding_group_cards) || []).each do |card|
       @member.cards.create(resource: card.resource, priority: card.priority)
     end
@@ -89,6 +90,14 @@ class SignUpService < Struct.new(:params, :options)
     @member.cards.create(resource: @happiness_content, priority: 1) if @happiness_content = Content.find_by_document_id('MY01357')
     @member.cards.create(resource: CustomCard.gender, priority: 20) if CustomCard.gender
     @member.cards.create(resource: CustomCard.swipe_explainer, priority: 0) if CustomCard.swipe_explainer
+  end
+
+  def add_providers!
+     if @member.onboarding_group.try(:provider)
+      @member.associations.create(associate: @member.onboarding_group.provider,
+                          association_type_id: AssociationType.hcp_default_id,
+                          creator: @member)
+    end
   end
 
 

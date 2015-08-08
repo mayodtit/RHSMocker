@@ -145,7 +145,7 @@ describe SignUpService do
         end
       end
 
-      describe 'creates correct default content' do
+      describe 'adds correct default content' do
         before do
           create(:content, document_id: 'DS01046')
           create(:content, document_id: 'MY01350')
@@ -157,8 +157,7 @@ describe SignUpService do
           create(:onboarding_group_card, onboarding_group: onboarding_group, resource_type: 'CustomCard', resource: CustomCard.find_by_unique_id('DEADBEEF'))
         end
 
-        it 'creates onboarding_group_card content' do
-          byebug
+        it 'adds onboarding_group_card content' do
           response = described_class.new(params, options).call
           user = response[:user]
           if (5..9).include?(Date.today.month)
@@ -166,6 +165,19 @@ describe SignUpService do
           else
             expect(user.cards.count).to eq(5)
           end
+        end
+      end
+
+      describe 'adds correct provider from onboarding group' do
+        before do
+          create(:user, email:'testprovider@getbetter.com', first_name: 'Pro', last_name: 'Vida')
+          onboarding_group.provider = User.find_by_email('testprovider@getbetter.com')
+        end
+
+         it 'adds provider from onboarding group' do
+            response = described_class.new(params, options).call
+            user = response[:user]
+            expect(user.associations.count).to eq(1)
         end
       end
 
