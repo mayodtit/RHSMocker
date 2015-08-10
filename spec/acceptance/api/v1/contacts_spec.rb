@@ -17,7 +17,7 @@ resource 'Contacts' do
       expect(status).to eq(200)
       body = JSON.parse(response_body, symbolize_names: true)
       expect(body[:contacts].class).to eq(Array)
-      expect(body[:contacts].count).to eq(10)
+      expect(body[:contacts].count).to eq(1)
     end
   end
 end
