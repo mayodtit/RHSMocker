@@ -198,17 +198,6 @@ describe Member do
       end
     end
 
-    describe '#add_onboarding_group_cards' do
-      let!(:onboarding_group_card) { create(:onboarding_group_card) }
-      let(:onboarding_group) { onboarding_group_card.onboarding_group }
-      let(:resource) { onboarding_group_card.resource }
-      let!(:member) { create(:member, onboarding_group: onboarding_group) }
-
-      it 'adds cards to the new member' do
-        expect(member.cards.where(resource_id: resource.id, resource_type: resource.class.name).count).to eq(1)
-      end
-    end
-
     describe '#add_onboarding_group_programs' do
       let!(:onboarding_group_program) { create(:onboarding_group_program) }
       let(:onboarding_group) { onboarding_group_program.onboarding_group }
