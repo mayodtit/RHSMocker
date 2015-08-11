@@ -14,7 +14,8 @@ class Api::V1::SystemActionTemplatesController < Api::V1::ABaseController
   end
 
   def show
-    authorize! :read, @system_action_template.serializer
+    authorize! :read, @system_action_template
+    show_resource @system_action_template.serializer
   end
 
   def update
