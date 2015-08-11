@@ -126,6 +126,7 @@ RHSMocker::Application.routes.draw do
         resources :data_field_templates, except: %i(new edit)
       end
       resources :system_event_templates, except: %i(new edit)
+      resources :system_action_templates, except: %i(new edit)
       resources :sms_notifications, only: [] do
         post :download, on: :collection
       end

@@ -137,6 +137,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     params.require(:system_event_template).permit(:name, :title, :description, :state)
   end
 
+  def system_action_template_attributes
+    params.require(:system_action_template).permit(:type, :message_text, :content, :content_id, :system_event_template, :system_event_template_id)
+  end
+
   def data_field_template
     params.require(:data_field_template).permit(:name, :type, :required_for_service_start)
   end
