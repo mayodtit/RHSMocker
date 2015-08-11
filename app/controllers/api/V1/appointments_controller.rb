@@ -34,12 +34,14 @@ class Api::V1::AppointmentsController < Api::V1::ABaseController
   end
 
   def appointment_attributes
-    params.require(:appointment).permit(:user_id, :provider_id, :scheduled_at, :phone_number)
+    params.require(:appointment).permit(:user_id, :provider_id, :scheduled_at, :reason_for_visit, :special_instructions)
   end
 
   def create_params
     appointment_attributes.tap do |attrs|
       attrs[:creator] = current_user
+      attrs[:address_attributes] = params[:appointment][:address].except('id', 'user_id', 'created_at', 'updated_at', 'name')
+      attrs[:phone_number] = params[:appointment][:phone_number]
     end
   end
 
