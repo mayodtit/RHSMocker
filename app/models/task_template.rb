@@ -19,6 +19,7 @@ class TaskTemplate < ActiveRecord::Base
                                              conditions: {type: :output}
   has_many :output_data_field_templates, through: :output_task_data_field_templates,
                                          source: :data_field_template
+  has_many :capable_users, class_name: 'Member'
 
   attr_accessible :name, :title, :description, :time_estimate, :priority, :service_ordinal, :service_template, :service_template_id, :modal_template, :queue, :task_category, :task_category_id
 
