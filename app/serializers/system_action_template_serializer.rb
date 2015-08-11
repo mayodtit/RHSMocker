@@ -3,5 +3,5 @@ class SystemActionTemplateSerializer < ActiveModel::Serializer
 
   attributes :type, :message_text, :content, :content_id, :system_event_template, :system_event_template_id
 
-  has_many :system_actions
+  belongs_to :system_event_template
 end

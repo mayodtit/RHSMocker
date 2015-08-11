@@ -6,5 +6,4 @@ class SystemEventTemplateSerializer < ActiveModel::Serializer
   has_one :system_action_template
 
   has_many :system_relative_event_templates
-  has_many :system_events
 end
