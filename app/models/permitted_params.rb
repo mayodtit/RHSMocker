@@ -150,7 +150,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def suggested_service
-    params.require(:suggested_service).permit(:state_event, :user_facing)
+    params.require(:suggested_service).permit(:title, :description, :message, :service_type_id, :state_event, :user_facing)
   end
 
   private

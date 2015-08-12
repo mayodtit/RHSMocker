@@ -11,9 +11,13 @@ class Api::V1::SuggestedServicesController < Api::V1::ABaseController
     show_resource @suggested_service.serializer(include_nested: true)
   end
 
+  def create
+    create_resource @suggested_services, action_params
+  end
+
   def update
     authorize! :update, @suggested_service
-    update_resource @suggested_service, update_params
+    update_resource @suggested_service, action_params
   end
 
   private
@@ -39,7 +43,7 @@ class Api::V1::SuggestedServicesController < Api::V1::ABaseController
     authorize! :read, @suggested_service
   end
 
-  def update_params
+  def action_params
     permitted_params.suggested_service.tap do |attrs|
       attrs[:actor] = current_user
     end
