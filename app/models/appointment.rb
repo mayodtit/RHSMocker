@@ -36,8 +36,7 @@ class Appointment < ActiveRecord::Base
       :arrival_time,
       :departed_at,
       :reason_for_visit,
-      :special_instructions,
-      :phone_number
+      :special_instructions
     )
     changes.empty? ? nil : changes
   end
