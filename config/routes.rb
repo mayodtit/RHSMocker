@@ -135,6 +135,7 @@ RHSMocker::Application.routes.draw do
         resources :contents, only: :index, controller: :symptom_contents
         post :check, on: :collection, to: 'symptom_contents#index'
       end
+      resources :task_categories, only: %i(index show)
       resources :task_step_templates, only: %i(show update destroy) do
         resources :data_field_templates, only: :destroy, controller: :task_step_data_field_templates do
           post ':id', on: :collection, to: 'task_step_data_field_templates#create'
