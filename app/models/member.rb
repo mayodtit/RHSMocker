@@ -5,6 +5,8 @@ class Member < User
   has_many :discounts, foreign_key: :user_id
   has_many :user_roles, foreign_key: :user_id, inverse_of: :user
   has_many :roles, through: :user_roles
+  has_many :user_expertises, foreign_key: :user_id, inverse_of: :user
+  has_many :expertises, through: :user_expertises
   has_many :user_agreements, foreign_key: :user_id, inverse_of: :user
   has_many :agreements, through: :user_agreements
   has_many :cards, foreign_key: :user_id,
@@ -206,6 +208,18 @@ class Member < User
     role = Role.where(name: role_name).first_or_create!
     roles << role
     @role_names << role.name.to_s if @role_names
+  end
+
+  def has_expertise?(expertise)
+    expertise_names.include?(expertise.to_s)
+  end
+
+  def add_expertise(expertise_name)
+    return if has_expertise? expertise_name
+
+    expertise = Expertise.where(name: expertise_name).first_or_create!
+    expertises << expertise
+    @expertise_names << expertise.name.to_s if @expertise_names
   end
 
   def admin?

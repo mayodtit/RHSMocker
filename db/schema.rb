@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150807180854) do
+ActiveRecord::Schema.define(:version => 20150812225558) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -434,6 +434,17 @@ ActiveRecord::Schema.define(:version => 20150807180854) do
     t.integer  "ordinal",        :default => 0,  :null => false
     t.datetime "disabled_at"
   end
+
+  create_table "expertises", :force => true do |t|
+    t.string   "name"
+    t.integer  "resource_id"
+    t.string   "resource_type"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+  end
+
+  add_index "expertises", ["name", "resource_type", "resource_id"], :name => "index_roles_on_name_and_resource_type_and_resource_id"
+  add_index "expertises", ["name"], :name => "index_roles_on_name"
 
   create_table "factor_contents", :force => true do |t|
     t.integer  "factor_id"
@@ -1518,6 +1529,15 @@ ActiveRecord::Schema.define(:version => 20150807180854) do
 
   add_index "user_content_likes", ["content_id"], :name => "index_user_content_likes_on_content_id"
   add_index "user_content_likes", ["user_id"], :name => "index_user_content_likes_on_user_id"
+
+  create_table "user_expertises", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "expertise_id"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
+
+  add_index "user_expertises", ["expertise_id"], :name => "index_user_expertises_on_expertise_id"
 
   create_table "user_feature_groups", :force => true do |t|
     t.integer  "user_id"
