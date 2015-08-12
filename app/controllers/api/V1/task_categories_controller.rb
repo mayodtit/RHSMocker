@@ -13,7 +13,7 @@ class Api::V1::TaskCategoriesController < Api::V1::ABaseController
   private
 
   def load_task_categories!
-    @task_categories = TaskCategory.all
+    @task_categories = TaskCategory.scoped
   end
 
   def load_task_category!

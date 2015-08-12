@@ -34,7 +34,7 @@ class TaskTemplate < ActiveRecord::Base
 
   def create_deep_copy!(new_service_template)
     transaction do
-      new_service_template.task_templates.create!(attributes.slice(*%w(name title description time_estimate priority service_ordinal queue task_category))).tap do |new_task_template|
+      new_service_template.task_templates.create!(attributes.slice(*%w(name title description time_estimate priority service_ordinal queue task_category_id))).tap do |new_task_template|
         new_task_template.update_attributes!(modal_template: modal_template.create_copy!) if modal_template
         task_step_templates.each do |task_step_template|
           task_step_template.create_deep_copy!(new_service_template, new_task_template)
