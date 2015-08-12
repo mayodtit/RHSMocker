@@ -13,6 +13,7 @@ describe Service do
     it_validates 'presence of', :owner
     it_validates 'presence of', :assignor
     it_validates 'foreign key of', :service_template
+    it_validates 'foreign key of', :suggested_service
 
     it 'validates presence of assigned_at' do
       service = build_stubbed :service
@@ -83,7 +84,7 @@ describe Service do
         end
 
         it 'creates a service in :waiting state' do
-          service = user.services.create!(service_template: service_template, creator: pha)
+          service = user.services.create!(service_template: service_template, actor: pha)
           expect(service).to be_valid
           expect(service).to be_persisted
           expect(service).to be_waiting
@@ -93,7 +94,7 @@ describe Service do
           let!(:message_task) { create(:message_task, consult: user.master_consult) }
 
           it 'creates a service in :draft state' do
-            service = user.services.create!(service_template: service_template, creator: pha)
+            service = user.services.create!(service_template: service_template, actor: pha)
             expect(service).to be_valid
             expect(service).to be_persisted
             expect(service).to be_draft
@@ -106,7 +107,7 @@ describe Service do
         let!(:task_template) { create(:task_template, service_template: service_template, service_ordinal: 0) }
 
         it 'creates a service in :open state' do
-          service = user.services.create!(service_template: service_template, creator: pha)
+          service = user.services.create!(service_template: service_template, actor: pha)
           expect(service).to be_valid
           expect(service).to be_persisted
           expect(service).to be_open
@@ -121,7 +122,7 @@ describe Service do
     let(:member) { create(:member, :premium, pha: pha) }
 
     it 'creates a Service from ServiceTemplate when present' do
-      service = described_class.create(service_template: service_template, member: member, creator: pha)
+      service = described_class.create(service_template: service_template, member: member, actor: pha)
       expect(service).to be_valid
       expect(service.title).to eq(service_template.title)
       expect(service.description).to eq(service_template.description)
@@ -163,47 +164,6 @@ describe Service do
       it 'sets assigned at to' do
         service.set_assigned_at
         service.assigned_at.should be_nil
-      end
-    end
-  end
-
-  context '#actor_id' do
-    let(:service) { build :service }
-
-    context '@actor_id is not nil' do
-      before do
-        service.instance_variable_set('@actor_id', 2)
-      end
-
-      it 'returns @actor_id' do
-        service.actor_id.should == 2
-      end
-    end
-
-    context 'actor_id is nil' do
-      before do
-        service.instance_variable_set('@actor_id', nil)
-      end
-
-      context 'owner_id is not nil' do
-        before do
-          service.stub(:owner_id) { 2 }
-        end
-
-        it 'returns owner_id' do
-          service.actor_id.should == 2
-        end
-      end
-
-      context 'owner_id is nil' do
-        before do
-          service.stub(:owner_id) { nil }
-        end
-
-        it 'returns creator id' do
-          service.stub(:creator_id) { 3 }
-          service.actor_id.should == 3
-        end
       end
     end
   end
@@ -335,7 +295,7 @@ describe Service do
       it 'it tracks a change after a the description is changed' do
         old_description = service.description
         old_title = service.title
-        service.update_attributes!(description: 'poop', title: 'shit')
+        service.update_attributes!(description: 'poop', title: 'shit', actor: service.creator)
         ServiceChange.count.should == 1
         t = ServiceChange.last
         t.service.should == service
@@ -343,17 +303,17 @@ describe Service do
         t.data.should == {"description" => [old_description, 'poop'], "title" => [old_title, 'shit']}
       end
 
-      context 'actor_id is defined' do
+      context 'actor is defined' do
         let(:pha) { build_stubbed :pha }
 
         before do
-          service.actor_id = pha.id
+          service.actor = pha
           service.title = 'Poop'
           service.stub(:previous_changes) { service.changes }
         end
 
-        it 'uses the defined actor id' do
-          ServiceChange.should_receive(:create!).with hash_including(actor_id: pha.id)
+        it 'uses the defined actor' do
+          service.service_changes.should_receive(:create!).with hash_including(actor: pha)
           service.send(:track_update)
         end
       end

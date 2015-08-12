@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150805192133) do
+ActiveRecord::Schema.define(:version => 20150807180854) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1035,18 +1035,6 @@ ActiveRecord::Schema.define(:version => 20150805192133) do
 
   add_index "service_changes", ["service_id"], :name => "index_service_changes_on_service_id"
 
-  create_table "service_state_transitions", :force => true do |t|
-    t.integer  "service_id", :null => false
-    t.string   "event"
-    t.string   "from"
-    t.string   "to"
-    t.integer  "actor_id",   :null => false
-    t.datetime "created_at", :null => false
-  end
-
-  add_index "service_state_transitions", ["actor_id"], :name => "index_service_state_transitions_on_actor_id"
-  add_index "service_state_transitions", ["service_id"], :name => "index_service_state_transitions_on_service_id"
-
   create_table "service_templates", :force => true do |t|
     t.string   "name",                               :null => false
     t.string   "title",                              :null => false
@@ -1078,30 +1066,31 @@ ActiveRecord::Schema.define(:version => 20150805192133) do
   add_index "service_types", ["name"], :name => "index_service_types_on_name", :unique => true
 
   create_table "services", :force => true do |t|
-    t.string   "title",                                  :null => false
+    t.string   "title",                                   :null => false
     t.text     "description"
-    t.integer  "service_type_id",                        :null => false
-    t.string   "state",                                  :null => false
-    t.integer  "member_id",                              :null => false
+    t.integer  "service_type_id",                         :null => false
+    t.string   "state",                                   :null => false
+    t.integer  "member_id",                               :null => false
     t.integer  "subject_id"
     t.string   "reason_abandoned"
-    t.integer  "creator_id",                             :null => false
-    t.integer  "owner_id",                               :null => false
-    t.integer  "assignor_id",                            :null => false
+    t.integer  "creator_id",                              :null => false
+    t.integer  "owner_id",                                :null => false
+    t.integer  "assignor_id",                             :null => false
     t.datetime "due_at"
     t.datetime "assigned_at"
-    t.datetime "created_at",                             :null => false
-    t.datetime "updated_at",                             :null => false
+    t.datetime "created_at",                              :null => false
+    t.datetime "updated_at",                              :null => false
     t.integer  "service_template_id"
     t.datetime "completed_at"
     t.datetime "abandoned_at"
     t.integer  "abandoner_id"
-    t.boolean  "user_facing",         :default => false, :null => false
+    t.boolean  "user_facing",          :default => false, :null => false
     t.text     "service_request"
     t.text     "service_deliverable"
     t.text     "service_update"
     t.string   "time_zone"
     t.integer  "time_zone_offset"
+    t.integer  "suggested_service_id"
   end
 
   add_index "services", ["assignor_id"], :name => "index_services_on_assignor_id"
@@ -1186,6 +1175,10 @@ ActiveRecord::Schema.define(:version => 20150805192133) do
     t.integer  "suggested_service_template_id"
     t.string   "state"
     t.boolean  "user_facing"
+    t.integer  "service_type_id"
+    t.string   "title"
+    t.text     "description"
+    t.text     "message"
   end
 
   create_table "symptom_medical_advice_items", :force => true do |t|

@@ -4,6 +4,27 @@ describe 'SuggestedServices' do
   let!(:user) { create(:member) }
   let!(:session) { user.sessions.create }
 
+  describe 'POST /api/v1/users/:user_id/suggested_services' do
+    def do_request(params={})
+      post "/api/v1/users/#{user.id}/suggested_services", params.merge!(auth_token: session.auth_token)
+    end
+
+    let!(:service_type) { create(:service_type) }
+    let!(:suggested_service_params) do
+      attributes_for(:suggested_service).tap do |attrs|
+        attrs[:service_type_id] = service_type.id
+      end
+    end
+
+    it 'indexes suggested services' do
+      expect{ do_request(suggested_service: suggested_service_params) }.to change(SuggestedService, :count).by(1)
+      expect(response).to be_success
+      body = JSON.parse(response.body, symbolize_names: true)
+      new_suggested_service = SuggestedService.find(body[:suggested_service][:id])
+      expect(body[:suggested_service].to_json).to eq(new_suggested_service.serializer.as_json.to_json)
+    end
+  end
+
   context 'existing record' do
     let!(:suggested_service) { create(:suggested_service, user: user) }
 

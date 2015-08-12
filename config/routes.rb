@@ -130,6 +130,7 @@ RHSMocker::Application.routes.draw do
       resources :sms_notifications, only: [] do
         post :download, on: :collection
       end
+      resources :suggested_services, only: :update
       resources :symptoms, only: :index do
         resources :factor_groups, only: :index
         resources :contents, only: :index, controller: :symptom_contents
@@ -205,7 +206,7 @@ RHSMocker::Application.routes.draw do
           delete :destroy, :on => :collection
           put :update, :on => :collection
         end
-        resources :suggested_services, only: %i(index show update)
+        resources :suggested_services, only: %i(index show create update)
         resources :treatments, :except => [:new, :edit], :controller => 'user_treatments' do
           resources :conditions, only: :destroy, controller: 'user_condition_user_treatments' do
             post ':id', to: 'user_condition_user_treatments#create', on: :collection
