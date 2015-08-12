@@ -597,6 +597,7 @@ describe Member do
       member.stub(:role_names) { ['other_role'] }
       member.should_not be_has_role('role')
     end
+  end
 
   describe '#add_expertise' do
     let(:member) { create :member }
