@@ -121,6 +121,14 @@ describe Service do
     let(:pha) { create(:pha) }
     let(:member) { create(:member, :premium, pha: pha) }
 
+    before do
+      Timecop.freeze
+    end
+
+    after do
+      Timecop.return
+    end
+
     it 'creates a Service from ServiceTemplate when present' do
       service = described_class.create(service_template: service_template, member: member, actor: pha)
       expect(service).to be_valid
