@@ -15,6 +15,7 @@ RHSMocker::Application.routes.draw do
         get :permission, on: :member, to: 'permissions#show'
         put :permission, on: :member, to: 'permissions#update'
       end
+      resources :appointment_templates
       resources :contacts, only: :index
       resources :contents, :only => [:index, :show] do
         resources :references, only: [:index, :create, :destroy], controller: 'content_references'

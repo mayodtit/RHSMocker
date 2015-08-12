@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150807180854) do
+ActiveRecord::Schema.define(:version => 20150812215202) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -19,10 +19,11 @@ ActiveRecord::Schema.define(:version => 20150807180854) do
     t.string   "city"
     t.string   "state"
     t.string   "postal_code"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
     t.string   "address2"
     t.string   "name"
+    t.integer  "appointment_id"
   end
 
   add_index "addresses", ["user_id"], :name => "index_addresses_on_user_id"
@@ -65,13 +66,32 @@ ActiveRecord::Schema.define(:version => 20150807180854) do
     t.datetime "updated_at",     :null => false
   end
 
+  create_table "appointment_templates", :force => true do |t|
+    t.datetime "scheduled_at"
+    t.datetime "created_at",                          :null => false
+    t.datetime "updated_at",                          :null => false
+    t.string   "name"
+    t.string   "title"
+    t.text     "description"
+    t.string   "unique_id"
+    t.string   "state"
+    t.integer  "version",              :default => 0, :null => false
+    t.text     "special_instructions"
+    t.text     "reason_for_visit"
+  end
+
   create_table "appointments", :force => true do |t|
     t.integer  "user_id"
     t.integer  "provider_id"
     t.datetime "scheduled_at"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
+    t.datetime "created_at",              :null => false
+    t.datetime "updated_at",              :null => false
     t.integer  "creator_id"
+    t.datetime "arrived_at"
+    t.datetime "departed_at"
+    t.integer  "appointment_template_id"
+    t.text     "reason_for_visit"
+    t.text     "special_instructions"
   end
 
   add_index "appointments", ["user_id"], :name => "index_appointments_on_user_id"
@@ -1244,16 +1264,17 @@ ActiveRecord::Schema.define(:version => 20150807180854) do
   end
 
   create_table "system_event_templates", :force => true do |t|
-    t.string   "name",                                  :null => false
-    t.string   "title",                                 :null => false
+    t.string   "name",                                   :null => false
+    t.string   "title",                                  :null => false
     t.text     "description"
-    t.string   "unique_id",                             :null => false
-    t.integer  "version",                :default => 0, :null => false
+    t.string   "unique_id",                              :null => false
+    t.integer  "version",                 :default => 0, :null => false
     t.string   "state"
-    t.datetime "created_at",                            :null => false
-    t.datetime "updated_at",                            :null => false
+    t.datetime "created_at",                             :null => false
+    t.datetime "updated_at",                             :null => false
     t.string   "type"
     t.integer  "root_event_template_id"
+    t.integer  "appointment_template_id"
   end
 
   create_table "system_events", :force => true do |t|
@@ -1263,6 +1284,7 @@ ActiveRecord::Schema.define(:version => 20150807180854) do
     t.string   "state"
     t.datetime "created_at",               :null => false
     t.datetime "updated_at",               :null => false
+    t.integer  "appointment_id"
   end
 
   create_table "task_categories", :force => true do |t|

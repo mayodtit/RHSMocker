@@ -1,12 +1,7 @@
-class SystemEventTemplate < ActiveRecord::Base
-  has_one :system_action_template, inverse_of: :system_event_template
-  has_many :system_relative_event_templates, inverse_of: :root_event_template
-  has_many :system_events, inverse_of: :system_event_template
-  belongs_to :appointment_template
+class AppointmentTemplate < ActiveRecord::Base
+  has_many :system_event_templates
 
-  attr_accessible :name, :description, :title, :state, :unique_id, :version, :appointment_template_id, :appointment_template
-
-  VALID_STATES = [:unpublished, :published, :retired]
+  attr_accessible :name, :description, :title, :scheduled_at, :state, :unique_id, :version, :state_event, :special_instructions, :reason_for_visit
 
   validates :name, :title, presence: true
   validates :version, presence: true
@@ -17,15 +12,28 @@ class SystemEventTemplate < ActiveRecord::Base
   before_validation :set_unique_id, on: :create
   before_validation :set_version, on: :create
 
-  VALID_STATES.each do |state|
-    self.singleton_class.send(:define_method, state.to_s) do
-      where(state: state)
+
+  def create_deep_copy!
+    transaction do
+      self.class.create!(attributes.except('id', 'version', 'state', 'created_at', 'updated_at'))
     end
   end
 
   def self.title_search(string)
     wildcard = "%#{string}%"
-    where("system_event_templates.title LIKE ?", wildcard)
+    where("appointment_templates.title LIKE ?", wildcard)
+  end
+
+  def self.published
+    where(state: :published)
+  end
+
+  def self.unpublished
+    where(state: :unpublished)
+  end
+
+  def self.retired
+    where(state: :retired)
   end
 
   private
@@ -41,13 +49,20 @@ class SystemEventTemplate < ActiveRecord::Base
     self.version = self.class.where(unique_id: unique_id).maximum(:version).try(:+, 1) || 0
   end
 
-  state_machine initial: :unpublished do
+  state_machine :initial => :unpublished do
+
     event :publish do
       transition :unpublished => :published
     end
 
     event :retire do
       transition :published => :retired
+    end
+
+    before_transition :unpublished => :published do |appointment_template|
+      appointment_template.class.published.where(unique_id: appointment_template.unique_id).each do |at|
+        at.retire!
+      end
     end
   end
 end

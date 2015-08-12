@@ -78,7 +78,11 @@ describe 'Appointments' do
     end
 
     let!(:provider) { create(:member) }
-    let(:appointment_attributes) { attributes_for(:appointment, user_id: user.id, provider_id: provider.id, creator_id: creator.id ) }
+    let!(:address) { create(:address) }
+    let!(:phone_number) { create(:phone_number, :appointment_phone) }
+    let!(:address_attributes) { attributes_for(:address) }
+    let!(:phone_number_attributes) { attributes_for(:phone_number) }
+    let(:appointment_attributes) { attributes_for(:appointment, user_id: user.id, provider_id: provider.id, creator_id: creator.id, address: address_attributes, phone_number: phone_number_attributes) }
 
     it 'creates a appointment' do
       expect{ do_request(appointment: appointment_attributes) }.to change(Appointment, :count).by(1)
