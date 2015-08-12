@@ -40,9 +40,17 @@ class Api::V1::AppointmentsController < Api::V1::ABaseController
   def create_params
     appointment_attributes.tap do |attrs|
       attrs[:creator] = current_user
-      attrs[:address_attributes] = params[:appointment][:address].except('id', 'user_id', 'created_at', 'updated_at', 'name')
-      attrs[:phone_number] = params[:appointment][:phone_number]
+      attrs[:address_attributes] = params[:appointment][:address].except('id', 'user_id', 'created_at', 'updated_at', 'name', 'phone_numbers')
+      attrs[:phone_number_attributes] = phone_number_params
     end
+  end
+
+  def phone_number_params
+    {
+      number: params[:appointment][:phone_number],
+      primary: false,
+      type: "Work"
+    }
   end
 
   def update_params
