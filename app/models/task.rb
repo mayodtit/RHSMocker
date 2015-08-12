@@ -30,6 +30,9 @@ class Task < ActiveRecord::Base
   has_many :output_data_fields, through: :output_task_data_fields,
                                 source: :data_field,
                                 include: :data_field_template
+  has_many :service_data_fields, through: :service,
+                                 source: :data_fields,
+                                 include: :data_field_template
   has_one :entry, as: :resource
 
   attr_accessor :actor_id, :change_tracked, :reason, :pubsub_client_id, :start_at
@@ -90,7 +93,7 @@ class Task < ActiveRecord::Base
   end
 
   def self.next_tasks
-    task = Task.where(queue: :specialist).where(state: :unclaimed).includes(:member, :member => :phone_numbers).order('priority DESC').first
+    task = Task.where(queue: :specialist).where(state: :unclaimed).includes(:member, :member => :phone_numbers).order(task_order).first
     if task
       [task]
     else
@@ -386,6 +389,11 @@ class Task < ActiveRecord::Base
   end
 
   private
+
+  def self.task_order
+    pacific_offset = Time.zone_offset('PDT')/3600
+    "DATE(CONVERT_TZ(due_at, '+0:00', '#{pacific_offset}:00')) ASC, priority DESC, day_priority DESC, due_at ASC, created_at ASC"
+  end
 
   def set_assignor
     if owner_id_changed?

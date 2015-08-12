@@ -12,12 +12,15 @@ class ServiceSerializer < ActiveModel::Serializer
 
   def attributes
     super.tap do |attrs|
-      attrs[:service_type] = service_type
-      attrs[:owner] = owner.try(:serializer, shallow: true)
-      attrs[:member] = member.try(:serializer, shallow: true)
-      attrs[:subject] = subject.try(:serializer, shallow: true)
-      attrs[:tasks] = tasks.order('service_ordinal ASC, due_at DESC, created_at DESC').serializer(for_subject: true)
-      attrs[:data_fields] = data_fields.serializer
+      attrs[:service_type] = service_type.serializer.as_json
+      attrs[:member] = member.serializer(shallow: true).as_json
+      attrs[:subject] = subject.serializer(shallow: true).as_json
+      attrs[:owner] = owner.serializer(shallow: true).as_json
+
+      if options[:include_nested]
+        attrs[:tasks] = tasks.serializer.as_json
+        attrs[:data_fields] = data_fields.serializer.as_json
+      end
     end
   end
 
