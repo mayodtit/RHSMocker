@@ -597,6 +597,46 @@ describe Member do
       member.stub(:role_names) { ['other_role'] }
       member.should_not be_has_role('role')
     end
+
+  describe '#add_expertise' do
+    let(:member) { create :member }
+    let(:expertise) { create :expertise, name: 'expertise' }
+
+    context 'user has expertise' do
+      before do
+        member.stub(:has_expertise?).with('expertise') { true }
+      end
+
+      it 'does nothing' do
+        Expertise.should_not_receive(:where)
+        member.add_expertise 'expertise'
+      end
+    end
+
+    context 'user doesn\'t have expertise' do
+      before do
+        member.should_not be_has_expertise('expertise')
+      end
+
+      it 'adds the expertise' do
+        member.add_expertise 'expertise'
+        member.should be_has_expertise('expertise')
+      end
+    end
+  end
+
+  describe '#has_expertise?' do
+    it 'returns true if user has the expertise' do
+      member = build :member
+      member.stub(:expertise_names) { ['expertise'] }
+      member.should be_has_expertise('expertise')
+    end
+
+    it 'returns false if user has the expertise' do
+      member = build :member
+      member.stub(:expertise_names) { ['other_expertise'] }
+      member.should_not be_has_expertise('expertise')
+    end
   end
 
   describe '#on_call?' do
