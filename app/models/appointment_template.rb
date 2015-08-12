@@ -1,7 +1,7 @@
 class AppointmentTemplate < ActiveRecord::Base
   has_many :system_event_templates
 
-  attr_accessible :name, :description, :title, :scheduled_at, :state, :unique_id, :version, :state_event
+  attr_accessible :name, :description, :title, :scheduled_at, :state, :unique_id, :version, :state_event, :special_instructions, :reason_for_visit
 
   validates :name, :title, presence: true
   validates :version, presence: true

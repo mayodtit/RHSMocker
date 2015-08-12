@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150806225222) do
+ActiveRecord::Schema.define(:version => 20150812215202) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -68,14 +68,16 @@ ActiveRecord::Schema.define(:version => 20150806225222) do
 
   create_table "appointment_templates", :force => true do |t|
     t.datetime "scheduled_at"
-    t.datetime "created_at",                  :null => false
-    t.datetime "updated_at",                  :null => false
+    t.datetime "created_at",                          :null => false
+    t.datetime "updated_at",                          :null => false
     t.string   "name"
     t.string   "title"
     t.text     "description"
     t.string   "unique_id"
     t.string   "state"
-    t.integer  "version",      :default => 0, :null => false
+    t.integer  "version",              :default => 0, :null => false
+    t.text     "special_instructions"
+    t.text     "reason_for_visit"
   end
 
   create_table "appointments", :force => true do |t|
