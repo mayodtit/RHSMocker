@@ -593,6 +593,10 @@ class Member < User
     @role_names ||= roles.pluck(:name)
   end
 
+  def expertise_names
+    @expertise_names ||= expertises.pluck(:name)
+  end
+
   def skip_agreement_validation
     @skip_agreement_validation || false
   end
