@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150813004248) do
+ActiveRecord::Schema.define(:version => 20150813175549) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1281,6 +1281,15 @@ ActiveRecord::Schema.define(:version => 20150813004248) do
     t.text    "description"
     t.integer "priority_weight"
   end
+
+  create_table "task_category_expertises", :force => true do |t|
+    t.integer  "task_category_id"
+    t.integer  "expertise_id"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+  end
+
+  add_index "task_category_expertises", ["expertise_id"], :name => "index_task_category_expertises_on_expertise_id"
 
   create_table "task_changes", :force => true do |t|
     t.integer  "task_id",    :null => false
