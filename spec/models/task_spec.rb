@@ -243,10 +243,11 @@ describe Task do
   end
 
   describe '#next_tasks' do
+    let!(:pha) { create :pha }
     let!(:specialist_task) { create :task, :unclaimed, queue: :specialist}
 
     it 'should return the first unclaimed task in the specialist queue' do
-      Task.next_tasks.should == [specialist_task]
+      Task.next_tasks(pha).should == [specialist_task]
     end
   end
 
