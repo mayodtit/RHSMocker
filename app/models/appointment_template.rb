@@ -1,6 +1,4 @@
 class AppointmentTemplate < ActiveRecord::Base
-  has_many :system_event_templates
-
   attr_accessible :name, :description, :title, :scheduled_at, :state, :unique_id, :version, :state_event, :special_instructions, :reason_for_visit
 
   validates :name, :title, presence: true
@@ -11,7 +9,6 @@ class AppointmentTemplate < ActiveRecord::Base
 
   before_validation :set_unique_id, on: :create
   before_validation :set_version, on: :create
-
 
   def create_deep_copy!
     transaction do
