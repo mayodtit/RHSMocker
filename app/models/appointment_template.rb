@@ -1,4 +1,13 @@
 class AppointmentTemplate < ActiveRecord::Base
+  has_one :scheduled_at_system_event_template, class_name: 'SystemEventTemplate',
+                                               as: :resource,
+                                               conditions: {resource_attribute: :scheduled_at},
+                                               dependent: :destroy
+  has_one :discharged_at_system_event_template, class_name: 'SystemEventTemplate',
+                                                as: :resource,
+                                                conditions: {resource_attribute: :discharged_at},
+                                                dependent: :destroy
+
   attr_accessible :name, :description, :title, :scheduled_at, :state, :unique_id, :version, :state_event, :special_instructions, :reason_for_visit
 
   validates :name, :title, presence: true
