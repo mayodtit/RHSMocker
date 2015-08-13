@@ -15,6 +15,47 @@ describe TaskTemplate do
     it_validates 'foreign key of', :modal_template
   end
 
+  describe '#add_expertise' do
+    let(:task_template) { create :task_template }
+    let(:expertise) { create :expertise, name: 'expertise' }
+
+    context 'task_template has expertise' do
+      before do
+        task_template.stub(:has_expertise?).with('expertise') { true }
+      end
+
+      it 'does nothing' do
+        Expertise.should_not_receive(:where)
+        task_template.add_expertise 'expertise'
+      end
+    end
+
+    context 'task_template doesn\'t have expertise' do
+      before do
+        task_template.should_not be_has_expertise('expertise')
+      end
+
+      it 'adds the expertise' do
+        task_template.add_expertise 'expertise'
+        task_template.should be_has_expertise('expertise')
+      end
+    end
+  end
+
+  describe '#has_expertise?' do
+    it 'returns true if task_template has the expertise' do
+      task_template = build :task_template
+      task_template.stub(:expertise_names) { ['expertise'] }
+      task_template.should be_has_expertise('expertise')
+    end
+
+    it 'returns false if user has the expertise' do
+      task_template = build :member
+      task_template.stub(:expertise_names) { ['other_expertise'] }
+      task_template.should_not be_has_expertise('expertise')
+    end
+  end
+
   describe '#create_deep_copy!' do
     let!(:origin_task_step_data_field_template) { create(:task_step_data_field_template) }
     let!(:origin_data_field_template) { origin_task_step_data_field_template.data_field_template }

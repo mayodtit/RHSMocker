@@ -92,8 +92,14 @@ class Task < ActiveRecord::Base
     where('queue = "specialist" AND owner_id = ? AND state = "claimed"', hcp.id)
   end
 
-  def self.next_tasks
-    task = Task.where(queue: :specialist).where(state: :unclaimed).includes(:member, :member => :phone_numbers).order(task_order).first
+  def self.next_tasks(hcp)
+    task = Task.where(queue: :specialist)
+               .where(state: :unclaimed)
+               .includes(:task_template => :expertises, :task_category => :expertises)
+               .where('task_category_expertises.id IN (?) OR task_template_expertises.id IN (?) OR (task_template_expertises.id IS NULL AND task_category_expertises.id IS NULL)', hcp.expertises.map(&:id), hcp.expertises.map(&:id))
+               .includes(:member, :member => :phone_numbers)
+               .order(task_order)
+               .first
     if task
       [task]
     else
@@ -103,7 +109,7 @@ class Task < ActiveRecord::Base
 
   def self.claim_next_tasks!(hcp)
     transaction do
-      next_tasks.each do |t|
+      next_tasks(hcp).each do |t|
         t.owner = hcp
         t.actor_id = hcp.id
         t.claim!
@@ -392,7 +398,7 @@ class Task < ActiveRecord::Base
 
   def self.task_order
     pacific_offset = Time.zone_offset('PDT')/3600
-    "DATE(CONVERT_TZ(due_at, '+0:00', '#{pacific_offset}:00')) ASC, priority DESC, day_priority DESC, due_at ASC, created_at ASC"
+    "DATE(CONVERT_TZ(tasks.due_at, '+0:00', '#{pacific_offset}:00')) ASC, tasks.priority DESC, tasks.day_priority DESC, tasks.due_at ASC, tasks.created_at ASC"
   end
 
   def set_assignor
