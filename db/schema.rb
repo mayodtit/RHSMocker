@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150812225558) do
+ActiveRecord::Schema.define(:version => 20150813004248) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1354,6 +1354,15 @@ ActiveRecord::Schema.define(:version => 20150812225558) do
     t.datetime "updated_at",            :null => false
     t.datetime "completed_at"
   end
+
+  create_table "task_template_expertises", :force => true do |t|
+    t.integer  "task_template_id"
+    t.integer  "expertise_id"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+  end
+
+  add_index "task_template_expertises", ["expertise_id"], :name => "index_task_template_expertises_on_expertise_id"
 
   create_table "task_templates", :force => true do |t|
     t.string   "name",                :null => false

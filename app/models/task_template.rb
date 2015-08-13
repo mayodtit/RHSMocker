@@ -6,6 +6,8 @@ class TaskTemplate < ActiveRecord::Base
   belongs_to :modal_template
   belongs_to :task_category
   has_many :tasks
+  has_many :task_template_expertises
+  has_many :expertises, through: :task_template_expertises
   has_many :task_step_templates, inverse_of: :task_template,
                                  dependent: :destroy
   has_many :task_data_field_templates, inverse_of: :task_template,
