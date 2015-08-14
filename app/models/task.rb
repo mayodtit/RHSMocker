@@ -175,7 +175,7 @@ class Task < ActiveRecord::Base
   end
 
   def initial_state
-    if owner_id.present?
+    if owner.present? || owner_id.present?
       self.claimed_at = Time.now
       :claimed
     else
@@ -283,6 +283,10 @@ class Task < ActiveRecord::Base
         validate_actor_and_timestamp_exist :complete
       when 'abandoned'
         validate_actor_and_timestamp_exist :abandon
+    end
+
+    if unclaimed? && owner_id.exists?
+      errors.add(:owner_id, "must be nil when #{self.class.name} is #{state}")
     end
 
     if %w(claimed completed).include? state
