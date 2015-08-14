@@ -15,7 +15,8 @@ class Api::V1::SystemEventTemplatesController < Api::V1::ABaseController
 
   def show
     authorize! :read, @system_event_template
-    show_resource @system_event_template.serializer(include_nested: true)
+    render_success system_event_template: @system_event_template.serializer,
+                   all_system_event_templates: all_system_event_templates.serializer(sample_time: sample_time)
   end
 
   def update
@@ -50,5 +51,13 @@ class Api::V1::SystemEventTemplatesController < Api::V1::ABaseController
   def load_system_event_template!
     @system_event_template = SystemEventTemplate.find(params[:id])
     authorize! :manage, @system_event_template
+  end
+
+  def all_system_event_templates
+    @system_event_template.system_relative_event_templates.all << @system_event_template
+  end
+
+  def sample_time
+    Time.parse('2015-08-12 12:00:00 -0700')
   end
 end

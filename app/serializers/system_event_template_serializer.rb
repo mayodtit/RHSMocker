@@ -1,16 +1,18 @@
 class SystemEventTemplateSerializer < ActiveModel::Serializer
   self.root = false
 
-  attributes :name, :title, :description, :state, :unique_id, :version
-
-  has_one :system_action_template
+  attributes :id, :name, :title, :description, :state, :unique_id, :version
 
   delegate :system_relative_event_templates, to: :object
 
   def attributes
     super.tap do |attrs|
-      if options[:include_nested]
-        attrs[:children] = system_relative_event_templates.serializer.as_json
+      if options[:sample_time]
+        attrs[:sample_ordinal] = if object.respond_to?(:time_offset)
+                                   object.time_offset.calculate(options[:sample_time]).to_i
+                                 else
+                                   options[:sample_time].to_i
+                                 end
       end
     end
   end
