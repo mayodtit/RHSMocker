@@ -16,7 +16,9 @@ describe SuggestedServiceSerializer do
         updated_at: suggested_service.updated_at,
         suggestion_description: suggested_service.description,
         suggestion_message: suggested_service.message,
-        icon_url: nil
+        icon_url: nil,
+        state: suggested_service.state,
+        state_events: suggested_service.state_events,
       }
     )
   end

@@ -2,6 +2,8 @@ class ServiceType < ActiveRecord::Base
   BUCKETS = ['care coordination', 'engagement', 'insurance', 'wellness', 'other']
   NON_ENGAGEMENT_BUCKETS = ['care coordination', 'insurance', 'wellness', 'other']
 
+  has_many :suggested_services, inverse_of: :service_type
+
   attr_accessible :name, :bucket, :description_template
 
   validates :name, presence: true

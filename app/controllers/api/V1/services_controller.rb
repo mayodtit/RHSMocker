@@ -65,13 +65,13 @@ class Api::V1::ServicesController < Api::V1::ABaseController
       attrs[:member] = @user
       attrs[:creator] = current_user
       attrs[:assignor] = current_user if attrs[:owner_id]
-      attrs[:actor_id] = current_user.id
+      attrs[:actor] = current_user
     end
   end
 
   def update_params
     permitted_params.service_attributes.tap do |attrs|
-      attrs[:actor_id] = current_user.id
+      attrs[:actor] = current_user
 
       if attrs[:state_event] == 'abandon'
         attrs[:abandoner] = current_user

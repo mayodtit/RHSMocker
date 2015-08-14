@@ -51,6 +51,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     params.require(:address).permit(*address_attributes)
   end
 
+  def appointment_template
+    params.require(:appointment_template).permit(:name, :title, :description, :scheduled_at, :state_event, :special_instructions, :reason_for_visit)
+  end
+
   def user_request
     params.require(:user_request)
           .permit(*user_request_attributes).tap do |attributes|
@@ -126,7 +130,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def task_template
-    params.require(:task_template).permit(:name, :title, :service_template, :service_template_id, :description, :time_estimate, :service_ordinal, :modal_template_id, :queue)
+    params.require(:task_template).permit(:name, :title, :service_template, :service_template_id, :task_category_id, :description, :time_estimate, :service_ordinal, :modal_template_id, :queue)
   end
 
   def task_step_template
@@ -135,6 +139,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
 
   def system_event_template_attributes
     params.require(:system_event_template).permit(:name, :title, :description, :state)
+  end
+
+  def system_action_template_attributes
+    params.require(:system_action_template).permit(:type, :message_text, :content, :content_id, :system_event_template, :system_event_template_id)
   end
 
   def data_field_template
@@ -154,7 +162,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def suggested_service
-    params.require(:suggested_service).permit(:state_event, :user_facing)
+    params.require(:suggested_service).permit(:title, :description, :message, :service_type_id, :state_event, :user_facing)
   end
 
   private

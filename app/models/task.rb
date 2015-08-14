@@ -93,7 +93,7 @@ class Task < ActiveRecord::Base
   end
 
   def self.next_tasks
-    task = Task.where(queue: :specialist).where(state: :unclaimed).includes(:member, :member => :phone_numbers).order('priority DESC').first
+    task = Task.where(queue: :specialist).where(state: :unclaimed).includes(:member, :member => :phone_numbers).order(task_order).first
     if task
       [task]
     else
@@ -389,6 +389,11 @@ class Task < ActiveRecord::Base
   end
 
   private
+
+  def self.task_order
+    pacific_offset = Time.zone_offset('PDT')/3600
+    "DATE(CONVERT_TZ(due_at, '+0:00', '#{pacific_offset}:00')) ASC, priority DESC, day_priority DESC, due_at ASC, created_at ASC"
+  end
 
   def set_assignor
     if owner_id_changed?

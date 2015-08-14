@@ -15,6 +15,7 @@ RHSMocker::Application.routes.draw do
         get :permission, on: :member, to: 'permissions#show'
         put :permission, on: :member, to: 'permissions#update'
       end
+      resources :appointment_templates
       resources :contacts, only: :index
       resources :contents, :only => [:index, :show] do
         resources :references, only: [:index, :create, :destroy], controller: 'content_references'
@@ -126,14 +127,17 @@ RHSMocker::Application.routes.draw do
         resources :data_field_templates, except: %i(new edit)
       end
       resources :system_event_templates, except: %i(new edit)
+      resources :system_action_templates, except: %i(new edit)
       resources :sms_notifications, only: [] do
         post :download, on: :collection
       end
+      resources :suggested_services, only: :update
       resources :symptoms, only: :index do
         resources :factor_groups, only: :index
         resources :contents, only: :index, controller: :symptom_contents
         post :check, on: :collection, to: 'symptom_contents#index'
       end
+      resources :task_categories, only: %i(index show)
       resources :task_step_templates, only: %i(show update destroy) do
         resources :data_field_templates, only: :destroy, controller: :task_step_data_field_templates do
           post ':id', on: :collection, to: 'task_step_data_field_templates#create'
@@ -204,7 +208,7 @@ RHSMocker::Application.routes.draw do
           delete :destroy, :on => :collection
           put :update, :on => :collection
         end
-        resources :suggested_services, only: %i(index show update)
+        resources :suggested_services, only: %i(index show create update)
         resources :treatments, :except => [:new, :edit], :controller => 'user_treatments' do
           resources :conditions, only: :destroy, controller: 'user_condition_user_treatments' do
             post ':id', to: 'user_condition_user_treatments#create', on: :collection

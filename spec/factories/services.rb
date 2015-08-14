@@ -6,6 +6,7 @@ FactoryGirl.define do
     member
     subject { member }
     association :creator, factory: :pha
+    actor { creator }
     owner { creator }
     assignor { creator }
     assigned_at Time.now

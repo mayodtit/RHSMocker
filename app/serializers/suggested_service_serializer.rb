@@ -3,7 +3,7 @@ class SuggestedServiceSerializer < ActiveModel::Serializer
 
   attributes :id, :user_id, :title, :description, :message, :created_at,
              :updated_at, :suggestion_description, :suggestion_message,
-             :icon_url
+             :icon_url, :state, :state_events
 
   alias_method :suggestion_description, :description # deprecated!
   alias_method :suggestion_message, :message # deprecated!
