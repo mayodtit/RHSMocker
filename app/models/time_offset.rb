@@ -14,12 +14,22 @@ class TimeOffset < ActiveRecord::Base
   validate :fixed_offsets_require_fixed_time
   validate :relative_offsets_require_relative_time_and_num_days
 
+  before_validation :set_defaults, on: :create
+
   def calculate(base_time_with_zone)
     raise "Invalid offset_type #{offset_type} - cannot calculate" unless VALID_OFFSET_TYPES.include?(offset_type)
     self.send("calculate_#{offset_type}".to_sym, base_time_with_zone)
   end
 
   private
+
+  def set_defaults
+    self.offset_type ||= :fixed
+    self.direction ||= :before
+    self.fixed_time ||= Time.at(0)
+    self.num_days ||= 0
+    self.relative_time ||= Time.at(0)
+  end
 
   def calculate_fixed(base_time_with_zone)
     raise "Missing fixed_time - cannot calculate" unless fixed_time.present?

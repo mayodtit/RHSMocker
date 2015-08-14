@@ -12,6 +12,8 @@ class SystemRelativeEventTemplate < SystemEventTemplate
 
   before_validation :set_defaults, on: :create
 
+  accepts_nested_attributes_for :time_offset
+
   private
 
   def set_defaults
