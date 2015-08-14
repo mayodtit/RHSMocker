@@ -246,6 +246,10 @@ class Member < User
     has_role?(:specialist)
   end
 
+  def specialist_lead?
+    has_role?(:specialist_lead)
+  end
+
   def service_admin?
     has_role?(:service_admin)
   end
