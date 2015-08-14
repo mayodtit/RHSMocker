@@ -1,7 +1,8 @@
 class SystemEventTemplate < ActiveRecord::Base
   has_one :system_action_template, inverse_of: :system_event_template
   belongs_to :resource, polymorphic: true
-  has_many :system_relative_event_templates, inverse_of: :root_event_template
+  has_many :system_relative_event_templates, foreign_key: :root_event_template_id,
+                                             inverse_of: :root_event_template
   has_many :system_events, inverse_of: :system_event_template
 
   attr_accessible :name, :description, :title, :state, :unique_id, :version, :resource, :resource_id, :resource_type, :resource_attribute
