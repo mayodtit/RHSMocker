@@ -5,6 +5,8 @@ class TimeOffset < ActiveRecord::Base
   VALID_DIRECTIONS = [:before, :after]
 
   belongs_to :system_relative_event_template, inverse_of: :time_offset
+  symbolize :offset_type, in: VALID_OFFSET_TYPES
+  symbolize :direction, in: VALID_DIRECTIONS
 
   validates :direction, :offset_type, presence: true
   validates :direction, inclusion: { in: VALID_DIRECTIONS, message: "Direction must be either 'before' or 'after'" }
