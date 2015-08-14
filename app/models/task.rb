@@ -58,6 +58,7 @@ class Task < ActiveRecord::Base
   validate :attrs_for_states
 
   before_validation :set_defaults, on: :create
+  before_validation :reinitialize_state_machine, on: :create
   before_validation :set_assignor
   before_validation :mark_as_unread
   before_validation :update_priority_score, on: :update
@@ -172,6 +173,11 @@ class Task < ActiveRecord::Base
     if queue.present?
       PubSub.publish "/tasks/queue/#{queue}", { id: id }
     end
+  end
+
+  # call initialize twice to make sure dynamic initial state is set correctly
+  def reinitialize_state_machine
+    initialize_state_machines(dynamic: :force)
   end
 
   def initial_state

@@ -77,7 +77,7 @@ class Api::V1::TasksController < Api::V1::ABaseController
       update_params[:state_event] = 'claim'
     end
 
-    if update_parms[:state_event] == 'claim'
+    if update_params[:state_event] == 'claim'
       update_params[:owner_id] = current_user.id
     end
 
