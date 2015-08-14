@@ -181,11 +181,11 @@ class Task < ActiveRecord::Base
   end
 
   def initial_state
-    if owner.present?
-      self.claimed_at = Time.now
+    if completed? || abandoned? || blocked_internal? || blocked_external?
+      state.to_sym
+    elsif owner.present?
       :claimed
     else
-      self.unclaimed_at = Time.now
       :unclaimed
     end
   end
