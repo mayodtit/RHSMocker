@@ -15,7 +15,7 @@ class Api::V1::SystemEventTemplatesController < Api::V1::ABaseController
 
   def show
     authorize! :read, @system_event_template
-    show_resource @system_event_template.serializer
+    show_resource @system_event_template.serializer(include_nested: true)
   end
 
   def update

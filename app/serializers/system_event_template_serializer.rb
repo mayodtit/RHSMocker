@@ -5,5 +5,13 @@ class SystemEventTemplateSerializer < ActiveModel::Serializer
 
   has_one :system_action_template
 
-  has_many :system_relative_event_templates
+  delegate :system_relative_event_templates, to: :object
+
+  def attributes
+    super.tap do |attrs|
+      if options[:include_nested]
+        attrs[:children] = system_relative_event_templates.serializer.as_json
+      end
+    end
+  end
 end
