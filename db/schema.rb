@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150813175549) do
+ActiveRecord::Schema.define(:version => 20150817215007) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -441,7 +441,7 @@ ActiveRecord::Schema.define(:version => 20150813175549) do
     t.datetime "updated_at", :null => false
   end
 
-  add_index "expertises", ["name"], :name => "index_roles_on_name"
+  add_index "expertises", ["name"], :name => "index_expertises_on_name"
 
   create_table "factor_contents", :force => true do |t|
     t.integer  "factor_id"
@@ -1277,16 +1277,8 @@ ActiveRecord::Schema.define(:version => 20150813175549) do
     t.string  "title"
     t.text    "description"
     t.integer "priority_weight"
+    t.integer "expertise_id"
   end
-
-  create_table "task_category_expertises", :force => true do |t|
-    t.integer  "task_category_id"
-    t.integer  "expertise_id"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
-  end
-
-  add_index "task_category_expertises", ["expertise_id"], :name => "index_task_category_expertises_on_expertise_id"
 
   create_table "task_changes", :force => true do |t|
     t.integer  "task_id",    :null => false
@@ -1361,15 +1353,6 @@ ActiveRecord::Schema.define(:version => 20150813175549) do
     t.datetime "completed_at"
   end
 
-  create_table "task_template_expertises", :force => true do |t|
-    t.integer  "task_template_id"
-    t.integer  "expertise_id"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
-  end
-
-  add_index "task_template_expertises", ["expertise_id"], :name => "index_task_template_expertises_on_expertise_id"
-
   create_table "task_templates", :force => true do |t|
     t.string   "name",                :null => false
     t.string   "title",               :null => false
@@ -1383,6 +1366,7 @@ ActiveRecord::Schema.define(:version => 20150813175549) do
     t.integer  "modal_template_id"
     t.string   "queue"
     t.integer  "task_category_id"
+    t.integer  "expertise_id"
   end
 
   add_index "task_templates", ["service_template_id"], :name => "index_task_templates_on_service_template_id"

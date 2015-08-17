@@ -5,9 +5,8 @@ class TaskTemplate < ActiveRecord::Base
   belongs_to :service_template
   belongs_to :modal_template
   belongs_to :task_category
+  belongs_to :expertise
   has_many :tasks
-  has_many :task_template_expertises
-  has_many :expertises, through: :task_template_expertises
   has_many :task_step_templates, inverse_of: :task_template,
                                  dependent: :destroy
   has_many :task_data_field_templates, inverse_of: :task_template,
@@ -22,7 +21,7 @@ class TaskTemplate < ActiveRecord::Base
   has_many :output_data_field_templates, through: :output_task_data_field_templates,
                                          source: :data_field_template
 
-  attr_accessible :name, :title, :description, :time_estimate, :priority, :service_ordinal, :service_template, :service_template_id, :modal_template, :queue, :task_category, :task_category_id
+  attr_accessible :name, :title, :description, :time_estimate, :priority, :service_ordinal, :service_template, :service_template_id, :modal_template, :queue, :task_category, :task_category_id, :expertise, :expertise_id
 
   validates :name, :title, presence: true
   validates :service_template, presence: true, if: :service_template_id
@@ -36,7 +35,7 @@ class TaskTemplate < ActiveRecord::Base
 
   def create_deep_copy!(new_service_template)
     transaction do
-      new_service_template.task_templates.create!(attributes.slice(*%w(name title description time_estimate priority service_ordinal queue task_category_id))).tap do |new_task_template|
+      new_service_template.task_templates.create!(attributes.slice(*%w(name title description time_estimate priority service_ordinal queue task_category_id expertise_id))).tap do |new_task_template|
         new_task_template.update_attributes!(modal_template: modal_template.create_copy!) if modal_template
         task_step_templates.each do |task_step_template|
           task_step_template.create_deep_copy!(new_service_template, new_task_template)
@@ -45,27 +44,11 @@ class TaskTemplate < ActiveRecord::Base
     end
   end
 
-  def has_expertise?(expertise)
-    expertise_names.include?(expertise.to_s)
-  end
-
-  def add_expertise(expertise_name)
-    return if has_expertise? expertise_name
-
-    expertise = Expertise.where(name: expertise_name).first_or_create!
-    expertises << expertise
-    @expertise_names << expertise.name.to_s if @expertise_names
-  end
-
   private
 
   def copy_title_to_name
     if !self.name
       self.name = self.title
     end
-  end
-
-  def expertise_names
-    @expertise_names ||= expertises.pluck(:name)
   end
 end

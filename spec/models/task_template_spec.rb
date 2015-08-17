@@ -15,54 +15,13 @@ describe TaskTemplate do
     it_validates 'foreign key of', :modal_template
   end
 
-  describe '#add_expertise' do
-    let(:task_template) { create :task_template }
-    let(:expertise) { create :expertise, name: 'expertise' }
-
-    context 'task_template has expertise' do
-      before do
-        task_template.stub(:has_expertise?).with('expertise') { true }
-      end
-
-      it 'does nothing' do
-        Expertise.should_not_receive(:where)
-        task_template.add_expertise 'expertise'
-      end
-    end
-
-    context 'task_template doesn\'t have expertise' do
-      before do
-        task_template.should_not be_has_expertise('expertise')
-      end
-
-      it 'adds the expertise' do
-        task_template.add_expertise 'expertise'
-        task_template.should be_has_expertise('expertise')
-      end
-    end
-  end
-
-  describe '#has_expertise?' do
-    it 'returns true if task_template has the expertise' do
-      task_template = build :task_template
-      task_template.stub(:expertise_names) { ['expertise'] }
-      task_template.should be_has_expertise('expertise')
-    end
-
-    it 'returns false if user has the expertise' do
-      task_template = build :member
-      task_template.stub(:expertise_names) { ['other_expertise'] }
-      task_template.should_not be_has_expertise('expertise')
-    end
-  end
-
   describe '#create_deep_copy!' do
     let!(:origin_task_step_data_field_template) { create(:task_step_data_field_template) }
     let!(:origin_data_field_template) { origin_task_step_data_field_template.data_field_template }
     let!(:origin_task_step_template) { origin_task_step_data_field_template.task_step_template }
     let!(:origin_task_template) { origin_task_step_template.task_template }
     let!(:origin_service_template) { origin_task_template.service_template }
-    let(:origin_task_template_attributes) { origin_task_template.attributes.slice(*%w(name title description time_estimate priority service_ordinal queue task_category_id)) }
+    let(:origin_task_template_attributes) { origin_task_template.attributes.slice(*%w(name title description time_estimate priority service_ordinal queue task_category_id expertise_id)) }
 
     let!(:new_service_template) { create(:service_template) }
     let!(:new_data_field_template) do
@@ -80,7 +39,7 @@ describe TaskTemplate do
       expect(new_task_template.data_field_templates).to include(new_data_field_template)
       expect(new_task_template.task_step_templates.count).to eq(1)
       expect(new_task_template.task_step_templates.first.data_field_templates).to include(new_data_field_template)
-      new_task_template_attributes = new_task_template.attributes.slice(*%w(name title description time_estimate priority service_ordinal queue task_category_id))
+      new_task_template_attributes = new_task_template.attributes.slice(*%w(name title description time_estimate priority service_ordinal queue task_category_id expertise_id))
       expect(new_task_template_attributes).to eq(origin_task_template_attributes)
     end
   end
