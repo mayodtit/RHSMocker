@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150723230139) do
+ActiveRecord::Schema.define(:version => 20150812215202) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -19,10 +19,11 @@ ActiveRecord::Schema.define(:version => 20150723230139) do
     t.string   "city"
     t.string   "state"
     t.string   "postal_code"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
     t.string   "address2"
     t.string   "name"
+    t.integer  "appointment_id"
   end
 
   add_index "addresses", ["user_id"], :name => "index_addresses_on_user_id"
@@ -57,12 +58,40 @@ ActiveRecord::Schema.define(:version => 20150723230139) do
     t.datetime "updated_at",  :null => false
   end
 
+  create_table "appointment_changes", :force => true do |t|
+    t.integer  "appointment_id", :null => false
+    t.integer  "actor_id",       :null => false
+    t.text     "data"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
+  end
+
+  create_table "appointment_templates", :force => true do |t|
+    t.datetime "scheduled_at"
+    t.datetime "created_at",                          :null => false
+    t.datetime "updated_at",                          :null => false
+    t.string   "name"
+    t.string   "title"
+    t.text     "description"
+    t.string   "unique_id"
+    t.string   "state"
+    t.integer  "version",              :default => 0, :null => false
+    t.text     "special_instructions"
+    t.text     "reason_for_visit"
+  end
+
   create_table "appointments", :force => true do |t|
     t.integer  "user_id"
     t.integer  "provider_id"
     t.datetime "scheduled_at"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
+    t.datetime "created_at",              :null => false
+    t.datetime "updated_at",              :null => false
+    t.integer  "creator_id"
+    t.datetime "arrived_at"
+    t.datetime "departed_at"
+    t.integer  "appointment_template_id"
+    t.text     "reason_for_visit"
+    t.text     "special_instructions"
   end
 
   add_index "appointments", ["user_id"], :name => "index_appointments_on_user_id"
@@ -679,6 +708,7 @@ ActiveRecord::Schema.define(:version => 20150723230139) do
     t.datetime "created_at",          :null => false
     t.datetime "updated_at",          :null => false
     t.integer  "user_id"
+    t.string   "first_name"
   end
 
   create_table "onboarding_group_cards", :force => true do |t|
@@ -701,6 +731,13 @@ ActiveRecord::Schema.define(:version => 20150723230139) do
 
   add_index "onboarding_group_programs", ["onboarding_group_id"], :name => "index_onboarding_group_programs_on_onboarding_group_id"
   add_index "onboarding_group_programs", ["program_id"], :name => "index_onboarding_group_programs_on_program_id"
+
+  create_table "onboarding_group_suggested_service_templates", :force => true do |t|
+    t.integer  "onboarding_group_id"
+    t.integer  "suggested_service_template_id"
+    t.datetime "created_at",                    :null => false
+    t.datetime "updated_at",                    :null => false
+  end
 
   create_table "onboarding_groups", :force => true do |t|
     t.string   "name"
@@ -1018,18 +1055,6 @@ ActiveRecord::Schema.define(:version => 20150723230139) do
 
   add_index "service_changes", ["service_id"], :name => "index_service_changes_on_service_id"
 
-  create_table "service_state_transitions", :force => true do |t|
-    t.integer  "service_id", :null => false
-    t.string   "event"
-    t.string   "from"
-    t.string   "to"
-    t.integer  "actor_id",   :null => false
-    t.datetime "created_at", :null => false
-  end
-
-  add_index "service_state_transitions", ["actor_id"], :name => "index_service_state_transitions_on_actor_id"
-  add_index "service_state_transitions", ["service_id"], :name => "index_service_state_transitions_on_service_id"
-
   create_table "service_templates", :force => true do |t|
     t.string   "name",                               :null => false
     t.string   "title",                              :null => false
@@ -1061,28 +1086,31 @@ ActiveRecord::Schema.define(:version => 20150723230139) do
   add_index "service_types", ["name"], :name => "index_service_types_on_name", :unique => true
 
   create_table "services", :force => true do |t|
-    t.string   "title",                                  :null => false
+    t.string   "title",                                   :null => false
     t.text     "description"
-    t.integer  "service_type_id",                        :null => false
-    t.string   "state",                                  :null => false
-    t.integer  "member_id",                              :null => false
+    t.integer  "service_type_id",                         :null => false
+    t.string   "state",                                   :null => false
+    t.integer  "member_id",                               :null => false
     t.integer  "subject_id"
     t.string   "reason_abandoned"
-    t.integer  "creator_id",                             :null => false
-    t.integer  "owner_id",                               :null => false
-    t.integer  "assignor_id",                            :null => false
+    t.integer  "creator_id",                              :null => false
+    t.integer  "owner_id",                                :null => false
+    t.integer  "assignor_id",                             :null => false
     t.datetime "due_at"
     t.datetime "assigned_at"
-    t.datetime "created_at",                             :null => false
-    t.datetime "updated_at",                             :null => false
+    t.datetime "created_at",                              :null => false
+    t.datetime "updated_at",                              :null => false
     t.integer  "service_template_id"
     t.datetime "completed_at"
     t.datetime "abandoned_at"
     t.integer  "abandoner_id"
-    t.boolean  "user_facing",         :default => false, :null => false
+    t.boolean  "user_facing",          :default => false, :null => false
     t.text     "service_request"
     t.text     "service_deliverable"
     t.text     "service_update"
+    t.string   "time_zone"
+    t.integer  "time_zone_offset"
+    t.integer  "suggested_service_id"
   end
 
   add_index "services", ["assignor_id"], :name => "index_services_on_assignor_id"
@@ -1140,6 +1168,17 @@ ActiveRecord::Schema.define(:version => 20150723230139) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "suggested_service_changes", :force => true do |t|
+    t.integer  "suggested_service_id"
+    t.integer  "actor_id"
+    t.string   "event"
+    t.string   "from"
+    t.string   "to"
+    t.text     "data"
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
+  end
+
   create_table "suggested_service_templates", :force => true do |t|
     t.integer  "service_template_id"
     t.string   "title"
@@ -1154,6 +1193,12 @@ ActiveRecord::Schema.define(:version => 20150723230139) do
     t.datetime "created_at",                    :null => false
     t.datetime "updated_at",                    :null => false
     t.integer  "suggested_service_template_id"
+    t.string   "state"
+    t.boolean  "user_facing"
+    t.integer  "service_type_id"
+    t.string   "title"
+    t.text     "description"
+    t.text     "message"
   end
 
   create_table "symptom_medical_advice_items", :force => true do |t|
@@ -1200,15 +1245,52 @@ ActiveRecord::Schema.define(:version => 20150723230139) do
     t.string   "gender"
   end
 
+  create_table "system_action_templates", :force => true do |t|
+    t.integer  "system_event_template_id"
+    t.string   "type"
+    t.text     "message_text"
+    t.integer  "content_id"
+    t.datetime "created_at",               :null => false
+    t.datetime "updated_at",               :null => false
+  end
+
+  create_table "system_actions", :force => true do |t|
+    t.integer  "system_event_id"
+    t.integer  "system_action_template_id"
+    t.integer  "result_id"
+    t.string   "result_type"
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
+  end
+
   create_table "system_event_templates", :force => true do |t|
-    t.string   "name",                       :null => false
-    t.string   "title",                      :null => false
+    t.string   "name",                                   :null => false
+    t.string   "title",                                  :null => false
     t.text     "description"
-    t.string   "unique_id",                  :null => false
-    t.integer  "version",     :default => 0, :null => false
+    t.string   "unique_id",                              :null => false
+    t.integer  "version",                 :default => 0, :null => false
     t.string   "state"
-    t.datetime "created_at",                 :null => false
-    t.datetime "updated_at",                 :null => false
+    t.datetime "created_at",                             :null => false
+    t.datetime "updated_at",                             :null => false
+    t.string   "type"
+    t.integer  "root_event_template_id"
+    t.integer  "appointment_template_id"
+  end
+
+  create_table "system_events", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "system_event_template_id"
+    t.datetime "trigger_at"
+    t.string   "state"
+    t.datetime "created_at",               :null => false
+    t.datetime "updated_at",               :null => false
+    t.integer  "appointment_id"
+  end
+
+  create_table "task_categories", :force => true do |t|
+    t.string  "title"
+    t.text    "description"
+    t.integer "priority_weight"
   end
 
   create_table "task_changes", :force => true do |t|
@@ -1304,6 +1386,8 @@ ActiveRecord::Schema.define(:version => 20150723230139) do
     t.integer  "priority"
     t.integer  "modal_template_id"
     t.integer  "task_template_set_id"
+    t.string   "queue"
+    t.integer  "task_category_id"
   end
 
   add_index "task_templates", ["service_template_id"], :name => "index_task_templates_on_service_template_id"
@@ -1355,6 +1439,10 @@ ActiveRecord::Schema.define(:version => 20150723230139) do
     t.datetime "blocked_external_at"
     t.datetime "unblocked_at"
     t.string   "queue"
+    t.string   "time_zone"
+    t.integer  "time_zone_offset"
+    t.integer  "task_category_id"
+    t.text     "reason_blocked"
   end
 
   add_index "tasks", ["owner_id", "state", "role_id", "type"], :name => "queue_test"
@@ -1362,6 +1450,17 @@ ActiveRecord::Schema.define(:version => 20150723230139) do
   add_index "tasks", ["state", "due_at", "created_at"], :name => "index_tasks_on_state_and_due_at_and_created_at"
   add_index "tasks", ["state"], :name => "index_tasks_on_state"
   add_index "tasks", ["type", "consult_id", "state"], :name => "index_tasks_on_type_and_consult_id_and_state"
+
+  create_table "time_offsets", :force => true do |t|
+    t.string   "offset_type",                       :null => false
+    t.string   "direction",                         :null => false
+    t.time     "fixed_time"
+    t.integer  "num_days"
+    t.time     "relative_time"
+    t.datetime "created_at",                        :null => false
+    t.datetime "updated_at",                        :null => false
+    t.integer  "system_relative_event_template_id"
+  end
 
   create_table "treatment_side_effects", :force => true do |t|
     t.integer  "treatment_id"

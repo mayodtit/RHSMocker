@@ -176,9 +176,21 @@ PHA_ATTRIBUTES = [
     arrow_image: 'mnorton-arrow.png',
     avatar_image: 'mnorton-avatar.jpg',
     bio_image: 'mnorton-bio_image.png'
+  },
+  {
+    email: 'nicole@getbetter.com',
+    first_name: 'Nicole',
+    last_name: 'N',
+    gender: 'female',
+    bio: "Nicole is an EMT with a public health background. She has volunteered and interned at hospitals in LA and SF, and assisted in mental health and Latino culture/health research at UCLA. She loves advocating for human rights, weightlifting, traveling, eating, and doing photography in her free time.",
+    first_person_bio: "I’m an EMT with a public health background. I’ve volunteered and interned at hospitals in LA and SF, and assisted in mental health and Latino culture/health research at UCLA. I love advocating for human rights, weightlifting, traveling, eating, and doing photography in my free time.",
+    arrow_image: 'nicole-bio_image.png', # yes, I know this is not right, she is an HCC
+    avatar_image: 'nicole-avatar.jpg',
+    bio_image: 'nicole-bio_image.png'
   }
 ]
 
+puts 'Creating PHA Users...'
 PHA_ATTRIBUTES.each do |attributes|
   create_attributes = {
     email: attributes[:email],
@@ -215,3 +227,9 @@ Member.upsert_attributes({email: 'geoff@getbetter.com'}, {first_name: 'Geoff', l
 end
 
 Member.find_by_email('caitlin@getbetter.com').pha_profile.update_attributes(:weekly_capacity => 0)
+Member.find_by_email('nicole@getbetter.com').pha_profile.update_attributes(:weekly_capacity => 0)
+
+# Sibley
+puts 'Creating Sibley Users...'
+m = Member.find_or_create_by_email('shoncha1@betterprovider.jhmi.edu')
+m.update_attributes(owner: m, first_name: 'Suzanne', last_name: 'Honchalk', gender: "female", avatar_url_override: 'https://s3-us-west-2.amazonaws.com/btr-static/npi_avatars/sibley_suzanne.png', expertise: 'R.N.', provider_taxonomy_code:'364S00000X')

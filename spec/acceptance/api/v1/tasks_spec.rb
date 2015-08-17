@@ -23,7 +23,7 @@ resource "Tasks" do
     get '/api/v1/tasks/' do
       example_request '[GET] Get all tasks' do
         explanation 'Get all tasks (along with the member\'s information), most recent first. Accessible only by HCPs'
-        status.should == 200
+        expect(status).to eq(200)
         response = JSON.parse response_body, symbolize_names: true
         response[:tasks].to_json.should == [task, another_task, assigned_task].serializer(shallow: true).to_json
       end
@@ -40,13 +40,30 @@ resource "Tasks" do
       get '/api/v1/tasks/queue' do
         example_request '[GET] Get the tasks queue for the current user' do
           explanation 'Get the task queue for the current user. Accessible only by HCPs'
-          status.should == 200
+          expect(status).to eq(200)
           response = JSON.parse response_body, symbolize_names: true
           response[:tasks].to_json.should == [assigned_task, claimed_task].serializer(shallow: true).to_json
           response[:future_count].should == 0
         end
       end
     end
+
+  describe 'next_tasks' do
+    context 'get the nexts tasks of the current user' do
+      let!(:assigned_task) { create(:member_task, :assigned, owner: pha, due_at: 3.days.ago, queue: :specialist) }
+      parameter :auth_token, 'Performing hcp\'s auth_token'
+
+      required_parameters :auth_token
+      get '/api/v1/tasks/next_tasks' do
+        example_request '[GET] Get the next tasks for the current user' do
+          explanation 'Get the next tasks for the current user. Accessible only by HCPs in specialist queue mode'
+          expect(status).to eq(200)
+          response = JSON.parse response_body, symbolize_names: true
+          response[:tasks].to_json.should == [assigned_task].serializer(shallow: true).to_json
+        end
+      end
+    end
+  end
 
     context 'get the queue of the user with passed in id'do
       let(:another_pha) {create(:pha)}
@@ -82,7 +99,7 @@ resource "Tasks" do
     get '/api/v1/tasks/:id' do
       example_request '[GET] Get a task' do
         explanation 'Get a task (along with the member\'s information). Accessible only by HCPs'
-        status.should == 200
+        expect(status).to eq(200)
         response = JSON.parse response_body, symbolize_names: true
         response[:task].to_json.should == task.serializer.to_json
       end
@@ -99,7 +116,7 @@ resource "Tasks" do
     get '/api/v1/tasks/current' do
       example_request '[GET] Get the current claimed task of the pha.' do
         explanation 'Get the current claimed task of the pha. Accessible only by HCPs'
-        status.should == 200
+        expect(status).to eq(200)
         response = JSON.parse response_body, symbolize_names: true
         response[:task].to_json.should == claimed_task.serializer.to_json
       end
@@ -128,7 +145,7 @@ resource "Tasks" do
     put '/api/v1/tasks/:id' do
       example_request '[PUT] Update a task' do
         explanation 'Update a task or transition it through a state. Accessible only by HCPs'
-        status.should == 200
+        expect(status).to eq(200)
         response = JSON.parse response_body, symbolize_names: true
         task.reload
         task.should be_abandoned

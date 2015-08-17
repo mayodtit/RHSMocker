@@ -1,6 +1,6 @@
 class Api::V1::TasksController < Api::V1::ABaseController
   before_filter :load_user!
-  before_filter :load_task!, except: [:index, :queue, :current]
+  before_filter :load_task!, except: [:index, :queue, :current, :next_tasks]
 
   def index
     authorize! :read, Task
@@ -15,6 +15,18 @@ class Api::V1::TasksController < Api::V1::ABaseController
     user = params[:pha_id] && User.find_by_id(params[:pha_id]) ? User.find(params[:pha_id]) : current_user
     tasks, tomorrow_count, future_count = user.queue(params)
     render_success tasks: tasks.serializer(shallow: true), tomorrow_count: tomorrow_count, future_count: future_count
+  end
+
+  def next_tasks
+    authorize! :read, Task
+    queue_tasks, tomorrow_count, future_count = current_user.queue(params)
+    tasks = if queue_tasks.any?
+      queue_tasks
+    else
+      Task.claim_next_tasks!(current_user)
+    end
+
+    render_success tasks: tasks.serializer(shallow: true)
   end
 
   def show
@@ -41,6 +53,10 @@ class Api::V1::TasksController < Api::V1::ABaseController
       update_params.delete :reason_abandoned
     end
 
+    if update_params[:state_event] == 'report_blocked_by_internal' || update_params[:state_event] == 'report_blocked_by_external'
+      update_params[:reason_blocked] = update_params[:reason]
+    end
+
     if update_params.has_key?(:due_at) && update_params[:reason].blank?
       update_params[:reason] = 'no_reason_pre_cp_support'
     end
@@ -49,7 +65,7 @@ class Api::V1::TasksController < Api::V1::ABaseController
       update_params[update_params[:state_event].event_actor.to_sym] = current_user
     end
 
-    if %w(claim abandon complete).include?(update_params[:state_event]) && !@task.owner_id && !update_params[:owner_id]
+    if %w(abandon complete).include?(update_params[:state_event]) && !@task.owner_id && !update_params[:owner_id]
       update_params[:owner_id] = current_user.id
     end
 
@@ -59,6 +75,10 @@ class Api::V1::TasksController < Api::V1::ABaseController
 
     if update_params[:owner_id] && !update_params[:state_event] && @task.state == 'unclaimed'
       update_params[:state_event] = 'claim'
+    end
+
+    if update_params[:state_event] == 'claim'
+      update_params[:owner_id] = current_user.id
     end
 
     if ( update_params[:state_event] == 'complete' || update_params[:state_event] == 'abandon' ) && @task.service
@@ -93,6 +113,6 @@ class Api::V1::TasksController < Api::V1::ABaseController
   end
 
   def task_attributes
-    params.require(:task).permit(:title, :description, :due_at, :state_event, :owner_id, :reason, :reason_abandoned, :member_id, :subject_id, :service_type_id, :day_priority, :pubsub_client_id, :urgent, :follow_up, :result)
+    params.require(:task).permit(:title, :description, :due_at, :state_event, :owner_id, :reason, :reason_abandoned, :member_id, :subject_id, :service_type_id, :day_priority, :pubsub_client_id, :urgent, :follow_up, :unread, :result)
   end
 end

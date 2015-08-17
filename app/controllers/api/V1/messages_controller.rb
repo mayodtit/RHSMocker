@@ -7,7 +7,8 @@ class Api::V1::MessagesController < Api::V1::ABaseController
     render_success(consult: @consult.serializer,
                    messages: messages.serializer(shallow: true),
                    users: @users.serializer,
-                   total_count: @total_count_per_user)
+                   total_count: @total_count_per_user,
+                   messaging_tutorial: messaging_tutorial)
   end
 
   def create
@@ -85,6 +86,16 @@ class Api::V1::MessagesController < Api::V1::ABaseController
       attributes[:pubsub_client_id] = params[:pubsub_client_id]
       attributes[:user] = current_user.impersonated_user || current_user
       attributes[:image] = decode_b64_image(attributes[:image]) if attributes[:image]
+    end
+  end
+
+  def messaging_tutorial
+    if @consult.initiator.messages.any?
+      nil
+    else
+      {
+        text: "Tell us how we can help you by sending a message to a Personal Health Assistant."
+      }
     end
   end
 end

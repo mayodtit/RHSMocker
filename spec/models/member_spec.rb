@@ -198,17 +198,6 @@ describe Member do
       end
     end
 
-    describe '#add_onboarding_group_cards' do
-      let!(:onboarding_group_card) { create(:onboarding_group_card) }
-      let(:onboarding_group) { onboarding_group_card.onboarding_group }
-      let(:resource) { onboarding_group_card.resource }
-      let!(:member) { create(:member, onboarding_group: onboarding_group) }
-
-      it 'adds cards to the new member' do
-        expect(member.cards.where(resource_id: resource.id, resource_type: resource.class.name).count).to eq(1)
-      end
-    end
-
     describe '#add_onboarding_group_programs' do
       let!(:onboarding_group_program) { create(:onboarding_group_program) }
       let(:onboarding_group) { onboarding_group_program.onboarding_group }
@@ -217,6 +206,19 @@ describe Member do
 
       it 'adds programs to the new member' do
         expect(member.programs.where(programs: {id: program.id}).count).to eq(1)
+      end
+    end
+
+    describe '#add_onboarding_group_suggested_services' do
+      let!(:onboarding_group_suggested_service_template) { create(:onboarding_group_suggested_service_template) }
+      let(:onboarding_group) { onboarding_group_suggested_service_template.onboarding_group }
+      let(:suggested_service_template) { onboarding_group_suggested_service_template.suggested_service_template }
+      let!(:member) { create(:member, onboarding_group: onboarding_group) }
+
+      it 'adds programs to the new member' do
+        expect(member.suggested_services.count).to eq(1)
+        suggested_service = member.suggested_services.first
+        expect(suggested_service.suggested_service_template).to eq(suggested_service_template)
       end
     end
 
@@ -837,9 +839,13 @@ describe Member do
           o = Object.new
           o.stub(:where).with(visible_in_queue: true, :unread=>false, :urgent=>false) do
             o_o = Object.new
-            o_o.stub(:includes).with(:member, :member => :phone_numbers) do
+            o_o.stub(:where).with('state <> "blocked_external" AND state <> "blocked_internal"') do
               o_o_o = Object.new
-              o_o_o.stub(:order).with('due_at DESC') { tasks }
+              o_o_o.stub(:includes).with(:member, :member => :phone_numbers) do
+                o_o_o_o = Object.new
+                o_o_o_o.stub(:order).with('due_at DESC') { tasks }
+                o_o_o_o
+              end
               o_o_o
             end
             o_o

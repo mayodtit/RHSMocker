@@ -47,7 +47,8 @@ class Member < User
   has_many :request_tasks, class_name: 'Task', conditions: {type: %w(UserRequestTask ParsedNurselineRecordTask)}
   has_many :service_tasks, class_name: 'MemberTask',
                            conditions: proc{ {service_type_id: ServiceType.non_engagement_ids} }
-  has_many :services
+  has_many :message_tasks, class_name: 'MessageTask'
+  has_many :services, inverse_of: :member
   belongs_to :onboarding_group, inverse_of: :users
   belongs_to :referral_code, inverse_of: :users
   has_many :user_requests, foreign_key: :user_id
@@ -127,11 +128,9 @@ class Member < User
   before_validation :unset_invitation_token
   before_validation :set_pha, if: ->(m){m.signed_up? && m.status_changed?}
   before_validation :set_master_consult, if: ->(m){m.signed_up? && m.status_changed?}
-  after_create :add_new_member_content
   after_create :add_owned_referral_code
-  after_create :add_onboarding_group_provider
-  after_create :add_onboarding_group_cards
   after_create :add_onboarding_group_programs
+  after_create :add_onboarding_group_suggested_services
   after_save :alert_stakeholders_on_call_status
   after_save :update_referring_scheduled_communications, if: ->(m){m.free_trial_ends_at_changed?}
   after_commit :create_kinsights_job, on: :create
@@ -370,7 +369,7 @@ class Member < User
               when :pha
                 Task.pha_queue(self)
               when :specialist
-                Task.specialist_queue
+                Task.specialist_queue(self)
               else
                 Task.pha_queue(self)
               end
@@ -378,8 +377,8 @@ class Member < User
               Task.pha_queue(self)
             end
 
-    tasks = query.where(visible_in_queue: true, unread: false, urgent: false).includes(:member, :member => :phone_numbers).order(task_order)
-    immediate_tasks = query.where(role_id: role.id, visible_in_queue: true).where('unread IS TRUE OR urgent IS TRUE').includes(:member, :member => :phone_numbers).order(task_order) if pha?
+    tasks = query.where(visible_in_queue: true, unread: false, urgent: false).where('state <> "blocked_external" AND state <> "blocked_internal"').includes(:member, :member => :phone_numbers).order(task_order)
+    immediate_tasks = query.where(role_id: role.id, visible_in_queue: true).where('unread IS TRUE OR urgent IS TRUE OR state = "blocked_external" OR state = "blocked_internal"').includes(:member, :member => :phone_numbers).order(task_order) if pha?
     tomorrow_count = 0
     future_count = 0
 
@@ -559,63 +558,20 @@ class Member < User
                                            skip_tasks: true)
   end
 
-  def add_new_member_content
-    add_mayo_pilot_content
-    cards.create(resource: CustomCard.gender, priority: 20) if CustomCard.gender
-    add_weather_content
-    add_happiness_content
-    cards.create(resource: CustomCard.swipe_explainer, priority: 0) if CustomCard.swipe_explainer
-  end
-
-  def add_weather_content
-    if (5..9).include?(Date.today.month)
-      add_hot_weather_content
-    else
-      add_cold_weather_content
-    end
-  end
-
-  def add_mayo_pilot_content
-    cards.create(resource: Content.mayo_pilot, priority: 30) if (onboarding_group.try(:mayo_pilot?)) && (Content.mayo_pilot)
-  end
-
-  def add_cold_weather_content
-    cards.create(resource: @cold_weather_content, priority: 1) if @cold_weather_content = Content.find_by_document_id('HQ01681')
-  end
-
-   def add_hot_weather_content
-    cards.create(resource: @heat_exhaustion_content, priority: 1) if @heat_exhaustion_content = Content.find_by_document_id('DS01046')
-    cards.create(resource: @sunscreen_content, priority: 1) if @sunscreen_content = Content.find_by_document_id('MY01350')
-  end
-
-  def add_happiness_content
-    cards.create(resource: @happiness_content, priority: 1) if @happiness_content = Content.find_by_document_id('MY01357')
-  end
-
-
-
   def add_owned_referral_code
     return if owned_referral_code
     create_owned_referral_code!(name: email)
   end
 
-  def add_onboarding_group_provider
-    if onboarding_group.try(:provider)
-      associations.create(associate: onboarding_group.provider,
-                          association_type_id: AssociationType.hcp_default_id,
-                          creator: self)
-    end
-  end
-
-  def add_onboarding_group_cards
-    (onboarding_group.try(:onboarding_group_cards) || []).each do |card|
-      cards.create(resource: card.resource, priority: card.priority)
-    end
-  end
-
   def add_onboarding_group_programs
     (onboarding_group.try(:programs) || []).each do |program|
       user_programs.create(program: program, subject: self)
+    end
+  end
+
+  def add_onboarding_group_suggested_services
+    (onboarding_group.try(:suggested_service_templates) || []).each do |suggested_service_template|
+      suggested_services.create(suggested_service_template: suggested_service_template)
     end
   end
 

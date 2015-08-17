@@ -5,13 +5,17 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
     if @user = Member.find_by_email(params[:email])
       render_success(requires_sign_up: false,
                      skip_credit_card: onboarding_skip_credit_card?,
+                     user: onboarding_user_attributes,
+                     onboarding_customization: onboarding_customization,
+                     onboarding_custom_welcome: onboarding_custom_welcome)
+    elsif email_valid?
+      render_success(requires_sign_up: true,
+                     skip_credit_card: onboarding_skip_credit_card?,
+                     user: onboarding_user_attributes,
                      onboarding_customization: onboarding_customization,
                      onboarding_custom_welcome: onboarding_custom_welcome)
     else
-      render_success(requires_sign_up: true,
-                     skip_credit_card: onboarding_skip_credit_card?,
-                     onboarding_customization: onboarding_customization,
-                     onboarding_custom_welcome: onboarding_custom_welcome)
+      render_failure({reason: 'Email is invalid'}, 422)
     end
   end
 
@@ -30,7 +34,8 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
       render_success(user: @user.serializer(include_roles: true),
                      pha: @user.pha.try(:serializer),
                      auth_token: @session.auth_token,
-                     onboarding_custom_welcome: onboarding_custom_welcome)
+                     onboarding_custom_welcome: onboarding_custom_welcome,
+                     suggested_services_modal: onboarding_suggested_services_modal)
     else
       render_failure({reason: @session.errors.full_messages.to_sentence}, 422)
     end
@@ -39,10 +44,14 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
   def sign_up
     sign_up_response = SignUpService.new(sign_up_params, sign_up_options).call
     if sign_up_response[:success]
-      render_success(user: sign_up_response[:user].serializer,
-                     member: sign_up_response[:user].serializer,
-                     pha_profile: sign_up_response[:user].pha.try(:pha_profile).try(:serializer),
-                     auth_token: sign_up_response[:session].auth_token)
+      @user = sign_up_response[:user]
+      @session = sign_up_response[:session]
+      render_success(user: @user.serializer,
+                     member: @user.serializer,
+                     pha_profile: @user.pha.try(:pha_profile).try(:serializer),
+                     auth_token: @session.auth_token,
+                     onboarding_custom_welcome: onboarding_custom_welcome,
+                     suggested_services_modal: onboarding_suggested_services_modal)
     else
       render_failure({reason: sign_up_response[:reason],
                       user_message: sign_up_response[:reason]}, 422)
@@ -63,6 +72,16 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
     onboarding_group.try(:skip_credit_card?) ? true : false
   end
 
+  def onboarding_user_attributes
+    if @user
+      {first_name: @user.first_name}
+    elsif onboarding_group_candidate
+      {first_name: onboarding_group_candidate.first_name}
+    else
+      nil
+    end
+  end
+
   def onboarding_customization
     if onboarding_group.try(:onboarding_customization?)
       onboarding_group.try(:serializer, onboarding_customization: true)
@@ -72,10 +91,32 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
   end
 
   def onboarding_custom_welcome
-    if onboarding_group.try(:onboarding_custom_welcome?)
+    if @user && past_sessions.any?
+      []
+    elsif onboarding_group.try(:onboarding_custom_welcome?)
       [onboarding_group.serializer(onboarding_custom_welcome: true).as_json]
     else
       []
+    end
+  end
+
+  def past_sessions
+    sessions = Session.unscoped.where(member_id: @user.id)
+    sessions = sessions.where('id != ?', @session.id) if @session
+    sessions
+  end
+
+  def onboarding_suggested_services_modal
+    if @user.messages.any?
+      nil
+    elsif @user.suggested_services.any?
+      {
+        header_text: 'To get started with a Personal Health Assistant, please select a Service.',
+        suggested_services: @user.suggested_services.serializer.as_json,
+        action_button_text: "LET'S GO!"
+      }
+    else
+      nil
     end
   end
 
@@ -103,7 +144,7 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
   end
 
   def user_params
-    params.fetch(:user){params.require(:member)}
+    params.fetch(:member){params.require(:user)}
   end
 
   def sign_up_user_params
@@ -153,5 +194,9 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
         }
       ]
     end
+  end
+
+  def email_valid?
+    ValidateEmail.valid?(params[:email]) && ValidateEmail.mx_valid?(params[:email])
   end
 end

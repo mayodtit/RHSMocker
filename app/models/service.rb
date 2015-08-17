@@ -1,5 +1,5 @@
 class Service < ActiveRecord::Base
-  OPEN_STATES = %w(open waiting)
+  OPEN_STATES = %w(open waiting draft)
   CLOSED_STATES = %w(completed abandoned)
 
   belongs_to :service_type
@@ -7,8 +7,9 @@ class Service < ActiveRecord::Base
   has_many :data_fields, inverse_of: :service,
                          include: :data_field_template,
                          dependent: :destroy
+  belongs_to :suggested_service, inverse_of: :service
 
-  belongs_to :member
+  belongs_to :member, inverse_of: :services
   belongs_to :subject, class_name: 'User'
 
   belongs_to :creator, class_name: 'Member'
@@ -16,31 +17,38 @@ class Service < ActiveRecord::Base
   belongs_to :assignor, class_name: 'Member'
   belongs_to :abandoner, class_name: 'Member'
 
-  has_many :service_state_transitions
   has_many :tasks, order: 'service_ordinal ASC, priority DESC, due_at ASC, created_at ASC',
                    dependent: :destroy
-  has_many :service_changes, order: 'created_at DESC'
+  has_many :member_tasks
+  has_many :service_changes
   has_one :entry, as: :resource
 
   has_many :messages, inverse_of: :service
   has_many :scheduled_communications, inverse_of: :service
 
-  attr_accessor :actor_id, :change_tracked, :reason, :pubsub_client_id
+  attr_accessor :actor, :change_tracked, :reason, :pubsub_client_id
   attr_accessible :description, :title, :service_type_id, :service_type, :user_facing, :service_request, :service_deliverable,
                   :member_id, :member, :subject_id, :subject, :reason_abandoned, :reason, :abandoner, :abandoner_id,
-                  :creator_id, :creator, :owner_id, :owner, :assignor_id, :assignor, :service_update,
-                  :actor_id, :due_at, :state_event, :service_template, :service_template_id, :pubsub_client_id
+                  :creator_id, :creator, :owner_id, :owner, :assignor_id, :assignor, :service_update, :time_zone,
+                  :actor, :due_at, :state_event, :service_template, :service_template_id, :pubsub_client_id
 
-  validates :title, :service_type, :state, :member, :creator, :owner, :assignor, :assigned_at, presence: true
+  validates :title, :service_type, :state, :member, :subject, :creator, :owner, :assignor, :assigned_at, presence: true
   validates :user_facing, :inclusion => { :in => [true, false] }
-  validates :service_template, presence: true, if: lambda { |s| s.service_template_id.present? }
+  validates :service_template, presence: true, if: :service_template_id
+  validates :suggested_service, presence: true, if: :suggested_service_id
   validate :no_placeholders_in_user_facing_attributes
 
+  before_validation :reinitialize_state_machine, on: :create
   before_validation :set_defaults, on: :create
   before_validation :set_assigned_at
   after_create :create_next_task_template_set_tasks
   after_create :create_data_fields!, if: :service_template
+<<<<<<< HEAD
   after_create :create_service_blocked_task!, if: :waiting?
+=======
+  after_create :create_next_ordinal_tasks
+  after_save :create_service_blocked_task!, if: :waiting?
+>>>>>>> develop
   after_commit :track_update, on: :update
   after_commit :publish
 
@@ -71,7 +79,7 @@ class Service < ActiveRecord::Base
   end
 
   def create_next_task_template_set_tasks(current_task_template_set = nil, last_due_at=Time.now)
-    return if waiting?
+    return if waiting? || draft?
     return unless open? && service_template && tasks.open_state.empty?
     return if tasks.empty? && service_template.task_templates.empty?
     if next_task_template_set = next_task_template_set(current_task_template_set)
@@ -103,16 +111,63 @@ class Service < ActiveRecord::Base
     end
   end
 
-  def initial_state
-    if service_template.try(:data_field_templates).try(:select, &:required_for_service_start).try(:any?)
+  def calculated_next_state
+    if completed? || abandoned?
+      state.to_sym
+    elsif open_conversations_with_member?
+      :draft
+    elsif missing_prerequisite_data?
       :waiting
     else
       :open
     end
   end
 
-  state_machine initial: ->(s){s.initial_state} do
-    store_audit_trail to: 'ServiceChange', context_to_log: %i(actor_id data reason)
+  def open_conversations_with_member?
+    member.try(:message_tasks).try(:select, &:open?).try(:any?) || false
+  end
+
+  def missing_prerequisite_data?
+    required_data_fields = data_fields.select(&:required_for_service_start)
+    if required_data_fields.reject(&:data).any?
+      true
+    elsif service_template.nil?
+      false
+    elsif service_template.data_field_templates.select(&:required_for_service_start).count > required_data_fields.count
+      true
+    else
+      false
+    end
+  end
+
+  def calculated_state_event(next_state)
+    case next_state
+    when :open
+      :reopen
+    when :waiting
+      :wait
+    when :completed
+      :complete
+    when :abandoned
+      :abandon
+    else
+      nil
+    end
+  end
+
+  def auto_transition!
+    next_state = calculated_next_state
+    return if state?(next_state)
+    state_event = calculated_state_event(next_state)
+    update_attributes!(state_event: state_event) if state_event
+  end
+
+  state_machine initial: ->(s) { s.calculated_next_state } do
+    store_audit_trail to: 'ServiceChange', context_to_log: %i(actor data reason)
+
+    event :reset do
+      transition any => :draft
+    end
 
     event :wait do
       transition any => :waiting
@@ -151,18 +206,6 @@ class Service < ActiveRecord::Base
     end
   end
 
-  def actor_id
-    if @actor_id.nil?
-      if owner_id.nil?
-        creator_id
-      else
-        owner_id
-      end
-    else
-      @actor_id
-    end
-  end
-
   def data
     changes = previous_changes.except(
         :state,
@@ -182,23 +225,32 @@ class Service < ActiveRecord::Base
     if change_tracked
       self.change_tracked = false
     elsif _data = data
-      ServiceChange.create! service: self, actor_id: self.actor_id, event: 'update', data: _data, reason: reason
+      service_changes.create!(actor: actor, event: 'update', data: _data, reason: reason)
     end
   end
 
   private
 
+  # call initialize twice to make sure dynamic initial state is set correctly
+  def reinitialize_state_machine
+    initialize_state_machines(dynamic: :force)
+  end
+
   def set_defaults
-    self.title ||= service_template.try(:title)
+    self.service_template ||= suggested_service.try(:suggested_service_template).try(:service_template)
+    self.member ||= suggested_service.try(:user)
+    self.title ||= suggested_service.try(:title) || service_template.try(:title)
     self.description ||= service_template.try(:description)
-    self.service_type ||= service_template.try(:service_type)
+    self.service_type ||= service_template.try(:service_type) || suggested_service.try(:service_type)
     self.due_at ||= service_template.try(:calculated_due_at)
     self.service_update ||= service_template.try(:service_update)
     self.user_facing = service_template.try(:user_facing) if user_facing.nil?
     self.subject ||= member
     self.owner ||= member.try(:pha)
+    self.creator ||= actor
     self.assignor ||= creator
-    self.actor_id ||= creator.try(:id)
+    self.time_zone ||= member.try(:time_zone)
+    self.time_zone_offset = ActiveSupport::TimeZone.new(time_zone).try(:utc_offset) if time_zone
     true
   end
 
@@ -223,7 +275,7 @@ class Service < ActiveRecord::Base
   end
 
   def create_service_blocked_task!
-    return if ServiceBlockedTask.where(service_id: id).any?
+    return if ServiceBlockedTask.where(service_id: id).open_state.any?
     ServiceBlockedTask.create!(service: self, title: 'Unblock service', due_at: Time.now)
   end
 end

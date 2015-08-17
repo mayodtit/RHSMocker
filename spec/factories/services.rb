@@ -2,13 +2,26 @@ FactoryGirl.define do
   factory :service do
     title "Title"
     description "A description"
-    association :service_type
-    association :member
-    association :subject, factory: :user
+    service_type
+    member
+    subject { member }
     association :creator, factory: :pha
-    association :owner, factory: :pha
-    association :assignor, factory: :pha
+    actor { creator }
+    owner { creator }
+    assignor { creator }
     assigned_at Time.now
+
+    trait :draft do
+      state 'draft'
+    end
+
+    trait 'waiting' do
+      state 'waiting'
+    end
+
+    trait :open do
+      state 'open'
+    end
 
     trait :completed do
       state 'completed'

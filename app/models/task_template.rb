@@ -1,7 +1,11 @@
 class TaskTemplate < ActiveRecord::Base
+  QUEUE_TYPES = %i(hcc pha nurse specialist)
+  symbolize :queue, in: QUEUE_TYPES
+
   belongs_to :service_template
   belongs_to :modal_template
   belongs_to :task_template_set
+  belongs_to :task_category
   has_many :tasks
   has_many :task_step_templates, inverse_of: :task_template,
                                  dependent: :destroy
@@ -19,7 +23,8 @@ class TaskTemplate < ActiveRecord::Base
 
   attr_accessible :name, :title, :description, :time_estimate, :priority,
                   :service_template, :service_template_id, :service_ordinal,
-                  :modal_template, :task_template_set_id, :task_template_set
+                  :modal_template, :task_template_set_id, :task_template_set,
+                  :queue, :task_category, :task_category_id
 
   validates :name, :title, presence: true
   validates :service_template, presence: true, if: :service_template_id
@@ -33,7 +38,7 @@ class TaskTemplate < ActiveRecord::Base
 
   def create_deep_copy!(override_task_template_set=nil)
     transaction do
-      new_task_template = self.class.create!(attributes.except('id', 'created_at', 'updated_at', 'modal_template_id', 'task_template_set_id', 'service_template_id').merge(task_template_set: override_task_template_set || task_template_set, service_template: override_task_template_set.service_template || service_template))
+      new_task_template = self.class.create!(attributes.slice(*%w(name title description time_estimate priority service_ordinal queue task_category_id))).merge(task_template_set: override_task_template_set || task_template_set, service_template: override_task_template_set.service_template || service_template))
       new_task_template.update_attributes!(modal_template: modal_template.create_copy!) if modal_template
       task_step_templates.each do |task_step_template|
         task_step_template.create_deep_copy!(override_task_template_set.service_template, new_task_template)

@@ -8,10 +8,12 @@ describe Service do
     it_validates 'presence of', :service_type
     it_validates 'presence of', :state
     it_validates 'presence of', :member
+    it_validates 'presence of', :subject
     it_validates 'presence of', :creator
     it_validates 'presence of', :owner
     it_validates 'presence of', :assignor
     it_validates 'foreign key of', :service_template
+    it_validates 'foreign key of', :suggested_service
 
     it 'validates presence of assigned_at' do
       service = build_stubbed :service
@@ -66,13 +68,69 @@ describe Service do
     end
   end
 
+  describe 'state machine' do
+    let!(:pha) { create(:pha) }
+    let!(:user) { create(:member, :premium, pha: pha) }
+
+    describe 'initial state' do
+      context 'with required data fields' do
+        let!(:service_template) { create(:service_template) }
+        let!(:data_field_template) { create(:data_field_template, service_template: service_template, required_for_service_start: true) }
+        let!(:task_template) { create(:task_template, service_template: service_template, service_ordinal: 0) }
+        let!(:task_step_template) { create(:task_step_template, task_template: task_template) }
+
+        before do
+          task_step_template.add_data_field_template!(data_field_template)
+        end
+
+        it 'creates a service in :waiting state' do
+          service = user.services.create!(service_template: service_template, actor: pha)
+          expect(service).to be_valid
+          expect(service).to be_persisted
+          expect(service).to be_waiting
+        end
+
+        context 'in a conversation with a PHA' do
+          let!(:message_task) { create(:message_task, consult: user.master_consult) }
+
+          it 'creates a service in :draft state' do
+            service = user.services.create!(service_template: service_template, actor: pha)
+            expect(service).to be_valid
+            expect(service).to be_persisted
+            expect(service).to be_draft
+          end
+        end
+      end
+
+      context 'without required data fields' do
+        let!(:service_template) { create(:service_template) }
+        let!(:task_template) { create(:task_template, service_template: service_template, service_ordinal: 0) }
+
+        it 'creates a service in :open state' do
+          service = user.services.create!(service_template: service_template, actor: pha)
+          expect(service).to be_valid
+          expect(service).to be_persisted
+          expect(service).to be_open
+        end
+      end
+    end
+  end
+
   describe '#set_defaults' do
     let(:service_template) { create(:service_template) }
     let(:pha) { create(:pha) }
     let(:member) { create(:member, :premium, pha: pha) }
 
+    before do
+      Timecop.freeze
+    end
+
+    after do
+      Timecop.return
+    end
+
     it 'creates a Service from ServiceTemplate when present' do
-      service = described_class.create(service_template: service_template, member: member, creator: pha)
+      service = described_class.create(service_template: service_template, member: member, actor: pha)
       expect(service).to be_valid
       expect(service.title).to eq(service_template.title)
       expect(service.description).to eq(service_template.description)
@@ -118,47 +176,6 @@ describe Service do
     end
   end
 
-  context '#actor_id' do
-    let(:service) { build :service }
-
-    context '@actor_id is not nil' do
-      before do
-        service.instance_variable_set('@actor_id', 2)
-      end
-
-      it 'returns @actor_id' do
-        service.actor_id.should == 2
-      end
-    end
-
-    context 'actor_id is nil' do
-      before do
-        service.instance_variable_set('@actor_id', nil)
-      end
-
-      context 'owner_id is not nil' do
-        before do
-          service.stub(:owner_id) { 2 }
-        end
-
-        it 'returns owner_id' do
-          service.actor_id.should == 2
-        end
-      end
-
-      context 'owner_id is nil' do
-        before do
-          service.stub(:owner_id) { nil }
-        end
-
-        it 'returns creator id' do
-          service.stub(:creator_id) { 3 }
-          service.actor_id.should == 3
-        end
-      end
-    end
-  end
-
   describe '#create_tasks' do
     before do
       Timecop.freeze(Time.parse('2015-07-09 12:00:00 -0700'))
@@ -177,7 +194,7 @@ describe Service do
 
         it 'should create tasks with that ordinal starting at the due date' do
           expect{ service.reload.create_next_ordinal_tasks(-1, 1.day.from_now) }.to change(Task, :count).by(1)
-          expect(service.tasks.last.due_at).to eq(task_template.calculated_due_at(1.day.from_now))
+          expect(service.reload.tasks.last.due_at).to eq(task_template.calculated_due_at(1.day.from_now))
         end
       end
 
@@ -189,7 +206,7 @@ describe Service do
 
         it 'should create tasks with that ordinal starting now' do
           expect{ service.reload.create_next_ordinal_tasks(-1, 1.day.from_now) }.to change(Task, :count).by(1)
-          expect(service.tasks.last.due_at).to eq(task_template.calculated_due_at(Time.now))
+          expect(service.reload.tasks.last.due_at).to eq(task_template.calculated_due_at(Time.now))
         end
       end
     end
@@ -286,7 +303,7 @@ describe Service do
       it 'it tracks a change after a the description is changed' do
         old_description = service.description
         old_title = service.title
-        service.update_attributes!(description: 'poop', title: 'shit')
+        service.update_attributes!(description: 'poop', title: 'shit', actor: service.creator)
         ServiceChange.count.should == 1
         t = ServiceChange.last
         t.service.should == service
@@ -294,18 +311,71 @@ describe Service do
         t.data.should == {"description" => [old_description, 'poop'], "title" => [old_title, 'shit']}
       end
 
-      context 'actor_id is defined' do
+      context 'actor is defined' do
         let(:pha) { build_stubbed :pha }
 
         before do
-          service.actor_id = pha.id
+          service.actor = pha
           service.title = 'Poop'
           service.stub(:previous_changes) { service.changes }
         end
 
-        it 'uses the defined actor id' do
-          ServiceChange.should_receive(:create!).with hash_including(actor_id: pha.id)
+        it 'uses the defined actor' do
+          service.service_changes.should_receive(:create!).with hash_including(actor: pha)
           service.send(:track_update)
+        end
+      end
+    end
+  end
+
+  describe '#auto_transition!' do
+    before do
+      Service.any_instance.stub(:reinitialize_state_machine)
+    end
+
+    context 'draft?' do
+      let!(:pha) { create(:pha) }
+      let!(:user) { create(:member, :premium, pha: pha) }
+      let!(:service_template) { create(:service_template) }
+      let!(:task_template) { create(:task_template, service_template: service_template, service_ordinal: 0) }
+      let!(:service) { create(:service, :draft, service_template: service_template, member: user, creator: pha) }
+
+      context 'with message tasks' do
+        let!(:message_task) { create(:message_task, consult: user.master_consult) }
+
+        it 'stays in draft' do
+          expect(service.reload).to be_draft
+          service.auto_transition!
+          expect(service.reload).to be_draft
+        end
+      end
+
+      context 'without message tasks' do
+        context 'without all prerequisites' do
+          let!(:data_field_template) { create(:data_field_template, service_template: service_template, required_for_service_start: true) }
+          let!(:task_step_template) { create(:task_step_template, task_template: task_template) }
+
+          before do
+            task_step_template.add_data_field_template!(data_field_template)
+          end
+
+          it 'transitions to waiting' do
+            expect(service.reload).to be_draft
+            service.auto_transition!
+            expect(service.reload).to be_waiting
+          end
+
+          it 'creates a service blocked task' do
+            expect{ service.reload.auto_transition! }.to change(ServiceBlockedTask, :count).by(1)
+          end
+        end
+
+        context 'with all prerequisites' do
+          it 'transitions to open' do
+            expect(service.reload).to be_draft
+            service.auto_transition!
+            expect(service.reload).to be_open
+          end
         end
       end
     end

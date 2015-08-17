@@ -4,11 +4,12 @@ class TaskSerializer < ActiveModel::Serializer
   attributes :id, :title, :state, :description, :due_at, :type, :created_at,
              :owner_id, :service_type_id, :triage_state, :member_id,
              :day_priority, :task_template_id, :urgent, :unread, :follow_up,
-             :modal_template, :service_title, :queue, :service_bucket
+             :modal_template, :service_title, :queue, :service_bucket,
+             :time_zone
 
   delegate :member, :owner, :service_type, :task_changes, :task_steps,
            :task_template, :input_data_fields, :output_data_fields,
-           :service, to: :object
+           :service, :service_data_fields, to: :object
 
   def attributes
     super.tap do |attrs|
@@ -16,7 +17,7 @@ class TaskSerializer < ActiveModel::Serializer
       attrs[:owner] = owner.try(:serializer, shallow: true)
       attrs[:service_type] = service_type
       attrs[:task_steps] = task_steps.serializer.as_json
-      attrs[:service_data_fields] = service.try(:data_fields).try(:serializer).try(:as_json)
+      attrs[:service_data_fields] = service_data_fields.serializer.as_json
       attrs[:input_data_fields] = input_data_fields.serializer.as_json
       attrs[:output_data_fields] = output_data_fields.serializer.as_json
       attrs[:task_changes] = task_changes.try(:serializer, shallow: true)

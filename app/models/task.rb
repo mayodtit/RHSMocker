@@ -12,7 +12,11 @@ class Task < ActiveRecord::Base
   belongs_to :service
   belongs_to :service_type
   belongs_to :task_template
+<<<<<<< HEAD
   belongs_to :task_template_set
+=======
+  belongs_to :task_category
+>>>>>>> develop
   has_many :task_changes, class_name: 'TaskChange', order: 'created_at DESC'
   has_many :task_steps, inverse_of: :task,
                         dependent: :destroy
@@ -30,17 +34,19 @@ class Task < ActiveRecord::Base
   has_many :output_data_fields, through: :output_task_data_fields,
                                 source: :data_field,
                                 include: :data_field_template
+  has_many :service_data_fields, through: :service,
+                                 source: :data_fields,
+                                 include: :data_field_template
   has_one :entry, as: :resource
 
-  attr_accessor :actor_id, :change_tracked, :reason, :pubsub_client_id,
-                :start_at
-  attr_accessible :title, :description, :due_at, :queue,
+  attr_accessor :actor_id, :change_tracked, :reason, :pubsub_client_id, :start_at
+  attr_accessible :title, :description, :due_at, :queue, :time_zone, :time_zone_offset,
                   :owner, :owner_id, :member, :member_id,
                   :subject, :subject_id, :creator, :creator_id, :assignor, :assignor_id,
                   :abandoner, :abandoner_id, :role, :role_id,
-                  :state_event, :service_type_id, :service_type,
+                  :state_event, :service_type_id, :service_type, :task_category, :task_category_id,
                   :task_template, :task_template_id, :service, :service_id, :service_ordinal,
-                  :priority, :actor_id, :member_id, :member, :reason, :visible_in_queue,
+                  :priority, :actor_id, :member_id, :member, :reason, :reason_blocked, :visible_in_queue,
                   :day_priority, :time_estimate, :pubsub_client_id, :urgent, :unread, :follow_up,
                   :task_template_set_id, :result, :start_at
 
@@ -56,11 +62,13 @@ class Task < ActiveRecord::Base
   validate :attrs_for_states
 
   before_validation :set_defaults, on: :create
+  before_validation :reinitialize_state_machine, on: :create
   before_validation :set_assignor
-  before_validation :reset_day_priority
   before_validation :mark_as_unread
+  before_validation :update_priority_score, on: :update
   after_create :create_task_data_fields!, if: :task_template
   after_create :create_task_steps!, if: :task_template
+
   after_save :notify
   after_commit :publish
   after_commit :track_update, on: :update
@@ -82,11 +90,30 @@ class Task < ActiveRecord::Base
   end
 
   def self.pha_queue(hcp)
-    where(queue: :pha, owner_id: hcp.id).open_state
+    where(owner_id: hcp.id).open_state
   end
 
-  def self.specialist_queue
-    where(queue: :specialist)
+  def self.specialist_queue(hcp)
+    where('queue = "specialist" AND owner_id = ? AND state = "claimed"', hcp.id)
+  end
+
+  def self.next_tasks
+    task = Task.where(queue: :specialist).where(state: :unclaimed).includes(:member, :member => :phone_numbers).order(task_order).first
+    if task
+      [task]
+    else
+      []
+    end
+  end
+
+  def self.claim_next_tasks!(hcp)
+    transaction do
+      next_tasks.each do |t|
+        t.owner = hcp
+        t.actor_id = hcp.id
+        t.claim!
+      end
+    end
   end
 
   def blocked?
@@ -113,11 +140,10 @@ class Task < ActiveRecord::Base
     where('state NOT IN (?)', ['completed', 'abandoned'])
   end
 
-  def reset_day_priority
-    if owner_id_changed? && owner_id_was
-      self.day_priority = 0
-    end
+  def update_priority_score
+    self.priority = calculate_priority
   end
+
 
   def mark_as_unread
     if urgent? || (owner && owner.has_role?('specialist'))
@@ -153,8 +179,15 @@ class Task < ActiveRecord::Base
     end
   end
 
+  # call initialize twice to make sure dynamic initial state is set correctly
+  def reinitialize_state_machine
+    initialize_state_machines(dynamic: :force)
+  end
+
   def initial_state
-    if owner_id.present?
+    if completed? || abandoned? || blocked_internal? || blocked_external?
+      state.to_sym
+    elsif owner.present?
       self.claimed_at = Time.now
       :claimed
     else
@@ -204,19 +237,24 @@ class Task < ActiveRecord::Base
     end
 
     before_transition any - :blocked_internal => :blocked_internal do |task|
+      task.owner_id = task.member && task.member.pha_id
+      task.queue = :pha
+      task.service.wait! if task.service
       task.blocked_internal_at = Time.now
     end
 
     before_transition any - :blocked_external => :blocked_external do |task|
+      task.owner_id = task.member && task.member.pha_id
+      task.queue = :pha
+      task.service.wait! if task.service
       task.blocked_external_at = Time.now
     end
 
-    before_transition %i(blocked_internal blocked_external) => :unclaimed do |task|
+    before_transition %i(blocked_internal blocked_external) => any - %i(blocked_internal blocked_external) do |task|
       task.unblocked_at = Time.now
     end
 
     before_transition any - :claimed => :claimed do |task|
-      task.unread = false
       task.claimed_at = Time.now
     end
 
@@ -257,6 +295,10 @@ class Task < ActiveRecord::Base
         validate_actor_and_timestamp_exist :complete
       when 'abandoned'
         validate_actor_and_timestamp_exist :abandon
+    end
+
+    if unclaimed? && owner_id
+      errors.add(:owner_id, "must be nil when #{self.class.name} is #{state}")
     end
 
     if %w(claimed completed).include? state
@@ -325,25 +367,49 @@ class Task < ActiveRecord::Base
     :pha
   end
 
+  def calculate_priority
+    if queue == :hcc || type != 'MemberTask'
+      priority ? priority : 0
+    else
+      CalculatePriorityService.new(task: self, service: self.service).call
+    end
+  end
+
+  def calculate_owner
+    if queue == :specialist || queue == :hcc
+      nil
+    else
+      service.try(:owner) || member.try(:pha)
+    end
+  end
+
   def set_defaults
-    self.queue ||= default_queue
+    self.queue ||= task_template.try(:queue) || default_queue
     self.title ||= task_template.try(:title)
     self.description ||= task_template.try(:description)
     self.due_at ||= task_template.try(:calculated_due_at, start_at)
     self.time_estimate ||= task_template.try(:time_estimate)
     self.service_type ||= service.try(:service_type)
+    self.task_category ||= task_template.try(:task_category)
     self.member ||= service.try(:member)
     self.subject ||= service.try(:subject)
     self.creator ||= service.try(:creator)
-    self.owner ||= service.try(:owner)
+    self.owner ||= calculate_owner
     self.assignor ||= owner
     self.role ||= Role.find_by_name(:pha)
-    self.priority ||= task_template.try(:priority) || 0
+    self.priority = calculate_priority
     self.service_ordinal ||= task_template.try(:service_ordinal) || service_ordinal_for_one_off
+    self.time_zone ||= service.try(:time_zone) || member.try(:time_zone)
+    self.time_zone_offset = ActiveSupport::TimeZone.new(time_zone).try(:utc_offset) if time_zone
     true
   end
 
   private
+
+  def self.task_order
+    pacific_offset = Time.zone_offset('PDT')/3600
+    "DATE(CONVERT_TZ(due_at, '+0:00', '#{pacific_offset}:00')) ASC, priority DESC, day_priority DESC, due_at ASC, created_at ASC"
+  end
 
   def set_assignor
     if owner_id_changed?

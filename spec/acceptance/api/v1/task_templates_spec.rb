@@ -46,15 +46,17 @@ resource "TaskTemplates" do
       parameter :description, "description of the task template"
       parameter :time_estimate, "Estimate in minutes for length of service"
       parameter :service_ordinal, "service_ordinal of the task template"
+      parameter :queue, "queue to assign the generated tasks to"
 
       required_parameters :auth_token
-      scope_parameters :task_template, [:name, :title, :description, :time_estimate, :service_ordinal, :service_template_id]
+      scope_parameters :task_template, [:name, :title, :description, :time_estimate, :service_ordinal, :service_template_id, :queue]
 
       let(:name) { task_template.name }
       let(:title) { task_template.title }
       let(:description) { task_template.description }
       let(:time_estimate) { task_template.time_estimate }
       let(:service_template_id) { service_template_id }
+      let(:queue) { task_template.queue }
       let(:raw_post) { params.to_json }
 
       example_request '[POST] Create a task_template' do
@@ -71,7 +73,8 @@ resource "TaskTemplates" do
       parameter :title, "title of the task template"
       parameter :description, "description of the task template"
       parameter :time_estimate, "Estimate in minutes for length of service"
-      scope_parameters :task_template, [:name, :title, :description, :service_type_id, :time_estimate]
+      parameter :queue, "queue to assign the generated tasks to"
+      scope_parameters :task_template, [:name, :title, :description, :service_type_id, :time_estimat, :queue]
 
       let(:title) { 'New Task Template Title' }
       let(:raw_post) { params.to_json }

@@ -12,11 +12,11 @@ class Api::V1::AppointmentsController < Api::V1::ABaseController
   end
 
   def create
-    create_resource @appointments, appointment_attributes
+    create_resource @appointments, create_params
   end
 
   def update
-    update_resource @appointment, appointment_attributes
+    update_resource @appointment, update_params
   end
 
   def destroy
@@ -34,6 +34,28 @@ class Api::V1::AppointmentsController < Api::V1::ABaseController
   end
 
   def appointment_attributes
-    params.require(:appointment).permit(:user_id, :provider_id, :scheduled_at)
+    params.require(:appointment).permit(:user_id, :provider_id, :scheduled_at, :reason_for_visit, :special_instructions)
+  end
+
+  def create_params
+    appointment_attributes.tap do |attrs|
+      attrs[:creator] = current_user
+      attrs[:address_attributes] = params[:appointment][:address].except('id', 'user_id', 'created_at', 'updated_at', 'name', 'phone_numbers')
+      attrs[:phone_number_attributes] = phone_number_params
+    end
+  end
+
+  def phone_number_params
+    {
+      number: params[:appointment][:phone_number],
+      primary: false,
+      type: "Work"
+    }
+  end
+
+  def update_params
+    appointment_attributes.tap do |attrs|
+      attrs[:actor_id] = current_user.id
+    end
   end
 end

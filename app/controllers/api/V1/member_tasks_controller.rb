@@ -14,7 +14,7 @@ class Api::V1::MemberTasksController < Api::V1::ABaseController
     end
 
     # NOTE: order is MySQL specific
-    tasks = tasks.where(search_params).order("field(state, 'unclaimed', 'claimed', 'blocked_internal', 'blocked_external', 'completed', 'abandoned'), due_at DESC, created_at DESC").includes(:service_type, :owner)
+    tasks = tasks.where(search_params).order("field(state, 'unclaimed', 'claimed', 'blocked_internal', 'blocked_external', 'completed', 'abandoned'), due_at DESC, created_at DESC").includes(:service_type, :owner, :member, :task_steps, :input_data_fields, :output_data_fields, :task_changes, :service_data_fields)
     index_resource tasks.serializer(for_subject: true), name: :tasks
   end
 
@@ -37,6 +37,6 @@ class Api::V1::MemberTasksController < Api::V1::ABaseController
   private
 
   def task_attributes
-    params.require(:task).permit(:title, :description, :due_at, :owner_id, :subject_id, :service_type_id, :day_priority, :urgent, :service_id, :task_template_set_id, :result)
+    params.require(:task).permit(:title, :description, :due_at, :time_zone, :owner_id, :subject_id, :service_type_id, :day_priority, :urgent, :service_id, :task_template_set_id, :result)
   end
 end

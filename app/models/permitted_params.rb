@@ -51,6 +51,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     params.require(:address).permit(*address_attributes)
   end
 
+  def appointment_template
+    params.require(:appointment_template).permit(:name, :title, :description, :scheduled_at, :state_event, :special_instructions, :reason_for_visit)
+  end
+
   def user_request
     params.require(:user_request)
           .permit(*user_request_attributes).tap do |attributes|
@@ -122,12 +126,12 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def service_attributes
-    params.require(:service).permit(:title, :description, :due_at, :state_event, :owner_id, :reason, :reason_abandoned, :member_id,
+    params.require(:service).permit(:title, :description, :due_at, :time_zone, :state_event, :owner_id, :reason, :reason_abandoned, :member_id,
                                     :subject_id, :service_type_id, :user_facing, :service_request, :service_deliverable, :service_update)
   end
 
   def task_template
-    params.require(:task_template).permit(:name, :title, :service_template, :service_template_id, :description, :time_estimate, :service_ordinal, :modal_template_id, :task_template_set_id)
+    params.require(:task_template).permit(:name, :title, :service_template, :service_template_id, :description, :time_estimate, :service_ordinal, :modal_template_id, :task_template_set_id, :queue)
   end
 
   def task_template_set
@@ -136,6 +140,14 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
 
   def task_step_template
     params.require(:task_step_template).permit(:description, :ordinal, :details, :template)
+  end
+
+  def system_event_template_attributes
+    params.require(:system_event_template).permit(:name, :title, :description, :state)
+  end
+
+  def system_action_template_attributes
+    params.require(:system_action_template).permit(:type, :message_text, :content, :content_id, :system_event_template, :system_event_template_id)
   end
 
   def data_field_template
@@ -154,6 +166,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     params.require(:data_field).permit(:data)
   end
 
+  def suggested_service
+    params.require(:suggested_service).permit(:title, :description, :message, :service_type_id, :state_event, :user_facing)
+  end
+
   private
 
   def user_request_attributes
@@ -161,7 +177,11 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def user_params
-    params.fetch(:user){params.require(:member)}
+    if params[:member].try(:present?)
+      params.fetch(:member){params.require(:user)} # only prefer member when not empty
+    else
+      params.fetch(:user){params.require(:member)}
+    end
   end
 
   def user_attributes

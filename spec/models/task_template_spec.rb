@@ -21,7 +21,7 @@ describe TaskTemplate do
     let!(:origin_task_step_template) { origin_task_step_data_field_template.task_step_template }
     let!(:origin_task_template) { origin_task_step_template.task_template }
     let!(:origin_service_template) { origin_task_template.service_template }
-    let(:origin_task_template_attributes) { origin_task_template.attributes.slice(*%w(name title description time_estimate priority service_ordinal)) }
+    let(:origin_task_template_attributes) { origin_task_template.attributes.slice(*%w(name title description time_estimate priority service_ordinal queue task_category_id)) }
 
     let!(:new_service_template) { create(:service_template) }
     let!(:new_data_field_template) do
@@ -39,7 +39,7 @@ describe TaskTemplate do
       expect(new_task_template.data_field_templates).to include(new_data_field_template)
       expect(new_task_template.task_step_templates.count).to eq(1)
       expect(new_task_template.task_step_templates.first.data_field_templates).to include(new_data_field_template)
-      new_task_template_attributes = new_task_template.attributes.slice(*%w(name title description time_estimate priority service_ordinal))
+      new_task_template_attributes = new_task_template.attributes.slice(*%w(name title description time_estimate priority service_ordinal queue task_category_id))
       expect(new_task_template_attributes).to eq(origin_task_template_attributes)
     end
   end

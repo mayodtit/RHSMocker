@@ -11,7 +11,7 @@ resource 'Onboarding' do
     required_parameters :email
 
     let(:onboarding_group) { create(:onboarding_group, custom_welcome: 'Welcome to Better! This is a custom message just for you!', skip_credit_card: true) }
-    let(:user) { create(:member, :premium, onboarding_group: onboarding_group) }
+    let(:user) { create(:member, :premium, onboarding_group: onboarding_group, first_name: 'Kyle') }
     let(:email) { user.email }
 
     before do
@@ -38,6 +38,7 @@ resource 'Onboarding' do
         reloaded_onboarding_group = OnboardingGroup.find(onboarding_group.id)
         expect(body[:requires_sign_up]).to be_false
         expect(body[:skip_credit_card]).to be_true
+        expect(body[:user]).to eq({first_name: user.first_name})
         expect(body[:onboarding_customization]).to eq(reloaded_onboarding_group.serializer(onboarding_customization: true).as_json)
         expect(body[:onboarding_custom_welcome]).to eq([reloaded_onboarding_group.serializer(onboarding_custom_welcome: true).as_json])
       end
@@ -80,6 +81,14 @@ resource 'Onboarding' do
     let!(:onboarding_group) { create(:onboarding_group, custom_welcome: 'Welcome to Better! This is a custom message just for you!') }
     let!(:pha) { create(:pha) }
     let!(:user) { create(:member, :premium, email: email, password: password, onboarding_group: onboarding_group, pha: pha) }
+    let!(:suggested_service) { create(:suggested_service, user: user) }
+    let(:suggested_services_modal) do
+      {
+        header_text: 'To get started with a Personal Health Assistant, please select a Service.',
+        suggested_services: [suggested_service.serializer.as_json],
+        action_button_text: "LET'S GO!"
+      }
+    end
     let(:raw_post) { params.to_json }
 
     before do
@@ -98,6 +107,7 @@ resource 'Onboarding' do
         expect(body[:pha].to_json).to eq(pha.serializer.as_json.to_json)
         expect(body[:auth_token]).to be_present
         expect(body[:onboarding_custom_welcome]).to eq([reloaded_onboarding_group.serializer(onboarding_custom_welcome: true).as_json])
+        expect(body[:suggested_services_modal].to_json).to eq(suggested_services_modal.to_json)
       end
     end
   end
@@ -118,6 +128,7 @@ resource 'Onboarding' do
     let!(:agreement) { create(:agreement, :active) }
     let!(:onboarding_group) { create(:onboarding_group) }
     let!(:referral_code) { create(:referral_code, onboarding_group: onboarding_group, creator: nil) }
+    let!(:onboarding_group_suggested_service_template) { create(:onboarding_group_suggested_service_template, onboarding_group: onboarding_group) }
     let(:stripe_helper) { StripeMock.create_test_helper }
     let(:plan_id) { 'bp20' }
     let(:email) { 'test+signup@getbetter.com' }
@@ -152,6 +163,12 @@ resource 'Onboarding' do
         expect(body[:member].to_json).to eq(user.serializer.as_json.to_json)
         expect(body[:pha_profile].to_json).to eq(pha_profile.serializer.as_json.to_json)
         expect(body[:auth_token]).to be_present
+        suggested_services_modal = {
+          header_text: 'To get started with a Personal Health Assistant, please select a Service.',
+          suggested_services: [user.suggested_services.first.serializer.as_json],
+          action_button_text: "LET'S GO!"
+        }
+        expect(body[:suggested_services_modal].to_json).to eq(suggested_services_modal.to_json)
       end
     end
   end

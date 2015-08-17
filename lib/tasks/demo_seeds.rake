@@ -27,6 +27,96 @@ namespace :demo do
     ReferralCode.find_or_create_by_name(name: 'Premium, Group',
                                         code: 'group',
                                         onboarding_group: o)
+
+    title = 'Find a doctor'
+    description = <<-eof
+We'll find you a doctor close to you who takes your insurance and fits your needs.
+
+**Here's what we'll need from you to find the right fit:**
+* Type of doctor
+* Your Insurance information
+* Your home or work address
+* Gender or other preferences
+
+Once we have this, we'll do the search and call each doctors office to ensure the information is up to date. Then we'll send you options of doctors accepting new patients and next available appointment times within one day.
+
+Take 1 minute to share your preferences and we'll take care of the rest.
+    eof
+    message = "I want to get started finding a new doctor!"
+    service_template = ServiceTemplate.find_by_name('provider search')
+    sst = SuggestedServiceTemplate.upsert_attributes({title: title}, {description: description, message: message, service_template: service_template})
+    o.suggested_service_templates << sst unless o.suggested_service_templates.include?(sst)
+
+    o = OnboardingGroup.find_or_create_by_name(name: 'Premium, Group, No Suggested Services',
+                                               premium: true,
+                                               free_trial_days: 0,
+                                               subscription_days: 120,
+                                               skip_credit_card: true,
+                                               remote_header_asset_url: 'https://s3-us-west-2.amazonaws.com/btr-static/images/custom_onboarding_header.png',
+                                               remote_background_asset_url: 'https://s3-us-west-2.amazonaws.com/btr-static/images/custom_onboarding_background.png',
+                                               custom_welcome: "This is a onboarding group to use as a test for custom onboarding. It has some placeholder text.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula nulla sed purus pharetra ullamcorper. Donec consectetur est libero, sit amet cursus nisi cursus sed. Nam blandit blandit orci, id lacinia odio luctus sed. Donec sed fermentum massa, id viverra eros.")
+    ReferralCode.find_or_create_by_name(name: 'Premium, Group, No Suggested Services',
+                                        code: 'group-zero',
+                                        onboarding_group: o)
+
+    o = OnboardingGroup.find_or_create_by_name(name: 'Premium, Group, One Suggested Service',
+                                               premium: true,
+                                               free_trial_days: 0,
+                                               subscription_days: 120,
+                                               skip_credit_card: true,
+                                               remote_header_asset_url: 'https://s3-us-west-2.amazonaws.com/btr-static/images/custom_onboarding_header.png',
+                                               remote_background_asset_url: 'https://s3-us-west-2.amazonaws.com/btr-static/images/custom_onboarding_background.png',
+                                               custom_welcome: "This is a onboarding group to use as a test for custom onboarding. It has some placeholder text.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula nulla sed purus pharetra ullamcorper. Donec consectetur est libero, sit amet cursus nisi cursus sed. Nam blandit blandit orci, id lacinia odio luctus sed. Donec sed fermentum massa, id viverra eros.")
+    ReferralCode.find_or_create_by_name(name: 'Premium, Group, One Suggested Service',
+                                        code: 'group-one',
+                                        onboarding_group: o)
+
+    title = 'Check your insurance coverage'
+    description = "This is placeholder text for insurance coverage review."
+    message = "I want to get started reviewing my insurance coverage!"
+    service_template = ServiceTemplate.find_by_name('provider search')
+    sst = SuggestedServiceTemplate.upsert_attributes({title: title}, {description: description, message: message, service_template: service_template})
+    o.suggested_service_templates << sst unless o.suggested_service_templates.include?(sst)
+
+    o = OnboardingGroup.find_or_create_by_name(name: 'Premium, Group, Many Suggested Services',
+                                               premium: true,
+                                               free_trial_days: 0,
+                                               subscription_days: 120,
+                                               skip_credit_card: true,
+                                               remote_header_asset_url: 'https://s3-us-west-2.amazonaws.com/btr-static/images/custom_onboarding_header.png',
+                                               remote_background_asset_url: 'https://s3-us-west-2.amazonaws.com/btr-static/images/custom_onboarding_background.png',
+                                               custom_welcome: "This is a onboarding group to use as a test for custom onboarding. It has some placeholder text.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula nulla sed purus pharetra ullamcorper. Donec consectetur est libero, sit amet cursus nisi cursus sed. Nam blandit blandit orci, id lacinia odio luctus sed. Donec sed fermentum massa, id viverra eros.")
+    ReferralCode.find_or_create_by_name(name: 'Premium, Group, Many Suggested Services',
+                                        code: 'group-many',
+                                        onboarding_group: o)
+
+    title = 'Check your insurance coverage'
+    description = "This is placeholder text for insurance coverage review."
+    message = "I want to get started reviewing my insurance coverage!"
+    service_template = ServiceTemplate.find_by_name('provider search')
+    sst = SuggestedServiceTemplate.upsert_attributes({title: title}, {description: description, message: message, service_template: service_template})
+    o.suggested_service_templates << sst unless o.suggested_service_templates.include?(sst)
+
+    title = 'Book your post-op appointment'
+    description = "This is placeholder text for booking a post-op appointment."
+    message = "I want to get started booking my post-op appointment!"
+    service_template = ServiceTemplate.find_by_name('provider search')
+    sst = SuggestedServiceTemplate.upsert_attributes({title: title}, {description: description, message: message, service_template: service_template})
+    o.suggested_service_templates << sst unless o.suggested_service_templates.include?(sst)
+
+    title = 'Coordinate your work leave'
+    description = "This is placeholder text for coordinating your work leave."
+    message = "I want to get started coordinating my work leave!"
+    service_template = ServiceTemplate.find_by_name('provider search')
+    sst = SuggestedServiceTemplate.upsert_attributes({title: title}, {description: description, message: message, service_template: service_template})
+    o.suggested_service_templates << sst unless o.suggested_service_templates.include?(sst)
+
+    title = 'Help with your patient guide'
+    description = "This is placeholder text for getting help with your patient guide."
+    message = "I would like some help understanding my patient guide!"
+    service_template = ServiceTemplate.find_by_name('provider search')
+    sst = SuggestedServiceTemplate.upsert_attributes({title: title}, {description: description, message: message, service_template: service_template})
+    o.suggested_service_templates << sst unless o.suggested_service_templates.include?(sst)
   end
 
   desc 'Demo Service Template seed with deeply-nested models'
@@ -47,12 +137,14 @@ namespace :demo do
                                                              title: 'Book appointment with provider',
                                                              description: 'description',
                                                              time_estimate: 60,
-                                                             service_ordinal: 0)
+                                                             service_ordinal: 0,
+                                                             queue: :specialist)
     task_template_2 = service_template.task_templates.create!(name: 'Send member update',
                                                              title: 'Send member update',
                                                              description: 'description',
                                                              time_estimate: 60,
-                                                             service_ordinal: 1)
+                                                             service_ordinal: 1,
+                                                             queue: :pha)
 
     # create all data fields used in the service
     dft_member_full_name = service_template.data_field_templates.create!(name: 'Member full name', type: :text, required_for_service_start: true)
