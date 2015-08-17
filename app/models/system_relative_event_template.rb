@@ -6,7 +6,7 @@ class SystemRelativeEventTemplate < SystemEventTemplate
                         autosave: true,
                         dependent: :destroy
 
-  attr_accessible :root_event_template, :root_event_template_id, :time_offset
+  attr_accessible :root_event_template, :root_event_template_id, :time_offset, :time_offset_attributes
 
   validates :root_event_template, :time_offset, presence: true
 
