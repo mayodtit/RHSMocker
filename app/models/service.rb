@@ -43,12 +43,8 @@ class Service < ActiveRecord::Base
   before_validation :set_assigned_at
   after_create :create_next_task_template_set_tasks
   after_create :create_data_fields!, if: :service_template
-<<<<<<< HEAD
   after_create :create_service_blocked_task!, if: :waiting?
-=======
-  after_create :create_next_ordinal_tasks
   after_save :create_service_blocked_task!, if: :waiting?
->>>>>>> develop
   after_commit :track_update, on: :update
   after_commit :publish
 

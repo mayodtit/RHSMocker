@@ -12,11 +12,8 @@ class Task < ActiveRecord::Base
   belongs_to :service
   belongs_to :service_type
   belongs_to :task_template
-<<<<<<< HEAD
   belongs_to :task_template_set
-=======
   belongs_to :task_category
->>>>>>> develop
   has_many :task_changes, class_name: 'TaskChange', order: 'created_at DESC'
   has_many :task_steps, inverse_of: :task,
                         dependent: :destroy

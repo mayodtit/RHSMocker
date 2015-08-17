@@ -38,7 +38,7 @@ class TaskTemplate < ActiveRecord::Base
 
   def create_deep_copy!(override_task_template_set=nil)
     transaction do
-      new_task_template = self.class.create!(attributes.slice(*%w(name title description time_estimate priority service_ordinal queue task_category_id))).merge(task_template_set: override_task_template_set || task_template_set, service_template: override_task_template_set.service_template || service_template))
+      new_task_template = self.class.create!(attributes.slice(*%w(name title description time_estimate priority service_ordinal queue task_category_id)).merge(task_template_set: override_task_template_set || task_template_set, service_template: override_task_template_set.service_template || service_template))
       new_task_template.update_attributes!(modal_template: modal_template.create_copy!) if modal_template
       task_step_templates.each do |task_step_template|
         task_step_template.create_deep_copy!(override_task_template_set.service_template, new_task_template)
