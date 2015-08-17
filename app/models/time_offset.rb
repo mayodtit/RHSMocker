@@ -1,6 +1,4 @@
 class TimeOffset < ActiveRecord::Base
-  attr_accessible :direction, :offset_type, :fixed_time, :num_days, :relative_time
-
   VALID_OFFSET_TYPES = [:fixed, :relative]
   VALID_DIRECTIONS = [:before, :after]
 
@@ -8,11 +6,12 @@ class TimeOffset < ActiveRecord::Base
   symbolize :offset_type, in: VALID_OFFSET_TYPES
   symbolize :direction, in: VALID_DIRECTIONS
 
-  validates :direction, :offset_type, presence: true
-  validates :direction, inclusion: { in: VALID_DIRECTIONS, message: "Direction must be either 'before' or 'after'" }
-  validates :offset_type, inclusion: { in: VALID_OFFSET_TYPES, message: "Offset_type must be either 'fixed' or 'relative'"}
-  validate :fixed_offsets_require_fixed_time
-  validate :relative_offsets_require_relative_time_and_num_days
+  attr_accessible :direction, :offset_type, :absolute_minutes, :relative_days, :relative_minutes_after_midnight
+
+  validates :direction, presence: true, inclusion: { in: VALID_DIRECTIONS, message: "Direction must be either 'before' or 'after'" }
+  validates :offset_type, presence: true, inclusion: { in: VALID_OFFSET_TYPES, message: "Offset_type must be either 'fixed' or 'relative'"}
+  validate :fixed_offsets_require_absolute_minutes, if: :fixed?
+  validate :relative_offsets_require_relative_days_and_relative_minutes_after_midnight, if: :relative?
 
   before_validation :set_defaults, on: :create
 
@@ -21,27 +20,35 @@ class TimeOffset < ActiveRecord::Base
     self.send("calculate_#{offset_type}".to_sym, base_time_with_zone)
   end
 
+  def fixed?
+    offset_type == :fixed
+  end
+
+  def relative?
+    offset_type == :relative
+  end
+
   private
 
   def set_defaults
     self.offset_type ||= :fixed
     self.direction ||= :before
-    self.fixed_time ||= Time.at(0)
-    self.num_days ||= 0
-    self.relative_time ||= Time.at(0)
+    self.absolute_minutes ||= 0
+    self.relative_days ||= 0
+    self.relative_minutes_after_midnight ||= 0
   end
 
   def calculate_fixed(base_time_with_zone)
-    raise "Missing fixed_time - cannot calculate" unless fixed_time.present?
-    base_time_with_zone.send(date_shift_fn, fixed_time.to_i.seconds)
+    raise "Missing absolute minutes - cannot calculate" unless absolute_minutes
+    base_time_with_zone.send(date_shift_fn, absolute_minutes.minutes)
   end
 
   def calculate_relative(base_time_with_zone)
-    raise "Missing relative_time - cannot calculate" unless relative_time.present?
-    raise "Missing num_days - cannot calculate" unless num_days.present?
+    raise "Missing relative days - cannot calculate" unless relative_days
+    raise "Missing relative minutes after midnight - cannot calculate" unless relative_minutes_after_midnight
     start_date = base_time_with_zone.beginning_of_day
-    new_date = start_date.send(date_shift_fn, num_days.days)
-    new_time = relative_time.seconds_since_midnight.seconds
+    new_date = start_date.send(date_shift_fn, relative_days.days)
+    new_time = relative_minutes_after_midnight.minutes
     new_date + new_time
   end
 
@@ -55,22 +62,19 @@ class TimeOffset < ActiveRecord::Base
     end
   end
 
-  def fixed_offsets_require_fixed_time
-    return unless offset_type == :fixed
-    if fixed_time.nil?
-      errors.add(:fixed_time, "must be provided when offset_type == :fixed")
+  def fixed_offsets_require_absolute_minutes
+    unless absolute_minutes
+      errors.add(:absolute_minutes, "must be provided when offset_type == :fixed")
     end
   end
 
-  def relative_offsets_require_relative_time_and_num_days
-    return unless offset_type == :relative
-    unless (relative_time.present? && num_days.present?)
-      if relative_time.nil?
-        errors.add(:relative_time, "must be provided when offset_type == :relative")
-      end
-      if num_days.nil?
-        errors.add(:num_days, "must be provided when offset_type == :fixed")
-      end
+  def relative_offsets_require_relative_days_and_relative_minutes_after_midnight
+    unless relative_days
+      errors.add(:relative_days, "must be provided when offset_type == :relative")
+    end
+
+    unless relative_minutes_after_midnight
+      errors.add(:relative_minutes_after_midnight, "must be provided when offset_type == :relative")
     end
   end
 end

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150813170356) do
+ActiveRecord::Schema.define(:version => 20150815001710) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1443,12 +1443,12 @@ ActiveRecord::Schema.define(:version => 20150813170356) do
   create_table "time_offsets", :force => true do |t|
     t.string   "offset_type",                       :null => false
     t.string   "direction",                         :null => false
-    t.time     "fixed_time"
-    t.integer  "num_days"
-    t.time     "relative_time"
     t.datetime "created_at",                        :null => false
     t.datetime "updated_at",                        :null => false
     t.integer  "system_relative_event_template_id"
+    t.integer  "absolute_minutes"
+    t.integer  "relative_days"
+    t.integer  "relative_minutes_after_midnight"
   end
 
   create_table "treatment_side_effects", :force => true do |t|
