@@ -17,7 +17,7 @@ class SystemRelativeEventTemplate < SystemEventTemplate
   private
 
   def set_defaults
-    time_offset || create_time_offset(offset_type: :fixed, direction: :before, fixed_time: Time.at(0))
+    time_offset || create_time_offset
     true
   end
 end
