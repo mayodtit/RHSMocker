@@ -95,8 +95,8 @@ class Task < ActiveRecord::Base
   def self.next_tasks(hcp)
     task = Task.where(queue: :specialist)
                .where(state: :unclaimed)
-               .includes(:task_template => :expertises, :task_category => :expertises)
-               .where('task_category_expertises.id IN (?) OR task_template_expertises.id IN (?) OR (task_template_expertises.id IS NULL AND task_category_expertises.id IS NULL)', hcp.expertises.map(&:id), hcp.expertises.map(&:id))
+               .includes(:task_template, :task_category)
+               .where('task_categories.expertise_id IN (?) OR task_templates.expertise_id IN (?) OR ( task_templates.expertise_id  IS NULL AND task_categories.expertise_id IS NULL)', hcp.expertises.map(&:id), hcp.expertises.map(&:id))
                .includes(:member, :member => :phone_numbers)
                .order(task_order)
                .first
