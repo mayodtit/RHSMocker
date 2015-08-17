@@ -1,4 +1,5 @@
 class TimeOffset < ActiveRecord::Base
+  MINUTES_PER_DAY = 60 * 24
   VALID_OFFSET_TYPES = [:fixed, :relative]
   VALID_DIRECTIONS = [:before, :after]
 
@@ -14,6 +15,7 @@ class TimeOffset < ActiveRecord::Base
   validate :relative_offsets_require_relative_days_and_relative_minutes_after_midnight, if: :relative?
 
   before_validation :set_defaults, on: :create
+  before_validation :equalize_absolute_and_relative_offsets
 
   def calculate(base_time_with_zone)
     raise "Invalid offset_type #{offset_type} - cannot calculate" unless VALID_OFFSET_TYPES.include?(offset_type)
@@ -28,6 +30,14 @@ class TimeOffset < ActiveRecord::Base
     offset_type == :relative
   end
 
+  def before?
+    direction == :before
+  end
+
+  def after?
+    direction == :after
+  end
+
   private
 
   def set_defaults
@@ -36,6 +46,27 @@ class TimeOffset < ActiveRecord::Base
     self.absolute_minutes ||= 0
     self.relative_days ||= 0
     self.relative_minutes_after_midnight ||= 0
+  end
+
+  def equalize_absolute_and_relative_offsets
+    if fixed?
+      if before?
+        self.relative_days = absolute_minutes / MINUTES_PER_DAY + 1
+        self.relative_minutes_after_midnight = (MINUTES_PER_DAY - (absolute_minutes % MINUTES_PER_DAY)).abs
+      else
+        self.relative_days = absolute_minutes / MINUTES_PER_DAY
+        self.relative_minutes_after_midnight = absolute_minutes % MINUTES_PER_DAY
+      end
+    else
+      if relative_days == 0
+        self.direction = :after
+        self.absolute_minutes = relative_minutes_after_midnight
+      elsif before?
+        self.absolute_minutes = (relative_days - 1) * MINUTES_PER_DAY + MINUTES_PER_DAY - relative_minutes_after_midnight
+      else
+        self.absolute_minutes = relative_days * MINUTES_PER_DAY + relative_minutes_after_midnight
+      end
+    end
   end
 
   def calculate_fixed(base_time_with_zone)

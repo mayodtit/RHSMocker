@@ -16,6 +16,6 @@ class SystemEventTemplateSerializer < ActiveModel::Serializer
   private
 
   def sample_time
-    Time.parse('2015-08-12 12:00:00 -0700')
+    Time.parse('2015-08-12 00:00:00 -0700')
   end
 end
