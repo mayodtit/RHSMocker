@@ -53,17 +53,17 @@ class TimeOffset < ActiveRecord::Base
       if before?
         self.relative_days = absolute_minutes / MINUTES_PER_DAY + 1
         self.relative_minutes_after_midnight = (MINUTES_PER_DAY - (absolute_minutes % MINUTES_PER_DAY)).abs
-      else
+      elsif after?
         self.relative_days = absolute_minutes / MINUTES_PER_DAY
         self.relative_minutes_after_midnight = absolute_minutes % MINUTES_PER_DAY
       end
-    else
+    elsif relative?
       if relative_days == 0
         self.direction = :after
         self.absolute_minutes = relative_minutes_after_midnight
       elsif before?
         self.absolute_minutes = (relative_days - 1) * MINUTES_PER_DAY + MINUTES_PER_DAY - relative_minutes_after_midnight
-      else
+      elsif after?
         self.absolute_minutes = relative_days * MINUTES_PER_DAY + relative_minutes_after_midnight
       end
     end
