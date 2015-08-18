@@ -15,7 +15,7 @@ class TimeOffset < ActiveRecord::Base
   validate :relative_offsets_require_relative_days_and_relative_minutes_after_midnight, if: :relative?
 
   before_validation :set_defaults, on: :create
-  before_validation :equalize_absolute_and_relative_offsets
+  before_save :equalize_absolute_and_relative_offsets
 
   def calculate(base_time_with_zone)
     raise "Invalid offset_type #{offset_type} - cannot calculate" unless VALID_OFFSET_TYPES.include?(offset_type)

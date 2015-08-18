@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe SystemEventTemplateSerializer do
   let(:system_event_template) { create(:system_event_template) }
-  let(:sample_time) { Time.parse('2015-08-12 12:00:00 -0700') }
+  let(:sample_time) { Time.parse('2015-08-12 00:00:00 -0700') }
 
   before do
     Timecop.freeze
@@ -37,7 +37,7 @@ describe SystemEventTemplateSerializer do
     end
 
     context 'with a SystemRelativeEventTemplate' do
-      let(:time_offset) { create(:time_offset, offset_type: :fixed, direction: :before, fixed_time: Time.at(1.hour)) }
+      let(:time_offset) { create(:time_offset, offset_type: :fixed, direction: :before, absolute_minutes: 60) }
       let(:system_relative_event_template) { create(:system_relative_event_template, time_offset: time_offset) }
 
       it 'calculates the sample_ordinal based on the sample_time' do
