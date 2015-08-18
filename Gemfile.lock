@@ -347,7 +347,7 @@ GEM
     spawnling (2.1.1)
     spreadsheet (1.0.0)
       ruby-ole (>= 1.0)
-    sprockets (2.2.2)
+    sprockets (2.12.4)
       hike (~> 1.2)
       multi_json (~> 1.0)
       rack (~> 1.0)
