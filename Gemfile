@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 #ruby '1.9.3'
 
-gem 'rails', '3.2.18' # Caltrain
+gem 'rails', '~> 3.2.22'
 gem 'nokogiri'        # content parsing
 gem 'newrelic_rpm'    # Monitoring
 gem 'mysql2'          # db
