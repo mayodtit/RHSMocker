@@ -45,3 +45,7 @@ end
 def leilani
   @leilani ||= Member.find_by_email('leilani@getbetter.com')
 end
+
+def leilani
+  @kaitlyn ||= Member.find_by_email('kaitlyn@getbetter.com')
+end
