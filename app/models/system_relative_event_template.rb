@@ -18,6 +18,8 @@ class SystemRelativeEventTemplate < SystemEventTemplate
 
   def set_defaults
     time_offset || create_time_offset
+    self.name ||= "New event template for \"#{root_event_template.title}\""
+    self.title ||= "New event template for \"#{root_event_template.title}\""
     true
   end
 end
