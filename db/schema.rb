@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150815001710) do
+ActiveRecord::Schema.define(:version => 20150819171930) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -69,7 +69,6 @@ ActiveRecord::Schema.define(:version => 20150815001710) do
   create_table "appointment_templates", :force => true do |t|
     t.datetime "created_at",                          :null => false
     t.datetime "updated_at",                          :null => false
-    t.string   "name"
     t.string   "title"
     t.text     "description"
     t.string   "unique_id"
