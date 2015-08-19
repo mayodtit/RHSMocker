@@ -60,10 +60,14 @@ class Api::V1::UsersController < Api::V1::ABaseController
       attrs[:provider_attributes] = user_params[:provider] if user_params[:provider]
       attrs[:emergency_contact_attributes] = user_params[:emergency_contact] if user_params[:emergency_contact]
 
-      # allow multiple ways to set addresses
+      # Older clients send :address or :address_attributes. Ensure that only :addresses_attributes is set
       if user_params[:address]
         attrs[:address_attributes] = PermittedParams.new(user_params, current_user, nil).address
+      end
+
+      if attrs[:address_attributes]
         attrs[:addresses_attributes] = [attrs[:address_attributes]]
+        attrs.delete(:address_attributes)
       end
 
       # set attributes
