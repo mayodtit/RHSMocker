@@ -55,6 +55,7 @@ class User < ActiveRecord::Base
 
   attr_accessor :self_owner
   attr_accessor :actor_id
+  attr_accessor :address_attributes
 
   attr_accessible :first_name, :last_name, :avatar, :gender, :birth_date, :email,
                   :blood_type, :diet_id, :ethnic_group_id, :npi_number, :deceased,
@@ -63,7 +64,7 @@ class User < ActiveRecord::Base
                   :provider_attributes, :nickname, :default_hcp_association_id,
                   :provider_taxonomy_code, :owner, :owner_id, :self_owner, :emergency_contact_attributes,
                   :actor_id, :due_date, :remote_avatar_url,
-                  :phone, :work_phone_number, :text_phone_number
+                  :phone, :work_phone_number, :text_phone_number, :address_attributes
 
   validate :member_flag_is_nil
   validates :deceased, :inclusion => {:in => [true, false]}

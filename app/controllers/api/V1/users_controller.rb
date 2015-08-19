@@ -61,8 +61,10 @@ class Api::V1::UsersController < Api::V1::ABaseController
       attrs[:emergency_contact_attributes] = user_params[:emergency_contact] if user_params[:emergency_contact]
 
       # allow multiple ways to set addresses
-      attrs[:address_attributes] = user_params[:address] if user_params[:address]
-      attrs[:addresses_attributes] = [attrs[:address_attributes]] if attrs[:address_attributes]
+      if user_params[:address]
+        attrs[:address_attributes] = PermittedParams.new(user_params, current_user, nil).address
+        attrs[:addresses_attributes] = [attrs[:address_attributes]]
+      end
 
       # set attributes
       attrs[:user_agreements_attributes] = user_agreements_attributes if user_params[:tos_checked] || user_params[:agreement_id]
