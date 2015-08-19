@@ -6,11 +6,11 @@ class SystemEventTemplate < ActiveRecord::Base
                                              dependent: :destroy
   has_many :system_events, inverse_of: :system_event_template
 
-  attr_accessible :name, :description, :title, :state, :unique_id, :version, :resource, :resource_id, :resource_type, :resource_attribute
+  attr_accessible :title, :description, :state, :unique_id, :version, :resource, :resource_id, :resource_type, :resource_attribute
 
   VALID_STATES = [:unpublished, :published, :retired]
 
-  validates :name, :title, :state, presence: true
+  validates :title, :state, presence: true
   validates :state, uniqueness: { scope: :unique_id }, unless: :retired?
   validates :version, presence: true, uniqueness: { scope: :unique_id }
 
