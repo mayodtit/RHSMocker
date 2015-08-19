@@ -8,7 +8,6 @@ describe AppointmentTemplateSerializer do
     expect(result).to eq(
       {
         id: appointment_template.id,
-        name: appointment_template.name,
         title: appointment_template.title,
         description: appointment_template.description,
         version: appointment_template.version,
