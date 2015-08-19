@@ -1,6 +1,5 @@
 FactoryGirl.define do
   factory :system_event_template do
-    name "Template"
     title "Title"
     description "Description"
 
