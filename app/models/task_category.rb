@@ -6,4 +6,5 @@ class TaskCategory < ActiveRecord::Base
   attr_accessible :title, :description, :priority_weight, :expertise, :expertise_id
 
   validates :title, :description, :priority_weight, presence: true
+  validates :expertise, presence: true, if: lambda { |t| t.expertise_id }
 end

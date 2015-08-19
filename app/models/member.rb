@@ -190,6 +190,10 @@ class Member < User
     joins(:roles).where(roles: {name: :pha})
   end
 
+  def self.specialists
+    joins(:roles).where(roles: {name: :specialist})
+  end
+
   def self.phas_with_profile
     phas.joins(:pha_profile)
   end

@@ -51,6 +51,17 @@ class MemberSerializer < ActiveModel::Serializer
           last_contact_at: object.last_contact_at,
           timeline: object.entries.try(:serializer)
       }
+    elsif options[:specialist]
+      {
+        id: object.id,
+        avatar_url: object.avatar_url,
+        first_name: object.first_name,
+        last_name: object.last_name,
+        email: object.email,
+        full_name: object.full_name,
+        expertises: object.expertises.try(:serializer),
+        number_of_tasks_completed_today: number_of_tasks_completed_today
+      }
     else
       super.tap do |attributes|
         if options[:include_roles]
@@ -176,5 +187,9 @@ class MemberSerializer < ActiveModel::Serializer
 
   def meet_your_pha_text
     "#{object.pha.try(:first_name)} is your Personal Health Assistant. #{object.pha.try(:gender_pronoun).try(:titleize)}’ll start by helping you #{object.nux_answer.try(:phrase) || 'with your health needs'}."
+  end
+
+  def number_of_tasks_completed_today
+    Task.number_of_tasks_completed_today(object)
   end
 end

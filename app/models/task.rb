@@ -89,14 +89,18 @@ class Task < ActiveRecord::Base
   end
 
   def self.specialist_queue(hcp)
-    where('queue = "specialist" AND owner_id = ? AND state = "claimed"', hcp.id)
+    where(queue: :specialist).where(state: :claimed).where(owner_id: hcp.id)
+  end
+
+  def self.specialist_queue_today
+    where(queue: :specialist).open_state.where('due_at < ?', DateTime.now.end_of_day).order(task_order)
   end
 
   def self.next_tasks(hcp)
     task = Task.where(queue: :specialist)
                .where(state: :unclaimed)
-               .includes(:task_template, :task_category)
-               .where('task_categories.expertise_id IN (?) OR task_templates.expertise_id IN (?) OR ( task_templates.expertise_id  IS NULL AND task_categories.expertise_id IS NULL)', hcp.expertises.map(&:id), hcp.expertises.map(&:id))
+               .includes(:task_template => :expertise, :task_category => :expertise)
+               .where('task_categories.expertise_id IN (?) OR task_templates.expertise_id IN (?) OR ( task_templates.expertise_id IS NULL AND task_categories.expertise_id IS NULL)', hcp.expertises.map(&:id), hcp.expertises.map(&:id))
                .includes(:member, :member => :phone_numbers)
                .order(task_order)
                .first
@@ -143,6 +147,14 @@ class Task < ActiveRecord::Base
 
   def update_priority_score
     self.priority = calculate_priority
+  end
+
+  def expertise
+    task_category.try(:expertise) || task_template.try(:expertise)
+  end
+
+  def self.number_of_tasks_completed_today(hcp)
+    Task.where(owner_id: hcp.id).where('completed_at BETWEEN ? AND ?', DateTime.now.beginning_of_day, DateTime.now.end_of_day).count
   end
 
 
@@ -387,10 +399,10 @@ class Task < ActiveRecord::Base
     self.owner ||= calculate_owner
     self.assignor ||= owner
     self.role ||= Role.find_by_name(:pha)
-    self.priority = calculate_priority
     self.service_ordinal ||= task_template.try(:service_ordinal) || service_ordinal_for_one_off
     self.time_zone ||= service.try(:time_zone) || member.try(:time_zone)
     self.time_zone_offset = ActiveSupport::TimeZone.new(time_zone).try(:utc_offset) if time_zone
+    self.priority = calculate_priority
     true
   end
 
@@ -398,7 +410,7 @@ class Task < ActiveRecord::Base
 
   def self.task_order
     pacific_offset = Time.zone_offset('PDT')/3600
-    "DATE(CONVERT_TZ(tasks.due_at, '+0:00', '#{pacific_offset}:00')) ASC, tasks.priority DESC, tasks.day_priority DESC, tasks.due_at ASC, tasks.created_at ASC"
+    "tasks.urgent DESC, DATE(CONVERT_TZ(tasks.due_at, '+0:00', '#{pacific_offset}:00')) ASC, tasks.priority DESC, tasks.day_priority DESC, tasks.due_at ASC, tasks.created_at ASC"
   end
 
   def set_assignor

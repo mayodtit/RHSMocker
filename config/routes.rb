@@ -126,6 +126,9 @@ RHSMocker::Application.routes.draw do
         end
         resources :data_field_templates, except: %i(new edit)
       end
+      resources :specialists, only: :index do
+        get 'queue', on: :collection
+      end
       resources :system_event_templates, except: %i(new edit)
       resources :system_action_templates, except: %i(new edit)
       resources :sms_notifications, only: [] do
@@ -191,6 +194,7 @@ RHSMocker::Application.routes.draw do
             post ':id', to: 'user_condition_user_treatments#create', on: :collection
           end
         end
+        resources :expertises, except: %i(new edit update), :controller => 'user_expertises'
         resources :heights, except: %i(new edit)
         resources :insurance_policies, except: %i(new edit)
         resources :inverse_associations, only: [:index, :update, :destroy]
