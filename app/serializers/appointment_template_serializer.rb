@@ -1,7 +1,15 @@
 class AppointmentTemplateSerializer < ActiveModel::Serializer
   self.root = false
 
-  attributes :id, :name, :title, :description, :scheduled_at, :version, :unique_id, :state, :state_events, :created_at, :special_instructions, :reason_for_visit
+  attributes :id, :name, :title, :description, :version, :unique_id, :state, :state_events, :special_instructions, :reason_for_visit, :scheduled_at_system_event_template_id, :discharged_at_system_event_template_id
 
-  has_many :system_event_templates
+  delegate :scheduled_at_system_event_template, :discharged_at_system_event_template, to: :object
+
+  def scheduled_at_system_event_template_id
+    scheduled_at_system_event_template.try(:id)
+  end
+
+  def discharged_at_system_event_template_id
+    discharged_at_system_event_template.try(:id)
+  end
 end

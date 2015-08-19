@@ -2,7 +2,6 @@ FactoryGirl.define do
   factory :system_event do
     association :user, factory: :member
     system_event_template
-    appointment
     trigger_at Time.now + 1.day
     state 'scheduled'
 
