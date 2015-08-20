@@ -8,7 +8,10 @@ class AppointmentTemplate < ActiveRecord::Base
                                                 conditions: {resource_attribute: :discharged_at},
                                                 dependent: :destroy
 
-  attr_accessible :title, :description, :state, :unique_id, :version, :state_event, :special_instructions, :reason_for_visit, :scheduled_at_system_event_template, :discharged_at_system_event_template, :scheduled_at_system_event_template_attributes, :discharged_at_system_event_template_attributes
+  attr_accessible :title, :description, :state, :unique_id, :version, :state_event,
+                  :special_instructions, :reason_for_visit,
+                  :scheduled_at_system_event_template, :discharged_at_system_event_template,
+                  :scheduled_at_system_event_template_attributes, :discharged_at_system_event_template_attributes
 
   validates :title, :state, :version, presence: true
   validates :version, uniqueness: { scope: :unique_id }
