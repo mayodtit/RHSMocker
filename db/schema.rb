@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150817215007) do
+ActiveRecord::Schema.define(:version => 20150820213859) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1420,6 +1420,7 @@ ActiveRecord::Schema.define(:version => 20150817215007) do
     t.integer  "time_zone_offset"
     t.integer  "task_category_id"
     t.text     "reason_blocked"
+    t.integer  "expertise_id"
   end
 
   add_index "tasks", ["owner_id", "state", "role_id", "type"], :name => "queue_test"

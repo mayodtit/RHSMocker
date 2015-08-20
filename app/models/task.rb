@@ -39,7 +39,7 @@ class Task < ActiveRecord::Base
   attr_accessible :title, :description, :due_at, :queue, :time_zone, :time_zone_offset,
                   :owner, :owner_id, :member, :member_id,
                   :subject, :subject_id, :creator, :creator_id, :assignor, :assignor_id,
-                  :abandoner, :abandoner_id, :role, :role_id,
+                  :abandoner, :abandoner_id, :role, :role_id, :expertise_id,
                   :state_event, :service_type_id, :service_type, :task_category, :task_category_id,
                   :task_template, :task_template_id, :service, :service_id, :service_ordinal,
                   :priority, :actor_id, :member_id, :member, :reason, :reason_blocked, :visible_in_queue,
@@ -60,6 +60,7 @@ class Task < ActiveRecord::Base
   before_validation :set_defaults, on: :create
   before_validation :set_assignor
   before_validation :mark_as_unread
+  before_validation :set_expertise_id
   before_validation :update_priority_score, on: :update
   after_create :create_task_data_fields!, if: :task_template
   after_create :create_task_steps!, if: :task_template
@@ -99,8 +100,7 @@ class Task < ActiveRecord::Base
   def self.next_tasks(hcp)
     task = Task.where(queue: :specialist)
                .where(state: :unclaimed)
-               .includes(:task_template => :expertise, :task_category => :expertise)
-               .where('task_categories.expertise_id IN (?) OR task_templates.expertise_id IN (?) OR ( task_templates.expertise_id IS NULL AND task_categories.expertise_id IS NULL)', hcp.expertises.map(&:id), hcp.expertises.map(&:id))
+               .where('expertise_id IS NULL OR expertise_id IN (?)', hcp.expertises.map(&:id))
                .includes(:member, :member => :phone_numbers)
                .order(task_order)
                .first
@@ -149,12 +149,13 @@ class Task < ActiveRecord::Base
     self.priority = calculate_priority
   end
 
-  def expertise
-    task_category.try(:expertise) || task_template.try(:expertise)
+  def set_expertise_id
+    self.expertise_id = task_template.try(:expertise_id) || task_category.try(:expertise_id)
   end
 
   def self.number_of_tasks_completed_today(hcp)
-    Task.where(owner_id: hcp.id).where('completed_at BETWEEN ? AND ?', DateTime.now.beginning_of_day, DateTime.now.end_of_day).count
+    Task.where(owner_id: hcp.id).where('completed_at BETWEEN ? AND ?',
+               DateTime.now.beginning_of_day, DateTime.now.end_of_day).count
   end
 
 
