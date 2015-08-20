@@ -52,7 +52,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def appointment_template
-    params.require(:appointment_template).permit(:title, :description, :scheduled_at, :state_event, :special_instructions, :reason_for_visit)
+    params.require(:appointment_template).permit(:title, :description, :scheduled_at, :state_event, :special_instructions, :reason_for_visit, scheduled_at_system_event_template_attributes: [:id, :title], discharged_at_system_event_template_attributes: [:id, :title])
   end
 
   def user_request
@@ -138,7 +138,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def system_event_template
-    params.require(:system_event_template).permit(:name, :title, :description, :state, time_offset_attributes: %i(offset_type direction absolute_minutes relative_days relative_minutes_after_midnight))
+    params.require(:system_event_template).permit(:title, :description, :state, time_offset_attributes: %i(offset_type direction absolute_minutes relative_days relative_minutes_after_midnight))
   end
 
   def system_action_template_attributes
