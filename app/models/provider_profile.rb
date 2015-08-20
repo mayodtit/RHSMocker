@@ -1,5 +1,5 @@
 class ProviderProfile < ActiveRecord::Base
-  attr_accessible :first_name, :gender, :id, :image_url, :last_name, :npi_number, :ratings
+  attr_accessible :first_name, :gender, :image_url, :last_name, :npi_number, :ratings
 
   acts_as_commentable
 

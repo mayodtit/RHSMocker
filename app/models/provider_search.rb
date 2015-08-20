@@ -1,5 +1,5 @@
 class ProviderSearch < ActiveRecord::Base
-  attr_accessible :id, :preferences, :provider_search_preferences_id, :state, :user, :user_id
+  attr_accessible :preferences, :provider_search_preferences_id, :state, :user, :user_id
 
   acts_as_commentable
 
