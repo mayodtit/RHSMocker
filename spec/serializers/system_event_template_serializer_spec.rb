@@ -17,7 +17,6 @@ describe SystemEventTemplateSerializer do
     expect(result).to eq(
       {
         id: system_event_template.id,
-        name: system_event_template.name,
         title: system_event_template.title,
         description: system_event_template.description,
         state: system_event_template.state,
