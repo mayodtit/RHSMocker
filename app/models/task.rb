@@ -150,11 +150,11 @@ class Task < ActiveRecord::Base
   end
 
   def expertise
-    task_template.try(:expertise_id) || task_category.try(:expertise_id)
+    task_template.try(:expertise) || task_category.try(:expertise)
   end
 
   def set_expertise_id
-    self.expertise_id = expertise
+    self.expertise_id = expertise.try(:id)
   end
 
   def self.number_of_tasks_completed_today(hcp)
