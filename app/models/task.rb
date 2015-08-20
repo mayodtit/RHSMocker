@@ -150,8 +150,12 @@ class Task < ActiveRecord::Base
   end
 
   def set_expertise_id
-    self.expertise_id = task_template.try(:expertise_id) || task_category.try(:expertise_id)
+    self.expertise_id = expertise
   end
+
+  def expertise
+    task_template.try(:expertise_id) || task_category.try(:expertise_id)
+  def
 
   def self.number_of_tasks_completed_today(hcp)
     Task.where(owner_id: hcp.id).where('completed_at BETWEEN ? AND ?',

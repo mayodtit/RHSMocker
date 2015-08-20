@@ -5,7 +5,7 @@ class TaskSerializer < ActiveModel::Serializer
              :owner_id, :service_type_id, :triage_state, :member_id,
              :day_priority, :task_template_id, :urgent, :unread, :follow_up,
              :modal_template, :service_title, :queue, :service_bucket,
-             :time_zone, :expertise, :priority
+             :time_zone, :expertise, :expertise_id, :priority
 
   delegate :member, :owner, :service_type, :task_changes, :task_steps,
            :task_template, :input_data_fields, :output_data_fields,
