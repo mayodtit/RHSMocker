@@ -58,6 +58,7 @@ class Task < ActiveRecord::Base
   validate :attrs_for_states
 
   before_validation :set_defaults, on: :create
+  before_validation :reinitialize_state_machine, on: :create
   before_validation :set_assignor
   before_validation :mark_as_unread
   before_validation :update_priority_score, on: :update
@@ -174,8 +175,15 @@ class Task < ActiveRecord::Base
     end
   end
 
+  # call initialize twice to make sure dynamic initial state is set correctly
+  def reinitialize_state_machine
+    initialize_state_machines(dynamic: :force)
+  end
+
   def initial_state
-    if owner_id.present?
+    if completed? || abandoned? || blocked_internal? || blocked_external?
+      state.to_sym
+    elsif owner.present?
       self.claimed_at = Time.now
       :claimed
     else
@@ -283,6 +291,10 @@ class Task < ActiveRecord::Base
         validate_actor_and_timestamp_exist :complete
       when 'abandoned'
         validate_actor_and_timestamp_exist :abandon
+    end
+
+    if unclaimed? && owner_id
+      errors.add(:owner_id, "must be nil when #{self.class.name} is #{state}")
     end
 
     if %w(claimed completed).include? state

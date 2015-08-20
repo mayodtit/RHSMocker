@@ -1,9 +1,21 @@
 class SystemEventTemplateSerializer < ActiveModel::Serializer
   self.root = false
 
-  attributes :name, :title, :description, :state, :unique_id, :version
+  attributes :id, :title, :description, :state, :unique_id, :version, :sample_ordinal
 
-  has_one :system_action_template
+  delegate :system_relative_event_templates, to: :object
 
-  has_many :system_relative_event_templates
+  def sample_ordinal
+    if object.respond_to?(:time_offset)
+      object.time_offset.calculate(sample_time).to_i
+    else
+      sample_time.to_i
+    end
+  end
+
+  private
+
+  def sample_time
+    Time.parse('2015-08-12 00:00:00 -0700')
+  end
 end

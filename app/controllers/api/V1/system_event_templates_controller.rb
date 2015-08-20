@@ -2,6 +2,7 @@ class Api::V1::SystemEventTemplatesController < Api::V1::ABaseController
   before_filter :load_user!
   before_filter :load_system_event_templates!
   before_filter :load_system_event_template!, only: %i(show update destroy)
+  before_filter :convert_parameters!, only: %i(create update)
 
   def index
     authorize! :read, SystemEventTemplate
@@ -10,17 +11,18 @@ class Api::V1::SystemEventTemplatesController < Api::V1::ABaseController
 
   def create
     authorize! :create, SystemEventTemplate
-    create_resource @system_event_templates, permitted_params.system_event_template_attributes
+    create_resource @system_event_templates, action_params
   end
 
   def show
     authorize! :read, @system_event_template
-    show_resource @system_event_template.serializer
+    render_success system_event_template: @system_event_template.serializer,
+                   all_system_event_templates: all_system_event_templates.serializer
   end
 
   def update
     authorize! :update, @system_event_template
-    update_resource @system_event_template, permitted_params.system_event_template_attributes
+    update_resource @system_event_template, action_params
   end
 
   def destroy
@@ -50,5 +52,17 @@ class Api::V1::SystemEventTemplatesController < Api::V1::ABaseController
   def load_system_event_template!
     @system_event_template = SystemEventTemplate.find(params[:id])
     authorize! :manage, @system_event_template
+  end
+
+  def all_system_event_templates
+    @system_event_template.system_relative_event_templates.all << @system_event_template
+  end
+
+  def action_params
+    permitted_params.system_event_template
+  end
+
+  def convert_parameters!
+    params.require(:system_event_template).change_key!(:time_offset, :time_offset_attributes)
   end
 end

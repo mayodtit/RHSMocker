@@ -1,18 +1,18 @@
 class SystemEventTemplate < ActiveRecord::Base
   has_one :system_action_template, inverse_of: :system_event_template
-  has_many :system_relative_event_templates, inverse_of: :root_event_template
+  belongs_to :resource, polymorphic: true
+  has_many :system_relative_event_templates, foreign_key: :root_event_template_id,
+                                             inverse_of: :root_event_template,
+                                             dependent: :destroy
   has_many :system_events, inverse_of: :system_event_template
-  belongs_to :appointment_template
 
-  attr_accessible :name, :description, :title, :state, :unique_id, :version, :appointment_template_id, :appointment_template
+  attr_accessible :title, :description, :state, :unique_id, :version, :resource, :resource_id, :resource_type, :resource_attribute
 
   VALID_STATES = [:unpublished, :published, :retired]
 
-  validates :name, :title, presence: true
-  validates :version, presence: true
-  validates :version, uniqueness: { scope: :unique_id }
-  validates :state, presence: true
+  validates :title, :state, presence: true
   validates :state, uniqueness: { scope: :unique_id }, unless: :retired?
+  validates :version, presence: true, uniqueness: { scope: :unique_id }
 
   before_validation :set_unique_id, on: :create
   before_validation :set_version, on: :create

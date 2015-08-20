@@ -1,5 +1,5 @@
 class ProviderSearchResult < ActiveRecord::Base
-  attr_accessible :id, :provider_profile_id, :provider_search_id, :state
+  attr_accessible :provider_profile_id, :provider_search_id, :state
 
   acts_as_commentable
 

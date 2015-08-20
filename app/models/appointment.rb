@@ -4,7 +4,6 @@ class Appointment < ActiveRecord::Base
   belongs_to :creator, class_name: 'Member'
   belongs_to :appointment_template
   has_many :appointment_changes
-  has_many :system_events
   has_one :phone_number, as: :phoneable, inverse_of: :phoneable, dependent: :destroy
   has_one :address, inverse_of: :appointment, dependent: :destroy
 
@@ -18,16 +17,7 @@ class Appointment < ActiveRecord::Base
 
   validates :user, :provider, :scheduled_at, :creator, presence: true
 
-  after_create :create_events
   after_commit :track_update, on: :update
-
-  def create_events
-    if appointment_template
-      appointment_template.system_event_templates.each do |system_event_template|
-        SystemEvent.create!(user: user, system_event_template: system_event_template, appointment_id: self.id, trigger_at: appointment_template.scheduled_at)
-      end
-    end
-  end
 
   def data
     changes = previous_changes.slice(

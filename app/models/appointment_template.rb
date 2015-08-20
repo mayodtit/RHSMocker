@@ -1,17 +1,26 @@
 class AppointmentTemplate < ActiveRecord::Base
-  has_many :system_event_templates
+  has_one :scheduled_at_system_event_template, class_name: 'SystemEventTemplate',
+                                               as: :resource,
+                                               conditions: {resource_attribute: :scheduled_at},
+                                               dependent: :destroy
+  has_one :discharged_at_system_event_template, class_name: 'SystemEventTemplate',
+                                                as: :resource,
+                                                conditions: {resource_attribute: :discharged_at},
+                                                dependent: :destroy
 
-  attr_accessible :name, :description, :title, :scheduled_at, :state, :unique_id, :version, :state_event, :special_instructions, :reason_for_visit
+  attr_accessible :title, :description, :state, :unique_id, :version, :state_event,
+                  :special_instructions, :reason_for_visit,
+                  :scheduled_at_system_event_template, :discharged_at_system_event_template,
+                  :scheduled_at_system_event_template_attributes, :discharged_at_system_event_template_attributes
 
-  validates :name, :title, presence: true
-  validates :version, presence: true
+  validates :title, :state, :version, presence: true
   validates :version, uniqueness: { scope: :unique_id }
-  validates :state, presence: true
   validates :state, uniqueness: { scope: :unique_id }, unless: :retired?
 
   before_validation :set_unique_id, on: :create
   before_validation :set_version, on: :create
 
+  accepts_nested_attributes_for :scheduled_at_system_event_template, :discharged_at_system_event_template
 
   def create_deep_copy!
     transaction do
