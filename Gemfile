@@ -82,7 +82,7 @@ gem 'daemons'	# To run backgound jobs
 gem 'delayed_job_active_record' # background jobs
 gem 'figaro'
 gem 'carrierwave'               # image storage
-gem 'stripe'                    # payment processing
+gem 'stripe', '~> 1.16.0'
 gem 'curb'                      # curl - used mainly for POSTing data to Google Analytics
 gem 'minitar'
 gem 'fog'                       # cloud storage
