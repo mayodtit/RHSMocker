@@ -138,7 +138,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def system_event_template
-    params.require(:system_event_template).permit(:title, :description, :state, time_offset_attributes: %i(offset_type direction absolute_minutes relative_days relative_minutes_after_midnight))
+    params.require(:system_event_template).permit(:title, :description, :state, time_offset_attributes: %i(id offset_type direction absolute_minutes relative_days relative_minutes_after_midnight))
   end
 
   def system_action_template_attributes
