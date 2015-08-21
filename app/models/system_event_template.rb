@@ -6,7 +6,9 @@ class SystemEventTemplate < ActiveRecord::Base
                                              dependent: :destroy
   has_many :system_events, inverse_of: :system_event_template
 
-  attr_accessible :title, :description, :state, :unique_id, :version, :resource, :resource_id, :resource_type, :resource_attribute
+  attr_accessible :title, :description, :state, :unique_id, :version,
+                  :resource, :resource_id, :resource_type, :resource_attribute,
+                  :system_action_template_attributes
 
   VALID_STATES = [:unpublished, :published, :retired]
 
@@ -16,6 +18,8 @@ class SystemEventTemplate < ActiveRecord::Base
 
   before_validation :set_unique_id, on: :create
   before_validation :set_version, on: :create
+
+  accepts_nested_attributes_for :system_action_template
 
   VALID_STATES.each do |state|
     self.singleton_class.send(:define_method, state.to_s) do

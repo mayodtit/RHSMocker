@@ -64,5 +64,6 @@ class Api::V1::SystemEventTemplatesController < Api::V1::ABaseController
 
   def convert_parameters!
     params.require(:system_event_template).change_key!(:time_offset, :time_offset_attributes)
+    params.require(:system_event_template).change_key!(:system_action_template, :system_action_template_attributes)
   end
 end
