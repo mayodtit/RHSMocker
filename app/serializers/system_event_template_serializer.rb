@@ -3,6 +3,8 @@ class SystemEventTemplateSerializer < ActiveModel::Serializer
 
   attributes :id, :title, :description, :state, :unique_id, :version, :sample_ordinal
 
+  has_one :system_action_template
+
   delegate :system_relative_event_templates, to: :object
 
   def sample_ordinal
