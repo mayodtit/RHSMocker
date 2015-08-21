@@ -1,5 +1,5 @@
 class TimeOffsetSerializer < ActiveModel::Serializer
   self.root = false
 
-  attributes :direction, :offset_type, :fixed_time, :num_days, :relative_time
+  attributes :direction, :offset_type, :absolute_minutes, :relative_days, :relative_minutes_after_midnight
 end

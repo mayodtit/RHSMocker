@@ -1,5 +1,5 @@
 class ProviderSearchPreferences < ActiveRecord::Base
-  attr_accessible :distance, :gender, :id, :insurance_uid, :lat, :lon, :specialty_uid
+  attr_accessible :distance, :gender, :insurance_uid, :lat, :lon, :specialty_uid
 
   validate :location_parameters_must_all_be_provided_together
 

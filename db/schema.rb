@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150812215202) do
+ActiveRecord::Schema.define(:version => 20150819224810) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -67,10 +67,8 @@ ActiveRecord::Schema.define(:version => 20150812215202) do
   end
 
   create_table "appointment_templates", :force => true do |t|
-    t.datetime "scheduled_at"
     t.datetime "created_at",                          :null => false
     t.datetime "updated_at",                          :null => false
-    t.string   "name"
     t.string   "title"
     t.text     "description"
     t.string   "unique_id"
@@ -1264,17 +1262,18 @@ ActiveRecord::Schema.define(:version => 20150812215202) do
   end
 
   create_table "system_event_templates", :force => true do |t|
-    t.string   "name",                                   :null => false
-    t.string   "title",                                  :null => false
+    t.string   "title",                                 :null => false
     t.text     "description"
-    t.string   "unique_id",                              :null => false
-    t.integer  "version",                 :default => 0, :null => false
+    t.string   "unique_id",                             :null => false
+    t.integer  "version",                :default => 0, :null => false
     t.string   "state"
-    t.datetime "created_at",                             :null => false
-    t.datetime "updated_at",                             :null => false
+    t.datetime "created_at",                            :null => false
+    t.datetime "updated_at",                            :null => false
     t.string   "type"
     t.integer  "root_event_template_id"
-    t.integer  "appointment_template_id"
+    t.integer  "resource_id"
+    t.string   "resource_type"
+    t.string   "resource_attribute"
   end
 
   create_table "system_events", :force => true do |t|
@@ -1284,7 +1283,6 @@ ActiveRecord::Schema.define(:version => 20150812215202) do
     t.string   "state"
     t.datetime "created_at",               :null => false
     t.datetime "updated_at",               :null => false
-    t.integer  "appointment_id"
   end
 
   create_table "task_categories", :force => true do |t|
@@ -1454,12 +1452,12 @@ ActiveRecord::Schema.define(:version => 20150812215202) do
   create_table "time_offsets", :force => true do |t|
     t.string   "offset_type",                       :null => false
     t.string   "direction",                         :null => false
-    t.time     "fixed_time"
-    t.integer  "num_days"
-    t.time     "relative_time"
     t.datetime "created_at",                        :null => false
     t.datetime "updated_at",                        :null => false
     t.integer  "system_relative_event_template_id"
+    t.integer  "absolute_minutes"
+    t.integer  "relative_days"
+    t.integer  "relative_minutes_after_midnight"
   end
 
   create_table "treatment_side_effects", :force => true do |t|

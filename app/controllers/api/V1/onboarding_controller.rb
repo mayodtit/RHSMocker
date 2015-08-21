@@ -20,9 +20,16 @@ class Api::V1::OnboardingController < Api::V1::ABaseController
   end
 
   def referral_code_validation
-    @referral_code = ReferralCode.find_by_code!(params[:code])
-    render_success(skip_credit_card: onboarding_skip_credit_card?,
-                   onboarding_custom_welcome: onboarding_custom_welcome)
+    if @referral_code = ReferralCode.find_by_code(params[:code])
+      render_success(skip_credit_card: onboarding_skip_credit_card?,
+                     onboarding_custom_welcome: onboarding_custom_welcome)
+    else
+      render_failure({ reason: 'invalid referral code',
+                       user_message:'Referral code is invalid',
+                       skip_credit_card: onboarding_skip_credit_card?,
+                       onboarding_custom_welcome: onboarding_custom_welcome},
+                     404)
+    end
   end
 
   def log_in
