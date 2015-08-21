@@ -10,7 +10,7 @@ describe SystemActionTemplate do
 
   describe 'types' do
     describe ':system_message' do
-      let(:system_action_template) { build(:system_action_template, :system_message) }
+      let(:system_action_template) { create(:system_action_template, :system_message) }
 
       it 'validates presence of message_text' do
         expect(system_action_template).to be_valid
@@ -28,7 +28,7 @@ describe SystemActionTemplate do
     end
 
     describe ':pha_message' do
-      let(:system_action_template) { build(:system_action_template, :pha_message) }
+      let(:system_action_template) { create(:system_action_template, :pha_message) }
 
       it 'validates presence of message_text' do
         expect(system_action_template).to be_valid
