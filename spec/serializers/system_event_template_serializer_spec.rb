@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe SystemEventTemplateSerializer do
-  let(:system_event_template) { create(:system_event_template) }
+  let(:system_event_template) { create(:system_event_template, :with_system_action_template) }
   let(:sample_time) { Time.parse('2015-08-12 00:00:00 -0700') }
 
   before do
@@ -22,7 +22,8 @@ describe SystemEventTemplateSerializer do
         state: system_event_template.state,
         unique_id: system_event_template.unique_id,
         version: system_event_template.version,
-        sample_ordinal: sample_time.to_i
+        sample_ordinal: sample_time.to_i,
+        system_action_template: system_event_template.system_action_template.serializer.as_json
       }
     )
   end

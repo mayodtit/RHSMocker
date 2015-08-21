@@ -13,9 +13,18 @@ class SystemActionTemplate < ActiveRecord::Base
   validates :message_text, presence: true, if: ->(s) { s.system_message? || s.pha_message? }
   validates :content, presence: true, if: :content_id
 
+  before_validation :set_defaults, on: :create
+
   TYPES.each do |template_type|
     define_method("#{template_type}?") do
       type == template_type
     end
+  end
+
+  private
+
+  def set_defaults
+    self.type ||= :system_message
+    self.message_text ||= 'Placeholder text'
   end
 end
