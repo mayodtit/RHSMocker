@@ -1,6 +1,6 @@
 class SystemActionTemplate < ActiveRecord::Base
   self.inheritance_column = nil
-  TYPES = %i(system_message pha_message)
+  TYPES = %i(system_message pha_message service)
 
   belongs_to :system_event_template, inverse_of: :system_action_template
   belongs_to :content
@@ -18,6 +18,7 @@ class SystemActionTemplate < ActiveRecord::Base
   validates :system_event_template, :type, presence: true
   validates :message_text, presence: true, if: ->(s) { s.system_message? || s.pha_message? }
   validates :content, presence: true, if: :content_id
+  validates :published_versioned_resource, presence: true, if: :service?
   validate :published_versioned_resource_is_published, if: :published_versioned_resource
 
   before_validation :set_defaults, on: :create

@@ -11,5 +11,11 @@ FactoryGirl.define do
     trait :pha_message do
       type :pha_message
     end
+
+    trait :service do
+      type :service
+      message_text nil
+      published_versioned_resource { association(:service_template, :published) }
+    end
   end
 end
