@@ -17,5 +17,11 @@ FactoryGirl.define do
       message_text nil
       published_versioned_resource { association(:service_template, :published) }
     end
+
+    trait :task do
+      type :task
+      message_text nil
+      unversioned_resource { association(:task_template, :with_service_type) }
+    end
   end
 end

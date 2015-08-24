@@ -3,6 +3,7 @@ require 'spec_helper'
 describe TaskTemplate do
   it_has_a 'valid factory'
   it_has_a 'valid factory', :with_service_template
+  it_has_a 'valid factory', :with_service_type
 
   describe 'validations' do
     before do
@@ -13,6 +14,7 @@ describe TaskTemplate do
     it_validates 'presence of', :title
     it_validates 'foreign key of', :service_template
     it_validates 'foreign key of', :modal_template
+    it_validates 'foreign key of', :service_type
   end
 
   describe '#create_deep_copy!' do

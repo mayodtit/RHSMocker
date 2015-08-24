@@ -5,6 +5,7 @@ describe SystemActionTemplate do
   it_has_a 'valid factory', :system_message
   it_has_a 'valid factory', :pha_message
   it_has_a 'valid factory', :service
+  it_has_a 'valid factory', :task
 
   describe 'validations' do
     it_validates 'presence of', :system_event_template
@@ -19,6 +20,17 @@ describe SystemActionTemplate do
         system_action_template.published_versioned_resource = nil
         expect(system_action_template).to_not be_valid
         expect(system_action_template.errors[:published_versioned_resource]).to include("can't be blank")
+      end
+    end
+
+    context 'task type' do
+      let(:system_action_template) { build(:system_action_template, :task) }
+
+      it 'validates presence of :unpublished_resource' do
+        expect(system_action_template).to be_valid
+        system_action_template.unversioned_resource = nil
+        expect(system_action_template).to_not be_valid
+        expect(system_action_template.errors[:unversioned_resource]).to include("can't be blank")
       end
     end
 

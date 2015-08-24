@@ -32,6 +32,12 @@ class TriggerSystemEventService < Struct.new(:params)
     elsif system_action_template.service?
       system_event.user.services.create!(service_template: system_action_template.published_versioned_resource,
                                          actor: Member.robot)
+    elsif system_action_template.task?
+      MemberTask.create!(member: system_event.user,
+                         subject: system_event.user,
+                         task_template: system_action_template.unversioned_resource,
+                         creator: Member.robot,
+                         actor_id: Member.robot.id)
     end
   end
 end
