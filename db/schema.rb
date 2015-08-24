@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150824171624) do
+ActiveRecord::Schema.define(:version => 20150824210131) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -759,6 +759,7 @@ ActiveRecord::Schema.define(:version => 20150824171624) do
     t.string   "header_asset"
     t.string   "background_asset"
     t.text     "custom_welcome"
+    t.boolean  "mayo_nurse_line_access",        :default => true,  :null => false
   end
 
   add_index "onboarding_groups", ["pha_id"], :name => "index_onboarding_groups_on_pha_id"
