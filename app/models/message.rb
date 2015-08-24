@@ -36,7 +36,6 @@ class Message < ActiveRecord::Base
   validates :scheduled_phone_call, presence: true, if: lambda{|m| m.scheduled_phone_call_id}
   validates :phone_call_summary, presence: true, if: lambda{|m| m.phone_call_summary_id}
   validates :user_image, presence: true, if: ->(m){m.user_image_id}
-  validate :no_placeholders_in_user_facing_attributes, on: :create
 
   before_validation :set_user_from_association, on: :create
   before_validation :attach_user_image, if: ->(m){m.user_image_client_guid}, on: :create
@@ -116,16 +115,6 @@ class Message < ActiveRecord::Base
   end
 
   private
-
-  def no_placeholders_in_user_facing_attributes
-    if text.try(:match, RegularExpressions.braces)
-      errors.add(:text, "shouldn't contain any curly braces")
-    end
-
-    if text.try(:match, RegularExpressions.brackets)
-      errors.add(:text, "shouldn't contain any square brackets")
-    end
-  end
 
   def set_user_from_association
     self.user_id ||= phone_call.try(:user_id)
