@@ -22,6 +22,7 @@ class SystemActionTemplate < ActiveRecord::Base
   validates :content, presence: true, if: :content_id
   validates :published_versioned_resource, presence: true, if: :service?
   validates :unversioned_resource, presence: true, if: :task?
+  validate :resource_requirements_for_types, if: ->(s) { s.service? || s.task? }
   validate :published_versioned_resource_is_published, if: :published_versioned_resource
 
   before_validation :set_defaults, on: :create
@@ -37,6 +38,18 @@ class SystemActionTemplate < ActiveRecord::Base
   def set_defaults
     self.type ||= :system_message
     self.message_text ||= 'Placeholder text'
+  end
+
+  def resource_requirements_for_types
+    if service?
+      if !published_versioned_resource || !published_versioned_resource.is_a?(ServiceTemplate)
+        errors.add(:published_versioned_resource, 'must be a Service Template')
+      end
+    elsif task?
+      if !unversioned_resource || !unversioned_resource.is_a?(TaskTemplate)
+        errors.add(:unversioned_resource, 'must be a Task Template')
+      end
+    end
   end
 
   def published_versioned_resource_is_published

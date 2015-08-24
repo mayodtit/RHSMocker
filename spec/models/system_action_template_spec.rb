@@ -12,28 +12,6 @@ describe SystemActionTemplate do
     it_validates 'presence of', :type
     it_validates 'foreign key of', :content
 
-    context 'service type' do
-      let(:system_action_template) { build(:system_action_template, :service) }
-
-      it 'validates presence of :published_versioned_resource' do
-        expect(system_action_template).to be_valid
-        system_action_template.published_versioned_resource = nil
-        expect(system_action_template).to_not be_valid
-        expect(system_action_template.errors[:published_versioned_resource]).to include("can't be blank")
-      end
-    end
-
-    context 'task type' do
-      let(:system_action_template) { build(:system_action_template, :task) }
-
-      it 'validates presence of :unpublished_resource' do
-        expect(system_action_template).to be_valid
-        system_action_template.unversioned_resource = nil
-        expect(system_action_template).to_not be_valid
-        expect(system_action_template.errors[:unversioned_resource]).to include("can't be blank")
-      end
-    end
-
     describe '#published_versioned_resource_is_published' do
       let(:system_action_template) { create(:system_action_template, :service) }
 
@@ -61,6 +39,8 @@ describe SystemActionTemplate do
         it 'returns the correct matchers based on type' do
           expect(system_action_template).to be_system_message
           expect(system_action_template).to_not be_pha_message
+          expect(system_action_template).to_not be_service
+          expect(system_action_template).to_not be_task
         end
       end
     end
@@ -79,6 +59,62 @@ describe SystemActionTemplate do
         it 'returns the correct matchers based on type' do
           expect(system_action_template).to_not be_system_message
           expect(system_action_template).to be_pha_message
+          expect(system_action_template).to_not be_service
+          expect(system_action_template).to_not be_task
+        end
+      end
+    end
+
+    describe ':service' do
+      let(:system_action_template) { create(:system_action_template, :service) }
+
+      it 'validates presence of :published_versioned_resource' do
+        expect(system_action_template).to be_valid
+        system_action_template.published_versioned_resource = nil
+        expect(system_action_template).to_not be_valid
+        expect(system_action_template.errors[:published_versioned_resource]).to include("can't be blank")
+      end
+
+      it 'validates published versioned resource is a Service Tempalte' do
+        expect(system_action_template).to be_valid
+        system_action_template.published_versioned_resource = create(:content)
+        expect(system_action_template).to_not be_valid
+        expect(system_action_template.errors[:published_versioned_resource]).to include('must be a Service Template')
+      end
+
+      describe 'dynamic matchers' do
+        it 'returns the correct matchers based on type' do
+          expect(system_action_template).to_not be_system_message
+          expect(system_action_template).to_not be_pha_message
+          expect(system_action_template).to be_service
+          expect(system_action_template).to_not be_task
+        end
+      end
+    end
+
+    describe ':task' do
+      let(:system_action_template) { create(:system_action_template, :task) }
+
+      it 'validates presence of :unpublished_resource' do
+        expect(system_action_template).to be_valid
+        system_action_template.unversioned_resource = nil
+        expect(system_action_template).to_not be_valid
+        expect(system_action_template.errors[:unversioned_resource]).to include("can't be blank")
+      end
+
+      it 'validates unversioned resource is a Task Tempalte' do
+        expect(system_action_template).to be_valid
+        system_action_template.unversioned_resource = create(:service_template)
+        expect(system_action_template).to_not be_valid
+        expect(system_action_template.errors[:unversioned_resource]).to include('must be a Task Template')
+      end
+
+      describe 'dynamic matchers' do
+        it 'returns the correct matchers based on type' do
+          expect(system_action_template).to_not be_system_message
+          expect(system_action_template).to_not be_pha_message
+          expect(system_action_template).to_not be_service
+          expect(system_action_template).to be_task
         end
       end
     end
