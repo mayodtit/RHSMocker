@@ -385,7 +385,7 @@ class Task < ActiveRecord::Base
     self.description ||= task_template.try(:description)
     self.due_at ||= task_template.try(:calculated_due_at, start_at)
     self.time_estimate ||= task_template.try(:time_estimate)
-    self.service_type ||= service.try(:service_type)
+    self.service_type ||= service.try(:service_type) || task_template.try(:service_type)
     self.task_category ||= task_template.try(:task_category)
     self.member ||= service.try(:member)
     self.subject ||= service.try(:subject)
