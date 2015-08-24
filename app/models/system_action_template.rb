@@ -26,6 +26,7 @@ class SystemActionTemplate < ActiveRecord::Base
   validate :published_versioned_resource_is_published, if: :published_versioned_resource
 
   before_validation :set_defaults, on: :create
+  before_validation :clear_unused_fields
 
   TYPES.each do |template_type|
     define_method("#{template_type}?") do
@@ -34,11 +35,6 @@ class SystemActionTemplate < ActiveRecord::Base
   end
 
   private
-
-  def set_defaults
-    self.type ||= :system_message
-    self.message_text ||= 'Placeholder text'
-  end
 
   def resource_requirements_for_types
     if service?
@@ -55,6 +51,24 @@ class SystemActionTemplate < ActiveRecord::Base
   def published_versioned_resource_is_published
     unless published_versioned_resource.published?
       errors.add(:published_versioned_resource, 'must be published')
+    end
+  end
+
+  def set_defaults
+    self.type ||= :system_message
+    self.message_text ||= 'Placeholder text'
+  end
+
+  def clear_unused_fields
+    if system_message? || pha_message?
+      self.published_versioned_resource = nil
+      self.unversioned_resource = nil
+    elsif service?
+      self.message_text = nil
+      self.unversioned_resource = nil
+    elsif task?
+      self.message_text = nil
+      self.published_versioned_resource = nil
     end
   end
 end
