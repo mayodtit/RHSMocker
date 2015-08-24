@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150819224810) do
+ActiveRecord::Schema.define(:version => 20150821235004) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1248,8 +1248,10 @@ ActiveRecord::Schema.define(:version => 20150819224810) do
     t.string   "type"
     t.text     "message_text"
     t.integer  "content_id"
-    t.datetime "created_at",               :null => false
-    t.datetime "updated_at",               :null => false
+    t.datetime "created_at",                   :null => false
+    t.datetime "updated_at",                   :null => false
+    t.string   "versioned_resource_unique_id"
+    t.string   "versioned_resource_type"
   end
 
   create_table "system_actions", :force => true do |t|
