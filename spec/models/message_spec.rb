@@ -19,26 +19,6 @@ describe Message do
     it_validates 'foreign key of', :phone_call_summary
     it_validates 'foreign key of', :user_image
     it_validates 'foreign key of', :service
-
-    describe '#no_placeholders_in_user_facing_attributes' do
-      let(:message) { build(:message) }
-
-      context 'with curly braces' do
-        it 'prevents braces the title' do
-          message.text = "This has a {placeholder}"
-          expect(message).to_not be_valid
-          expect(message.errors[:text]).to include("shouldn't contain any curly braces")
-        end
-      end
-
-      context 'with square brackets' do
-        it 'prevents brackets the title' do
-          message.text = "This has a [placeholder]"
-          expect(message).to_not be_valid
-          expect(message.errors[:text]).to include("shouldn't contain any square brackets")
-        end
-      end
-    end
   end
 
   describe 'callbacks' do
