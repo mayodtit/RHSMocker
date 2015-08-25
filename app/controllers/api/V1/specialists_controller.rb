@@ -7,7 +7,7 @@ class Api::V1::SpecialistsController < Api::V1::ABaseController
   end
 
   def queue
-    render_success(queue: @queue.serializer(specialist: true))
+    render_success(queue: @queue.serializer(shallow: true))
   end
 
   private

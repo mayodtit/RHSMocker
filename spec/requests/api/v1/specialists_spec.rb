@@ -32,7 +32,7 @@ describe 'TaskCategories' do
         do_request
         expect(response).to be_success
         body = JSON.parse(response.body, symbolize_names: true)
-        expect(body[:queue].to_json).to eq([specialist_task].serializer(specialist: true).as_json.to_json)
+        expect(body[:queue].to_json).to eq([specialist_task].serializer(shallow: true).as_json.to_json)
       end
     end
   end

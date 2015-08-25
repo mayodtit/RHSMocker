@@ -42,7 +42,7 @@ resource "SpecialistsController" do
         explanation 'Get the specialists queue for that day'
         expect(status).to eq(200)
         response = JSON.parse response_body, symbolize_names: true
-        response[:queue].to_json.should == [specialist_task, another_specialist_task].serializer(specialist: true).to_json
+        response[:queue].to_json.should == [specialist_task, another_specialist_task].serializer(shallow: true).to_json
       end
     end
   end

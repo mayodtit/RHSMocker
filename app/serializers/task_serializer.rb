@@ -12,17 +12,8 @@ class TaskSerializer < ActiveModel::Serializer
            :service, :service_data_fields, to: :object
 
   def attributes
-    if options[:specialist]
-      {
-        id: id,
-        title: title,
-        state: state,
-        owner_name: owner.try(:full_name),
-        service_bucket: service_bucket,
-        time_zone: time_zone,
-        expertise: expertise,
-        priority: priority
-      }
+    if options[:shallow]
+      super
     else
       super.tap do |attrs|
         attrs[:member] = member.try(:serializer, shallow: true)
