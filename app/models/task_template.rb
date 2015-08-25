@@ -43,6 +43,7 @@ class TaskTemplate < ActiveRecord::Base
       task_step_templates.each do |task_step_template|
         task_step_template.create_deep_copy!(override_task_template_set.service_template, new_task_template)
       end
+      new_task_template
     end
   end
 

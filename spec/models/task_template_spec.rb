@@ -21,9 +21,11 @@ describe TaskTemplate do
     let!(:origin_task_step_template) { origin_task_step_data_field_template.task_step_template }
     let!(:origin_task_template) { origin_task_step_template.task_template }
     let!(:origin_service_template) { origin_task_template.service_template }
+    let!(:origin_task_template_set) { origin_service_template.task_template_sets.first }
     let(:origin_task_template_attributes) { origin_task_template.attributes.slice(*%w(name title description time_estimate priority service_ordinal queue task_category_id)) }
 
     let!(:new_service_template) { create(:service_template) }
+    let!(:new_task_template_set) { new_service_template.task_template_sets.first }
     let!(:new_data_field_template) do
       create(:data_field_template, service_template: new_service_template,
                                    name: origin_data_field_template.name,
@@ -32,7 +34,7 @@ describe TaskTemplate do
     end
 
     it 'creates a deep copy including nested templates' do
-      new_task_template = origin_task_template.create_deep_copy!(new_service_template)
+      new_task_template = origin_task_template.create_deep_copy!(new_task_template_set)
       expect(new_task_template).to be_valid
       expect(new_task_template).to be_persisted
       expect(new_task_template.service_template).to eq(new_service_template)
@@ -41,18 +43,6 @@ describe TaskTemplate do
       expect(new_task_template.task_step_templates.first.data_field_templates).to include(new_data_field_template)
       new_task_template_attributes = new_task_template.attributes.slice(*%w(name title description time_estimate priority service_ordinal queue task_category_id))
       expect(new_task_template_attributes).to eq(origin_task_template_attributes)
-    end
-  end
-
-  describe '#no_placeholders_in_user_facing_attributes' do
-    let(:task_template) { build(:task_template) }
-
-    context 'with square brackets' do
-      it 'prevents brackets the title' do
-        task_template.title = "This has a [placeholder]"
-        expect(task_template).to_not be_valid
-        expect(task_template.errors[:title]).to include("shouldn't contain any brackets other than markdown")
-      end
     end
   end
 end
