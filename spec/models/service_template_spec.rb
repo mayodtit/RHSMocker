@@ -32,7 +32,7 @@ describe ServiceTemplate do
 
   describe '#create_deep_copy!' do
     let!(:origin_service_template) { create(:service_template, :published) }
-    let!(:origin_task_template) { create(:task_template, service_template: origin_service_template) }
+    let!(:origin_task_template) { create(:task_template, service_template: origin_service_template, task_template_set: origin_service_template.task_template_sets.first) }
     let!(:origin_task_step_template) { create(:task_step_template, task_template: origin_task_template) }
     let!(:origin_data_field_template) { create(:data_field_template, service_template: origin_service_template) }
     let(:origin_service_template_attributes) { origin_service_template.attributes.slice(*%w(name title description service_type_id time_estimate timed_service user_facing service_update service_request unique_id)) }
@@ -48,7 +48,8 @@ describe ServiceTemplate do
       expect(new_service_template.data_field_templates.count).to eq(1)
       new_data_field_template = new_service_template.data_field_templates.first
       expect(new_service_template.task_templates.count).to eq(1)
-      new_task_template = new_service_template.task_templates.first
+      new_task_template_set = new_service_template.task_template_sets.first
+      new_task_template = new_task_template_set.task_templates.first
       expect(new_task_template.task_step_templates.count).to eq(1)
       new_task_step_template = new_task_template.task_step_templates.first
       expect(new_task_step_template.data_field_templates).to include(new_data_field_template)
