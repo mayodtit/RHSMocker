@@ -15,5 +15,10 @@ FactoryGirl.define do
       association :phoneable, factory: :address
       phoneable_type "Address"
     end
+
+    trait :appointment_phone do
+      association :phoneable, factory: :appointment
+      phoneable_type "Appointment"
+    end
   end
 end

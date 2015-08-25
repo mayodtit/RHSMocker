@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 #ruby '1.9.3'
 
-gem 'rails', '3.2.18' # Caltrain
+gem 'rails', '~> 3.2.22'
 gem 'nokogiri'        # content parsing
 gem 'newrelic_rpm'    # Monitoring
 gem 'mysql2'          # db
@@ -82,7 +82,7 @@ gem 'daemons'	# To run backgound jobs
 gem 'delayed_job_active_record' # background jobs
 gem 'figaro'
 gem 'carrierwave'               # image storage
-gem 'stripe'                    # payment processing
+gem 'stripe', '~> 1.16.0'
 gem 'curb'                      # curl - used mainly for POSTing data to Google Analytics
 gem 'minitar'
 gem 'fog'                       # cloud storage

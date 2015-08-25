@@ -15,6 +15,7 @@ RHSMocker::Application.routes.draw do
         get :permission, on: :member, to: 'permissions#show'
         put :permission, on: :member, to: 'permissions#update'
       end
+      resources :appointment_templates
       resources :contacts, only: :index
       resources :contents, :only => [:index, :show] do
         resources :references, only: [:index, :create, :destroy], controller: 'content_references'
@@ -129,7 +130,9 @@ RHSMocker::Application.routes.draw do
       resources :specialists, only: :index do
         get 'queue', on: :collection
       end
-      resources :system_event_templates, except: %i(new edit)
+      resources :system_event_templates, except: %i(new edit) do
+        resources :system_relative_event_templates, only: :create
+      end
       resources :system_action_templates, except: %i(new edit)
       resources :sms_notifications, only: [] do
         post :download, on: :collection

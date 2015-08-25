@@ -164,6 +164,7 @@ class RHSMailer < MandrillMailer::TemplateMailer
   PHA_HEADER_ASSET_LEILANI = 'meet_your_pha-leilani.png'
   PHA_HEADER_ASSET_ELBRET = 'meet_your_pha-elbret.png'
   PHA_HEADER_ASSET_MNORTON = 'meet_your_pha-mnorton.png'
+  PHA_HEADER_ASSET_KAITLYN = 'meet_your_pha-kaitlyn.png'
 
   def meet_your_pha_header_asset(pha)
     case pha.try(:email)
@@ -191,6 +192,8 @@ class RHSMailer < MandrillMailer::TemplateMailer
       PHA_HEADER_ASSET_ELBRET
     when 'mnorton@getbetter.com'
       PHA_HEADER_ASSET_MNORTON
+    when 'kaitlyn@getbetter.com'
+      PHA_HEADER_ASSET_KAITLYN
     else
       raise 'HEADER ASSET NOT FOUND'
     end

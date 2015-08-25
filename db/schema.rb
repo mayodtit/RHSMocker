@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150820213859) do
+ActiveRecord::Schema.define(:version => 20150824210131) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -19,10 +19,11 @@ ActiveRecord::Schema.define(:version => 20150820213859) do
     t.string   "city"
     t.string   "state"
     t.string   "postal_code"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
     t.string   "address2"
     t.string   "name"
+    t.integer  "appointment_id"
   end
 
   add_index "addresses", ["user_id"], :name => "index_addresses_on_user_id"
@@ -65,13 +66,30 @@ ActiveRecord::Schema.define(:version => 20150820213859) do
     t.datetime "updated_at",     :null => false
   end
 
+  create_table "appointment_templates", :force => true do |t|
+    t.datetime "created_at",                          :null => false
+    t.datetime "updated_at",                          :null => false
+    t.string   "title"
+    t.text     "description"
+    t.string   "unique_id"
+    t.string   "state"
+    t.integer  "version",              :default => 0, :null => false
+    t.text     "special_instructions"
+    t.text     "reason_for_visit"
+  end
+
   create_table "appointments", :force => true do |t|
     t.integer  "user_id"
     t.integer  "provider_id"
     t.datetime "scheduled_at"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
+    t.datetime "created_at",              :null => false
+    t.datetime "updated_at",              :null => false
     t.integer  "creator_id"
+    t.datetime "arrived_at"
+    t.datetime "departed_at"
+    t.integer  "appointment_template_id"
+    t.text     "reason_for_visit"
+    t.text     "special_instructions"
   end
 
   add_index "appointments", ["user_id"], :name => "index_appointments_on_user_id"
@@ -749,6 +767,7 @@ ActiveRecord::Schema.define(:version => 20150820213859) do
     t.string   "header_asset"
     t.string   "background_asset"
     t.text     "custom_welcome"
+    t.boolean  "mayo_nurse_line_access",        :default => true,  :null => false
   end
 
   add_index "onboarding_groups", ["pha_id"], :name => "index_onboarding_groups_on_pha_id"
@@ -1238,8 +1257,12 @@ ActiveRecord::Schema.define(:version => 20150820213859) do
     t.string   "type"
     t.text     "message_text"
     t.integer  "content_id"
-    t.datetime "created_at",               :null => false
-    t.datetime "updated_at",               :null => false
+    t.datetime "created_at",                   :null => false
+    t.datetime "updated_at",                   :null => false
+    t.string   "versioned_resource_unique_id"
+    t.string   "versioned_resource_type"
+    t.integer  "unversioned_resource_id"
+    t.string   "unversioned_resource_type"
   end
 
   create_table "system_actions", :force => true do |t|
@@ -1252,7 +1275,6 @@ ActiveRecord::Schema.define(:version => 20150820213859) do
   end
 
   create_table "system_event_templates", :force => true do |t|
-    t.string   "name",                                  :null => false
     t.string   "title",                                 :null => false
     t.text     "description"
     t.string   "unique_id",                             :null => false
@@ -1262,6 +1284,9 @@ ActiveRecord::Schema.define(:version => 20150820213859) do
     t.datetime "updated_at",                            :null => false
     t.string   "type"
     t.integer  "root_event_template_id"
+    t.integer  "resource_id"
+    t.string   "resource_type"
+    t.string   "resource_attribute"
   end
 
   create_table "system_events", :force => true do |t|
@@ -1367,6 +1392,7 @@ ActiveRecord::Schema.define(:version => 20150820213859) do
     t.string   "queue"
     t.integer  "task_category_id"
     t.integer  "expertise_id"
+    t.integer  "service_type_id"
   end
 
   add_index "task_templates", ["service_template_id"], :name => "index_task_templates_on_service_template_id"
@@ -1432,12 +1458,12 @@ ActiveRecord::Schema.define(:version => 20150820213859) do
   create_table "time_offsets", :force => true do |t|
     t.string   "offset_type",                       :null => false
     t.string   "direction",                         :null => false
-    t.time     "fixed_time"
-    t.integer  "num_days"
-    t.time     "relative_time"
     t.datetime "created_at",                        :null => false
     t.datetime "updated_at",                        :null => false
     t.integer  "system_relative_event_template_id"
+    t.integer  "absolute_minutes"
+    t.integer  "relative_days"
+    t.integer  "relative_minutes_after_midnight"
   end
 
   create_table "treatment_side_effects", :force => true do |t|

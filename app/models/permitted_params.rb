@@ -51,6 +51,10 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     params.require(:address).permit(*address_attributes)
   end
 
+  def appointment_template
+    params.require(:appointment_template).permit(:title, :description, :scheduled_at, :state_event, :special_instructions, :reason_for_visit, scheduled_at_system_event_template_attributes: [:id, :title], discharged_at_system_event_template_attributes: [:id, :title])
+  end
+
   def user_request
     params.require(:user_request)
           .permit(*user_request_attributes).tap do |attributes|
@@ -133,8 +137,8 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
     params.require(:task_step_template).permit(:description, :ordinal, :details, :template)
   end
 
-  def system_event_template_attributes
-    params.require(:system_event_template).permit(:name, :title, :description, :state)
+  def system_event_template
+    params.require(:system_event_template).permit(:title, :description, :state, {time_offset_attributes: %i(id offset_type direction absolute_minutes relative_days relative_minutes_after_midnight)}, system_action_template_attributes: %i(id type message_text content_id))
   end
 
   def system_action_template_attributes
@@ -217,7 +221,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def base_user_attributes
-    [:id, :first_name, :last_name, :avatar, :gender, :birth_date,
+    [:first_name, :last_name, :avatar, :gender, :birth_date,
      :phone, :blood_type, :holds_phone_in, :diet_id, :ethnic_group_id,
      :deceased, :date_of_death, :npi_number, :expertise, :units,
      :nickname, :work_phone_number, :text_phone_number, :provider_taxonomy_code,

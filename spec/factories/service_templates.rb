@@ -11,7 +11,7 @@ FactoryGirl.define do
     service_request "Service request"
 
     trait :published do
-      state :published
+      state 'published'
     end
   end
 end
