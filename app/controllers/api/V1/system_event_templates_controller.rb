@@ -27,26 +27,14 @@ class Api::V1::SystemEventTemplatesController < Api::V1::ABaseController
 
   def destroy
     authorize! :destroy, @system_event_template
-
-    if @system_event_template.unpublished?
-      destroy_resource @system_event_template
-    else
-      render_failure({reason: "You can not delete a #{@system_event_template.state} system event template."}, 422)
-    end
+    destroy_resource @system_event_template
   end
 
   private
 
   def load_system_event_templates!
     authorize! :index, SystemEventTemplate
-
-    @system_event_templates = SystemEventTemplate.order('id DESC')
-
-    if SystemEventTemplate::VALID_STATES.include?(params[:state])
-      @system_event_templates = @system_event_templates.send(params[:state])
-    end
-
-    @system_event_templates = @system_event_templates.title_search(params[:title]) if params[:title]
+    @system_event_templates = SystemEventTemplate.scoped
   end
 
   def load_system_event_template!

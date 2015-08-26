@@ -19,9 +19,6 @@ describe SystemEventTemplateSerializer do
         id: system_event_template.id,
         title: system_event_template.title,
         description: system_event_template.description,
-        state: system_event_template.state,
-        unique_id: system_event_template.unique_id,
-        version: system_event_template.version,
         sample_ordinal: sample_time.to_i,
         system_action_template: system_event_template.system_action_template.serializer.as_json
       }
