@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150824210131) do
+ActiveRecord::Schema.define(:version => 20150826171540) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1267,13 +1267,10 @@ ActiveRecord::Schema.define(:version => 20150824210131) do
   end
 
   create_table "system_event_templates", :force => true do |t|
-    t.string   "title",                                 :null => false
+    t.string   "title",                  :null => false
     t.text     "description"
-    t.string   "unique_id",                             :null => false
-    t.integer  "version",                :default => 0, :null => false
-    t.string   "state"
-    t.datetime "created_at",                            :null => false
-    t.datetime "updated_at",                            :null => false
+    t.datetime "created_at",             :null => false
+    t.datetime "updated_at",             :null => false
     t.string   "type"
     t.integer  "root_event_template_id"
     t.integer  "resource_id"
