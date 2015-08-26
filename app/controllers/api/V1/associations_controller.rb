@@ -21,6 +21,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   def create
     @association = @user.associations.create(create_attributes)
     if @association.errors.empty?
+      @association = Association.find(@association.id) # reload association for CarrierWave
       render_success(show_response)
     else
       render_failure({reason: @association.errors.full_messages.to_sentence}, 422)
@@ -29,6 +30,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
 
   def update
     if @association.update_attributes(permitted_params.association)
+      @association = Association.find(@association.id) # reload association for CarrierWave
       render_success(update_response)
     else
       if @association.errors["associate.phone_numbers"].any?
