@@ -101,6 +101,8 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
       provider = find_or_create_provider_by_npi_number
       params[:association].except!(:associate)
       params[:association][:associate_id] = provider.id
+    elsif params[:association].try(:[], :associate).try(:[], :avatar)
+      params[:association][:associate][:avatar] = decode_b64_image(params[:association][:associate][:avatar])
     end
   end
 
