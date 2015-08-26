@@ -1,7 +1,7 @@
 class SystemEventTemplateSerializer < ActiveModel::Serializer
   self.root = false
 
-  attributes :id, :title, :description, :state, :unique_id, :version, :sample_ordinal
+  attributes :id, :title, :description, :sample_ordinal
 
   has_one :system_action_template
 
