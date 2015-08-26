@@ -12,6 +12,10 @@ FactoryGirl.define do
       type :pha_message
     end
 
+    trait :with_content do
+      content
+    end
+
     trait :service do
       type :service
       message_text nil
