@@ -7,5 +7,9 @@ FactoryGirl.define do
       association :root_event_template, factory: :system_event_template
       time_offset
     end
+
+    trait :with_system_action_template do
+      system_action_template
+    end
   end
 end

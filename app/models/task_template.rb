@@ -5,6 +5,7 @@ class TaskTemplate < ActiveRecord::Base
   belongs_to :service_template
   belongs_to :modal_template
   belongs_to :task_category
+  belongs_to :service_type
   has_many :tasks
   has_many :task_step_templates, inverse_of: :task_template,
                                  dependent: :destroy
@@ -20,16 +21,20 @@ class TaskTemplate < ActiveRecord::Base
   has_many :output_data_field_templates, through: :output_task_data_field_templates,
                                          source: :data_field_template
 
-  attr_accessible :name, :title, :description, :time_estimate, :priority, :service_ordinal, :service_template, :service_template_id, :modal_template, :queue, :task_category, :task_category_id
+  attr_accessible :name, :title, :description, :time_estimate, :priority,
+                  :service_ordinal, :service_template, :service_template_id,
+                  :modal_template, :queue, :task_category, :task_category_id,
+                  :service_type
 
   validates :name, :title, presence: true
   validates :service_template, presence: true, if: :service_template_id
   validates :modal_template, presence: true, if: :modal_template_id
+  validates :service_type, presence: true, if: :service_type_id
 
   before_validation :copy_title_to_name
 
   def calculated_due_at(time=Time.now)
-    time.business_minutes_from(time_estimate.to_i)
+    (time || Time.now).business_minutes_from(time_estimate.to_i)
   end
 
   def create_deep_copy!(new_service_template)

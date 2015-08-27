@@ -9,5 +9,9 @@ FactoryGirl.define do
     trait :with_service_template do
       service_template
     end
+
+    trait :with_service_type do
+      service_type
+    end
   end
 end

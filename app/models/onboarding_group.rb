@@ -29,7 +29,7 @@ class OnboardingGroup < ActiveRecord::Base
                   :background_asset, :background_asset_url, :remote_background_asset_url,
                   :custom_welcome
 
-  validates :name, presence: true
+  validates :name, :mayo_nurse_line_access, presence: true
   validates :provider, presence: true, if: ->(o){o.provider_id}
   validates :premium, inclusion: {in: [true, false]}
   validates :free_trial_days, numericality: {only_integer: true}

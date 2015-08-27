@@ -187,6 +187,17 @@ PHA_ATTRIBUTES = [
     arrow_image: 'nicole-bio_image.png', # yes, I know this is not right, she is an HCC
     avatar_image: 'nicole-avatar.jpg',
     bio_image: 'nicole-bio_image.png'
+  },
+  {
+    email: 'kaitlyn@getbetter.com',
+    first_name: 'Kaitlyn',
+    last_name: 'P',
+    gender: 'female',
+    bio: "Kaitlyn has experience in patient advocacy and a background in Public Health. Most recently, she has worked in the specialty pharmacy field. Originally from Portland, OR, she loves wakeboarding, hiking, and, of course, food.",
+    first_person_bio: "I have experience in patient advocacy and a background in Public Health. Most recently, I have worked in the specialty pharmacy field. Originally from Portland, OR, I love wakeboarding, hiking, and, of course, food!",
+    arrow_image: 'kaitlyn-arrow.png',
+    avatar_image: 'kaitlyn-avatar.jpg',
+    bio_image: 'kaitlyn-bio_image.png'
   }
 ]
 

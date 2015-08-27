@@ -2,9 +2,6 @@ require 'spec_helper'
 
 describe SystemEventTemplate do
   it_has_a 'valid factory'
+  it_has_a 'valid factory', :with_system_action_template
   it_validates 'presence of', :title
-  it_validates 'presence of', :version
-  it_validates 'presence of', :state
-  it_validates 'uniqueness of', :state, :unique_id
-  it_validates 'uniqueness of', :version, :unique_id
 end
