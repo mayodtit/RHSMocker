@@ -139,6 +139,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
 
   def unset_android_id_zero!
     params[:association][:associate][:id] = nil if params.require(:association).try(:[], :associate).try(:[], :id).try(:zero?) # TODO - disable sending fake id from client
+    params[:association][:id] = nil if params.require(:association).try(:[], :id).try(:zero?) # TODO - disable sending fake id from client
   end
 
   def change_keys!
