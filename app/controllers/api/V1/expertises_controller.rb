@@ -28,7 +28,7 @@ class Api::V1::ExpertisesController < Api::V1::ABaseController
     @expertises = Expertise.scoped
   end
 
-  def load_task_category!
+  def load_expertise!
     @expertise = Expertise.find(params[:id])
   end
 end
