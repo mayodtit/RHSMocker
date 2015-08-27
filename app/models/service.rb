@@ -96,6 +96,7 @@ class Service < ActiveRecord::Base
   end
 
   def next_task_template_set(current_task_template_set)
+    return unless service_template
     if current_task_template_set.nil?
       self.service_template.task_template_sets.first
     elsif current_task_template_set.affirmative_child_id && check_each_task_result(current_task_template_set)
