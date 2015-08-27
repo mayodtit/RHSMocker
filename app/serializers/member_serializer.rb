@@ -60,7 +60,7 @@ class MemberSerializer < ActiveModel::Serializer
         email: object.email,
         full_name: object.full_name,
         expertises: object.expertises.try(:serializer),
-        number_of_tasks_completed_today: number_of_tasks_completed_today
+        specialist_metrics: object.specialist_metrics
       }
     else
       super.tap do |attributes|
@@ -187,9 +187,5 @@ class MemberSerializer < ActiveModel::Serializer
 
   def meet_your_pha_text
     "#{object.pha.try(:first_name)} is your Personal Health Assistant. #{object.pha.try(:gender_pronoun).try(:titleize)}’ll start by helping you #{object.nux_answer.try(:phrase) || 'with your health needs'}."
-  end
-
-  def number_of_tasks_completed_today
-    Task.number_of_tasks_completed_today(object)
   end
 end

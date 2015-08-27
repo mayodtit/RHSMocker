@@ -422,6 +422,55 @@ class Member < User
     return tasks, tomorrow_count, future_count
   end
 
+  def specialist_metrics
+    metrics = {}
+    tasks = Task.where(owner_id: id)
+    tasks_completed_today = tasks.where('completed_at BETWEEN ? AND ?', Time.now.beginning_of_day, Time.now.end_of_day)
+
+    metrics.merge!(number_of_tasks_completed_today: tasks_completed_today.count)
+
+    # To find the average duration of a task, I found the average claimed_at time and the average completed_at time and took that difference
+
+    if tasks_completed_today.empty?
+      metrics.merge!(average_time_of_completion_today: 0)
+    else
+      completed_at_array = tasks_completed_today.pluck(:completed_at)
+      completed_at_sum = completed_at_array.inject(0) do |sum, element|
+        sum += element.to_i
+      end
+      claimed_at_array = tasks_completed_today.pluck(:claimed_at)
+      claimed_at_sum = claimed_at_array.inject(0) do |sum, element|
+        sum += element.to_i
+      end
+
+      metrics.merge!(average_time_of_completion_today: ((completed_at_sum-claimed_at_sum)/tasks_completed_today.count/60).to_i)
+    end
+
+    metrics.merge!(number_of_tasks_blocked_internally_today: tasks.where('blocked_internal_at BETWEEN ? AND ?', Time.now.beginning_of_day, Time.now.end_of_day).count)
+    metrics.merge!(number_of_tasks_blocked_externally_today: tasks.where('blocked_external_at BETWEEN ? AND ?', Time.now.beginning_of_day, Time.now.end_of_day).count)
+
+    tasks_completed_this_week = tasks.where('completed_at BETWEEN ? AND ?', Time.now.beginning_of_week, Time.now.end_of_week)
+    metrics.merge!(number_of_tasks_completed_this_week: tasks_completed_this_week.count)
+
+    if tasks_completed_this_week.empty?
+      metrics.merge!(average_time_of_completion_this_week: 0)
+    else
+      completed_at_array = tasks_completed_this_week.pluck(:completed_at)
+      completed_at_sum = completed_at_array.inject(0) do |sum, element|
+        sum += element.to_i
+      end
+      claimed_at_array = tasks_completed_this_week.pluck(:claimed_at)
+      claimed_at_sum = claimed_at_array.inject(0) do |sum, element|
+        sum += element.to_i
+      end
+
+      metrics.merge!(average_time_of_completion_this_week: ((completed_at_sum-claimed_at_sum)/tasks_completed_this_week.count/60).to_i)
+    end
+
+    metrics.merge!(number_of_tasks_blocked_internally_this_week: tasks.where('blocked_internal_at BETWEEN ? AND ?', Time.now.beginning_of_week, Time.now.end_of_week).count)
+    metrics.merge!(number_of_tasks_blocked_externally_this_week: tasks.where('blocked_external_at BETWEEN ? AND ?', Time.now.beginning_of_week, Time.now.end_of_week).count)
+  end
+
   protected
 
   def free_trial_ends_at_is_nil

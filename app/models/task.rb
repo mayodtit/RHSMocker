@@ -158,12 +158,6 @@ class Task < ActiveRecord::Base
     self.expertise_id = expertise.try(:id)
   end
 
-  def self.number_of_tasks_completed_today(hcp)
-    Task.where(owner_id: hcp.id).where('completed_at BETWEEN ? AND ?',
-               DateTime.now.beginning_of_day, DateTime.now.end_of_day).count
-  end
-
-
   def mark_as_unread
     if urgent? || (owner && owner.has_role?('specialist'))
       self.unread = false
