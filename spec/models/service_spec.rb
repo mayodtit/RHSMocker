@@ -76,7 +76,8 @@ describe Service do
       context 'with required data fields' do
         let!(:service_template) { create(:service_template) }
         let!(:data_field_template) { create(:data_field_template, service_template: service_template, required_for_service_start: true) }
-        let!(:task_template) { create(:task_template, service_template: service_template, service_ordinal: 0) }
+        let!(:task_template_set) { create(:task_template_set, service_template: service_template) }
+        let!(:task_template) { create(:task_template, service_template: service_template, task_template_set: task_template_set) }
         let!(:task_step_template) { create(:task_step_template, task_template: task_template) }
 
         before do
@@ -104,7 +105,7 @@ describe Service do
 
       context 'without required data fields' do
         let!(:service_template) { create(:service_template) }
-        let!(:task_template) { create(:task_template, service_template: service_template, service_ordinal: 0) }
+        let!(:task_template) { create(:task_template, service_template: service_template) }
 
         it 'creates a service in :open state' do
           service = user.services.create!(service_template: service_template, actor: pha)
@@ -185,64 +186,36 @@ describe Service do
       Timecop.return
     end
 
-    context 'there are task_templates for the service ordinal' do
+    context 'there are task_templates for the task template sets' do
       context 'the service is a timed service' do
         let!(:service_template) { create :service_template, timed_service: true}
+        let!(:affirmative_task_template_set) { create :task_template_set, service_template: service_template }
         let!(:service) { create :service, service_template: service_template }
-        let!(:task_template) {create :task_template, service_template: service_template, service_ordinal: 0}
-        let!(:another_task_template) {create :task_template, service_template: service_template, service_ordinal: 1}
+        let!(:first_task_template_set) { service_template.task_template_sets.first }
+        let!(:task_template) { create :task_template, service_template: service_template, task_template_set_id: first_task_template_set.id }
+        let!(:another_task_template) { create :task_template, service_template: service_template, task_template_set_id: affirmative_task_template_set.id }
 
-        it 'should create tasks with that ordinal starting at the due date' do
-          expect{ service.reload.create_next_ordinal_tasks(-1, 1.day.from_now) }.to change(Task, :count).by(1)
+        it 'should create tasks with that task template set starting at the due date' do
+          first_task_template_set.update_attributes!(affirmative_child_id: affirmative_task_template_set.id)
+          expect{ service.reload.create_next_task_template_set_tasks(nil, 1.day.from_now) }.to change(Task, :count).by(1)
           expect(service.reload.tasks.last.due_at).to eq(task_template.calculated_due_at(1.day.from_now))
         end
       end
 
       context 'the service is not a timed service' do
         let!(:service_template) { create :service_template, timed_service: false}
+        let!(:affirmative_task_template_set) { create :task_template_set, service_template: service_template }
+        let!(:first_task_template_set) { service_template.task_template_sets.first }
         let!(:service) { create :service, service_template: service_template }
-        let!(:task_template) {create :task_template, service_template: service_template, service_ordinal: 0}
-        let!(:another_task_template) {create :task_template, service_template: service_template, service_ordinal: 1}
+        let!(:task_template) { create :task_template, service_template: service_template, task_template_set_id: first_task_template_set.id }
+        let!(:another_task_template) { create :task_template, service_template: service_template, task_template_set_id: affirmative_task_template_set.id }
 
-        it 'should create tasks with that ordinal starting now' do
-          expect{ service.reload.create_next_ordinal_tasks(-1, 1.day.from_now) }.to change(Task, :count).by(1)
+        it 'should create tasks with that task_template_set starting now' do
+          first_task_template_set.update_attributes!(affirmative_child_id: affirmative_task_template_set.id)
+          expect{ service.reload.create_next_task_template_set_tasks(nil, 1.day.from_now) }.to change(Task, :count).by(1)
           expect(service.reload.tasks.last.due_at).to eq(task_template.calculated_due_at(Time.now))
         end
       end
-    end
-
-    context 'there are no task_templates for the service ordinal' do
-      let!(:service_template) { create :service_template, timed_service: false}
-      let!(:service) { create :service, service_template: service_template }
-      let!(:task_template) {create :task_template, service_template: service_template, service_ordinal: 0}
-      let!(:another_task_template) {create :task_template, service_template: service_template, service_ordinal: 1}
-
-      it 'should not create any tasks' do
-        expect{ service.create_next_ordinal_tasks(3) }.to_not change(Task, :count)
-      end
-    end
-  end
-
-
-  describe '#tasks' do
-    let!(:service) { create :service }
-    let!(:first_task) { create :task, service: service, service_ordinal: 0 }
-    let!(:second_task) { create :task, service: service, service_ordinal: 1 }
-    let!(:third_task) { create :task, service: service, service_ordinal: 2 }
-    let!(:fourth_task) { create :task, service: service, service_ordinal: 3, priority: 2, due_at: 5.days.from_now }
-    let!(:fifth_task) { create :task, service: service, service_ordinal: 3, due_at: 4.days.from_now }
-
-    it 'returns all tasks for the service' do
-      tasks = service.tasks
-      tasks.should be_include(first_task)
-      tasks.should be_include(second_task)
-      tasks.should be_include(third_task)
-      tasks.should be_include(fourth_task)
-      tasks.should be_include(fifth_task)
-    end
-
-    it 'returns all tasks sorted by service ordinal' do
-      service.tasks.should == [first_task, second_task, third_task, fourth_task, fifth_task]
     end
   end
 
@@ -337,7 +310,9 @@ describe Service do
       let!(:pha) { create(:pha) }
       let!(:user) { create(:member, :premium, pha: pha) }
       let!(:service_template) { create(:service_template) }
-      let!(:task_template) { create(:task_template, service_template: service_template, service_ordinal: 0) }
+      let!(:task_template_set) { create(:task_template_set, service_template: service_template) }
+
+      let!(:task_template) { create(:task_template, service_template: service_template, task_template_set: task_template_set) }
       let!(:service) { create(:service, :draft, service_template: service_template, member: user, creator: pha) }
 
       context 'with message tasks' do
