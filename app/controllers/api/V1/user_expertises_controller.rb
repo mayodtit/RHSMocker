@@ -1,5 +1,5 @@
 class Api::V1::UserExpertisesController < Api::V1::ABaseController
-  attr_accessible :user_id, :expertise_id
+  strong_parameters :user_id, :expertise_id
 
   before_filter :load_user!
   before_filter :load_user_expertise!, only: [:show, :destroy]
