@@ -17,7 +17,13 @@ class Appointment < ActiveRecord::Base
 
   validates :user, :provider, :scheduled_at, :creator, presence: true
 
-  after_commit :track_update, on: :update
+  after_commit :track_changes
+
+  private
+
+  def track_changes
+    appointment_changes.create!(actor_id: actor_id, data: data) if data
+  end
 
   def data
     changes = previous_changes.slice(
@@ -29,9 +35,5 @@ class Appointment < ActiveRecord::Base
       :special_instructions
     )
     changes.empty? ? nil : changes
-  end
-
-  def track_update
-    appointment_changes.create!(actor_id: actor_id, data: data)
   end
 end

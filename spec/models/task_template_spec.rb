@@ -3,6 +3,7 @@ require 'spec_helper'
 describe TaskTemplate do
   it_has_a 'valid factory'
   it_has_a 'valid factory', :with_service_template
+  it_has_a 'valid factory', :with_service_type
 
   describe 'validations' do
     before do
@@ -13,6 +14,7 @@ describe TaskTemplate do
     it_validates 'presence of', :title
     it_validates 'foreign key of', :service_template
     it_validates 'foreign key of', :modal_template
+    it_validates 'foreign key of', :service_type
   end
 
   describe '#create_deep_copy!' do
@@ -21,8 +23,12 @@ describe TaskTemplate do
     let!(:origin_task_step_template) { origin_task_step_data_field_template.task_step_template }
     let!(:origin_task_template) { origin_task_step_template.task_template }
     let!(:origin_service_template) { origin_task_template.service_template }
+<<<<<<< HEAD
     let!(:origin_task_template_set) { origin_service_template.task_template_sets.first }
     let(:origin_task_template_attributes) { origin_task_template.attributes.slice(*%w(name title description time_estimate priority service_ordinal queue task_category_id)) }
+=======
+    let(:origin_task_template_attributes) { origin_task_template.attributes.slice(*%w(name title description time_estimate priority service_ordinal queue task_category_id expertise_id)) }
+>>>>>>> develop
 
     let!(:new_service_template) { create(:service_template) }
     let!(:new_task_template_set) { new_service_template.task_template_sets.first }
@@ -41,7 +47,7 @@ describe TaskTemplate do
       expect(new_task_template.data_field_templates).to include(new_data_field_template)
       expect(new_task_template.task_step_templates.count).to eq(1)
       expect(new_task_template.task_step_templates.first.data_field_templates).to include(new_data_field_template)
-      new_task_template_attributes = new_task_template.attributes.slice(*%w(name title description time_estimate priority service_ordinal queue task_category_id))
+      new_task_template_attributes = new_task_template.attributes.slice(*%w(name title description time_estimate priority service_ordinal queue task_category_id expertise_id))
       expect(new_task_template_attributes).to eq(origin_task_template_attributes)
     end
   end

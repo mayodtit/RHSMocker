@@ -143,7 +143,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def system_event_template
-    params.require(:system_event_template).permit(:title, :description, :state, {time_offset_attributes: %i(id offset_type direction absolute_minutes relative_days relative_minutes_after_midnight)}, system_action_template_attributes: %i(id type message_text content_id))
+    params.require(:system_event_template).permit(:title, :description, {time_offset_attributes: %i(id offset_type direction absolute_minutes relative_days relative_minutes_after_midnight)}, system_action_template_attributes: %i(id type message_text content_id))
   end
 
   def system_action_template_attributes
@@ -168,6 +168,14 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
 
   def suggested_service
     params.require(:suggested_service).permit(:title, :description, :message, :service_type_id, :state_event, :user_facing)
+  end
+
+  def expertise
+    params.require(:expertise).permit(:name)
+  end
+
+  def task_category
+    params.require(:task_category).permit(:title, :description, :priority_weight, :expertise_id)
   end
 
   private
@@ -218,7 +226,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def base_user_attributes
-    [:first_name, :last_name, :avatar, :gender, :birth_date,
+    [:id, :first_name, :last_name, :avatar, :gender, :birth_date,
      :phone, :blood_type, :holds_phone_in, :diet_id, :ethnic_group_id,
      :deceased, :date_of_death, :npi_number, :expertise, :units,
      :nickname, :work_phone_number, :text_phone_number, :provider_taxonomy_code,
@@ -252,7 +260,9 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   def association_attributes
     if params.require(:association)[:id]
       [:association_type, :association_type_id, :is_default_hcp, :state_event,
-       :invite]
+       :invite].tap do |attrs|
+        attrs << {associate_attributes: user_attributes}
+      end
     else
       [:id, :user, :user_id, :associate, :associate_id, :creator, :creator_id,
        :association_type, :association_type_id, :is_default_hcp,

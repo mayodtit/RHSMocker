@@ -64,6 +64,7 @@ RHSMocker::Application.routes.draw do
       resources :enrollments, only: %i(show create update) do
         get :on_board, on: :collection
       end
+      resources :expertises, only: %i(index show update create destroy)
       resources :feature_flags, only: [:index, :update, :show]
       resources :ethnic_groups, :only => :index
       get 'factors/:symptom_id', to: 'factor_groups#index' # TODO - deprecated!
@@ -126,6 +127,9 @@ RHSMocker::Application.routes.draw do
         end
         resources :data_field_templates, except: %i(new edit)
       end
+      resources :specialists, only: :index do
+        get 'queue', on: :collection
+      end
       resources :system_event_templates, except: %i(new edit) do
         resources :system_relative_event_templates, only: :create
       end
@@ -139,7 +143,7 @@ RHSMocker::Application.routes.draw do
         resources :contents, only: :index, controller: :symptom_contents
         post :check, on: :collection, to: 'symptom_contents#index'
       end
-      resources :task_categories, only: %i(index show)
+      resources :task_categories, only: %i(index show update create)
       resources :task_step_templates, only: %i(show update destroy) do
         resources :data_field_templates, only: :destroy, controller: :task_step_data_field_templates do
           post ':id', on: :collection, to: 'task_step_data_field_templates#create'
@@ -194,6 +198,7 @@ RHSMocker::Application.routes.draw do
             post ':id', to: 'user_condition_user_treatments#create', on: :collection
           end
         end
+        resources :expertises, except: %i(new edit update), :controller => 'user_expertises'
         resources :heights, except: %i(new edit)
         resources :insurance_policies, except: %i(new edit)
         resources :inverse_associations, only: [:index, :update, :destroy]

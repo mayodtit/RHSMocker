@@ -2,6 +2,10 @@ def kyle
   Member.find_by_email('kyle@getbetter.com')
 end
 
+def emilio
+  Member.find_by_email('emilio@getbetter.com')
+end
+
 def clare
   Member.find_by_email('clare@getbetter.com')
 end
@@ -44,4 +48,8 @@ end
 
 def leilani
   Member.find_by_email('leilani@getbetter.com')
+end
+
+def leilani
+  @kaitlyn ||= Member.find_by_email('kaitlyn@getbetter.com')
 end

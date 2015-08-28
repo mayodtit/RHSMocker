@@ -10,7 +10,7 @@ class Api::V1::SystemActionTemplatesController < Api::V1::ABaseController
 
   def create
     authorize! :create, SystemActionTemplate
-    create_resource @system_action_templates, permitted_params.system_action_template_attributes
+    create_resource @system_action_templates, action_params
   end
 
   def show
@@ -20,7 +20,7 @@ class Api::V1::SystemActionTemplatesController < Api::V1::ABaseController
 
   def update
     authorize! :update, @system_action_template
-    update_resource @system_action_template, permitted_params.system_action_template_attributes
+    update_resource @system_action_template, action_params
   end
 
   def destroy
@@ -38,5 +38,13 @@ class Api::V1::SystemActionTemplatesController < Api::V1::ABaseController
   def load_system_action_template!
     @system_action_template = SystemActionTemplate.find(params[:id])
     authorize! :manage, @system_action_template
+  end
+
+  def action_params
+    permitted_params.system_action_template_attributes.tap do |attrs|
+      if params[:system_action_template].try(:[], :service_template).try(:[], :unique_id) && service_template = ServiceTemplate.find_by_unique_id(params[:system_action_template][:service_template][:unique_id])
+        attrs[:published_versioned_resource] = service_template
+      end
+    end
   end
 end

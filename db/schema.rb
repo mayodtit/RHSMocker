@@ -453,6 +453,14 @@ ActiveRecord::Schema.define(:version => 20150828191911) do
     t.datetime "disabled_at"
   end
 
+  create_table "expertises", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "expertises", ["name"], :name => "index_expertises_on_name"
+
   create_table "factor_contents", :force => true do |t|
     t.integer  "factor_id"
     t.integer  "content_id"
@@ -759,6 +767,7 @@ ActiveRecord::Schema.define(:version => 20150828191911) do
     t.string   "header_asset"
     t.string   "background_asset"
     t.text     "custom_welcome"
+    t.boolean  "mayo_nurse_line_access",        :default => true,  :null => false
   end
 
   add_index "onboarding_groups", ["pha_id"], :name => "index_onboarding_groups_on_pha_id"
@@ -1248,8 +1257,12 @@ ActiveRecord::Schema.define(:version => 20150828191911) do
     t.string   "type"
     t.text     "message_text"
     t.integer  "content_id"
-    t.datetime "created_at",               :null => false
-    t.datetime "updated_at",               :null => false
+    t.datetime "created_at",                   :null => false
+    t.datetime "updated_at",                   :null => false
+    t.string   "versioned_resource_unique_id"
+    t.string   "versioned_resource_type"
+    t.integer  "unversioned_resource_id"
+    t.string   "unversioned_resource_type"
   end
 
   create_table "system_actions", :force => true do |t|
@@ -1262,13 +1275,10 @@ ActiveRecord::Schema.define(:version => 20150828191911) do
   end
 
   create_table "system_event_templates", :force => true do |t|
-    t.string   "title",                                 :null => false
+    t.string   "title",                  :null => false
     t.text     "description"
-    t.string   "unique_id",                             :null => false
-    t.integer  "version",                :default => 0, :null => false
-    t.string   "state"
-    t.datetime "created_at",                            :null => false
-    t.datetime "updated_at",                            :null => false
+    t.datetime "created_at",             :null => false
+    t.datetime "updated_at",             :null => false
     t.string   "type"
     t.integer  "root_event_template_id"
     t.integer  "resource_id"
@@ -1289,6 +1299,7 @@ ActiveRecord::Schema.define(:version => 20150828191911) do
     t.string  "title"
     t.text    "description"
     t.integer "priority_weight"
+    t.integer "expertise_id"
   end
 
   create_table "task_changes", :force => true do |t|
@@ -1386,6 +1397,8 @@ ActiveRecord::Schema.define(:version => 20150828191911) do
     t.integer  "task_template_set_id"
     t.string   "queue"
     t.integer  "task_category_id"
+    t.integer  "expertise_id"
+    t.integer  "service_type_id"
   end
 
   add_index "task_templates", ["service_template_id"], :name => "index_task_templates_on_service_template_id"
@@ -1440,6 +1453,7 @@ ActiveRecord::Schema.define(:version => 20150828191911) do
     t.integer  "time_zone_offset"
     t.integer  "task_category_id"
     t.text     "reason_blocked"
+    t.integer  "expertise_id"
   end
 
   add_index "tasks", ["owner_id", "state", "role_id", "type"], :name => "queue_test"
@@ -1548,6 +1562,15 @@ ActiveRecord::Schema.define(:version => 20150828191911) do
 
   add_index "user_content_likes", ["content_id"], :name => "index_user_content_likes_on_content_id"
   add_index "user_content_likes", ["user_id"], :name => "index_user_content_likes_on_user_id"
+
+  create_table "user_expertises", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "expertise_id"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
+
+  add_index "user_expertises", ["expertise_id"], :name => "index_user_expertises_on_expertise_id"
 
   create_table "user_feature_groups", :force => true do |t|
     t.integer  "user_id"

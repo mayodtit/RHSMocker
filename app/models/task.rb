@@ -39,7 +39,7 @@ class Task < ActiveRecord::Base
   attr_accessible :title, :description, :due_at, :queue, :time_zone, :time_zone_offset,
                   :owner, :owner_id, :member, :member_id,
                   :subject, :subject_id, :creator, :creator_id, :assignor, :assignor_id,
-                  :abandoner, :abandoner_id, :role, :role_id,
+                  :abandoner, :abandoner_id, :role, :role_id, :expertise_id,
                   :state_event, :service_type_id, :service_type, :task_category, :task_category_id,
                   :task_template, :task_template_id, :service, :service_id, :service_ordinal,
                   :priority, :actor_id, :member_id, :member, :reason, :reason_blocked, :visible_in_queue,
@@ -61,6 +61,7 @@ class Task < ActiveRecord::Base
   before_validation :reinitialize_state_machine, on: :create
   before_validation :set_assignor
   before_validation :mark_as_unread
+  before_validation :set_expertise_id
   before_validation :update_priority_score, on: :update
   after_create :create_task_data_fields!, if: :task_template
   after_create :create_task_steps!, if: :task_template
@@ -90,11 +91,20 @@ class Task < ActiveRecord::Base
   end
 
   def self.specialist_queue(hcp)
-    where('queue = "specialist" AND owner_id = ? AND state = "claimed"', hcp.id)
+    where(queue: :specialist).where(state: :claimed).where(owner_id: hcp.id)
   end
 
-  def self.next_tasks
-    task = Task.where(queue: :specialist).where(state: :unclaimed).includes(:member, :member => :phone_numbers).order(task_order).first
+  def self.specialist_queue_today
+    where(queue: :specialist).open_state.where('due_at < ?', DateTime.now.end_of_day).order(task_order)
+  end
+
+  def self.next_tasks(hcp)
+    task = Task.where(queue: :specialist)
+               .where(state: :unclaimed)
+               .where('expertise_id IS NULL OR expertise_id IN (?)', hcp.expertises.map(&:id))
+               .includes(:member, :member => :phone_numbers)
+               .order(task_order)
+               .first
     if task
       [task]
     else
@@ -104,7 +114,7 @@ class Task < ActiveRecord::Base
 
   def self.claim_next_tasks!(hcp)
     transaction do
-      next_tasks.each do |t|
+      next_tasks(hcp).each do |t|
         t.owner = hcp
         t.actor_id = hcp.id
         t.claim!
@@ -140,6 +150,13 @@ class Task < ActiveRecord::Base
     self.priority = calculate_priority
   end
 
+  def expertise
+    task_template.try(:expertise) || task_category.try(:expertise)
+  end
+
+  def set_expertise_id
+    self.expertise_id = expertise.try(:id)
+  end
 
   def mark_as_unread
     if urgent? || (owner && owner.has_role?('specialist'))
@@ -385,7 +402,7 @@ class Task < ActiveRecord::Base
     self.description ||= task_template.try(:description)
     self.due_at ||= task_template.try(:calculated_due_at, start_at)
     self.time_estimate ||= task_template.try(:time_estimate)
-    self.service_type ||= service.try(:service_type)
+    self.service_type ||= service.try(:service_type) || task_template.try(:service_type)
     self.task_category ||= task_template.try(:task_category)
     self.member ||= service.try(:member)
     self.subject ||= service.try(:subject)
@@ -393,10 +410,10 @@ class Task < ActiveRecord::Base
     self.owner ||= calculate_owner
     self.assignor ||= owner
     self.role ||= Role.find_by_name(:pha)
-    self.priority = calculate_priority
     self.service_ordinal ||= task_template.try(:service_ordinal) || service_ordinal_for_one_off
     self.time_zone ||= service.try(:time_zone) || member.try(:time_zone)
     self.time_zone_offset = ActiveSupport::TimeZone.new(time_zone).try(:utc_offset) if time_zone
+    self.priority = calculate_priority
     true
   end
 
@@ -404,7 +421,7 @@ class Task < ActiveRecord::Base
 
   def self.task_order
     pacific_offset = Time.zone_offset('PDT')/3600
-    "DATE(CONVERT_TZ(due_at, '+0:00', '#{pacific_offset}:00')) ASC, priority DESC, day_priority DESC, due_at ASC, created_at ASC"
+    "tasks.urgent DESC, DATE(CONVERT_TZ(tasks.due_at, '+0:00', '#{pacific_offset}:00')) ASC, tasks.priority DESC, tasks.day_priority DESC, tasks.due_at ASC, tasks.created_at ASC"
   end
 
   def set_assignor

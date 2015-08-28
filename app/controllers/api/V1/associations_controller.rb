@@ -21,6 +21,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
   def create
     @association = @user.associations.create(create_attributes)
     if @association.errors.empty?
+      @association = Association.find(@association.id) # reload association for CarrierWave
       render_success(show_response)
     else
       render_failure({reason: @association.errors.full_messages.to_sentence}, 422)
@@ -29,6 +30,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
 
   def update
     if @association.update_attributes(permitted_params.association)
+      @association = Association.find(@association.id) # reload association for CarrierWave
       render_success(update_response)
     else
       if @association.errors["associate.phone_numbers"].any?
@@ -101,6 +103,8 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
       provider = find_or_create_provider_by_npi_number
       params[:association].except!(:associate)
       params[:association][:associate_id] = provider.id
+    elsif params[:association].try(:[], :associate).try(:[], :avatar)
+      params[:association][:associate][:avatar] = decode_b64_image(params[:association][:associate][:avatar])
     end
   end
 
@@ -135,6 +139,7 @@ class Api::V1::AssociationsController < Api::V1::ABaseController
 
   def unset_android_id_zero!
     params[:association][:associate][:id] = nil if params.require(:association).try(:[], :associate).try(:[], :id).try(:zero?) # TODO - disable sending fake id from client
+    params[:association][:id] = nil if params.require(:association).try(:[], :id).try(:zero?) # TODO - disable sending fake id from client
   end
 
   def change_keys!
