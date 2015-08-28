@@ -4,7 +4,7 @@ describe TaskTemplateSet do
   it_has_a 'valid factory'
 
   describe 'validations' do
-    it_validates 'presence of', :service_template_id
+    it_validates 'presence of', :service_template
   end
 
   describe '#create_association!' do

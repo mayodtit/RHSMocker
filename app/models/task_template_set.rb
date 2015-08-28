@@ -6,7 +6,7 @@ class TaskTemplateSet < ActiveRecord::Base
   belongs_to :negative_child, class_name: 'TaskTemplateSet'
 
   attr_accessible :service_template_id, :affirmative_child_id, :negative_child_id, :task_templates, :service_template, :affirmative_child, :negative_child
-  validates :service_template_id, presence: true
+  validates :service_template, presence: true
 
   def create_deep_copy!(new_service_template)
     new_task_template_set = create_task_template_set!(new_service_template)
