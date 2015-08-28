@@ -10,7 +10,7 @@ describe 'Tasks' do
     let!(:task_template_set) { create :task_template_set, service_template: service_template, affirmative_child: affirmative_task_template_set }
     let!(:service) { create :service, service_template: service_template }
     let!(:task_template) { create :task_template, task_template_set: task_template_set }
-    let!(:task) { create(:task, :assigned, owner: pha, service: service, task_template: task_template, task_template_set: task_template_set) }
+    let!(:task) { create(:task, :assigned, owner: pha, service: service, task_template: task_template) }
 
     describe 'PUT /api/v1/tasks/:id' do
       def do_request(params={})
@@ -44,7 +44,7 @@ describe 'Tasks' do
 
         context 'there are tasks templates in the service template with next task template sets' do
           let!(:another_task_template) { create :task_template, service_template: service_template, task_template_set: affirmative_task_template_set }
-          let!(:another_task) { create(:task, :assigned, owner: pha, service: service, task_template: another_task_template, task_template_set: affirmative_task_template_set) }
+          let!(:another_task) { create(:task, :assigned, owner: pha, service: service, task_template: another_task_template) }
 
           context 'the completed task is the last task in the task template set' do
             it 'should create the tasks with the next task template set' do
