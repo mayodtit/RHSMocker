@@ -12,7 +12,6 @@ class Task < ActiveRecord::Base
   belongs_to :service
   belongs_to :service_type
   belongs_to :task_template
-  belongs_to :task_template_set
   belongs_to :task_category
   has_many :task_changes, class_name: 'TaskChange', order: 'created_at DESC'
   has_many :task_steps, inverse_of: :task,
@@ -45,7 +44,7 @@ class Task < ActiveRecord::Base
                   :task_template, :task_template_id, :service, :service_id, :service_ordinal,
                   :priority, :actor_id, :member_id, :member, :reason, :reason_blocked, :visible_in_queue,
                   :day_priority, :time_estimate, :pubsub_client_id, :urgent, :unread, :follow_up,
-                  :task_template_set_id, :result, :start_at
+                  :result, :start_at
 
   validates :title, :state, :creator_id, :role_id, :due_at, :priority, presence: true
   validates :urgent, :unread, :follow_up, :inclusion => { :in => [true, false] }

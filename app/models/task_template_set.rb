@@ -1,6 +1,5 @@
 class TaskTemplateSet < ActiveRecord::Base
   has_many :task_templates
-  has_many :tasks
   belongs_to :service_template
   belongs_to :affirmative_child, class_name: 'TaskTemplateSet'
   belongs_to :negative_child, class_name: 'TaskTemplateSet'

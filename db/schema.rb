@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150819224810) do
+ActiveRecord::Schema.define(:version => 20150828191911) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1431,7 +1431,6 @@ ActiveRecord::Schema.define(:version => 20150819224810) do
     t.boolean  "unread",                     :default => false, :null => false
     t.boolean  "follow_up",                  :default => false, :null => false
     t.boolean  "result"
-    t.integer  "task_template_set_id"
     t.datetime "unclaimed_at"
     t.datetime "blocked_internal_at"
     t.datetime "blocked_external_at"

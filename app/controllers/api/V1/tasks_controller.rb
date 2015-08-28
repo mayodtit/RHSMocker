@@ -82,7 +82,7 @@ class Api::V1::TasksController < Api::V1::ABaseController
     end
 
     if ( update_params[:state_event] == 'complete' || update_params[:state_event] == 'abandon' ) && @task.service
-      @updated_tasks = @task.service.tasks.open_state.where('task_template_set_id', @task.task_template_set.try(:affirmative_child_id) || @task.task_template_set.try(:negative_child_id))
+      @updated_tasks = @task.service.tasks.open_state.where(@task.task_template.try(:task_template_set).try(:affirmative_child_id) || @task.task_template.try(:task_template_set).try(:negative_child_id))
     end
 
     if @task.update_attributes(update_params)
