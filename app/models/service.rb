@@ -80,7 +80,7 @@ class Service < ActiveRecord::Base
     return if tasks.empty? && service_template.task_templates.empty?
     if next_task_template_set = next_task_template_set(current_task_template_set)
       next_task_template_set.task_templates.each do |task_template|
-        tasks.create!(task_template: task_template, start_at: service_template.timed_service? ? last_due_at : Time.now, task_template_set_id: next_task_template_set.id)
+        tasks.create!(task_template: task_template, start_at: service_template.timed_service? ? last_due_at : Time.now)
       end
     else
       self.complete!
@@ -88,9 +88,11 @@ class Service < ActiveRecord::Base
   end
 
   def check_each_task_result(current_task_template_set)
-    Task.where(task_template_set_id: current_task_template_set.id, service_id: self.id).each do |t|
-      @result = t.result?
-      break if !@result
+    self.tasks.each do |t|
+      if t.task_template.task_template_set.id == current_task_template_set.id
+        @result = t.result?
+        break if !@result
+      end
     end
     @result
   end
