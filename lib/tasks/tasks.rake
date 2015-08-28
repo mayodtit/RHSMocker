@@ -179,7 +179,8 @@ namespace :tasks do
           t.update_attribute(:queue, :hcc)
         end
       else
-        t.update_attribute(:queue, t.default_queue)
+        queue = t.send(:default_queue)
+        t.update_attribute(:queue, queue)
       end
     end
 
