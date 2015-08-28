@@ -51,6 +51,17 @@ class MemberSerializer < ActiveModel::Serializer
           last_contact_at: object.last_contact_at,
           timeline: object.entries.try(:serializer)
       }
+    elsif options[:specialist]
+      {
+        id: object.id,
+        avatar_url: object.avatar_url,
+        first_name: object.first_name,
+        last_name: object.last_name,
+        email: object.email,
+        full_name: object.full_name,
+        expertises: object.expertises.try(:serializer),
+        specialist_metrics: object.specialist_metrics
+      }
     else
       super.tap do |attributes|
         if options[:include_roles]
@@ -62,7 +73,8 @@ class MemberSerializer < ActiveModel::Serializer
                             care_provider?: object.care_provider?,
                             specialist?: object.specialist?,
                             beta?: object.beta?,
-                            service_admin?: object.service_admin?)
+                            service_admin?: object.service_admin?,
+                            specialist_lead?: object.specialist_lead?)
           attributes.merge!(roles: object.roles.map(&:name))
           attributes.merge!(on_call?: object.on_call?, queue_mode: queue_mode)
         end

@@ -130,7 +130,7 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   end
 
   def task_template
-    params.require(:task_template).permit(:name, :title, :service_template, :service_template_id, :task_category_id, :description, :time_estimate, :service_ordinal, :modal_template_id, :queue)
+    params.require(:task_template).permit(:name, :title, :service_template, :service_template_id, :task_category_id, :description, :time_estimate, :service_ordinal, :modal_template_id, :queue, :expertise_id)
   end
 
   def task_step_template
@@ -163,6 +163,14 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
 
   def suggested_service
     params.require(:suggested_service).permit(:title, :description, :message, :service_type_id, :state_event, :user_facing)
+  end
+
+  def expertise
+    params.require(:expertise).permit(:name)
+  end
+
+  def task_category
+    params.require(:task_category).permit(:title, :description, :priority_weight, :expertise_id)
   end
 
   private
@@ -247,7 +255,9 @@ class PermittedParams < Struct.new(:params, :current_user, :subject)
   def association_attributes
     if params.require(:association)[:id]
       [:association_type, :association_type_id, :is_default_hcp, :state_event,
-       :invite]
+       :invite].tap do |attrs|
+        attrs << {associate_attributes: user_attributes}
+      end
     else
       [:id, :user, :user_id, :associate, :associate_id, :creator, :creator_id,
        :association_type, :association_type_id, :is_default_hcp,
