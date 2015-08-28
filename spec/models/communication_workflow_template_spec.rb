@@ -100,7 +100,7 @@ describe CommunicationWorkflowTemplate do
       end
 
       it 'should publish at one hour before time now' do
-        expect( communication_workflow_template.send(:relative_publish_at, reference_time).pacific ).to eq( Time.new(2015, 1, 13, 16, 30, 0, "+00:00").pacific)
+        expect( communication_workflow_template.send(:relative_publish_at, reference_time).pacific ).to eq( Time.new(2015, 1, 13, 16, 00, 0, "+00:00").pacific)
       end
     end
 
