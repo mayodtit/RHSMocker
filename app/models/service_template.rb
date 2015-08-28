@@ -37,7 +37,7 @@ class ServiceTemplate < ActiveRecord::Base
       data_field_templates.each do |data_field_template|
         data_field_template.create_deep_copy!(new_service_template)
       end
-      first_task_template_set = task_template_sets.order('created_at').first
+      first_task_template_set = task_template_sets.first
       first_task_template_set.create_deep_copy!(new_service_template)
       new_service_template
     end
