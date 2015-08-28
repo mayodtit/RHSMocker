@@ -146,7 +146,7 @@ RHSMocker::Application.routes.draw do
         end
       end
       resources :task_steps, only: %i(show update)
-      resources :task_template_sets
+      resources :task_template_sets, except: %i(new edit)
       resources :task_templates, except: %i(new edit) do
         resources :task_step_templates, except: %i(new edit) do
           resources :data_field_templates, only: :destroy, controller: :task_step_data_field_templates do
