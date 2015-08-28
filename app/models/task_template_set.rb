@@ -8,11 +8,6 @@ class TaskTemplateSet < ActiveRecord::Base
   attr_accessible :service_template_id, :affirmative_child_id, :negative_child_id, :task_templates, :service_template, :affirmative_child, :negative_child
   validates :service_template_id, presence: true
 
-  def create_association!(affirmative_child_id, negative_child_id)
-    self.affirmative_child_id = affirmative_child_id
-    self.negative_child_id = negative_child_id
-  end
-
   def create_deep_copy!(new_service_template)
     new_task_template_set = create_task_template_set!(new_service_template)
     create_task_templates!(new_task_template_set)

@@ -12,7 +12,6 @@ class Api::V1::TaskTemplateSetsController < Api::V1::ABaseController
   end
 
   def update
-    @task_template_set.create_association!(permitted_params.task_template_set[:affirmative_child_id], permitted_params.task_template_set[:negative_child_id])
     update_resource(@task_template_set, permitted_params.task_template_set)
   end
 
