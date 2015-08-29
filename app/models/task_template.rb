@@ -26,8 +26,9 @@ class TaskTemplate < ActiveRecord::Base
 
   attr_accessible :name, :title, :description, :time_estimate, :priority,
                   :service_ordinal, :service_template, :service_template_id,
-                  :modal_template, :task_template_set_id, :queue, :task_category,
-                  :task_category_id, :service_type, :expertise, :expertise_id
+                  :modal_template, :task_template_set, :task_template_set_id,
+                  :queue, :task_category, :task_category_id, :service_type,
+                  :expertise, :expertise_id
 
   validates :name, :title, presence: true
   validates :service_template, presence: true, if: :service_template_id
