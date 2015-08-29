@@ -23,12 +23,8 @@ describe TaskTemplate do
     let!(:origin_task_step_template) { origin_task_step_data_field_template.task_step_template }
     let!(:origin_task_template) { origin_task_step_template.task_template }
     let!(:origin_service_template) { origin_task_template.service_template }
-<<<<<<< HEAD
     let!(:origin_task_template_set) { origin_service_template.task_template_sets.first }
-    let(:origin_task_template_attributes) { origin_task_template.attributes.slice(*%w(name title description time_estimate priority service_ordinal queue task_category_id)) }
-=======
     let(:origin_task_template_attributes) { origin_task_template.attributes.slice(*%w(name title description time_estimate priority service_ordinal queue task_category_id expertise_id)) }
->>>>>>> develop
 
     let!(:new_service_template) { create(:service_template) }
     let!(:new_task_template_set) { new_service_template.task_template_sets.first }
