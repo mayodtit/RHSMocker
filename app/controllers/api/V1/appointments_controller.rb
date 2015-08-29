@@ -34,7 +34,7 @@ class Api::V1::AppointmentsController < Api::V1::ABaseController
   end
 
   def appointment_attributes
-    params.require(:appointment).permit(:user_id, :provider_id, :scheduled_at, :reason_for_visit, :special_instructions)
+    params.require(:appointment).permit(:user_id, :provider_id, :scheduled_at, :reason_for_visit, :special_instructions, :appointment_template_id)
   end
 
   def create_params
