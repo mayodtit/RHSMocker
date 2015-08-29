@@ -12,6 +12,6 @@ class ServiceBlockedTask < Task
 
   def unlock_service!
     service.reopen!
-    service.reload.create_next_ordinal_tasks
+    service.reload.create_next_task_template_set_tasks
   end
 end

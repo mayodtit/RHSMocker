@@ -8,6 +8,7 @@ class ServiceTemplateSerializer < ActiveModel::Serializer
 
   has_one :service_type
   has_many :task_templates
+  has_many :task_template_sets
   has_many :data_field_templates
 
   delegate :time_estimate, :unique_id, :published?, to: :object

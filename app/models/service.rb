@@ -41,8 +41,9 @@ class Service < ActiveRecord::Base
   before_validation :reinitialize_state_machine, on: :create
   before_validation :set_defaults, on: :create
   before_validation :set_assigned_at
+  after_create :create_next_task_template_set_tasks
   after_create :create_data_fields!, if: :service_template
-  after_create :create_next_ordinal_tasks
+  after_create :create_service_blocked_task!, if: :waiting?
   after_save :create_service_blocked_task!, if: :waiting?
   after_commit :track_update, on: :update
   after_commit :publish
@@ -73,22 +74,40 @@ class Service < ActiveRecord::Base
     end
   end
 
-  def create_next_ordinal_tasks(current_ordinal=-1, last_due_at=Time.now)
+  def create_next_task_template_set_tasks(current_task_template_set = nil, last_due_at=Time.now)
     return if waiting? || draft?
     return unless open? && service_template && tasks.open_state.empty?
     return if tasks.empty? && service_template.task_templates.empty?
-    if next_ordinal = next_ordinal(current_ordinal)
-      service_template.task_templates.where(service_ordinal: next_ordinal).each do |task_template|
-        member_tasks.create!(task_template: task_template, start_at: service_template.timed_service? ? last_due_at : Time.now)
+    if next_task_template_set = next_task_template_set(current_task_template_set)
+      next_task_template_set.task_templates.each do |task_template|
+        tasks.create!(task_template: task_template, start_at: service_template.timed_service? ? last_due_at : Time.now)
       end
     else
       self.complete!
     end
   end
 
-  def next_ordinal(current_ordinal)
+  def check_each_task_result(current_task_template_set)
+    self.tasks.each do |t|
+      if t.task_template.task_template_set.id == current_task_template_set.id
+        @result = t.result?
+        break if !@result
+      end
+    end
+    @result
+  end
+
+  def next_task_template_set(current_task_template_set)
     return unless service_template
-    service_template.task_templates.where('service_ordinal > ?', current_ordinal).minimum(:service_ordinal)
+    if current_task_template_set.nil?
+      self.service_template.task_template_sets.first
+    elsif current_task_template_set.affirmative_child_id && check_each_task_result(current_task_template_set)
+      TaskTemplateSet.find(current_task_template_set.try(:affirmative_child_id))
+    elsif current_task_template_set.negative_child_id && !check_each_task_result(current_task_template_set)
+      TaskTemplateSet.find(current_task_template_set.try(:negative_child_id))
+    else
+      nil
+    end
   end
 
   def calculated_next_state

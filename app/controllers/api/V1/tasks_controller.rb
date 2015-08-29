@@ -82,7 +82,7 @@ class Api::V1::TasksController < Api::V1::ABaseController
     end
 
     if ( update_params[:state_event] == 'complete' || update_params[:state_event] == 'abandon' ) && @task.service
-      @updated_tasks = @task.service.tasks.open_state.where('service_ordinal > ?', @task.service_ordinal)
+      @updated_tasks = @task.service.tasks.open_state.where(@task.task_template.try(:task_template_set).try(:affirmative_child_id) || @task.task_template.try(:task_template_set).try(:negative_child_id))
     end
 
     if @task.update_attributes(update_params)
@@ -113,6 +113,6 @@ class Api::V1::TasksController < Api::V1::ABaseController
   end
 
   def task_attributes
-    params.require(:task).permit(:title, :description, :due_at, :state_event, :owner_id, :reason, :reason_abandoned, :member_id, :subject_id, :service_type_id, :day_priority, :pubsub_client_id, :urgent, :follow_up, :unread)
+    params.require(:task).permit(:title, :description, :due_at, :state_event, :owner_id, :reason, :reason_abandoned, :member_id, :subject_id, :service_type_id, :day_priority, :pubsub_client_id, :urgent, :follow_up, :unread, :result)
   end
 end
