@@ -53,7 +53,7 @@ describe 'Tasks' do
               expect(response).to be_success
               body = JSON.parse(response.body, symbolize_names: true)
               expect(body[:task].to_json).to eq(task.reload.serializer.as_json.to_json)
-              expect(body[:updated_tasks][0].to_json).to eq((another_task).serializer.as_json.to_json)
+              expect(body[:updated_tasks][0].to_json).to eq((another_task).serializer(shallow: true).as_json.to_json)
               expect(task).to be_completed
             end
           end
