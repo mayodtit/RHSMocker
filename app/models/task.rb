@@ -44,7 +44,7 @@ class Task < ActiveRecord::Base
                   :task_template, :task_template_id, :service, :service_id, :service_ordinal,
                   :priority, :actor_id, :member_id, :member, :reason, :reason_blocked, :visible_in_queue,
                   :day_priority, :time_estimate, :pubsub_client_id, :urgent, :unread, :follow_up,
-                  :result, :start_at
+                  :result, :start_at, :escalated
 
   validates :title, :state, :creator_id, :role_id, :due_at, :priority, presence: true
   validates :urgent, :unread, :follow_up, :inclusion => { :in => [true, false] }
