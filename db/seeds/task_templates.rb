@@ -14,7 +14,8 @@ TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 2"},
                                 description: description,
                                 time_estimate: 1440,
                                 priority: 1,
-                                service_ordinal: 0})
+                                service_ordinal: 0,
+                                queue: "pha"})
 
 description = <<-eof
 Check in with engaged patient/about services being performed or use messaging below
@@ -30,7 +31,8 @@ TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 3"},
                                 description: description,
                                 time_estimate: 1440,
                                 priority: 1,
-                                service_ordinal: 1})
+                                service_ordinal: 1,
+                                queue: "pha"})
 
 description = <<-eof
 -If member has not engaged in previous two messages, make outbound call to member to review discharge plan
@@ -48,7 +50,8 @@ TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 4"},
                                 description: description,
                                 time_estimate: 1440,
                                 priority: 1,
-                                service_ordinal: 2})
+                                service_ordinal: 2,
+                                queue: "pha"})
 
 description = <<-eof
 -If patient is unengaged (has not responded to previous messages and the outbound call), let Paul/Meg know.
@@ -66,7 +69,8 @@ TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 5"},
                                 description: description,
                                 time_estimate: 1440,
                                 priority: 1,
-                                service_ordinal: 3})
+                                service_ordinal: 3,
+                                queue: "pha"})
 # Week 2
 
 description = <<-eof
@@ -82,7 +86,8 @@ TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 8"},
                                 description: description,
                                 time_estimate: 2880,
                                 priority: 1,
-                                service_ordinal: 4})
+                                service_ordinal: 4,
+                                queue: "pha"})
 
 description = <<-eof
 Check in with engaged patient/about services being performed or use messaging below
@@ -97,7 +102,8 @@ TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 10"},
                                 description: description,
                                 time_estimate: 2880,
                                 priority: 1,
-                                service_ordinal: 5})
+                                service_ordinal: 5,
+                                queue: "pha"})
 
 description = <<-eof
 Check in with engaged patient/about services being performed or use messaging below
@@ -112,7 +118,8 @@ TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 12"},
                                 description: description,
                                 time_estimate: 2880,
                                 priority: 1,
-                                service_ordinal: 6})
+                                service_ordinal: 6,
+                                queue: "pha"})
 
 # Week 3
 description = <<-eof
@@ -128,7 +135,8 @@ TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 15"},
                                 description: description,
                                 time_estimate: 4320,
                                 priority: 1,
-                                service_ordinal: 7})
+                                service_ordinal: 7,
+                                queue: "pha"})
 
 description = <<-eof
 Check in with engaged patient/about services being performed or use messaging below
@@ -143,7 +151,8 @@ TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 18"},
                                 description: description,
                                 time_estimate: 4320,
                                 priority: 1,
-                                service_ordinal: 8})
+                                service_ordinal: 8,
+                                queue: "pha"})
 # Week 4
 description = <<-eof
 Check in with engaged patient/about services being performed or use messaging below
@@ -158,7 +167,8 @@ TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 22"},
                                 description: description,
                                 time_estimate: 4320,
                                 priority: 1,
-                                service_ordinal: 9})
+                                service_ordinal: 9,
+                                queue: "pha"})
 
 description = <<-eof
 Check in with engaged patient/about services being performed or use messaging below
@@ -173,7 +183,8 @@ TaskTemplate.upsert_attributes({name: "mayo pilot 2 - day 25"},
                                 description: description,
                                 time_estimate: 4320,
                                 priority: 1,
-                                service_ordinal: 10})
+                                service_ordinal: 10,
+                                queue: "pha"})
 
 # Provider Search
 
@@ -257,28 +268,32 @@ TaskTemplate.upsert_attributes({name: "provider search - find options"},
                                 title: "Search - initial provider options",
                                 description: PROVIDER_SEARCH_FIND_OPTIONS_TEMPLATE,
                                 time_estimate: 240,
-                                service_ordinal: 0})
+                                service_ordinal: 0,
+                                queue: "pha"})
 
 TaskTemplate.upsert_attributes({name: "provider search -  send options"},
                                {service_template: ServiceTemplate.find_by_name('provider search'),
                                 title: "Send member - provider options",
                                 description: PROVIDER_SEARCH_SEND_OPTIONS_DESCRIPTION,
                                 time_estimate: 60,
-                                service_ordinal: 1})
+                                service_ordinal: 1,
+                                queue: "pha"})
 
 TaskTemplate.upsert_attributes({name: "provider search - follow up"},
                                {service_template: ServiceTemplate.find_by_name('provider search'),
                                 title: "Follow up - provider options",
                                 description: PROVIDER_SEARCH_FOLLOW_UP_DESCRIPTION,
                                 time_estimate: 4320,
-                                service_ordinal: 2})
+                                service_ordinal: 2,
+                                queue: "pha"})
 
 TaskTemplate.upsert_attributes({name: "provider search - add doctor"},
                                {service_template: ServiceTemplate.find_by_name('provider search'),
                                 title: "Confirm and add doctor to profile",
                                 description: PROVIDER_SEARCH_ADD_DOCTOR_DESCRIPTION,
                                 time_estimate: 4320,
-                                service_ordinal: 2})
+                                service_ordinal: 2,
+                                queue: "pha"})
 
 # Appointment Booking
 
@@ -386,21 +401,24 @@ TaskTemplate.upsert_attributes({name: "appointment booking - call provider"},
                                 title: "Call - book appointment with provider",
                                 description: APPOINTMENT_BOOKING_CALL_PROVIDER_TEMPLATE,
                                 time_estimate: 60,
-                                service_ordinal: 0})
+                                service_ordinal: 0,
+                                queue: "specialist"})
 
 TaskTemplate.upsert_attributes({name: "appointment booking -  send confirmation"},
                                {service_template: ServiceTemplate.find_by_name('appointment booking'),
                                 title: "Send member update - appointment booked",
                                 description: APPOINTMENT_BOOKING_SEND_CONFIRMATION_DESCRIPTION,
                                 time_estimate: 30,
-                                service_ordinal: 1})
+                                service_ordinal: 1,
+                                queue: "pha"})
 
 TaskTemplate.upsert_attributes({name: "appointment booking - reminder"},
                                {service_template: ServiceTemplate.find_by_name('appointment booking'),
                                 title: "Send member - appointment reminder",
                                 description: APPOINTMENT_BOOKING_REMINDER_TEMPLATE,
                                 time_estimate: 60,
-                                service_ordinal: 2})
+                                service_ordinal: 2,
+                                queue: "pha"})
 
 TaskTemplate.upsert_attributes({name: "appointment booking - appointment follow-up"},
                                {service_template: ServiceTemplate.find_by_name('appointment booking'),
@@ -408,6 +426,7 @@ TaskTemplate.upsert_attributes({name: "appointment booking - appointment follow-
                                 description: APPOINTMENT_BOOKING_FOLLOW_UP_TEMPLATE,
                                 time_estimate: 60,
                                 service_ordinal: 3,
+                                queue: "pha",
                                 modal_template: ModalTemplate.find_by_title('Did you add doctor?')})
 
 #Care Coordination Call
@@ -448,14 +467,16 @@ TaskTemplate.upsert_attributes({name: "care coordination call - make call"},
                                 title: "Call - care coordination",
                                 description: MAKE_CARE_COORDINATION_CALL_DESCRIPTION,
                                 time_estimate: 60,
-                                service_ordinal: 0})
+                                service_ordinal: 0,
+                                queue: "specialist"})
 
 TaskTemplate.upsert_attributes({name: "care coordination call - send update"},
                                {service_template: ServiceTemplate.find_by_name('care coordination call'),
                                 title: "Send member update - call notes",
                                 description: CARE_COORDINATION_CALL_SEND_MEMBER_UPDATES_DESCRIPTION,
                                 time_estimate: 60,
-                                service_ordinal: 1})
+                                service_ordinal: 1,
+                                queue: "pha"})
 
 # PHA Authorization
 
@@ -611,49 +632,56 @@ TaskTemplate.upsert_attributes({name: "pha authorization - obtain authorization 
                                 title: "Obtain authorization form",
                                 description: PHA_AUTHORIZATION_OBTAIN_FORM_DESCRIPTION,
                                 time_estimate: 60,
-                                service_ordinal: 0})
+                                service_ordinal: 0,
+                                queue: "specialist"})
 
 TaskTemplate.upsert_attributes({name: "pha authorization - send form to member"},
                                {service_template: ServiceTemplate.find_by_name('pha authorization'),
                                 title: "Fill out authorization form",
                                 description: PHA_AUTHORIZATION_SEND_FORM_TO_MEMBER_DESCRIPTION,
                                 time_estimate: 60,
-                                service_ordinal: 0})
+                                service_ordinal: 0,
+                                queue: "specialist"})
 
 TaskTemplate.upsert_attributes({name: "pha authorization - sign authorization form"},
                                {service_template: ServiceTemplate.find_by_name('pha authorization'),
                                 title: "Send member update - sign authorization form",
                                 description: PHA_AUTHORIZATION_SIGN_AUTHORIZATION_FORM_DESCRIPTION,
                                 time_estimate: 60,
-                                service_ordinal: 1})
+                                service_ordinal: 1,
+                                queue: "pha"})
 
 TaskTemplate.upsert_attributes({name: "pha authorization - send form to insurance"},
                                {service_template: ServiceTemplate.find_by_name('pha authorization'),
                                 title: "Send - signed authorization form to insurance",
                                 description: PHA_AUTHORIZATION_SEND_FORM_TO_INSURANCE_DESCRIPTION,
                                 time_estimate: 60,
-                                service_ordinal: 2})
+                                service_ordinal: 2,
+                                queue: "specialist"})
 
 TaskTemplate.upsert_attributes({name: "pha authorization - update member authorization sent"},
                                {service_template: ServiceTemplate.find_by_name('pha authorization'),
                                 title: "Send member update - authorization form sent",
                                 description: PHA_AUTHORIZATION_UPDATE_MEMBER_AUTHORIZATION_SENT_DESCRIPTION,
                                 time_estimate: 60,
-                                service_ordinal: 3})
+                                service_ordinal: 3,
+                                queue: "pha"})
 
 TaskTemplate.upsert_attributes({name: "pha authorization - call confirm authorization"},
                                {service_template: ServiceTemplate.find_by_name('pha authorization'),
                                 title: "Call - confirm authorization form on file",
                                 description: PHA_AUTHORIZATION_CALL_CONFIRM_AUTHORIZATION_DESCRIPTION,
                                 time_estimate: 43200,
-                                service_ordinal: 4})
+                                service_ordinal: 4,
+                                queue: "specialist"})
 
 TaskTemplate.upsert_attributes({name: "pha authorization - update member authorization on file"},
                                {service_template: ServiceTemplate.find_by_name('pha authorization'),
                                 title: "Send member update - authorization form on file",
                                 description: PHA_AUTHORIZATION_UPDATE_MEMBER_AUTHORIZATION_ON_FILE_DESCRIPTION,
                                 time_estimate: 60,
-                                service_ordinal: 5})
+                                service_ordinal: 5,
+                                queue: "pha"})
 
 # Record Recovery
 
@@ -850,63 +878,72 @@ TaskTemplate.upsert_attributes({name: "record recovery - verify request_informai
                                 title: "Call - verify records release information",
                                 description: RECORD_RECOVERY_VERIFY_REQUEST_INFORMATION_DESCRIPTION,
                                 time_estimate: 60,
-                                service_ordinal: 0})
+                                service_ordinal: 0,
+                                queue: "specialist"})
 
 TaskTemplate.upsert_attributes({name: "record recovery - complete record request form"},
                                {service_template: ServiceTemplate.find_by_name('record recovery'),
                                 title: "Fill out records release form",
                                 description: RECORD_RECOVERY_COMPLETE_RECORD_REQUEST_FORM_DESCRIPTION,
                                 time_estimate: 60,
-                                service_ordinal: 1})
+                                service_ordinal: 1,
+                                queue: "specialist"})
 
 TaskTemplate.upsert_attributes({name: "record recovery - sign authorization form"},
                                {service_template: ServiceTemplate.find_by_name('record recovery'),
                                 title: "Send member update - sign records release form",
                                 description: RECORD_RECOVERY_SIGN_AUTHORIZATION_FORM_DESCRIPTION,
                                 time_estimate: 60,
-                                service_ordinal: 2})
+                                service_ordinal: 2,
+                                queue: "pha"})
 
 TaskTemplate.upsert_attributes({name: "record recovery - send form to source provider"},
                                {service_template: ServiceTemplate.find_by_name('record recovery'),
                                 title: "Send - signed records release form to source provider",
                                 description: RECORD_RECOVERY_SEND_FORM_TO_SOURCE_PROVIDER_DESCRIPTION,
                                 time_estimate: 60,
-                                service_ordinal: 3})
+                                service_ordinal: 3,
+                                queue: "specialist"})
 
 TaskTemplate.upsert_attributes({name: "record recovery - update member request sent"},
                                {service_template: ServiceTemplate.find_by_name('record recovery'),
                                 title: "Send member update - records release form sent",
                                 description: RECORD_RECOVERY_UPDATE_MEMBER_REQUEST_SENT_DESCRIPTION,
                                 time_estimate: 60,
-                                service_ordinal: 4})
+                                service_ordinal: 4,
+                                queue: "pha"})
 
 TaskTemplate.upsert_attributes({name: "record recovery - confirm request received"},
                                {service_template: ServiceTemplate.find_by_name('record recovery'),
                                 title: "Call - confirm records release form received",
                                 description: RECORD_RECOVERY_CONFIRM_REQUEST_RECEIVED_DESCRIPTION,
                                 time_estimate: 1440,
-                                service_ordinal: 5})
+                                service_ordinal: 5,
+                                queue: "specialist"})
 
 TaskTemplate.upsert_attributes({name: "record recovery - update member request received"},
                                {service_template: ServiceTemplate.find_by_name('record recovery'),
                                 title: "Send member update - forms received by source provider",
                                 description: RECORD_RECOVERY_UPDATE_MEMBER_REQUEST_RECEIVED_DESCRIPTION,
                                 time_estimate: 60,
-                                service_ordinal: 6})
+                                service_ordinal: 6,
+                                queue: "pha"})
 
 TaskTemplate.upsert_attributes({name: "record recovery - confirm records transferred"},
                                {service_template: ServiceTemplate.find_by_name('record recovery'),
                                 title: "Call - confirm medical records transferred",
                                 description: RECORD_RECOVERY_CONFIRM_RECORDS_TRANSFERRED_DESCRIPTION,
                                 time_estimate: 10080,
-                                service_ordinal: 7})
+                                service_ordinal: 7,
+                                queue: "specialist"})
 
 TaskTemplate.upsert_attributes({name: "record recovery - update member records transferred"},
                                {service_template: ServiceTemplate.find_by_name('record recovery'),
                                 title: "Send member update - medical records transferred",
                                 description: RECORD_RECOVERY_UPDATE_MEMBER_RECORDS_TRANSFERRED_DESCRIPTION,
                                 time_estimate: 60,
-                                service_ordinal: 8})
+                                service_ordinal: 8,
+                                queue: "pha"})
 
 # Prescription Organization
 
@@ -1024,21 +1061,24 @@ TaskTemplate.upsert_attributes({name: "prescription organization - collect infor
                                 title: "Collect Prescription Information",
                                 description: PRESCRIPTION_ORGANIZATION_COLLECT_INFORMATION_DESCRIPTION,
                                 time_estimate: 60,
-                                service_ordinal: 0})
+                                service_ordinal: 0,
+                                queue: "specialist"})
 
 TaskTemplate.upsert_attributes({name: "prescription organization - send member update - information received"},
                                {service_template: ServiceTemplate.find_by_name('prescription organization'),
                                 title: "Send member update - prescription information received",
                                 description: PRESCRIPTION_ORGANIZATION_UPDATE_MEMBER_INFORMATION_RECEIVED_DESCRIPTION,
                                 time_estimate: 60,
-                                service_ordinal: 1})
+                                service_ordinal: 1,
+                                queue: "pha"})
 
 TaskTemplate.upsert_attributes({name: "prescription organization - create spreadsheet"},
                                {service_template: ServiceTemplate.find_by_name('prescription organization'),
                                 title: "Save prescription information in spreadsheet",
                                 description: PRESCRIPTION_ORGANIZATION_CREATE_SPREADSHEET_DESCRIPTION,
                                 time_estimate: 60,
-                                service_ordinal: 2})
+                                service_ordinal: 2,
+                                queue: "pha"})
 
 
 TaskTemplate.upsert_attributes({name: "prescription organization - send member - confirmation"},
@@ -1046,7 +1086,8 @@ TaskTemplate.upsert_attributes({name: "prescription organization - send member -
                                 title: "Send member update - confirm all prescriptions are on file",
                                 description: PRESCRIPTION_ORGANIZATION_UPDATE_MEMBER_CONFIRMATION_DESCRIPTION,
                                 time_estimate: 60,
-                                service_ordinal: 3})
+                                service_ordinal: 3,
+                                queue: "pha"})
 
 # Appointment Preparation - CF
 APPOINTMENT_PREPARATION_CF_CHECK_IN_MONTH_DESCRIPTION = <<-eof
@@ -1629,67 +1670,78 @@ TaskTemplate.upsert_attributes({name: "kinsights records - call - verify records
                                 title: "Call - verify records release information",
                                 description: KINSIGHTS_RECORDS_CALL_VERIFY_RECORDS,
                                 time_estimate: 60,
-                                service_ordinal: 0})
+                                service_ordinal: 0,
+                                queue: "specialist"})
 TaskTemplate.upsert_attributes({name: "kinsights records - fill out release form"},
                                {service_template: ServiceTemplate.find_by_name('Kinsights Records'),
                                 title: "Fill out records release form",
                                 description: KINSIGHTS_RECORDS_FILL_OUT_FORMS,
                                 time_estimate: 60,
-                                service_ordinal: 1})
+                                service_ordinal: 1,
+                                queue: "specialist"})
 TaskTemplate.upsert_attributes({name: "kinsights records - send authorization form"},
                                {service_template: ServiceTemplate.find_by_name('Kinsights Records'),
                                 title: "Proofread and send completed authorization form",
                                 description: KINSIGHTS_RECORDS_SEND_FORMS,
                                 time_estimate: 60,
-                                service_ordinal: 2})
+                                service_ordinal: 2,
+                                queue: "specialist"})
 TaskTemplate.upsert_attributes({name: "kinsights records - send member update - sign forms"},
                                {service_template: ServiceTemplate.find_by_name('Kinsights Records'),
                                 title: "Send member update - sign records release form",
                                 description: KINSIGHTS_RECORDS_SEND_MEMBER_UPDATE_SIGN_FORMS,
                                 time_estimate: 60,
-                                service_ordinal: 3})
+                                service_ordinal: 3,
+                                queue: "pha"})
 TaskTemplate.upsert_attributes({name: "kinsights records - send release form to source provider"},
                                {service_template: ServiceTemplate.find_by_name('Kinsights Records'),
                                 title: "Send - signed records release form to source provider",
                                 description: KINSIGHTS_RECORDS_SEND_FORMS_TO_PROVIDER,
                                 time_estimate: 1440,
-                                service_ordinal: 4})
+                                service_ordinal: 4,
+                                queue: "specialist"})
 TaskTemplate.upsert_attributes({name: "kinsights records - send member update - forms sent"},
                                {service_template: ServiceTemplate.find_by_name('Kinsights Records'),
                                 title: "Send member update - records release form sent",
                                 description: KINSIGHTS_RECORDS_SEND_MEMBER_UPDATE_FORMS_SENT,
                                 time_estimate: 60,
-                                service_ordinal: 5})
+                                service_ordinal: 5,
+                                queue: "pha"})
 TaskTemplate.upsert_attributes({name: "kinsights records - call - confirm forms received"},
                                {service_template: ServiceTemplate.find_by_name('Kinsights Records'),
                                 title: "Call - confirm records release form received",
                                 description: KINSIGHTS_RECORDS_CALL_CONFIRM_FORM_RECEIVED,
                                 time_estimate: 1440,
-                                service_ordinal: 6})
+                                service_ordinal: 6,
+                                queue: "specialist"})
 TaskTemplate.upsert_attributes({name: "kinsights records - send member update - forms received"},
                                {service_template: ServiceTemplate.find_by_name('Kinsights Records'),
                                 title: "Send member update - forms received by source provider",
                                 description: KINSIGHTS_RECORDS_SEND_MEMBER_UPDATE_FORMS_RECEIVED,
                                 time_estimate: 60,
-                                service_ordinal: 7})
+                                service_ordinal: 7,
+                                queue: "pha"})
 TaskTemplate.upsert_attributes({name: "kinsights records - check sfax"},
                                {service_template: ServiceTemplate.find_by_name('Kinsights Records'),
                                 title: "Check sfax - Confirm records received",
                                 description: KINSIGHTS_RECORDS_CHECK_SFAX,
                                 time_estimate: 1440,
-                                service_ordinal: 8})
+                                service_ordinal: 8,
+                                queue: "specialist"})
 TaskTemplate.upsert_attributes({name: "kinsights records - upload to kinsights"},
                                {service_template: ServiceTemplate.find_by_name('Kinsights Records'),
                                 title: "Upload and edit record to Kinsights",
                                 description: KINSIGHTS_RECORDS_UPLOAD_TO_KINSIGHTS,
                                 time_estimate: 60,
-                                service_ordinal: 9})
+                                service_ordinal: 9,
+                                queue: "specialist"})
 TaskTemplate.upsert_attributes({name: "kinsights records - send member update - records uploaded"},
                                {service_template: ServiceTemplate.find_by_name('Kinsights Records'),
                                 title: " Send member update - medical records uploaded",
                                 description: KINSIGHTS_RECORDS_UPLOAD_TO_KINSIGHTS,
                                 time_estimate: 60,
-                                service_ordinal: 10})
+                                service_ordinal: 10,
+                                queue: "pha"})
 
 # PHA Intro + Check-Ins - Kinsights
 KINSIGHTS_CHECKINS_PHA_INTRO = <<-eof
@@ -1731,79 +1783,92 @@ TaskTemplate.upsert_attributes({name: "kinsights check-ins - pha intro"},
                                 title: " PHA Intro - Kinsights",
                                 description: KINSIGHTS_CHECKINS_PHA_INTRO,
                                 time_estimate: 60,
-                                service_ordinal: 0})
+                                service_ordinal: 0,
+                                queue: "pha"})
 TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 1"},
                                {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
                                 title: "Kinsights profile check + Send check-in",
                                 description: KINSIGHTS_CHECKINS_CHECK_IN,
                                 time_estimate: 10080,
-                                service_ordinal: 1})
+                                service_ordinal: 1,
+                                queue: "pha"})
 TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 2"},
                                {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
                                 title: "Kinsights profile check + Send check-in",
                                 description: KINSIGHTS_CHECKINS_CHECK_IN,
                                 time_estimate: 10080,
-                                service_ordinal: 2})
+                                service_ordinal: 2,
+                                queue: "pha"})
 TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 3"},
                                {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
                                 title: "Kinsights profile check + Send check-in",
                                 description: KINSIGHTS_CHECKINS_CHECK_IN,
                                 time_estimate: 10080,
-                                service_ordinal: 3})
+                                service_ordinal: 3,
+                                queue: "pha"})
 TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 4"},
                                {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
                                 title: "Kinsights profile check + Send check-in",
                                 description: KINSIGHTS_CHECKINS_CHECK_IN,
                                 time_estimate: 10080,
-                                service_ordinal: 4})
+                                service_ordinal: 4,
+                                queue: "pha"})
 TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 5"},
                                {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
                                 title: "Kinsights profile check + Send check-in",
                                 description: KINSIGHTS_CHECKINS_CHECK_IN,
                                 time_estimate: 10080,
-                                service_ordinal: 5})
+                                service_ordinal: 5,
+                                queue: "pha"})
 TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 6"},
                                {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
                                 title: "Kinsights profile check + Send check-in",
                                 description: KINSIGHTS_CHECKINS_CHECK_IN,
                                 time_estimate: 10080,
-                                service_ordinal: 6})
+                                service_ordinal: 6,
+                                queue: "pha"})
 TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 7"},
                                {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
                                 title: "Kinsights profile check + Send check-in",
                                 description: KINSIGHTS_CHECKINS_CHECK_IN,
                                 time_estimate: 10080,
-                                service_ordinal: 7})
+                                service_ordinal: 7,
+                                queue: "pha"})
 TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 8"},
                                {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
                                 title: "Kinsights profile check + Send check-in",
                                 description: KINSIGHTS_CHECKINS_CHECK_IN,
                                 time_estimate: 10080,
-                                service_ordinal: 8})
+                                service_ordinal: 8,
+                                queue: "pha"})
 TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 9"},
                                {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
                                 title: "Kinsights profile check + Send check-in",
                                 description: KINSIGHTS_CHECKINS_CHECK_IN,
                                 time_estimate: 10080,
-                                service_ordinal: 9})
+                                service_ordinal: 9,
+                                queue: "pha"})
 TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 10"},
                                {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
                                 title: "Kinsights profile check + Send check-in",
                                 description: KINSIGHTS_CHECKINS_CHECK_IN,
                                 time_estimate: 10080,
-                                service_ordinal: 10})
+                                service_ordinal: 10,
+                                queue: "pha"})
 TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 11"},
                                {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
                                 title: "Kinsights profile check + Send check-in",
                                 description: KINSIGHTS_CHECKINS_CHECK_IN,
                                 time_estimate: 10080,
-                                service_ordinal: 11})
+                                service_ordinal: 11,
+                                queue: "pha"})
 TaskTemplate.upsert_attributes({name: "kinsights check-ins - week 12"},
                                {service_template: ServiceTemplate.find_by_name('PHA Intro + Check-Ins - Kinsights'),
                                 title: "Kinsights profile check + Send check-in",
                                 description: KINSIGHTS_CHECKINS_CHECK_IN,
                                 time_estimate: 10080,
-                                service_ordinal: 12})
+                                service_ordinal: 12,
+                                queue: "pha"})
 
 # Procedure Check
 
@@ -2270,25 +2335,29 @@ TaskTemplate.upsert_attributes({name: "PT Appointment - Call PT"},
                                 title: "Call - book appointment with physical therapist",
                                 description: PT_APPOINTMENT_CALL_PT,
                                 time_estimate: 60,
-                                service_ordinal: 0})
+                                service_ordinal: 0,
+                                queue: "specialist"})
 TaskTemplate.upsert_attributes({name: "PT Appointment - Send Member Update"},
                                {service_template: ServiceTemplate.find_by_name('Book PT Appointment'),
                                 title: "Send member update - appointment booked",
                                 description: PT_APPOINTMENT_SEND_MEMBER_UPDATE,
                                 time_estimate: 60,
-                                service_ordinal: 1})
+                                service_ordinal: 1,
+                                queue: "pha"})
 TaskTemplate.upsert_attributes({name: "PT Appointment - Send Member Reminder"},
                                {service_template: ServiceTemplate.find_by_name('Book PT Appointment'),
                                 title: "Send member - appointment reminder",
                                 description: PT_APPOINTMENT_SEND_MEMBER_REMINDER,
                                 time_estimate: 60,
-                                service_ordinal: 2})
+                                service_ordinal: 2,
+                                queue: "pha"})
 TaskTemplate.upsert_attributes({name: "PT Appointment - Follow Up"},
                                {service_template: ServiceTemplate.find_by_name('Book PT Appointment'),
                                 title: "Follow up - appointment",
                                 description: PT_APPOINTMENT_FOLLOW_UP,
                                 time_estimate: 60,
-                                service_ordinal: 3})
+                                service_ordinal: 3,
+                                queue: "pha"})
 
 #INSURANCE Call
 INSURANCE_CALL_MAKE_CALL = <<-eof
@@ -2321,10 +2390,12 @@ TaskTemplate.upsert_attributes({name: "insurance call - make call"},
                                 title: "Call - insurance",
                                 description: INSURANCE_CALL_MAKE_CALL,
                                 time_estimate: 60,
-                                service_ordinal: 0})
+                                service_ordinal: 0,
+                                queue: "specialist"})
 TaskTemplate.upsert_attributes({name: "insurance call - send member update"},
                                {service_template: ServiceTemplate.find_by_name('Insurance Call'),
                                 title: "Send member update - call notes",
                                 description: INSURANCE_CALL_SEND_MEMBER_UPDATE,
                                 time_estimate: 60,
-                                service_ordinal: 1})
+                                service_ordinal: 1,
+                                queue: "pha"})

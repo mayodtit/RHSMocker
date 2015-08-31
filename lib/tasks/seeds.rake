@@ -1106,4 +1106,21 @@ My phone: 650-887-3711
       end
     end
   end
+
+  task :backfill_with_task_template_sets_on_service_template => :environment do
+    ServiceTemplate.all.each do |st|
+      next_ordinal = 0
+      st.task_templates.order('service_ordinal ASC').each do |tt|
+        if tt.service_ordinal && tt.task_template_set_id.nil?
+          if tt.service_ordinal == next_ordinal
+            next_ordinal = next_ordinal + 1
+            @task_template_set = TaskTemplateSet.create!(service_template_id: st.id)
+            tt.update_attribute(:task_template_set_id, @task_template_set.id)
+          else
+            tt.update_attribute(:task_template_set_id, @task_template_set.id) # Sets the previous task_template_set_id and doesn't create a new one.
+          end
+        end
+      end
+    end
+  end
 end

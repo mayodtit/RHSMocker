@@ -1,6 +1,8 @@
 class ServiceTemplate < ActiveRecord::Base
   belongs_to :service_type
   has_many :task_templates, dependent: :destroy
+  has_many :task_template_sets
+  attr_accessor :skip_create_initial_task_template_set
   has_many :suggested_service_templates, dependent: :destroy
   has_many :data_field_templates, inverse_of: :service_template,
                                   dependent: :destroy
@@ -8,7 +10,8 @@ class ServiceTemplate < ActiveRecord::Base
   attr_accessible :name, :title, :description, :service_type_id,
                   :service_type, :time_estimate, :timed_service,
                   :user_facing, :service_update, :service_request,
-                  :unique_id, :version, :state_event
+                  :unique_id, :version, :state_event, :task_template_sets,
+                  :skip_create_initial_task_template_set
 
   validates :name, :title, :service_type, presence: true
   validates :user_facing, inclusion: {in: [true, false]}
@@ -22,6 +25,7 @@ class ServiceTemplate < ActiveRecord::Base
   before_validation :set_version, on: :create
 
   after_commit :publish
+  after_commit :create_initial_task_template_set, on: :create, unless: :skip_create_initial_task_template_set
 
   def calculated_due_at(time=Time.now)
     time.business_minutes_from(time_estimate.to_i)
@@ -29,14 +33,13 @@ class ServiceTemplate < ActiveRecord::Base
 
   def create_deep_copy!
     transaction do
-      self.class.create!(attributes.except('id', 'version', 'state', 'created_at', 'updated_at')).tap do |new_service_template|
-        data_field_templates.each do |data_field_template|
-          data_field_template.create_deep_copy!(new_service_template)
-        end
-        task_templates.each do |task_template|
-          task_template.create_deep_copy!(new_service_template)
-        end
+      new_service_template = self.class.create!(attributes.except('id', 'version', 'state', 'created_at', 'updated_at').merge(skip_create_initial_task_template_set: true))
+      data_field_templates.each do |data_field_template|
+        data_field_template.create_deep_copy!(new_service_template)
       end
+      first_task_template_set = task_template_sets.first
+      first_task_template_set.create_deep_copy!(new_service_template)
+      new_service_template
     end
   end
 
@@ -101,5 +104,10 @@ class ServiceTemplate < ActiveRecord::Base
         errors.add(attribute, "shouldn't contain any brackets other than markdown")
       end
     end
+  end
+
+  # An empty TaskTemplateSet associates with the current ServiceTemplate
+  def create_initial_task_template_set
+    TaskTemplateSet.create!(service_template_id: self.id)
   end
 end

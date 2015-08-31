@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150826171540) do
+ActiveRecord::Schema.define(:version => 20150831190138) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1293,6 +1293,10 @@ ActiveRecord::Schema.define(:version => 20150826171540) do
     t.string   "state"
     t.datetime "created_at",               :null => false
     t.datetime "updated_at",               :null => false
+    t.integer  "resource_id"
+    t.string   "resource_type"
+    t.string   "resource_attribute"
+    t.integer  "parent_id"
   end
 
   create_table "task_categories", :force => true do |t|
@@ -1375,17 +1379,26 @@ ActiveRecord::Schema.define(:version => 20150826171540) do
     t.datetime "completed_at"
   end
 
+  create_table "task_template_sets", :force => true do |t|
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
+    t.integer  "service_template_id"
+    t.integer  "affirmative_child_id"
+    t.integer  "negative_child_id"
+  end
+
   create_table "task_templates", :force => true do |t|
-    t.string   "name",                :null => false
-    t.string   "title",               :null => false
+    t.string   "name",                 :null => false
+    t.string   "title",                :null => false
     t.text     "description"
     t.integer  "time_estimate"
     t.integer  "service_ordinal"
     t.integer  "service_template_id"
-    t.datetime "created_at",          :null => false
-    t.datetime "updated_at",          :null => false
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
     t.integer  "priority"
     t.integer  "modal_template_id"
+    t.integer  "task_template_set_id"
     t.string   "queue"
     t.integer  "task_category_id"
     t.integer  "expertise_id"
@@ -1434,6 +1447,7 @@ ActiveRecord::Schema.define(:version => 20150826171540) do
     t.boolean  "urgent",                     :default => false, :null => false
     t.boolean  "unread",                     :default => false, :null => false
     t.boolean  "follow_up",                  :default => false, :null => false
+    t.boolean  "result"
     t.datetime "unclaimed_at"
     t.datetime "blocked_internal_at"
     t.datetime "blocked_external_at"

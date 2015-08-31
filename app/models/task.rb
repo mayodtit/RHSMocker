@@ -43,7 +43,8 @@ class Task < ActiveRecord::Base
                   :state_event, :service_type_id, :service_type, :task_category, :task_category_id,
                   :task_template, :task_template_id, :service, :service_id, :service_ordinal,
                   :priority, :actor_id, :member_id, :member, :reason, :reason_blocked, :visible_in_queue,
-                  :day_priority, :time_estimate, :pubsub_client_id, :urgent, :unread, :follow_up, :start_at
+                  :day_priority, :time_estimate, :pubsub_client_id, :urgent, :unread, :follow_up,
+                  :result, :start_at
 
   validates :title, :state, :creator_id, :role_id, :due_at, :priority, presence: true
   validates :urgent, :unread, :follow_up, :inclusion => { :in => [true, false] }
@@ -51,7 +52,6 @@ class Task < ActiveRecord::Base
   validates :role, presence: true, if: lambda { |t| t.role_id }
   validates :service_type, presence: true, if: lambda { |t| t.service_type_id }
   validates :service, presence: true, if: lambda { |t| t.service_id }
-  validates :service_ordinal, presence: true, if: lambda { |t| t.service_id }
   validates :task_template, presence: true, if: lambda { |t| t.task_template_id }
   validates :member, presence: true, if: lambda { |t| t.member_id }
   validates :reason, presence: true, if: lambda { |t| (t.due_at_changed? && t.due_at_was.present?) || (t.state_changed? && t.abandoned?) }
@@ -276,7 +276,7 @@ class Task < ActiveRecord::Base
     end
 
     after_transition any - :completed => :completed  do |task|
-      task.service.create_next_ordinal_tasks(task.service_ordinal, task.due_at) if task.service
+      task.service.create_next_task_template_set_tasks(task.task_template.try(:task_template_set), task.due_at) if task.service
     end
 
     before_transition any - :abandoned => :abandoned do |task|

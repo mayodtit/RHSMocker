@@ -147,6 +147,7 @@ class Ability
     if user.service_admin?
       can :manage, ServiceTemplate
       can :manage, TaskTemplate
+      can :manage, TaskTemplateSet
       can :manage, TaskStepTemplate
       can :manage, DataFieldTemplate
       can :manage, AppointmentTemplate

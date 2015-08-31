@@ -57,34 +57,6 @@ describe Task do
       end
     end
 
-    describe '#service_ordinal' do
-      let(:task) { build :task }
-
-      context 'service id exists' do
-        before do
-          task.stub(:service_id) { 1 }
-        end
-
-        it 'validates presence' do
-          task.service_ordinal = nil
-          task.should_not be_valid
-          task.errors[:service_ordinal].should include("can't be blank")
-        end
-      end
-
-      context 'service id does not exist' do
-        before do
-          task.stub(:service_id) { nil }
-          task.role = build_stubbed :role
-        end
-
-        it "doesn't validate presence" do
-          task.service_ordinal = 1
-          task.should be_valid
-        end
-      end
-    end
-
     describe 'presence of reason' do
       let(:task) { build :task }
 
@@ -741,25 +713,14 @@ describe Task do
       context 'the task is part of a service' do
         let!(:service_template) { create :service_template}
         let!(:service) { create :service, service_template: service_template }
-        let(:service_task) { build :task, :claimed, service: service, service_ordinal: 0 }
+        let(:service_task) { build :task, :claimed, service: service}
 
-        context 'there are tasks in the service template with a higher ordinal' do
-          let!(:task_template) { create :task_template, service_template: service_template, service_ordinal: 2}
-          let!(:task_template_higher) { create :task_template, service_template: service_template, service_ordinal: 3}
+        context 'there are tasks in the service template' do
+          let!(:task_template) { create :task_template, service_template: service_template}
 
-          context 'the completed task is the last task in its ordinal' do
-            it 'should create the tasks with the next ordinal' do
-              service.should_receive(:create_next_ordinal_tasks)
-              service_task.complete!
-            end
-          end
-
-          context 'the completed task is not the last task in its ordinal' do
-            let!(:another_service_task) { create :task, :claimed, service: service, service_ordinal: 0 }
-            it 'should not create any tasks' do
-              Task.should_not_receive(:create!)
-              service_task.complete!
-            end
+          it 'should create the tasks with the next result' do
+            service.should_receive(:create_next_task_template_set_tasks)
+            service_task.complete!
           end
         end
       end

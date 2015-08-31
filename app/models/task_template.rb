@@ -4,6 +4,7 @@ class TaskTemplate < ActiveRecord::Base
 
   belongs_to :service_template
   belongs_to :modal_template
+  belongs_to :task_template_set
   belongs_to :task_category
   belongs_to :expertise
   belongs_to :service_type
@@ -25,8 +26,9 @@ class TaskTemplate < ActiveRecord::Base
 
   attr_accessible :name, :title, :description, :time_estimate, :priority,
                   :service_ordinal, :service_template, :service_template_id,
-                  :modal_template, :queue, :task_category, :task_category_id,
-                  :service_type, :expertise, :expertise_id
+                  :modal_template, :task_template_set, :task_template_set_id,
+                  :queue, :task_category, :task_category_id, :service_type,
+                  :expertise, :expertise_id
 
   validates :name, :title, presence: true
   validates :service_template, presence: true, if: :service_template_id
@@ -39,18 +41,16 @@ class TaskTemplate < ActiveRecord::Base
     (time || Time.now).business_minutes_from(time_estimate.to_i)
   end
 
-  def create_deep_copy!(new_service_template)
+  def create_deep_copy!(override_task_template_set=nil)
     transaction do
-      new_service_template.task_templates.create!(attributes.slice(*%w(name title description time_estimate priority service_ordinal queue task_category_id expertise_id))).tap do |new_task_template|
-        new_task_template.update_attributes!(modal_template: modal_template.create_copy!) if modal_template
-        task_step_templates.each do |task_step_template|
-          task_step_template.create_deep_copy!(new_service_template, new_task_template)
-        end
+      new_task_template = self.class.create!(attributes.slice(*%w(name title description time_estimate priority service_ordinal queue task_category_id)).merge(task_template_set: override_task_template_set || task_template_set, service_template: override_task_template_set.service_template || service_template))
+      new_task_template.update_attributes!(modal_template: modal_template.create_copy!) if modal_template
+      task_step_templates.each do |task_step_template|
+        task_step_template.create_deep_copy!(override_task_template_set.service_template, new_task_template)
       end
+      new_task_template
     end
   end
-
-  private
 
   def copy_title_to_name
     if !self.name
