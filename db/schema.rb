@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150828191911) do
+ActiveRecord::Schema.define(:version => 20150831190138) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1293,6 +1293,10 @@ ActiveRecord::Schema.define(:version => 20150828191911) do
     t.string   "state"
     t.datetime "created_at",               :null => false
     t.datetime "updated_at",               :null => false
+    t.integer  "resource_id"
+    t.string   "resource_type"
+    t.string   "resource_attribute"
+    t.integer  "parent_id"
   end
 
   create_table "task_categories", :force => true do |t|
