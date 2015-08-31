@@ -1,6 +1,12 @@
 class SystemEvent < ActiveRecord::Base
   belongs_to :user, class_name: 'Member'
   belongs_to :system_event_template, inverse_of: :system_events
+  belongs_to :parent, class_name: 'SystemEvent',
+                      inverse_of: :children
+  has_many :children, class_name: 'SystemEvent',
+                      foreign_key: :parent_id,
+                      inverse_of: :parent,
+                      dependent: :destroy
   belongs_to :resource, polymorphic: true
   has_one :system_action, inverse_of: :system_event
 
