@@ -33,14 +33,10 @@ class Appointment < ActiveRecord::Base
 
   def create_system_events!
     if appointment_template.scheduled_at_system_event_template && scheduled_at
-      scheduled_at_system_event.create!(user: user,
-                                        system_event_template: appointment_template.scheduled_at_system_event_template,
-                                        trigger_at: appointment_template.scheduled_at_system_event_template.time_offset.calculate(scheduled_at))
+      self.scheduled_at_system_event = CreateSystemEventsFromTemplatesService.new(user: user, root_system_event_template: appointment_template.scheduled_at_system_event_template, trigger_at: scheduled_at).call
     end
     if appointment_template.discharged_at_system_event_template && departed_at
-      discharged_at_system_event.create!(user: user,
-                                         system_event_template: appointment_template.discharged_at_system_event_template,
-                                         trigger_at: appointment_template.discharged_at_system_event_template.time_offset.calculate(departed_at))
+      self.discharged_at_system_event = CreateSystemEventsFromTemplatesService.new(user: user, root_system_event_template: appointment_template.discharged_at_system_event_template, trigger_at: departed_at).call
     end
   end
 
