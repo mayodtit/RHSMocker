@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150828191911) do
+ActiveRecord::Schema.define(:version => 20150831180322) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1394,11 +1394,11 @@ ActiveRecord::Schema.define(:version => 20150828191911) do
     t.datetime "updated_at",           :null => false
     t.integer  "priority"
     t.integer  "modal_template_id"
-    t.integer  "task_template_set_id"
     t.string   "queue"
     t.integer  "task_category_id"
     t.integer  "expertise_id"
     t.integer  "service_type_id"
+    t.integer  "task_template_set_id"
   end
 
   add_index "task_templates", ["service_template_id"], :name => "index_task_templates_on_service_template_id"
@@ -1443,7 +1443,6 @@ ActiveRecord::Schema.define(:version => 20150828191911) do
     t.boolean  "urgent",                     :default => false, :null => false
     t.boolean  "unread",                     :default => false, :null => false
     t.boolean  "follow_up",                  :default => false, :null => false
-    t.boolean  "result"
     t.datetime "unclaimed_at"
     t.datetime "blocked_internal_at"
     t.datetime "blocked_external_at"
@@ -1454,6 +1453,8 @@ ActiveRecord::Schema.define(:version => 20150828191911) do
     t.integer  "task_category_id"
     t.text     "reason_blocked"
     t.integer  "expertise_id"
+    t.boolean  "result"
+    t.boolean  "escalated",                  :default => false, :null => false
   end
 
   add_index "tasks", ["owner_id", "state", "role_id", "type"], :name => "queue_test"
