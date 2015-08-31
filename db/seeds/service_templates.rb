@@ -3,7 +3,8 @@ ServiceTemplate.upsert_attributes({name: "mayo pilot 2"},
                                   description: "Stroke patients need extra attention in the first 30 days. Use the following tasks as message suggestions.",
                                   service_type: ServiceType.find_by_name('member onboarding'),
                                   time_estimate: 43200,
-                                  timed_service: true})
+                                  timed_service: true,
+                                  skip_create_initial_task_template_set: true})
 
 PROVIDER_SEARCH_DESCRIPTION = <<-eof
 **This service is assigned to PHA**
@@ -45,7 +46,8 @@ ServiceTemplate.upsert_attributes({name: "provider search"},
                                   time_estimate: 4500,
                                   service_request: PROVIDER_SEARCH_REQUEST,
                                   service_update: PROVIDER_SEARCH_UPDATE,
-                                  user_facing: true})
+                                  user_facing: true,
+                                  skip_create_initial_task_template_set: true})
 
 APPOINTMENT_BOOKING_DESCRIPTION = <<-eof
 **This service is assigned to PHA**
@@ -100,7 +102,8 @@ ServiceTemplate.upsert_attributes({name: "appointment booking"},
                                   time_estimate: 150,
                                   user_facing: true,
                                   service_update: APPOINTMENT_BOOKING_UPDATE,
-                                  service_request: APPOINTMENT_BOOKING_REQUEST})
+                                  service_request: APPOINTMENT_BOOKING_REQUEST,
+                                  skip_create_initial_task_template_set: true})
 
 CARE_COORDINATION_CALL_DESCRIPTION = <<-eof
 **This service is assigned to PHA**
@@ -143,7 +146,8 @@ ServiceTemplate.upsert_attributes({name: "care coordination call"},
                                   user_facing: true,
                                   service_request: CARE_COORDINATION_CALL_REQUEST,
                                   service_type: ServiceType.find_by_name('care coordination call'),
-                                  time_estimate: 120})
+                                  time_estimate: 120,
+                                  skip_create_initial_task_template_set: true})
 
 PHA_AUTHORIZATION_DESCRIPTION = <<-eof
 **This service is assigned to Specialist**
@@ -204,7 +208,8 @@ ServiceTemplate.upsert_attributes({name: "pha authorization"},
                                   user_facing: true,
                                   service_request: PHA_AUTHORIZATION_REQUEST,
                                   service_type: ServiceType.find_by_name('pha designation for authorization'),
-                                  time_estimate: 43500}
+                                  time_estimate: 43500,
+                                  skip_create_initial_task_template_set: true}
 )
 RECORD_RECOVERY_DESCRIPTION = <<-eof
 **This service is assigned to Specialist**
@@ -299,7 +304,8 @@ ServiceTemplate.upsert_attributes({name: "record recovery"},
                                   user_facing: true,
                                   service_request: RECORD_RECOVERY_REQUEST,
                                   service_type: ServiceType.find_by_name('record recovery'),
-                                  time_estimate: 11880}
+                                  time_estimate: 11880,
+                                  skip_create_initial_task_template_set: true}
 )
 
 PRESCRIPTION_ORGANIZATION_DESCRIPTION = <<-eof
@@ -333,7 +339,8 @@ ServiceTemplate.upsert_attributes({name: "prescription organization"},
                                    user_facing: true,
                                    service_request: PRESCRIPTION_ORGANIZATION_REQUEST,
                                    service_type: ServiceType.find_by_name('prescription management'),
-                                   time_estimate: 240}
+                                   time_estimate: 240,
+                                   skip_create_initial_task_template_set: true}
 )
 
 APPOINTMENT_PREPARATION_CF_DESCRIPTION = <<-eof
@@ -370,7 +377,8 @@ ServiceTemplate.upsert_attributes({name: "appointment preparation - cf"},
                                    description: APPOINTMENT_PREPARATION_CF_DESCRIPTION,
                                    service_update: APPOINTMENT_PREPARATION_CF_UPDATE,
                                    service_type: ServiceType.find_by_name('appointment preparation'),
-                                   time_estimate: 240}
+                                   time_estimate: 240,
+                                   skip_create_initial_task_template_set: true}
 )
 
 BMI_MANAGEMENT_3_MONTHS_DESCRIPTION = <<-eof
@@ -426,7 +434,8 @@ ServiceTemplate.upsert_attributes({name: "bmi management - 3 months"},
                                    user_facing: true,
                                    service_type: ServiceType.find_by_name('bmi management'),
                                    timed_service: true,
-                                   time_estimate: 131760}
+                                   time_estimate: 131760,
+                                   skip_create_initial_task_template_set: true}
 )
 
 KINSIGHTS_RECORD_REQUEST = <<-eof
@@ -497,7 +506,8 @@ ServiceTemplate.upsert_attributes({name: "Kinsights Records"},
                                   service_request: KINSIGHTS_RECORD_REQUEST,
                                   user_facing: true,
                                   service_type: ServiceType.find_by_name('record recovery'),
-                                  time_estimate: 43200}
+                                  time_estimate: 43200,
+                                  skip_create_initial_task_template_set: true}
 )
 
 KINSIGHTS_ONBOARDING_DESCRIPTION = <<-eof
@@ -541,7 +551,8 @@ ServiceTemplate.upsert_attributes({name: "PHA Intro + Check-Ins - Kinsights"},
                                   user_facing: false,
                                   service_type: ServiceType.find_by_name('member onboarding'),
                                   timed_service: true,
-                                  time_estimate: 121020}
+                                  time_estimate: 121020,
+                                  skip_create_initial_task_template_set: true}
 )
 
 PROCEDURE_CHECK_DESCRIPTION = <<-eof
@@ -649,7 +660,8 @@ ServiceTemplate.upsert_attributes({name: "Check Member’s Procedure Coverage wi
                                    user_facing: true,
                                    service_request: PROCEDURE_CHECK_REQUEST,
                                    service_type: ServiceType.find_by_name('eligibility check'),
-                                   time_estimate: 180}
+                                   time_estimate: 180,
+                                   skip_create_initial_task_template_set: true}
 )
 
 ELIGIBILITY_BENEFITS_CHECK_DESCRIPTION = <<-eof
@@ -737,7 +749,8 @@ ServiceTemplate.upsert_attributes({name: "Check Member’s Eligibility/Benefits 
                                    user_facing: true,
                                    service_request: ELIGIBILITY_BENEFITS_CHECK_REQUEST,
                                    service_type: ServiceType.find_by_name('eligibility check'),
-                                   time_estimate: 120}
+                                   time_estimate: 120,
+                                   skip_create_initial_task_template_set: true}
 )
 
 DENTIST_APPOINTMENT_DESCRIPTION = <<-eof
@@ -828,7 +841,8 @@ ServiceTemplate.upsert_attributes({name: "Book Dentist Appointment"},
                                    user_facing: true,
                                    service_request: DENTIST_APPOINTMENT_REQUEST,
                                    service_type: ServiceType.find_by_name('appointment booking'),
-                                   time_estimate: 240}
+                                   time_estimate: 240,
+                                   skip_create_initial_task_template_set: true}
 )
 
 
@@ -907,7 +921,8 @@ ServiceTemplate.upsert_attributes({name: "Book PT Appointment"},
                                    user_facing: true,
                                    service_request: PT_APPOINTMENT_REQUEST,
                                    service_type: ServiceType.find_by_name('appointment booking'),
-                                   time_estimate: 240}
+                                   time_estimate: 240,
+                                   skip_create_initial_task_template_set: true}
 )
 
 INSURANCE_CALL_DESCRIPTION = <<-eof
@@ -961,5 +976,6 @@ ServiceTemplate.upsert_attributes({name: "Insurance Call"},
                                    service_request: INSURANCE_CALL_REQUEST,
                                    user_facing: true,
                                    service_type: ServiceType.find_by_name('insurance call'),
-                                   time_estimate: 120}
+                                   time_estimate: 120,
+                                   skip_create_initial_task_template_set: true}
 )
