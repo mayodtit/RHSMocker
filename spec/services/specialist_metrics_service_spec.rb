@@ -1,6 +1,14 @@
 require 'spec_helper'
 
 describe SpecialistMetricsService do
+  before do
+    Timecop.freeze(Time.parse('2015-09-02 12:00:00 -0700'))
+  end
+
+  after do
+    Timecop.return
+  end
+
   let!(:specialist) { create(:specialist) }
   let!(:internally_blocked_task_today) { create(:task, :blocked_internal, owner: specialist, blocked_internal_at: Time.now) }
   let!(:externally_blocked_task_today) { create(:task, :blocked_external, owner: specialist, blocked_external_at: Time.now) }
