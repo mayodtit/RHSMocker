@@ -185,6 +185,10 @@ class Member < User
     end
   end
 
+  def self.specialist_lead
+    find_by_email('jenn@getbetter.com')
+  end
+
   def self.phas
     # less efficient than Role.find.users, but safer because ensures Member
     joins(:roles).where(roles: {name: :pha})
@@ -424,7 +428,7 @@ class Member < User
 
   def specialist_metrics
     SpecialistMetricsService.new(self).call
-  end 
+  end
 
   protected
 
