@@ -47,6 +47,11 @@ class Api::V1::TasksController < Api::V1::ABaseController
     update_params[:pubsub_client_id] = params[:pubsub_client_id]
     update_params[:actor_id] = current_user.id
 
+    if update_params[:escalated]
+      update_params[:owner_id] = Member.specialist_lead.try(:id)
+      update_params[:reason_escalated] = update_params[:reason]
+    end
+
     # NOTE 11/17/14: Support CP until its migrated over
     if update_params.has_key? :reason_abandoned
       update_params[:reason] = update_params[:reason_abandoned]
@@ -113,6 +118,6 @@ class Api::V1::TasksController < Api::V1::ABaseController
   end
 
   def task_attributes
-    params.require(:task).permit(:title, :description, :due_at, :state_event, :owner_id, :reason, :reason_abandoned, :member_id, :subject_id, :service_type_id, :day_priority, :pubsub_client_id, :urgent, :follow_up, :unread, :result)
+    params.require(:task).permit(:title, :description, :due_at, :state_event, :owner_id, :reason, :reason_abandoned, :member_id, :subject_id, :service_type_id, :day_priority, :pubsub_client_id, :urgent, :follow_up, :unread, :result, :escalated)
   end
 end
