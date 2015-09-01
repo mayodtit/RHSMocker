@@ -1123,4 +1123,19 @@ My phone: 650-887-3711
       end
     end
   end
+
+  # Run this rake task after this "backfill_with_task_template_sets_on_service_template" task.
+  task :backfill_task_template_set_child_ids => :environment do
+    ServiceTemplate.published.each do |st|
+      last_tts = st.task_template_sets.last
+      st.task_template_sets.reverse.each  do |tts|
+        if tts.id == last_tts.id
+          @prev_id = tts.id
+        else
+          tts.update_attributes(affirmative_child_id: @prev_id)
+          @prev_id = tts.id
+        end
+      end
+    end
+  end
 end
