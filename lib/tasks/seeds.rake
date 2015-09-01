@@ -1128,12 +1128,12 @@ My phone: 650-887-3711
   task :backfill_task_template_set_child_ids => :environment do
     ServiceTemplate.published.each do |st|
       last_tts = st.task_template_sets.last
-      st.task_template_sets.reverse.each  do |tts|
+      st.task_template_sets.order('id DESC').each do |tts|
         if tts.id == last_tts.id
-          @prev_id = tts.id
+          @prev_child = tts
         else
-          tts.update_attributes(affirmative_child_id: @prev_id)
-          @prev_id = tts.id
+          tts.update_attributes!(affirmative_child: @prev_child)
+          @prev_child = tts
         end
       end
     end
