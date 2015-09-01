@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150831180322) do
+ActiveRecord::Schema.define(:version => 20150901210008) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -1455,6 +1455,7 @@ ActiveRecord::Schema.define(:version => 20150831180322) do
     t.integer  "expertise_id"
     t.boolean  "result"
     t.boolean  "escalated",                  :default => false, :null => false
+    t.text     "reason_escalated"
   end
 
   add_index "tasks", ["owner_id", "state", "role_id", "type"], :name => "queue_test"

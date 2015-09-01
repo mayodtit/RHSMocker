@@ -49,6 +49,7 @@ class Api::V1::TasksController < Api::V1::ABaseController
 
     if update_params[:escalated]
       update_params[:owner_id] = Member.specialist_lead.try(:id)
+      update_params[:reason_escalated] = update_params[:reason]
     end
 
     # NOTE 11/17/14: Support CP until its migrated over
