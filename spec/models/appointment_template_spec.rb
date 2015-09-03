@@ -53,6 +53,7 @@ describe AppointmentTemplate do
       new_appointment_template = origin_appointment_template.create_deep_copy!
       expect(new_appointment_template).to be_valid
       expect(new_appointment_template).to be_persisted
+      expect(new_appointment_template.scheduled_at_system_event_template.count).to eq(1)
     end
   end
 end
