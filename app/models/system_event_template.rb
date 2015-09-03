@@ -20,6 +20,9 @@ class SystemEventTemplate < ActiveRecord::Base
                                                                        'resource_id', 'resource_type', 'type', 'resource',
                                                                        'system_action_template_attributes'))
       system_action_template.create_deep_copy!(new_system_event_template)
+      system_relative_event_templates.each do |system_relative_event_template|
+        system_relative_event_template.create_deep_copy!(new_system_event_template)
+      end
       new_system_event_template.update_attributes!(resource: new_appointment_template)
       new_system_event_template
     end
