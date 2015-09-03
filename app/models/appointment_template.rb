@@ -27,6 +27,7 @@ class AppointmentTemplate < ActiveRecord::Base
       new_appointment_template = self.class.create!(attributes.except('id', 'version', 'state', 'created_at', 'updated_at'))
       new_scheduled_at_system_event_template = scheduled_at_system_event_template.create_deep_copy!(new_appointment_template)
       new_appointment_template.update_attributes!(scheduled_at_system_event_template: new_scheduled_at_system_event_template)
+      new_appointment_template
     end
   end
 
