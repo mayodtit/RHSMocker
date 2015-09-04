@@ -35,9 +35,7 @@ class SystemActionTemplate < ActiveRecord::Base
   end
 
   def create_deep_copy!(new_system_event_template)
-    self.class.create!(attributes.except('id', 'system_event_template_id', 'created_at', 'updated_at','versioned_resource_unique_id',
-                                         'published_versioned_resource','versioned_resource_type','unversioned_resource_id',
-                                         'unversioned_resource_type').merge(system_event_template: new_system_event_template))
+    self.class.create!(attributes.slice(*%w(type message_text content_id)).merge(system_event_template: new_system_event_template))
   end
 
   private

@@ -16,14 +16,11 @@ class SystemEventTemplate < ActiveRecord::Base
 
   def create_deep_copy!(new_appointment_template)
     transaction do
-      new_system_event_template = self.class.create!(attributes.except('id', 'created_at', 'updated_at', 'root_event_template_id',
-                                                                       'resource_id', 'resource_type', 'type', 'resource',
-                                                                       'system_action_template_attributes'))
+      new_system_event_template = self.class.create!(attributes.slice(*%w(title description resource_attribute)).merge(resource: new_appointment_template))
       system_action_template.create_deep_copy!(new_system_event_template) if system_action_template
       system_relative_event_templates.each do |system_relative_event_template|
         system_relative_event_template.create_deep_copy!(new_system_event_template) if system_relative_event_template
       end
-      new_system_event_template.update_attributes!(resource: new_appointment_template)
       new_system_event_template
     end
   end

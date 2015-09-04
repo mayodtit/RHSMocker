@@ -15,7 +15,7 @@ class SystemRelativeEventTemplate < SystemEventTemplate
   accepts_nested_attributes_for :time_offset
 
   def create_deep_copy!(new_system_event_template)
-    self.class.create!(attributes.except('id', 'created_at', 'updated_at', 'root_event_template_id', 'type').merge(root_event_template: new_system_event_template))
+    self.class.create!(attributes.slice(*%w(title description)).merge(root_event_template: new_system_event_template))
   end
 
   private
