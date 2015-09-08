@@ -6,7 +6,6 @@ class TaskTemplate < ActiveRecord::Base
 
   attr_accessible :name, :title, :description, :time_estimate, :priority, :service_ordinal, :service_template, :service_template_id, :modal_template
 
-  before_validation :copy_title_to_name
   validates :name, :title, presence: true
   validate :no_placeholders_in_user_facing_attributes
 
@@ -30,12 +29,6 @@ class TaskTemplate < ActiveRecord::Base
       assignor: owner.present? ? (attributes[:assignor] || creator) : nil,
       priority: priority || 0
     )
-  end
-
-  def copy_title_to_name
-    if !self.name
-      self.name = self.title
-    end
   end
 
   def create_deep_copy!(override_service_template=nil)

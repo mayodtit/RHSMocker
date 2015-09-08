@@ -67,7 +67,7 @@ class Api::V1::ServiceTemplatesController < Api::V1::ABaseController
       @service_templates = @service_templates.retired
     end
 
-    @service_templates = @service_templates.title_search(params[:title]) if params[:title]
+    @service_templates = @service_templates.name_search(params[:name]) if params[:name]
   end
 
   def prevent_update_service_template
