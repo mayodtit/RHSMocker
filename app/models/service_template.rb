@@ -33,9 +33,9 @@ class ServiceTemplate < ActiveRecord::Base
     new_service_template
   end
 
-  def self.title_search(string)
+  def self.name_search(string)
     wildcard = "%#{string}%"
-    where("service_templates.title LIKE ?", wildcard)
+    where("service_templates.name LIKE ?", wildcard)
   end
 
   def self.published
