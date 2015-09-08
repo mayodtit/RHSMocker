@@ -13,6 +13,6 @@ class Api::V1::OnboardingGroupCandidatesController < Api::V1::ABaseController
   end
 
   def action_params
-    params.require(:user).permit(:first_name, :email, :phone)
+    params.require(:user).permit(:first_name, :email, :phone, :surgery_date, :surgery_time, :notes)
   end
 end
