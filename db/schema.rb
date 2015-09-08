@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150901210008) do
+ActiveRecord::Schema.define(:version => 20150908211733) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "user_id"
@@ -715,6 +715,10 @@ ActiveRecord::Schema.define(:version => 20150901210008) do
     t.datetime "updated_at",          :null => false
     t.integer  "user_id"
     t.string   "first_name"
+    t.string   "phone"
+    t.string   "surgery_date"
+    t.string   "surgery_time"
+    t.text     "notes"
   end
 
   create_table "onboarding_group_cards", :force => true do |t|
