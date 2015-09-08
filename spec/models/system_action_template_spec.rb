@@ -24,6 +24,19 @@ describe SystemActionTemplate do
     end
   end
 
+  describe '#create_deep_copy!' do
+    let!(:origin_system_event_template) { create(:system_event_template, :with_system_action_template) }
+    let!(:origin_system_action_template) { origin_system_event_template.system_action_template }
+    let!(:new_system_event_template) { create(:system_event_template, :with_system_action_template) }
+
+    it 'creates a deep copy including nested templates' do
+      new_system_action_template = origin_system_action_template.create_deep_copy!(new_system_event_template)
+      expect(new_system_action_template).to be_valid
+      expect(new_system_action_template).to be_persisted
+      expect(new_system_action_template.system_event_template).to eq(new_system_event_template)
+    end
+  end
+
   describe 'types' do
     describe ':system_message' do
       let(:system_action_template) { create(:system_action_template, :system_message) }

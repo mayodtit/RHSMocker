@@ -34,6 +34,10 @@ class SystemActionTemplate < ActiveRecord::Base
     end
   end
 
+  def create_deep_copy!(new_system_event_template)
+    self.class.create!(attributes.slice(*%w(type message_text content_id)).merge(system_event_template: new_system_event_template))
+  end
+
   private
 
   def resource_requirements_for_types

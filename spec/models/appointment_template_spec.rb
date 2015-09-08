@@ -47,12 +47,15 @@ describe AppointmentTemplate do
   it_validates 'uniqueness of', :version, :unique_id
 
   describe '#create_deep_copy!' do
-    let!(:origin_appointment_template) { create(:appointment_template, :published) }
+    let!(:origin_appointment_template) { create(:appointment_template, :with_scheduled_at_system_event_template, :published) }
+    let!(:origin_appointment_template_attributes) { origin_appointment_template.attributes.slice(*%w(title description unique_id special_instructions reason_for_visit)) }
 
     it 'creates a deep copy including nested templates' do
       new_appointment_template = origin_appointment_template.create_deep_copy!
       expect(new_appointment_template).to be_valid
       expect(new_appointment_template).to be_persisted
+      new_appointment_template_attributes = new_appointment_template.attributes.slice(*%w(title description unique_id special_instructions reason_for_visit))
+      expect(new_appointment_template_attributes).to eq(origin_appointment_template_attributes)
     end
   end
 end
