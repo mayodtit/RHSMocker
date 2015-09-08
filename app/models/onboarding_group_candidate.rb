@@ -4,7 +4,8 @@ class OnboardingGroupCandidate < ActiveRecord::Base
                     inverse_of: :onboarding_group_candidate
 
   attr_accessible :onboarding_group, :onboarding_group_id, :email, :user,
-                  :user_id, :first_name
+                  :user_id, :first_name, :phone, :surgery_date, :surgery_time,
+                  :notes
 
   validates :onboarding_group, :email, presence: true
   validates :email, uniqueness: true
