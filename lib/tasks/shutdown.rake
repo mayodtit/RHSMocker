@@ -17,8 +17,8 @@ namespace :shutdown do
         subscription = customer.subscriptions.first
         if subscription
           info[:plan] = subscription.plan.id
-          info[:period_start] = Time.at(c.subscriptions.first.current_period_start).strftime("%m/%d/%Y")
-          info[:period_end] = Time.at(c.subscriptions.first.current_period_end).strftime("%m/%d/%Y")
+          info[:period_start] = Time.at(subscription.current_period_start).strftime("%m/%d/%Y")
+          info[:period_end] = Time.at(subscription.current_period_end).strftime("%m/%d/%Y")
         end
       end
 
