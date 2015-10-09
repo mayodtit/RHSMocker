@@ -18,33 +18,3 @@ StripeEvent.event_retriever = lambda do |params|
     nil
   end
 end
-
-StripeEvent.configure do |events|
-  events.subscribe 'charge.failed' do |event|
-    Rails.logger.info("Received Stripe charge.failed, #{event.id} - #{event.type}")
-    UserMailer.delay.notify_bosses_when_user_payment_fail(event)
-    SendChargeFailedNotification.new(event).call
-    SetDelinquentStatus.new(event).call
-  end
-
-  events.subscribe 'charge.succeeded' do |event|
-    SetDelinquentStatus.new(event).call
-    GrantReferrerCreditWhenRefereePayService.new(event).call
-  end
-
-  events.subscribe 'invoice.created' do |event|
-    RedeemDiscountService.new(event: event).call
-  end
-
-  events.subscribe 'invoice.payment_succeeded' do |event|
-    AdjustServiceLevelService.new(event).call
-  end
-
-  events.subscribe 'customer.subscription.deleted' do |event|
-    DowngradeMemberToFree.new(event).call
-  end
-
-  events.subscribe 'customer.subscription.trial_will_end' do |event|
-    NotifyTrialWillEndService.new(event).call
-  end
-end
