@@ -51,12 +51,17 @@ class Task < ActiveRecord::Base
   after_save :notify
   after_commit :track_update, on: :update
 
-
   scope :nurse, -> { where(['role_id = ?', Role.find_by_name!('nurse').id]) }
   scope :pha, -> { where(['role_id = ?', Role.find_by_name!('pha').id]) }
   scope :owned, -> (hcp) { where(['state IN (?, ?, ?, ?) AND owner_id = ?', :unstarted, :started, :claimed, :spam, hcp.id]) }
-  scope :needs_triage, -> (hcp) { where(['(owner_id IS NULL AND state NOT IN (?)) OR (state IN (?, ?, ?, ?) AND owner_id = ? AND type IN (?, ?, ?, ?, ?, ?))', :abandoned, :unstarted, :started, :claimed, :spam, hcp.id, PhoneCallTask.name, MessageTask.name, UserRequestTask.name, ParsedNurselineRecordTask.name, InsurancePolicyTask.name, NewKinsightsMemberTask.name]) }
-  scope :needs_triage_or_owned, -> (hcp) { where(['(state IN (?, ?, ?, ?) AND owner_id = ?) OR (owner_id IS NULL AND state NOT IN (?))', :unstarted, :started, :claimed, :spam, hcp.id, :abandoned]) }
+
+  def self.needs_triage(hcp)
+    where('(owner_id IS NULL AND state NOT IN (?)) OR (owner_id = ? AND state IN (?, ?, ?, ?) AND type IN (?, ?, ?, ?, ?, ?))', :abandoned, hcp.id, :unstarted, :started, :claimed, :spam, PhoneCallTask.name, MessageTask.name, UserRequestTask.name, ParsedNurselineRecordTask.name, InsurancePolicyTask.name, NewKinsightsMemberTask.name)
+  end
+
+  def self.needs_triage_or_owned(hcp)
+    where('(owner_id IS NULL AND STATE NOT IN (?)) OR (owner_id = ? AND state IN (?, ?, ?, ?))', :abandoned, hcp.id, :unstarted, :started, :claimed, :spam)
+  end
 
   def self.open_state
     where(state: %i(unstarted started claimed))
