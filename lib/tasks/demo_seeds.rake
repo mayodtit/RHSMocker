@@ -130,21 +130,31 @@ Take 1 minute to share your preferences and we'll take care of the rest.
                                                               service_type: service_type,
                                                               description: "Book appointment with Dr. {First Last} for {reason} on {day/time}",
                                                               user_facing: true,
-                                                              time_estimate: 90)
+                                                              time_estimate: 90,
+                                                              skip_create_initial_task_template_set: true)
+
+    # create task template sets
+    task_template_set_1 = service_template.task_template_sets.create!
+    task_template_set_2 = service_template.task_template_sets.create!
 
     # create all task templates
-    task_template_1 = service_template.task_templates.create!(name: 'Book appointment with provider',
+    task_template_1 = task_template_set_1.task_templates.create!(name: 'Book appointment with provider',
                                                              title: 'Book appointment with provider',
                                                              description: 'description',
                                                              time_estimate: 60,
                                                              service_ordinal: 0,
-                                                             queue: :specialist)
-    task_template_2 = service_template.task_templates.create!(name: 'Send member update',
+                                                             queue: :specialist,
+                                                             service_template: service_template)
+    task_template_2 = task_template_set_2.task_templates.create!(name: 'Send member update',
                                                              title: 'Send member update',
                                                              description: 'description',
                                                              time_estimate: 60,
                                                              service_ordinal: 1,
-                                                             queue: :pha)
+                                                             queue: :pha,
+                                                             service_template: service_template)
+
+    task_template_1 = TaskTemplate.find(task_template_1.id)
+    task_template_2 = TaskTemplate.find(task_template_2.id)
 
     # create all data fields used in the service
     dft_member_full_name = service_template.data_field_templates.create!(name: 'Member full name', type: :text, required_for_service_start: true)
